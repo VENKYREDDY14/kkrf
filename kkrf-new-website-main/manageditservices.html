@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+    
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body>
+  
+  <div class="htec-nav d-none d-lg-block">
+    <div class="htec-navbar-container">
+        <nav class="htec-navbar">
+            <div class="htec-logo">
+                <a href="#">   <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" /></a>
+            </div>
+            
+            <ul class="htec-nav-links">
+              <li class="htec-nav-item htec-active">
+                <a href="#">Services <span class="htec-dropdown-arrow"></span></a>
+                <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-services-content">
+                    <div class="htec-sidebar">
+                        <h3 class="htec-sidebar-title">Services</h3>
+                        <ul class="htec-sidebar-menu">
+                            <li class="htec-sidebar-item"><a href="#" data-content="all-services">ALL SERVICES</a></li>
+                            <li class="htec-sidebar-item active"><a href="#" data-content="software-development">SOFTWARE DEVELOPMENT</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="blockchain-services">BLOCKCHAIN SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="cloud-services">CLOUD SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="it-consulting">IT CONSULTING</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="data-analytics">DATA ANALYTICS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="devops">DEVOPS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="artificial-intelligence">ARTIFICIAL INTELLIGENCE</a></li>
+                        </ul>
+                        <a href="#" style="display: inline-block; margin-top: 32px; padding: 12px 28px; background-color: rgba(255, 255, 255, 0.1); border-radius: 25px; color: white; text-decoration: none; font-size: 15px;">Explore</a>
+                    </div>
+                    <div class="htec-main-content">
+                        <!-- SOFTWARE DEVELOPMENT Content (Default/Initial View) -->
+                        <div id="software-development" class="content-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="softwreoverview.html">SOFTWARE DEVELOPMENT</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="erp.html">ERP Software development</a></h4>
+                                    <p class="htec-content-description">Custom enterprise solutions integrating finance, HR, supply chain, and manufacturing into a unified platform.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="crm.html">Custom CRM</a></h4>
+                                    <p class="htec-content-description">Tailored systems enhancing client engagement with lead scoring, pipeline analytics, and automation tools that integrate with your tech stack.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="arvr.html">AR/VR Development</a></h4>
+                                    <p class="htec-content-description">Immersive applications for training, marketing, and customer experiences using spatial computing and intuitive interaction design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="iot.html">IoT Development</a></h4>
+                                    <p class="htec-content-description">Connected device solutions transforming environments into intelligent ecosystems with embedded systems and analytics platforms.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="microservice.html">Microservices</a></h4>
+                                    <p class="htec-content-description">Modular architecture transforming monolithic applications into agile, scalable services with robust API gateways and observability.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="product.html">Product Development</a></h4>
+                                    <p class="htec-content-description">End-to-end digital product creation combining design thinking with iterative engineering to build market-ready solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- BLOCKCHAIN SERVICES Content -->
+                        <div id="blockchain-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="blockchainservices.html">BLOCKCHAIN SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="nftmarket.html">NFT Marketplace</a></h4>
+                                    <p class="htec-content-description">Custom platforms for secure creation and trading of digital assets with wallet integration, smart contracts, and royalty systems.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="metaverse.html">Metaverse Development</a></h4>
+                                    <p class="htec-content-description">Immersive virtual worlds leveraging 3D rendering and blockchain technology for digital interaction and commerce.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dapp.html">Dapp development</a></h4>
+                                    <p class="htec-content-description">Decentralized applications for DeFi, supply chain, and marketplaces with comprehensive testing and intuitive interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CLOUD SERVICES -->
+                        <div id="cloud-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="cloudconsulting.html">CLOUD SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudmanaged.html">Cloud Managed Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive infrastructure management with 24/7 monitoring, automated scaling, and cost governance that reduces cloud spend.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudconsulting.html">Cloud Consulting</a></h4>
+                                    <p class="htec-content-description">Strategic guidance for adoption and migration with tailored roadmaps, TCO analysis, and compliance architecture design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="aws.html">AWS</a></h4>
+                                    <p class="htec-content-description">Specialized solutions leveraging serverless architectures, containerized platforms, and machine learning pipelines following best practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- IT CONSULTING -->
+                        <div id="it-consulting" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="itoverview.html">IT CONSULTING</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="health.html">Healthcare IT Consulting Services</a></h4>
+                                    <p class="htec-content-description">HIPAA-compliant systems, telehealth platforms, and interoperability solutions improving patient outcomes and operational efficiency.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="itoutsourcing.html">IT Outsourcing Services</a></h4>
+                                    <p class="htec-content-description">Strategic technology outsourcing with dedicated teams, defined SLAs, and quality assurance processes ensuring accountability.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="manageditservices.html">Managed IT Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive technology management including infrastructure monitoring, endpoint management, and virtual CIO services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DEVOPS -->
+                        <div id="devops" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="devopsoverview.html">DEVOPS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="scops.html">SecOps</a></h4>
+                                    <p class="htec-content-description">Integrated security frameworks with automated vulnerability scanning, threat modeling, and incident response automation.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="devopsoverview.html">DevOps Implementation</a></h4>
+                                    <p class="htec-content-description">End-to-end automation with CI/CD pipelines and observability stacks increasing deployment frequency and reducing recovery time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DATA ANALYTICS -->
+                        <div id="data-analytics" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="dataanalytics.html">DATA ANALYTICS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="businessintelligence.html">Business Intelligence</a></h4>
+                                    <p class="htec-content-description">Data visualization platforms transforming complex information into actionable insights with self-service capabilities and governance.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dataanalytics.html">Data Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive data management including engineering, governance, and analytics environments driving informed business decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- ARTIFICIAL INTELLIGENCE -->
+                        <div id="artificial-intelligence" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="aioverview.html">ARTIFICIAL INTELLIGENCE</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="generativeai.html">Generative AI</a></h4>
+                                    <p class="htec-content-description">Custom systems creating content across text, image, and code with language models, knowledge retrieval, and responsible AI frameworks.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="computer.html">Computer Vision</a></h4>
+                                    <p class="htec-content-description">Visual intelligence solutions implementing deep learning for object detection, segmentation, and anomaly detection with high accuracy.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="machinnelearning.html">Machine Learning</a></h4>
+                                    <p class="htec-content-description">Predictive analytics for forecasting, churn prediction, and personalization with MLOps frameworks and explainable AI techniques.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- All Services -->
+                        <div id="all-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title">All Services</h3>
+                                <div>
+                                    <h4 class="htec-content-title">Our Comprehensive Approach</h4>
+                                    <p class="htec-content-description">Integrated solutions across the digital transformation spectrum delivering measurable business outcomes.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Integrated Solutions</h4>
+                                    <p class="htec-content-description">Cross-functional teams combining strategic thinking, design excellence, and technical expertise for real-world results.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Technology Partnerships</h4>
+                                    <p class="htec-content-description">Strategic alliances with leading providers while ensuring vendor-independent advice aligned with your specific needs.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4 class="htec-content-title">Industry-Specific Expertise</h4>
+                                    <p class="htec-content-description">Specialized knowledge across healthcare, financial, manufacturing, retail, and energy sectors with regulatory understanding.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Global Delivery Capabilities</h4>
+                                    <p class="htec-content-description">International presence providing access to specialized talent and flexible engagement models to scale efficiently.</p>
+                                </div>
+                                <h3 class="htec-section-title" style="margin-top: 28px;">Key Service Areas</h3>
+                                <div class="htec-solutions-links">
+                                    <a href="softwreoverview.html" class="htec-solution-link">Software Development</a>
+                                    <a href="blockchainservices.html" class="htec-solution-link">Blockchain Services</a>
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="htec-nav-item">
+              <a href="#">Industries <span class="htec-dropdown-arrow"></span></a>
+              <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                  <div class="htec-firm-column">
+                    <h3 class="htec-section-header">Industries</h3>
+                    <ul class="htec-firm-links">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-film me-2"></i>Media & Entertainment</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-currency-dollar me-2"></i>Financial Services & Insurance</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-lightning-charge me-2"></i>Energy & Utilities</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-building me-2"></i>Industrials</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-heart-pulse me-2"></i>Healthcare & Life Sciences</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-cpu me-2"></i>Technology</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-bag me-2"></i>Retail & CPG</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-truck me-2"></i>Transportation & Mobility</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-broadcast me-2"></i>Telecommunications</a></li>
+                    </ul>
+                </div>
+                  <div class="htec-firm-column">
+                      <!-- Placeholder for additional content -->
+                  </div>
+                  <div class="htec-news-section">
+                      <div class="htec-news-header">
+                          <h3 class="htec-news-title">Latest News</h3>
+                          <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                      </div>
+                      <div class="htec-news-grid">
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Healthcare Technology Innovation" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">AI-Powered Diagnostics Breakthrough in Healthcare</h4>
+                                  <p style="font-size:12px; color:#666;">March 15, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Financial Technology Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Blockchain Revolution in Banking Services</h4>
+                                  <p style="font-size:12px; color:#666;">March 10, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Smart Energy Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Smart Grid Technology Transforms Energy Sector</h4>
+                                  <p style="font-size:12px; color:#666;">March 5, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Media Streaming Technology" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Next-Gen Streaming Platform for Media Industry</h4>
+                                  <p style="font-size:12px; color:#666;">February 28, 2025</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </li>
+          <li class="htec-nav-item">
+            <a href="#">Our Firm <span class="htec-dropdown-arrow"></span></a>
+            <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                    <div class="htec-firm-column ">
+                        <h3 class="htec-section-header">About KKRF</h3>
+                        <ul class="htec-firm-links">
+                            <li class="htec-firm-link"><a href="#">Company Overview</a></li>
+                            <li class="htec-firm-link"><a href="#">Global Locations</a></li>
+                            <li class="htec-firm-link"><a href="#">History</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="#">Leadership & Board</a></li>
+                            <li class="htec-firm-link"><a href="#">Alliances</a></li>
+                            <li class="htec-firm-link"><a href="carrer.html">Careers & Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="blog.html">Press & Media</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <!-- Placeholder for additional content -->
+                    </div>
+                    <div class="htec-news-section">
+                        <div class="htec-news-header">
+                            <h3 class="htec-news-title">Latest News</h3>
+                            <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                        </div>
+                        <div class="htec-news-grid">
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="KKRF Expansion" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Group Expands with New Office in Singapore</h4>
+                                    <p style="font-size:12px; color:#666;">March 18, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Leadership Summit" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Annual Leadership Summit Announces Strategic Direction</h4>
+                                    <p style="font-size:12px; color:#666;">March 12, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="New Partnership" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Forms Strategic Alliance with Global Tech Leader</h4>
+                                    <p style="font-size:12px; color:#666;">March 8, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Sustainability Initiative" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">New Sustainability Initiative Launches with Zero-Carbon Goal</h4>
+                                    <p style="font-size:12px; color:#666;">March 1, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="htec-nav-item d-none d-xl-block">
+                    <a href="blog.html">Insights & Events</a>
+                </li>
+                <li class="htec-nav-item">
+                    <a href="carrer.html">Careers & Culture </a>
+                </li>
+            </ul>
+            
+            <div class="htec-right-section">
+               
+              <a href="contact.html"><button class="htec-partner-button d-none d-xl-block">Let's partner up</button></a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+  <section class="d-block  d-lg-none">
+    <nav class="navbar-override1 flex items-center px-10 py-4 bg-black relative">
+      <!-- Logo -->
+      <div>
+        <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" />
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="nav-center hidden lg:flex items-center gap-8">
+        <!-- Dropdown Menu for "What we do" -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn"
+          >
+            What we do
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <div class="dropdown">
+              <h2 class="title">What we do <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <a href="#" class="text-white hover:text-purple-500">Industries</a>
+        
+        <!-- Who we are dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn1"
+          >
+            Who we are
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu1" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown2">
+              <h2 class="title">who we are <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Careers dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn2"
+          >
+            Careers
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu2" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown3">
+              <h2 class="title">Careers<span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Us & Country Selector -->
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="#" class="text-white hover:text-purple-500">Contact Us</a>
+        <select class="bg-black text-white border border-gray-600 rounded p-1">
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Germany</option>
+        </select>
+      </div>
+  
+      <!-- Hamburger Icon for Mobile -->
+  
+      <div class="lg:hidden">
+        <button id="menuTriggerTab" class="text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  
+    <!-- Mobile Menu -->
+  
+    
+    <div class="tabtab-menu" id="tabMenu1">
+      <!-- Header -->
+      <div class="tabtab-menu-header">
+          <button id="backBtn1" class="tabtab-back-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Back
+          </button>
+          <button id="closeBtn1" class="tabtab-p-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+          </button>
+          <button class="tabtab-country-selector">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              Global
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 9l6 6 6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <!-- Menu Sections -->
+      <div class="tabtab-menu-section tabtab-active" id="mainMenu1">
+          <button class="tabtab-menu-item" data-target="services1">
+              Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="industries1">
+              Industries
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ourFirm1">
+              Our Firm
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <a href="blog.html" class="tabtab-menu-item">
+              Insights & Events
+          </a>
+          <a href="careers.html" class="tabtab-menu-item">
+              Careers & Culture
+          </a>
+          <div class="bottom-link">
+          <a href="contact.html"  style="color: white;">Let's partner up</a>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/company/htec-group" class="social-icon" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/htecgroup" class="social-icon" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="services1">
+          <h2 class=" tabtab-mb-6 heading" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Services</h2>
+          <button class="tabtab-menu-item" data-target="softwareDev1">
+              Software Development
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="blockchain1">
+              Blockchain Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="cloud1">
+              Cloud Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="itConsulting1">
+              IT Consulting
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="dataAnalytics1">
+              Data Analytics
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="devOps1">
+              DevOps
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ai1">
+              Artificial Intelligence
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <div class="tabtab-menu-section" id="softwareDev1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="softwreoverview.html">Software Development</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="erp.html" class="tabtab-menu-item">ERP Software Development</a>
+              <a href="crm.html" class="tabtab-menu-item">Custom CRM</a>
+              <a href="arvr.html" class="tabtab-menu-item">AR/VR Development</a>
+              <a href="iot.html" class="tabtab-menu-item">IoT Development</a>
+              <a href="microservice.html" class="tabtab-menu-item">Microservices</a>
+              <a href="product.html" class="tabtab-menu-item">Product Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="blockchain1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="blockchainservices.html">Blockchain Services</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="nftmarket.html" class="tabtab-menu-item">NFT Marketplace</a>
+              <a href="metaverse.html" class="tabtab-menu-item">Metaverse Development</a>
+              <a href="dapp.html" class="tabtab-menu-item">Dapp Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="cloud1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Cloud Services</h2>
+          <div class="tabtab-grid-layout">
+              <a href="cloudmanaged.html" class="tabtab-menu-item">Cloud Managed Services</a>
+              <a href="cloudconsulting.html" class="tabtab-menu-item">Cloud Consulting</a>
+              <a href="aws.html" class="tabtab-menu-item">AWS</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="itConsulting1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="itoverview.html">IT Consulting</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="health.html" class="tabtab-menu-item">Healthcare IT Consulting Services</a>
+              <a href="itoutsourcing.html" class="tabtab-menu-item">IT Outsourcing Services</a>
+              <a href="manageditservices.html" class="tabtab-menu-item">Managed IT Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="dataAnalytics1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="dataanalytics.html">Data Analytics</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="businessintelligence.html" class="tabtab-menu-item">Business Intelligence</a>
+              <a href="dataanalytics.html" class="tabtab-menu-item">Data Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="devOps1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="devopsoverview.html">DevOps</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="scops.html" class="tabtab-menu-item">SecOps</a>
+              <a href="devopsoverview.html" class="tabtab-menu-item">DevOps Implementation</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ai1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="aioverview.html" >Artificial Intelligence</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="generativeai.html" class="tabtab-menu-item">Generative AI</a>
+              <a href="computer.html" class="tabtab-menu-item">Computer Vision</a>
+              <a href="machinnelearning.html" class="tabtab-menu-item">Machine Learning</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="industries1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Industries</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Media & Entertainment</a>
+              <a href="#" class="tabtab-menu-item">Financial Services & Insurance</a>
+              <a href="#" class="tabtab-menu-item">Energy & Utilities</a>
+              <a href="#" class="tabtab-menu-item">Industrials</a>
+              <a href="#" class="tabtab-menu-item">Healthcare & Life Sciences</a>
+              <a href="#" class="tabtab-menu-item">Technology</a>
+              <a href="#" class="tabtab-menu-item">Retail & CPG</a>
+              <a href="#" class="tabtab-menu-item">Transportation & Mobility</a>
+              <a href="#" class="tabtab-menu-item">Telecommunications</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ourFirm1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Our Firm</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Company Overview</a>
+              <a href="#" class="tabtab-menu-item">Global Locations</a>
+              <a href="#" class="tabtab-menu-item">History</a>
+              <a href="#" class="tabtab-menu-item">Leadership & Board</a>
+              <a href="#" class="tabtab-menu-item">Alliances</a>
+              <a href="carrer.html" class="tabtab-menu-item">Careers & Culture</a>
+              <a href="blog.html" class="tabtab-menu-item">Press & Media</a>
+          </div>
+      </div>
+
+      <!-- Footer -->
+  </div>
+
+    
+    
+  
+   </section>
+<!-- hero section -->
+<section class="hero-section" style="height: 10vh; background-image: url('assets/happy-businessman-in-glasses-holding-clipboard-in-2024-11-18-13-12-41-utc\ \(1\)\ \(1\).webp'); background-size: cover; background-position: center;">
+    <div class="hero-overlay"></div>
+    <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+        <h1 class="heading" style="font-size: 3.5rem;">Managed IT Service Provider        </h1>
+        <p class="subheading">Streamline operations and drive growth with our expert managed IT services tailored to your specific business needs </p>
+    </div>
+</section>
+
+
+    
+
+    <section class="trusted-section">
+      <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+  
+      <!-- Desktop View -->
+      <div class="desktop-logos">
+          <img src="assets/kfc.jpg" alt="KFC">
+          <img src="assets/kmpc.jpg" alt="KPMG">
+          <img src="assets/dominos.png" alt="Domino's">
+      <img src="assets/google.png" alt="Google">
+      <img src="assets/bcg.png" alt="BCG">
+          <img src="assets/americana.png" alt="Americana">
+      </div>
+  
+      <!-- Mobile View (Carousel) -->
+      <div class="swiper-container mobile-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+          <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+          <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+          <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+          <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+          <div class="swiper-slide"><img src="assets/americana.png" alt="Americana"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cloud services section -->
+    <section class="software-section d-none d-md-block">
+        <div class="crm-software-con">
+            <div class="sofware-spacing">
+                <h5 class="heading">Comprehensive Managed IT Service Solutions</h5>
+                <p class="crm-Software-text">Modern businesses require robust technology infrastructure, and our managed IT service provider delivers proactive solutions across all technology needs. Our comprehensive managed IT services include:</p>
+            </div>
+    
+            <div class="services-container">
+                <div class="services-nav">
+                    <div class="service-item active" data-service="systems-integration">
+                        <span class="number">01.</span>
+                        24/7 Network Monitoring
+                    </div>
+                    <div class="service-item" data-service="data-security">
+                        <span class="number">02.</span>
+                        Cybersecurity Management
+                    </div>
+                    <div class="service-item" data-service="cloud-migration">
+                        <span class="number">03.</span>
+                        Cloud Infrastructure Management
+                    </div>
+                    <div class="service-item" data-service="software-consulting">
+                        <span class="number">04.</span>
+                        IT Strategy & Consulting
+                    </div>
+                    <div class="service-item" data-service="managed-services">
+                        <span class="number">05.</span>
+                        Help Desk Support
+                    </div>
+                    <div class="service-item" data-service="legacy-modernization">
+                        <span class="number">06.</span>
+                        Technology Refresh Services
+                    </div>
+                </div>
+            
+                <div class="service-content" id="systems-integration">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path></svg>
+                    </div>
+                    <h2 class="service-title">24/7 Network Monitoring</h2>
+                    <p class="service-description">
+                        Our advanced monitoring systems continuously track your network performance, server health, and critical infrastructure components around the clock. We detect and address potential issues before they impact your business operations, ensuring maximum uptime and optimal performance for all your IT systems.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="data-security">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 6h-4V3c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1v3H3c-.55 0-1 .45-1 1v13c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1zM9 4h6v2H9V4zm10 14H5V8h14v10z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Cybersecurity Management</h2>
+                    <p class="service-description">
+                        We implement comprehensive security measures to safeguard your business data and systems from ever-evolving threats. Our multi-layered approach includes advanced threat detection, endpoint protection, security awareness training, vulnerability assessments, and incident response planning to keep your digital assets protected.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="cloud-migration">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Cloud Infrastructure Management</h2>
+                    <p class="service-description">
+                        Our cloud experts manage and optimize your cloud environment to ensure scalability, security, and cost-efficiency. We handle all aspects of cloud infrastructure including provisioning, performance optimization, resource allocation, backup management, and continuous monitoring to maximize the benefits of your cloud investment.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="software-consulting">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">IT Strategy & Consulting</h2>
+                    <p class="service-description">
+                        Our experienced IT consultants work with your business to develop technology strategies that align with your organizational goals. We provide guidance on technology selection, digital transformation initiatives, IT budgeting, and roadmap planning to ensure your technology investments deliver maximum business value.
+                    </p>
+                </div>
+  
+                <div class="service-content hidden" id="managed-services">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Help Desk Support</h2>
+                    <p class="service-description">
+                        Our responsive help desk team provides prompt technical support for all your end-users through multiple channels including phone, email, and chat. We efficiently resolve day-to-day technical issues, answer questions, and deliver the IT assistance your team needs to maintain productivity and minimize downtime.
+                    </p>
+                </div>
+  
+                <div class="service-content hidden" id="legacy-modernization">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Technology Refresh Services</h2>
+                    <p class="service-description">
+                        We help businesses maintain modern, efficient IT infrastructure through planned technology updates and replacements. Our technology refresh services include hardware lifecycle management, software updates, system upgrades, and strategic planning for technology evolution to ensure your systems remain current and supportable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <div class="iot-smart-faq">
+      <div class="faq-headline">
+          <h3 class="heading">Our Managed IT Service Expertise</h3>
+          <span>Our comprehensive managed IT services provide businesses with proactive technology management and support. From cybersecurity to business continuity, we deliver solutions that optimize your IT infrastructure while reducing costs and minimizing risks.</span>
+      </div>
+      
+      <div class="faq-category">
+          <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      Proactive System Maintenance
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      We implement regular system health checks, software updates, security patches, and preventive maintenance to keep your IT infrastructure running optimally. Our proactive approach identifies and resolves potential issues before they become problems, ensuring maximum system uptime and reliability.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      IT Performance Monitoring & Reporting
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our advanced monitoring systems track the performance of your entire IT infrastructure in real-time. We provide detailed reports on system health, security status, resource utilization, and service levels, giving you complete visibility into your technology environment and supporting informed decision-making.
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Virtual CIO Services
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    We provide strategic technology leadership without the cost of a full-time executive. Our virtual CIO services include technology roadmapping, IT budget planning, vendor management, and executive-level guidance to ensure your technology investments align with business objectives and deliver maximum value.
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    IT Infrastructure Management
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our infrastructure management services ensure your servers, networks, and critical systems operate at peak performance. We maintain your hardware and software environments, implement best practices for system configuration, optimize network performance, and manage capacity planning to support your business needs.
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Security Operations Center (SOC)
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  Our managed security services provide enterprise-grade protection for businesses of all sizes. We implement advanced threat detection systems, monitor security events in real-time, perform regular vulnerability assessments, and maintain comprehensive incident response capabilities to safeguard your digital assets and sensitive data.
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="faq-hexagon">
+      <div class="hexagon-wrapper">
+          <div class="hexagon-header">
+              <div class="hexagon-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
+              </div>
+              <div class="hexagon-question">
+                Backup & Disaster Recovery
+                  <span class="hexagon-toggle">+</span>
+              </div>
+          </div>
+          <div class="hexagon-content">
+              <div class="hexagon-answer">
+                Our comprehensive data protection services ensure business continuity even during unexpected disruptions. We implement automated backup solutions, verify data integrity, develop detailed recovery procedures, and maintain secure offsite storage to minimize downtime and protect your critical business information in any scenario.
+              </div>
+          </div>
+      </div>
+  </div>
+      </div>
+  </div>
+
+
+  <section class="stats-section">
+    <div class="stats-card">
+      <div class="stats-container">
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">3000+</div>
+          <div class="stat-description">Software Projects<br>Delivered Successfully</div>
+        </div>
+       
+       
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">87%</div>
+          <div class="stat-description">Recurring Client Base</div>
+        </div>
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">8+</div>
+          <div class="stat-description">Years in Business</div>
+        </div>
+      
+      </div>
+      <a href="#" class="cta-button">Let's Discuss Your Project</a>
+    </div>
+  </section>
+
+  <section class="product-features-section">
+    <div class="product-features-container">
+      <h2 class="heading text-center">Our Strategic Custom Software Development Process</h2>
+      
+      <p class="product-features-description">
+        We leverage cutting-edge technologies and proven methodologies to deliver custom software solutions that address our clients' unique business challenges. From initial consultation to deployment and maintenance, our team collaborates closely with clients to create scalable, secure, and intuitive applications that drive business growth.
+      </p>
+      
+      <div class="product-features-slider-container">
+        <div class="product-features-slider" id="productFeaturesSlider">
+          <!-- Process Step 1 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">01</div>
+            <h3 class="product-feature-title">Discovery & Planning</h3>
+            <p class="product-feature-description">
+              We begin by thoroughly understanding your business objectives, user needs, and technical requirements to create a comprehensive project roadmap that aligns with your strategic goals.
+            </p>
+          </div>
+          
+          <!-- Process Step 2 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">02</div>
+            <h3 class="product-feature-title">Architecture & Design</h3>
+            <p class="product-feature-description">
+              Our team creates detailed technical architecture and intuitive <a href="#" class="product-feature-link">UI/UX designs</a> that establish the foundation for a robust, scalable, and user-friendly application.
+            </p>
+          </div>
+          
+          <!-- Process Step 3 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">03</div>
+            <h3 class="product-feature-title">Agile Development</h3>
+            <p class="product-feature-description">
+              Using an iterative approach, our developers build your software in sprints, enabling regular feedback, flexibility to adapt to changing requirements, and continuous improvement throughout the process.
+            </p>
+          </div>
+          
+          <!-- Process Step 4 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">04</div>
+            <h3 class="product-feature-title">Quality Assurance</h3>
+            <p class="product-feature-description">
+              Our rigorous testing process incorporates automated and manual testing methods to verify functionality, performance, security, and compatibility across various <a href="#" class="product-feature-link">platforms</a>.
+            </p>
+          </div>
+          
+          <!-- Process Step 5 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">05</div>
+            <h3 class="product-feature-title">Implementation</h3>
+            <p class="product-feature-description">
+              We manage the successful deployment of your application, ensuring seamless integration with existing systems, data migration, and comprehensive documentation for easy knowledge transfer.
+            </p>
+          </div>
+          
+          <!-- Process Step 6 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">06</div>
+            <h3 class="product-feature-title">Continuous Support</h3>
+            <p class="product-feature-description">
+              Our relationship extends beyond launch with ongoing maintenance, performance monitoring, regular updates, and dedicated support to ensure your software continues to evolve with your business needs.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Navigation Arrows -->
+        <button class="product-features-nav-arrow product-features-prev-arrow" id="productFeaturesPrev" aria-label="Previous feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <button class="product-features-nav-arrow product-features-next-arrow" id="productFeaturesNext" aria-label="Next feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="dpd-company-section">
+    <div class="dpd-company-container">
+      <div class="dpd-company-header">
+        <h2 class="heading">Why Choose Us as Your Digital Transformation Partner?</h2>
+        
+        <p class="dpd-company-description">
+          As a forward-thinking technology company, we are committed to driving innovation and delivering exceptional digital solutions that help businesses thrive in an increasingly competitive marketplace.
+        </p>
+      </div>
+      
+      <div class="dpd-company-grid">
+        <!-- Strategic Technology Consulting -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">001</div>
+            <h3 class="dpd-feature-title">Strategic Technology Consulting</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Our experienced consultants work closely with your team to understand your business objectives and develop tailored technology strategies that align with your long-term goals. We provide actionable insights that drive meaningful business outcomes.
+          </p>
+        </div>
+        
+        <!-- Innovative Solutions -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">002</div>
+            <h3 class="dpd-feature-title">Innovative Solutions</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            We leverage emerging technologies like artificial intelligence, cloud computing, and data analytics to build solutions that give your business a competitive edge. Our innovation lab constantly explores new approaches to solve complex business challenges.
+          </p>
+        </div>
+        
+        <!-- Security-First Approach -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">003</div>
+            <h3 class="dpd-feature-title">Security-First Approach</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Security is embedded in everything we do. Our dedicated security team implements robust protection measures throughout the development lifecycle. We conduct regular audits and ensure compliance with industry standards to safeguard your data and systems.
+          </p>
+        </div>
+        
+        <!-- Proven Results -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">004</div>
+            <h3 class="dpd-feature-title">Proven Results</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Our track record speaks for itself with successful implementations across multiple industries. We've helped organizations achieve measurable improvements in operational efficiency, customer engagement, and revenue growth. Our client success stories include major digital transformations for leading companies in healthcare, finance, and manufacturing.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="software-section d-none d-md-block">
+    <div class="crm-software-con">
+        <div class="sofware-spacing">
+            <h5 class="heading">Advanced Technologies We Leverage for Business Solutions</h5>
+            <p class="crm-Software-text">Our team utilizes cutting-edge technologies to create powerful, scalable, and secure digital solutions that help businesses streamline operations, enhance customer experiences, and achieve sustainable growth in today's competitive marketplace.</p>
+        </div>
+  
+        <div class="services-container">
+            <div class="services-nav">
+                <div class="service-item active" data-service="frontend">
+                    <span class="number">01.</span>
+                    Web Development
+                </div>
+                <div class="service-item" data-service="backend">
+                    <span class="number">02.</span>
+                    Enterprise Solutions
+                </div>
+                <div class="service-item" data-service="mobile">
+                    <span class="number">03.</span>
+                    Mobile Technologies
+                </div>
+                <div class="service-item" data-service="desktop">
+                    <span class="number">04.</span>
+                    Data Analytics
+                </div>
+                <div class="service-item" data-service="cloud">
+                    <span class="number">05.</span>
+                    Cloud Infrastructure
+                </div>
+                <div class="service-item" data-service="security">
+                    <span class="number">06.</span>
+                    Cybersecurity Solutions
+                </div>
+            </div>
+        
+            <div class="service-content" id="frontend">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3zm13.71-9.37l-1.34-1.34a.996.996 0 0 0-1.41 0L9 12.25 11.75 15l8.96-8.96a.996.996 0 0 0 0-1.41z"></path></svg>
+                </div>
+                <h2 class="service-title">Web Development</h2>
+                <p class="service-description">
+                    We create responsive, intuitive web applications that deliver exceptional user experiences across all devices. Our development team expertly utilizes modern frameworks and libraries to build scalable solutions that meet your business objectives while incorporating best practices for performance, accessibility, and search engine optimization.
+                </p>
+            </div>
+        
+            <div class="service-content hidden" id="backend">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg>
+                </div>
+                <h2 class="service-title">Enterprise Solutions</h2>
+                <p class="service-description">
+                    Our enterprise solutions address complex business challenges through integrated systems that streamline operations and enhance productivity. We specialize in developing custom ERP systems, workflow automation platforms, and industry-specific applications that provide actionable insights and facilitate data-driven decision making.
+                </p>
+            </div>
+        
+            <div class="service-content hidden" id="mobile">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"></path></svg>
+                </div>
+                <h2 class="service-title">Mobile Technologies</h2>
+                <p class="service-description">
+                    We develop high-performance mobile applications that enable businesses to engage customers and empower employees on the go. Our expertise spans native and cross-platform development, allowing us to create seamless mobile experiences that maintain consistent branding and functionality across iOS and Android devices.
+                </p>
+            </div>
+        
+            <div class="service-content hidden" id="desktop">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7l-2 3v1h8v-1l-2-3h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 12H3V4h18v10z"></path></svg>
+                </div>
+                <h2 class="service-title">Data Analytics</h2>
+                <p class="service-description">
+                    Our data analytics solutions transform raw information into valuable business intelligence. We implement comprehensive data pipelines, visualization dashboards, and predictive modeling systems that help organizations uncover patterns, identify opportunities, and optimize operations through evidence-based insights.
+                </p>
+            </div>
+  
+            <div class="service-content hidden" id="cloud">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"></path></svg>
+                </div>
+                <h2 class="service-title">Cloud Infrastructure</h2>
+                <p class="service-description">
+                    We design and implement scalable cloud infrastructure that provides flexibility, reliability, and cost-efficiency for your business applications. Our cloud solutions include hybrid and multi-cloud architectures, containerization, serverless computing, and automated deployment pipelines that enhance operational agility and resilience.
+                </p>
+            </div>
+  
+            <div class="service-content hidden" id="security">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"></path></svg>
+                </div>
+                <h2 class="service-title">Cybersecurity Solutions</h2>
+                <p class="service-description">
+                    Our comprehensive security solutions protect your digital assets from evolving threats and vulnerabilities. We implement multi-layered defense strategies including network security, endpoint protection, identity management, threat detection, and incident response capabilities that safeguard sensitive data while ensuring regulatory compliance.
+                </p>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <section class="partner-section">
+    <div class="intro-container">
+      <h1 class="heading">Innovative Technologies Driving Digital Transformation:</h1>
+      <p class="intro-text">
+        By harnessing cutting-edge technologies, our experts deliver powerful solutions that transform business operations, enhance customer experiences, and create sustainable competitive advantages. We combine technical expertise with deep industry knowledge to implement solutions that address your specific business challenges.
+      </p>
+    </div>
+  
+    <div class="features-container">
+      <div class="feature-box">
+        <div class="feature-icon-wrapper mt-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10z"/>
+            <path d="M18 12a6 6 0 0 0-6-6"/>
+            <path d="M18 12a6 6 0 0 1-6 6"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="feature-title ml-2">Data Analytics</h2>
+          <p class="feature-text ml-2">
+            Our advanced <a href="#">data analytics solutions</a> transform raw information into actionable business intelligence. By implementing sophisticated analysis techniques, we help organizations make data-driven decisions, identify new opportunities, and optimize operations for maximum efficiency.
+          </p>
+        </div>
+      </div>
+      <hr />
+    
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+            <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+            <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+            <circle cx="12" cy="20" r="1" fill="white"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="feature-title ml-2">Automation</h2>
+          <p class="feature-text ml-2">
+            We implement intelligent <a href="#">automation solutions</a> that streamline repetitive tasks and complex business processes. Our approach combines robotic process automation with artificial intelligence to create systems that learn and improve over time, resulting in enhanced productivity and reduced operational costs.
+          </p>
+        </div>
+      </div>
+      <hr />
+    
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <circle cx="12" cy="12" r="8"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="feature-title">Cybersecurity</h2>
+          <p class="feature-text">
+            Our comprehensive <a href="#">cybersecurity framework</a> protects your digital assets against evolving threats. We implement multi-layered defense strategies with advanced threat detection, vulnerability management, and incident response capabilities to ensure your business operations remain secure and compliant.
+          </p>
+        </div>
+      </div>
+      <hr />
+    
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M10 9l5 3-5 3V9z"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="feature-title">Cloud Solutions</h2>
+          <p class="feature-text">
+            Our <a href="#">cloud infrastructure services</a> provide the flexibility and scalability modern businesses need. We design and implement robust cloud architectures that optimize resource utilization, enhance collaboration, and enable rapid deployment of new applications and services.
+          </p>
+        </div>
+      </div>
+      <hr />
+    
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <rect x="2" y="10" width="20" height="4" rx="1"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="feature-title">API Integration</h2>
+          <p class="feature-text">
+            Our <a href="#">API integration solutions</a> connect disparate systems and applications to create unified workflows and data exchanges. We build robust integration frameworks that enable seamless communication between internal systems, third-party services, and partner platforms.
+          </p>
+        </div>
+      </div>
+      <hr />
+    
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M10 9l5 3-5 3V9z"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="feature-title">Digital Workspace</h2>
+          <p class="feature-text">
+            We create modern <a href="#">digital workspace solutions</a> that support flexible work arrangements and enhance team collaboration. Our comprehensive platforms integrate communication tools, project management capabilities, and secure document sharing to boost productivity regardless of location.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="bct-solutions-wrapper">
+    <div class="bct-solutions-inner-container">
+        <h1 class="heading mb-5 mt-5">Comprehensive Managed IT Services Tailored for Your Business</h1>
+        
+        <p class="bct-solutions-intro-paragraph mb-5 mt-5">
+            As a premier managed IT service provider, we deliver end-to-end technology management solutions precisely engineered to match your organizational needs. Our proactive approach focuses on thoroughly understanding your industry-specific challenges, enabling us to create customized IT service implementations that optimize your operational capabilities while reducing costs.
+        </p>
+        
+        <div class="bct-solutions-services-grid mb-5 mt-5">
+            <!-- Column 1 -->
+            <div class="bct-solutions-service-column">
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">24/7 Network Monitoring & Management</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">Managed Cybersecurity Services</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">Help Desk & End-User Support</a>
+                </div>
+            </div>
+            
+            <!-- Column 2 -->
+            <div class="bct-solutions-service-column">
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">Cloud Infrastructure Management</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">Data Backup & Disaster Recovery</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">IT Strategy & Virtual CIO Services</a>
+                </div>
+            </div>
+            
+            <!-- Column 3 -->
+            <div class="bct-solutions-service-column">
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">IT Asset Management</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">Systems Implementation & Integration</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">Technology Refreshment Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="arvr_hero_outer_container" >
+    <div class="container-fluid">
+      <div class="arvr_hero_inner_wrapper" style="display: flex; align-items: center;">
+        <div class="arvr_hero_content_container" style="flex: 1; padding: 30px;">
+          <h1 class="arvr_hero_heading">Elevate Your Business with Managed IT Excellence</h1>
+          <p class="arvr_hero_subheading" style="margin-bottom: 25px;">Let our dedicated team of IT specialists proactively manage your technology infrastructure, so you can focus on growing your business.</p>
+          <a href="#contact" class="arvr_hero_button">
+            Book Your Free IT Assessment
+            <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+        </a>
+        </div>
+        <div class="arvr_hero_image_container" style="flex: 1; text-align: right; padding: 20px;">
+          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="IT Professionals" class="arvr_hero_image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+
+  <div class="bi-wrapper">
+    <h1 class="heading">Proactive Managed IT Services to Optimize Your Business Operations</h1>
+    <p class="bi-subtitle">We provide comprehensive managed IT services designed to optimize your technology infrastructure, enhance security, and support business growth. Our dedicated team delivers 24/7 monitoring, proactive maintenance, and strategic IT guidance tailored to your unique business requirements.</p>
+    
+    <div class="bi-accordion-container">
+        <!-- Item 1 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">01/</span>
+                <div class="bi-accordion-title">Network Monitoring and Management</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content active">
+                <p class="bi-accordion-text">Continuous 24/7 monitoring of your entire network infrastructure to ensure optimal performance and reliability. We proactively identify and resolve potential issues before they impact your business operations, maintaining network health and minimizing downtime through advanced monitoring tools and expert oversight.</p>
+            </div>
+        </div>
+        
+        <!-- Item 2 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">02/</span>
+                <div class="bi-accordion-title">Managed Cybersecurity Services</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Comprehensive security solutions including threat detection, vulnerability management, endpoint protection, and security awareness training. Our multi-layered defense strategy protects your critical business data and systems from evolving cyber threats while ensuring compliance with industry regulations.</p>
+            </div>
+        </div>
+        
+        <!-- Item 3 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">03/</span>
+                <div class="bi-accordion-title">Help Desk Support Services</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Responsive technical assistance for your team through multiple support channels including phone, email, and remote sessions. Our tiered support model efficiently addresses everything from routine technical questions to complex troubleshooting, ensuring your employees remain productive with minimal disruption.</p>
+            </div>
+        </div>
+        
+        <!-- Item 4 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">04/</span>
+                <div class="bi-accordion-title">Cloud Services Management</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Expert management of your cloud environment including provisioning, optimization, security, and ongoing monitoring. We ensure your cloud infrastructure remains secure, efficient, and cost-effective while providing the scalability and flexibility your business needs to adapt to changing requirements.</p>
+            </div>
+        </div>
+        
+        <!-- Item 5 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">05/</span>
+                <div class="bi-accordion-title">Data Backup and Disaster Recovery</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Comprehensive data protection services including automated backup systems, regular testing, and detailed recovery procedures. Our robust backup and disaster recovery solutions ensure business continuity by protecting your critical information and minimizing downtime in the event of data loss or system failure.</p>
+            </div>
+        </div>
+        
+        <!-- Item 6 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">06/</span>
+                <div class="bi-accordion-title">Virtual CIO Services</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Strategic technology planning and guidance from experienced IT leaders without the cost of a full-time executive. Our virtual CIO services include IT roadmap development, budget planning, technology selection, and alignment of IT initiatives with your business objectives to maximize the value of your technology investments.</p>
+            </div>
+        </div>
+        
+        <!-- Item 7 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">07/</span>
+                <div class="bi-accordion-title">IT Asset Management</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Comprehensive management of your technology assets throughout their lifecycle, including inventory tracking, license compliance, upgrade planning, and secure disposal. Our structured approach to asset management optimizes your IT investments, reduces unnecessary expenses, and ensures your equipment remains current and supported.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<section class="bi-contact-wrapper mt-5">
+  <div class="bi-contact-container">
+    <div class="bi-contact-grid">
+      <div class="bi-contact-info">
+        <h2 class="heading">Let's take the first step together.</h2>
+        <p class="bi-contact-subtitle">Complete the form and an BI expert will contact you shortly.</p>
+        <div class="bi-career-info">
+          <p class="bi-career-text">Looking to join our team?</p>
+          <p class="bi-career-link-wrapper">Visit our <a href="#" class="bi-career-link">Careers & Culture page</a></p>
+        </div>
+      </div>
+      
+      <div class="bi-form-wrapper">
+        <form class="bi-contact-form">
+          <div class="bi-form-row">
+            <div class="bi-form-group">
+              <label for="firstName" class="bi-form-label">First name*</label>
+              <input type="text" id="firstName" class="bi-form-input" required>
+            </div>
+            <div class="bi-form-group">
+              <label for="lastName" class="bi-form-label">Last name*</label>
+              <input type="text" id="lastName" class="bi-form-input" required>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+              <div class="bi-form-group">
+                  <label for="workEmail" class="bi-form-label">Work email*</label>
+                  <input type="email" id="workEmail" class="bi-form-input" required>
+                </div>
+            <div class="bi-form-group">
+              <label for="companyName" class="bi-form-label">Company name</label>
+              <input type="text" id="companyName" class="bi-form-input">
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+              <div class="bi-form-group">
+                  <label for="budget" class="bi-form-label">What is your budget range?*</label>
+                  <select id="budget" class="bi-form-select" required>
+                    <option value="" disabled selected>— Please choose an option —</option>
+                    <option value="under-5k">Under $5,000</option>
+                    <option value="5k-15k">$5,000 - $15,000</option>
+                    <option value="15k-50k">$15,000 - $50,000</option>
+                    <option value="50k-100k">$50,000 - $100,000</option>
+                    <option value="over-100k">Over $100,000</option>
+                  </select>
+                </div>
+            <div class="bi-form-group">
+              <label for="helpType" class="bi-form-label">How can we help?*</label>
+              <select id="helpType" class="bi-form-select" required>
+                <option value="" disabled selected>— Please choose an option —</option>
+                <option value="bi-consulting">BI Consulting</option>
+                <option value="data-analysis">Data Analysis</option>
+                <option value="dashboards">Dashboard Creation</option>
+                <option value="bi-implementation">BI Implementation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+            <div class="bi-form-group bi-full-width">
+              <label for="moreInfo" class="bi-form-label">Let us know more about Your Project/Idea *</label>
+              <textarea id="moreInfo" class="bi-form-textarea" rows="5" required></textarea>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+            <button type="submit" class="bi-submit-button">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!-- faq section -->
+  <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white">Frequently Asked Questions</h2>
+      
+      <div class="max-w-4xl mx-auto space-y-6">
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold">What services do you provide?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer ">
+                  We offer comprehensive technology solutions including software development, cloud computing, cybersecurity, and digital transformation consulting for enterprises worldwide.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">How do you ensure data security?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  Our robust security protocols include end-to-end encryption, multi-factor authentication, regular security audits, and compliance with international data protection standards.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">What industries do you serve?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  We specialize in serving diverse sectors including finance, healthcare, e-commerce, education, and manufacturing with tailored technological solutions.
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- blog section -->
+
+
+
+
+ 
+  
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+  
+<script src="scripts/hero.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/card.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/switch.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/faqs.js"></script>
+
+</body>
+</html>

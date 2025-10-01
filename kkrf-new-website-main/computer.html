@@ -1,0 +1,2279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+    
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body>
+  
+  <div class="htec-nav d-none d-lg-block">
+    <div class="htec-navbar-container">
+        <nav class="htec-navbar">
+            <div class="htec-logo">
+                <a href="#">   <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" /></a>
+            </div>
+            
+            <ul class="htec-nav-links">
+              <li class="htec-nav-item htec-active">
+                <a href="#">Services <span class="htec-dropdown-arrow"></span></a>
+                <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-services-content">
+                    <div class="htec-sidebar">
+                        <h3 class="htec-sidebar-title">Services</h3>
+                        <ul class="htec-sidebar-menu">
+                            <li class="htec-sidebar-item"><a href="#" data-content="all-services">ALL SERVICES</a></li>
+                            <li class="htec-sidebar-item active"><a href="#" data-content="software-development">SOFTWARE DEVELOPMENT</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="blockchain-services">BLOCKCHAIN SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="cloud-services">CLOUD SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="it-consulting">IT CONSULTING</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="data-analytics">DATA ANALYTICS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="devops">DEVOPS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="artificial-intelligence">ARTIFICIAL INTELLIGENCE</a></li>
+                        </ul>
+                        <a href="#" style="display: inline-block; margin-top: 32px; padding: 12px 28px; background-color: rgba(255, 255, 255, 0.1); border-radius: 25px; color: white; text-decoration: none; font-size: 15px;">Explore</a>
+                    </div>
+                    <div class="htec-main-content">
+                        <!-- SOFTWARE DEVELOPMENT Content (Default/Initial View) -->
+                        <div id="software-development" class="content-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="softwreoverview.html">SOFTWARE DEVELOPMENT</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="erp.html">ERP Software development</a></h4>
+                                    <p class="htec-content-description">Custom enterprise solutions integrating finance, HR, supply chain, and manufacturing into a unified platform.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="crm.html">Custom CRM</a></h4>
+                                    <p class="htec-content-description">Tailored systems enhancing client engagement with lead scoring, pipeline analytics, and automation tools that integrate with your tech stack.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="arvr.html">AR/VR Development</a></h4>
+                                    <p class="htec-content-description">Immersive applications for training, marketing, and customer experiences using spatial computing and intuitive interaction design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="iot.html">IoT Development</a></h4>
+                                    <p class="htec-content-description">Connected device solutions transforming environments into intelligent ecosystems with embedded systems and analytics platforms.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="microservice.html">Microservices</a></h4>
+                                    <p class="htec-content-description">Modular architecture transforming monolithic applications into agile, scalable services with robust API gateways and observability.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="product.html">Product Development</a></h4>
+                                    <p class="htec-content-description">End-to-end digital product creation combining design thinking with iterative engineering to build market-ready solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- BLOCKCHAIN SERVICES Content -->
+                        <div id="blockchain-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="blockchainservices.html">BLOCKCHAIN SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="nftmarket.html">NFT Marketplace</a></h4>
+                                    <p class="htec-content-description">Custom platforms for secure creation and trading of digital assets with wallet integration, smart contracts, and royalty systems.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="metaverse.html">Metaverse Development</a></h4>
+                                    <p class="htec-content-description">Immersive virtual worlds leveraging 3D rendering and blockchain technology for digital interaction and commerce.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dapp.html">Dapp development</a></h4>
+                                    <p class="htec-content-description">Decentralized applications for DeFi, supply chain, and marketplaces with comprehensive testing and intuitive interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CLOUD SERVICES -->
+                        <div id="cloud-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="cloudconsulting.html">CLOUD SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudmanaged.html">Cloud Managed Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive infrastructure management with 24/7 monitoring, automated scaling, and cost governance that reduces cloud spend.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudconsulting.html">Cloud Consulting</a></h4>
+                                    <p class="htec-content-description">Strategic guidance for adoption and migration with tailored roadmaps, TCO analysis, and compliance architecture design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="aws.html">AWS</a></h4>
+                                    <p class="htec-content-description">Specialized solutions leveraging serverless architectures, containerized platforms, and machine learning pipelines following best practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- IT CONSULTING -->
+                        <div id="it-consulting" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="itoverview.html">IT CONSULTING</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="health.html">Healthcare IT Consulting Services</a></h4>
+                                    <p class="htec-content-description">HIPAA-compliant systems, telehealth platforms, and interoperability solutions improving patient outcomes and operational efficiency.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="itoutsourcing.html">IT Outsourcing Services</a></h4>
+                                    <p class="htec-content-description">Strategic technology outsourcing with dedicated teams, defined SLAs, and quality assurance processes ensuring accountability.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="manageditservices.html">Managed IT Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive technology management including infrastructure monitoring, endpoint management, and virtual CIO services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DEVOPS -->
+                        <div id="devops" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="devopsoverview.html">DEVOPS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="scops.html">SecOps</a></h4>
+                                    <p class="htec-content-description">Integrated security frameworks with automated vulnerability scanning, threat modeling, and incident response automation.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="devopsoverview.html">DevOps Implementation</a></h4>
+                                    <p class="htec-content-description">End-to-end automation with CI/CD pipelines and observability stacks increasing deployment frequency and reducing recovery time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DATA ANALYTICS -->
+                        <div id="data-analytics" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="dataanalytics.html">DATA ANALYTICS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="businessintelligence.html">Business Intelligence</a></h4>
+                                    <p class="htec-content-description">Data visualization platforms transforming complex information into actionable insights with self-service capabilities and governance.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dataanalytics.html">Data Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive data management including engineering, governance, and analytics environments driving informed business decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- ARTIFICIAL INTELLIGENCE -->
+                        <div id="artificial-intelligence" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="aioverview.html">ARTIFICIAL INTELLIGENCE</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="generativeai.html">Generative AI</a></h4>
+                                    <p class="htec-content-description">Custom systems creating content across text, image, and code with language models, knowledge retrieval, and responsible AI frameworks.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="computer.html">Computer Vision</a></h4>
+                                    <p class="htec-content-description">Visual intelligence solutions implementing deep learning for object detection, segmentation, and anomaly detection with high accuracy.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="machinnelearning.html">Machine Learning</a></h4>
+                                    <p class="htec-content-description">Predictive analytics for forecasting, churn prediction, and personalization with MLOps frameworks and explainable AI techniques.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- All Services -->
+                        <div id="all-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title">All Services</h3>
+                                <div>
+                                    <h4 class="htec-content-title">Our Comprehensive Approach</h4>
+                                    <p class="htec-content-description">Integrated solutions across the digital transformation spectrum delivering measurable business outcomes.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Integrated Solutions</h4>
+                                    <p class="htec-content-description">Cross-functional teams combining strategic thinking, design excellence, and technical expertise for real-world results.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Technology Partnerships</h4>
+                                    <p class="htec-content-description">Strategic alliances with leading providers while ensuring vendor-independent advice aligned with your specific needs.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4 class="htec-content-title">Industry-Specific Expertise</h4>
+                                    <p class="htec-content-description">Specialized knowledge across healthcare, financial, manufacturing, retail, and energy sectors with regulatory understanding.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Global Delivery Capabilities</h4>
+                                    <p class="htec-content-description">International presence providing access to specialized talent and flexible engagement models to scale efficiently.</p>
+                                </div>
+                                <h3 class="htec-section-title" style="margin-top: 28px;">Key Service Areas</h3>
+                                <div class="htec-solutions-links">
+                                    <a href="softwreoverview.html" class="htec-solution-link">Software Development</a>
+                                    <a href="blockchainservices.html" class="htec-solution-link">Blockchain Services</a>
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="htec-nav-item">
+              <a href="#">Industries <span class="htec-dropdown-arrow"></span></a>
+              <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                  <div class="htec-firm-column">
+                    <h3 class="htec-section-header">Industries</h3>
+                    <ul class="htec-firm-links">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-film me-2"></i>Media & Entertainment</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-currency-dollar me-2"></i>Financial Services & Insurance</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-lightning-charge me-2"></i>Energy & Utilities</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-building me-2"></i>Industrials</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-heart-pulse me-2"></i>Healthcare & Life Sciences</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-cpu me-2"></i>Technology</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-bag me-2"></i>Retail & CPG</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-truck me-2"></i>Transportation & Mobility</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-broadcast me-2"></i>Telecommunications</a></li>
+                    </ul>
+                </div>
+                  <div class="htec-firm-column">
+                      <!-- Placeholder for additional content -->
+                  </div>
+                  <div class="htec-news-section">
+                      <div class="htec-news-header">
+                          <h3 class="htec-news-title">Latest News</h3>
+                          <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                      </div>
+                      <div class="htec-news-grid">
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Healthcare Technology Innovation" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">AI-Powered Diagnostics Breakthrough in Healthcare</h4>
+                                  <p style="font-size:12px; color:#666;">March 15, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Financial Technology Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Blockchain Revolution in Banking Services</h4>
+                                  <p style="font-size:12px; color:#666;">March 10, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Smart Energy Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Smart Grid Technology Transforms Energy Sector</h4>
+                                  <p style="font-size:12px; color:#666;">March 5, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Media Streaming Technology" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Next-Gen Streaming Platform for Media Industry</h4>
+                                  <p style="font-size:12px; color:#666;">February 28, 2025</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </li>
+          <li class="htec-nav-item">
+            <a href="#">Our Firm <span class="htec-dropdown-arrow"></span></a>
+            <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                    <div class="htec-firm-column ">
+                        <h3 class="htec-section-header">About KKRF</h3>
+                        <ul class="htec-firm-links">
+                            <li class="htec-firm-link"><a href="#">Company Overview</a></li>
+                            <li class="htec-firm-link"><a href="#">Global Locations</a></li>
+                            <li class="htec-firm-link"><a href="#">History</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="#">Leadership & Board</a></li>
+                            <li class="htec-firm-link"><a href="#">Alliances</a></li>
+                            <li class="htec-firm-link"><a href="carrer.html">Careers & Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="blog.html">Press & Media</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <!-- Placeholder for additional content -->
+                    </div>
+                    <div class="htec-news-section">
+                        <div class="htec-news-header">
+                            <h3 class="htec-news-title">Latest News</h3>
+                            <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                        </div>
+                        <div class="htec-news-grid">
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="KKRF Expansion" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Group Expands with New Office in Singapore</h4>
+                                    <p style="font-size:12px; color:#666;">March 18, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Leadership Summit" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Annual Leadership Summit Announces Strategic Direction</h4>
+                                    <p style="font-size:12px; color:#666;">March 12, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="New Partnership" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Forms Strategic Alliance with Global Tech Leader</h4>
+                                    <p style="font-size:12px; color:#666;">March 8, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Sustainability Initiative" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">New Sustainability Initiative Launches with Zero-Carbon Goal</h4>
+                                    <p style="font-size:12px; color:#666;">March 1, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="htec-nav-item d-none d-xl-block">
+                    <a href="blog.html">Insights & Events</a>
+                </li>
+                <li class="htec-nav-item">
+                    <a href="carrer.html">Careers & Culture </a>
+                </li>
+            </ul>
+            
+            <div class="htec-right-section">
+               
+              <a href="contact.html"><button class="htec-partner-button d-none d-xl-block">Let's partner up</button></a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+  <section class="d-block  d-lg-none">
+    <nav class="navbar-override1 flex items-center px-10 py-4 bg-black relative">
+      <!-- Logo -->
+      <div>
+        <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" />
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="nav-center hidden lg:flex items-center gap-8">
+        <!-- Dropdown Menu for "What we do" -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn"
+          >
+            What we do
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <div class="dropdown">
+              <h2 class="title">What we do <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <a href="#" class="text-white hover:text-purple-500">Industries</a>
+        
+        <!-- Who we are dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn1"
+          >
+            Who we are
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu1" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown2">
+              <h2 class="title">who we are <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Careers dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn2"
+          >
+            Careers
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu2" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown3">
+              <h2 class="title">Careers<span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Us & Country Selector -->
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="#" class="text-white hover:text-purple-500">Contact Us</a>
+        <select class="bg-black text-white border border-gray-600 rounded p-1">
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Germany</option>
+        </select>
+      </div>
+  
+      <!-- Hamburger Icon for Mobile -->
+  
+      <div class="lg:hidden">
+        <button id="menuTriggerTab" class="text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  
+    <!-- Mobile Menu -->
+  
+    
+    <div class="tabtab-menu" id="tabMenu1">
+      <!-- Header -->
+      <div class="tabtab-menu-header">
+          <button id="backBtn1" class="tabtab-back-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Back
+          </button>
+          <button id="closeBtn1" class="tabtab-p-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+          </button>
+          <button class="tabtab-country-selector">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              Global
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 9l6 6 6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <!-- Menu Sections -->
+      <div class="tabtab-menu-section tabtab-active" id="mainMenu1">
+          <button class="tabtab-menu-item" data-target="services1">
+              Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="industries1">
+              Industries
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ourFirm1">
+              Our Firm
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <a href="blog.html" class="tabtab-menu-item">
+              Insights & Events
+          </a>
+          <a href="careers.html" class="tabtab-menu-item">
+              Careers & Culture
+          </a>
+          <div class="bottom-link">
+          <a href="contact.html"  style="color: white;">Let's partner up</a>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/company/htec-group" class="social-icon" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/htecgroup" class="social-icon" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="services1">
+          <h2 class=" tabtab-mb-6 heading" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Services</h2>
+          <button class="tabtab-menu-item" data-target="softwareDev1">
+              Software Development
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="blockchain1">
+              Blockchain Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="cloud1">
+              Cloud Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="itConsulting1">
+              IT Consulting
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="dataAnalytics1">
+              Data Analytics
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="devOps1">
+              DevOps
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ai1">
+              Artificial Intelligence
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <div class="tabtab-menu-section" id="softwareDev1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="softwreoverview.html">Software Development</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="erp.html" class="tabtab-menu-item">ERP Software Development</a>
+              <a href="crm.html" class="tabtab-menu-item">Custom CRM</a>
+              <a href="arvr.html" class="tabtab-menu-item">AR/VR Development</a>
+              <a href="iot.html" class="tabtab-menu-item">IoT Development</a>
+              <a href="microservice.html" class="tabtab-menu-item">Microservices</a>
+              <a href="product.html" class="tabtab-menu-item">Product Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="blockchain1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="blockchainservices.html">Blockchain Services</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="nftmarket.html" class="tabtab-menu-item">NFT Marketplace</a>
+              <a href="metaverse.html" class="tabtab-menu-item">Metaverse Development</a>
+              <a href="dapp.html" class="tabtab-menu-item">Dapp Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="cloud1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Cloud Services</h2>
+          <div class="tabtab-grid-layout">
+              <a href="cloudmanaged.html" class="tabtab-menu-item">Cloud Managed Services</a>
+              <a href="cloudconsulting.html" class="tabtab-menu-item">Cloud Consulting</a>
+              <a href="aws.html" class="tabtab-menu-item">AWS</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="itConsulting1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="itoverview.html">IT Consulting</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="health.html" class="tabtab-menu-item">Healthcare IT Consulting Services</a>
+              <a href="itoutsourcing.html" class="tabtab-menu-item">IT Outsourcing Services</a>
+              <a href="manageditservices.html" class="tabtab-menu-item">Managed IT Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="dataAnalytics1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="dataanalytics.html">Data Analytics</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="businessintelligence.html" class="tabtab-menu-item">Business Intelligence</a>
+              <a href="dataanalytics.html" class="tabtab-menu-item">Data Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="devOps1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="devopsoverview.html">DevOps</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="scops.html" class="tabtab-menu-item">SecOps</a>
+              <a href="devopsoverview.html" class="tabtab-menu-item">DevOps Implementation</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ai1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="aioverview.html" >Artificial Intelligence</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="generativeai.html" class="tabtab-menu-item">Generative AI</a>
+              <a href="computer.html" class="tabtab-menu-item">Computer Vision</a>
+              <a href="machinnelearning.html" class="tabtab-menu-item">Machine Learning</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="industries1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Industries</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Media & Entertainment</a>
+              <a href="#" class="tabtab-menu-item">Financial Services & Insurance</a>
+              <a href="#" class="tabtab-menu-item">Energy & Utilities</a>
+              <a href="#" class="tabtab-menu-item">Industrials</a>
+              <a href="#" class="tabtab-menu-item">Healthcare & Life Sciences</a>
+              <a href="#" class="tabtab-menu-item">Technology</a>
+              <a href="#" class="tabtab-menu-item">Retail & CPG</a>
+              <a href="#" class="tabtab-menu-item">Transportation & Mobility</a>
+              <a href="#" class="tabtab-menu-item">Telecommunications</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ourFirm1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Our Firm</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Company Overview</a>
+              <a href="#" class="tabtab-menu-item">Global Locations</a>
+              <a href="#" class="tabtab-menu-item">History</a>
+              <a href="#" class="tabtab-menu-item">Leadership & Board</a>
+              <a href="#" class="tabtab-menu-item">Alliances</a>
+              <a href="carrer.html" class="tabtab-menu-item">Careers & Culture</a>
+              <a href="blog.html" class="tabtab-menu-item">Press & Media</a>
+          </div>
+      </div>
+
+      <!-- Footer -->
+  </div>
+
+    
+    
+  
+   </section>
+<!-- hero section -->
+<section class="hero-section" style="height: 10vh; background-image: url('assets/woman-employee-monitoring-traffic-via-surveillance-2025-02-19-23-34-28-utc\ \(1\).webp'); background-size: cover; background-position: center;">
+    <div class="hero-overlay"></div>
+    <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+        <h1 class="heading1" style="font-size: 3.5rem;">Computer Vision Development Services </h1>
+        <p class="subheading">Experience the future of automation and reimagine your business with our cutting-edge computer vision services  </p>
+    </div>
+</section>
+
+
+    
+
+    <section class="trusted-section">
+      <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+  
+      <!-- Desktop View -->
+      <div class="desktop-logos">
+          <img src="assets/kfc.jpg" alt="KFC">
+          <img src="assets/kmpc.jpg" alt="KPMG">
+          <img src="assets/dominos.png" alt="Domino's">
+      <img src="assets/google.png" alt="Google">
+      <img src="assets/bcg.png" alt="BCG">
+          <img src="assets/americana.png" alt="Americana">
+      </div>
+  
+      <!-- Mobile View (Carousel) -->
+      <div class="swiper-container mobile-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+          <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+          <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+          <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+          <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+          <div class="swiper-slide"><img src="assets/americana.png" alt="Americana"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cloud services section -->
+    <section class="software-section d-none d-md-block">
+        <div class="crm-software-con">
+            <div class="sofware-spacing">
+                <h5 class="heading">Our Comprehensive Suite of Computer Vision Development Services</h5>
+                <p class="crm-Software-text">Transform your business with KKRF's expert computer vision software development services. Our computer vision development services are tailored to meet diverse business needs, enhancing operational efficiency and driving impactful results.</p>
+            </div>
+    
+            <div class="services-container">
+                <div class="services-nav">
+                    <div class="service-item active" data-service="vision-consulting">
+                        <span class="number">01.</span>
+                        Computer Vision Consulting
+                    </div>
+                    <div class="service-item" data-service="software-development">
+                        <span class="number">02.</span>
+                        Computer Vision Software Development
+                    </div>
+                    <div class="service-item" data-service="system-integration">
+                        <span class="number">03.</span>
+                        Computer Vision System Integration
+                    </div>
+                    <div class="service-item" data-service="model-optimization">
+                        <span class="number">04.</span>
+                        Computer Vision Model Optimization
+                    </div>
+                    <div class="service-item" data-service="data-services">
+                        <span class="number">05.</span>
+                        Computer Vision Data Services
+                    </div>
+                </div>
+            
+                <div class="service-content" id="vision-consulting">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 2c0-3.31-2.69-6-6-6s-6 2.69-6 6c0 2.22 1.21 4.15 3 5.19l1-1.74c-1.19-.7-2-1.97-2-3.45 0-2.21 1.79-4 4-4s4 1.79 4 4c0 1.48-.81 2.75-2 3.45l1 1.74c1.79-1.04 3-2.97 3-5.19zM12 3C6.48 3 2 7.48 2 13c0 3.7 2.01 6.92 4.99 8.65l1-1.73C5.61 18.53 4 15.96 4 13c0-4.42 3.58-8 8-8s8 3.58 8 8c0 2.96-1.61 5.53-4 6.92l1 1.73c2.99-1.73 5-4.95 5-8.65 0-5.52-4.48-10-10-10z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Computer Vision Consulting</h2>
+                    <p class="service-description">
+                        Being one of the most reliable computer vision consulting companies, we guide you at every step of your custom product development, helping you navigate the complexities of computer vision technology and plan the best strategies for your specific requirements.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="software-development">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02zM8 16h2.5l1.5 1.5 1.5-1.5H16v-2.5l1.5-1.5-1.5-1.5V8h-2.5L12 6.5 10.5 8H8v2.5L6.5 12 8 13.5V16zm4-7c1.66 0 3 1.34 3 3s-1.34 3-3 3V9z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Computer Vision Software Development</h2>
+                    <p class="service-description">
+                        Our expert team develops custom computer vision software solutions tailored to your business needs. We leverage cutting-edge technologies and frameworks to create robust applications that can analyze visual data, detect objects, recognize patterns, and automate visual inspection processes, enabling you to harness the full potential of visual intelligence.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="system-integration">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Computer Vision System Integration</h2>
+                    <p class="service-description">
+                        We seamlessly integrate computer vision capabilities into your existing systems and workflows, ensuring compatibility with your current infrastructure. Our integration services encompass hardware synchronization, API development, and cloud deployment, creating a unified ecosystem that enhances your operational efficiency without disrupting ongoing processes.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="model-optimization">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2z"></path><circle fill="white" cx="12" cy="8" r="2"></circle><path fill="white" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm-5 7H3v1h4v-1zm11.5 0h-4v1h4v-1zm5.5 0h-4v1h4v-1z"></path><path fill="white" d="M17 4.26v2.09c.57.55.93 1.32.93 2.15 0 .87-.36 1.64-.93 2.18v2.09c1.76-.77 3-2.53 3-4.27s-1.24-3.5-3-4.24z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Computer Vision Model Optimization</h2>
+                    <p class="service-description">
+                        We fine-tune and optimize your computer vision models for maximum accuracy, efficiency, and speed. Our optimization services include model compression, hardware acceleration, and performance benchmarking to ensure your computer vision applications deliver reliable results in real-time across various deployment environments, from edge devices to cloud platforms.
+                    </p>
+                </div>
+    
+                <div class="service-content hidden" id="data-services">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Computer Vision Data Services</h2>
+                    <p class="service-description">
+                        Our comprehensive data services support the entire computer vision development lifecycle, from dataset creation and annotation to validation and enhancement. We provide high-quality, diverse training data tailored to your specific use cases, ensuring your computer vision models achieve superior accuracy and generalization capabilities in real-world scenarios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <div class="iot-smart-faq">
+        <div class="faq-headline">
+            <h3 class="heading">Our Computer Vision Development Expertise</h3>
+            <span>Our advanced computer vision development services provide organizations with intelligent image and video analysis capabilities. From object detection to visual recognition, we deliver cutting-edge solutions that transform raw visual data into actionable insights while adapting to your specific business needs.</span>
+        </div>
+        
+        <div class="faq-category">
+            <div class="faq-hexagon">
+              <div class="hexagon-wrapper">
+                  <div class="hexagon-header">
+                      <div class="hexagon-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4m16 0a8 8 0 01-7 7.94m7-7.94a8 8 0 00-7-7.93m-7 7.93a8 8 0 017-7.93m-7 7.93a8 8 0 007 7.94" />
+                          </svg>
+                      </div>
+                      <div class="hexagon-question">
+                        Computer Vision Consulting
+                          <span class="hexagon-toggle">+</span>
+                      </div>
+                  </div>
+                  <div class="hexagon-content">
+                      <div class="hexagon-answer">
+                        We provide expert guidance throughout your computer vision journey, from initial concept to deployment. Our consultants analyze your business requirements, identify optimal use cases, and develop comprehensive roadmaps that align with your strategic goals. We help you navigate the complexities of computer vision technology to ensure successful implementation tailored to your specific needs.
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="faq-hexagon">
+              <div class="hexagon-wrapper">
+                  <div class="hexagon-header">
+                      <div class="hexagon-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                          </svg>
+                      </div>
+                      <div class="hexagon-question">
+                        Custom Software Development
+                          <span class="hexagon-toggle">+</span>
+                      </div>
+                  </div>
+                  <div class="hexagon-content">
+                      <div class="hexagon-answer">
+                        Our development team creates tailored computer vision solutions using cutting-edge frameworks and technologies. We build robust applications capable of image classification, object detection, face recognition, and scene understanding to address your specific business challenges. Each solution is engineered for performance, scalability, and seamless integration with your existing systems.
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+          <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      System Integration
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      We seamlessly integrate computer vision capabilities into your existing infrastructure, whether cloud-based, on-premises, or edge devices. Our integration services ensure compatibility with your current systems while minimizing disruption to your operations. We create unified workflows that connect visual data processing with your business applications for maximum operational efficiency.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5V14m0-2.5v-6a2.5 2.5 0 015 0v6a2.5 2.5 0 01-5 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 9a2 2 0 012-2h4a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V9z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      Model Optimization
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      We enhance the performance and efficiency of your computer vision models through advanced optimization techniques. Our team implements model compression, quantization, and hardware acceleration to improve inference speed and reduce resource consumption. This optimization ensures your computer vision applications deliver reliable results in real-time across various deployment environments.
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Data Services
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    We provide comprehensive data services to support your computer vision initiatives, including dataset creation, cleaning, annotation, and augmentation. Our team develops high-quality training datasets tailored to your specific use cases, ensuring your computer vision models achieve superior accuracy and generalization capabilities in real-world scenarios with diverse visual conditions.
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Deployment & Maintenance
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  We handle the complete deployment lifecycle of your computer vision applications across diverse environments and provide ongoing maintenance to ensure optimal performance. Our team implements continuous updates, monitors system health, and resolves issues proactively to minimize downtime. We also adapt your solutions as requirements evolve, ensuring your computer vision capabilities remain effective over time.
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <div class="bi-wrapper">
+        <h1 class="heading">Our Advanced Expertise in Computer Vision</h1>
+        <p class="bi-subtitle">Unlock the full potential of computer vision with our unmatched expertise and excellence in AI technologies. Our team tackles the complex task of computer vision development with high accuracy and efficiency, ensuring your end product performs at its best.</p>
+        
+        <div class="bi-accordion-container">
+            <!-- Item 1 -->
+            <div class="bi-accordion-item">
+                <div class="bi-accordion-header">
+                    <span class="bi-accordion-index">01/</span>
+                    <div class="bi-accordion-title">Image and Video Analysis</div>
+                    <div class="bi-accordion-icon">+</div>
+                </div>
+                <div class="bi-accordion-content active">
+                    <p class="bi-accordion-text">We develop advanced computer vision solutions for analyzing and extracting valuable insights from both images and videos, enhancing data-driven decision-making that meet business objectives in no time. Our comprehensive analysis tools can process diverse visual content across multiple industries and use cases.</p>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="bi-accordion-item">
+                <div class="bi-accordion-header">
+                    <span class="bi-accordion-index">02/</span>
+                    <div class="bi-accordion-title">Object Detection and Recognition</div>
+                    <div class="bi-accordion-icon">+</div>
+                </div>
+                <div class="bi-accordion-content">
+                    <p class="bi-accordion-text">Our object detection and recognition solutions identify and classify multiple objects within images and video streams with exceptional accuracy. We implement state-of-the-art neural networks that can detect, track, and categorize objects in real-time, even in challenging environments with variable lighting or partial occlusions.</p>
+                </div>
+            </div>
+            
+            <!-- Item 3 -->
+            <div class="bi-accordion-item">
+                <div class="bi-accordion-header">
+                    <span class="bi-accordion-index">03/</span>
+                    <div class="bi-accordion-title">Face Recognition</div>
+                    <div class="bi-accordion-icon">+</div>
+                </div>
+                <div class="bi-accordion-content">
+                    <p class="bi-accordion-text">Our advanced face recognition technology delivers highly accurate facial identification and verification capabilities for security, access control, and personalization applications. We implement privacy-focused solutions that can detect facial features, analyze expressions, and match identities while maintaining compliance with relevant data protection regulations.</p>
+                </div>
+            </div>
+            
+            <!-- Item 4 -->
+            <div class="bi-accordion-item">
+                <div class="bi-accordion-header">
+                    <span class="bi-accordion-index">04/</span>
+                    <div class="bi-accordion-title">OCR and ICR</div>
+                    <div class="bi-accordion-icon">+</div>
+                </div>
+                <div class="bi-accordion-content">
+                    <p class="bi-accordion-text">Our Optical Character Recognition (OCR) and Intelligent Character Recognition (ICR) solutions transform images of typed, handwritten, or printed text into machine-encoded text. We develop custom OCR/ICR systems that can accurately extract information from documents, forms, receipts, and images, enabling automated data entry and document processing workflows.</p>
+                </div>
+            </div>
+            
+            <!-- Item 5 -->
+            <div class="bi-accordion-item">
+                <div class="bi-accordion-header">
+                    <span class="bi-accordion-index">05/</span>
+                    <div class="bi-accordion-title">Spatial Analysis</div>
+                    <div class="bi-accordion-icon">+</div>
+                </div>
+                <div class="bi-accordion-content">
+                    <p class="bi-accordion-text">Our spatial analysis capabilities enable advanced scene understanding and 3D environment interpretation from visual data. We implement solutions that can estimate distances, analyze spatial relationships between objects, generate depth maps, and reconstruct three-dimensional scenes from two-dimensional imagery for applications in robotics, autonomous navigation, and augmented reality.</p>
+                </div>
+            </div>
+            
+            <!-- Item 6 -->
+            <div class="bi-accordion-item">
+                <div class="bi-accordion-header">
+                    <span class="bi-accordion-index">06/</span>
+                    <div class="bi-accordion-title">AI Image Processing</div>
+                    <div class="bi-accordion-icon">+</div>
+                </div>
+                <div class="bi-accordion-content">
+                    <p class="bi-accordion-text">We leverage artificial intelligence to enhance and transform visual data through advanced image processing techniques. Our AI-powered solutions perform sophisticated operations including image enhancement, restoration, segmentation, and style transfer to optimize visual content for analysis or presentation, creating high-quality outputs from even challenging source material.</p>
+                </div>
+            </div>
+            
+            <!-- Item 7 -->
+            <div class="bi-accordion-item">
+                <div class="bi-accordion-header">
+                    <span class="bi-accordion-index">07/</span>
+                    <div class="bi-accordion-title">Computer Vision Consulting</div>
+                    <div class="bi-accordion-icon">+</div>
+                </div>
+                <div class="bi-accordion-content">
+                    <p class="bi-accordion-text">Our expert consultants provide comprehensive guidance for organizations looking to implement computer vision solutions. We offer strategic advisory services, feasibility studies, technology evaluation, and implementation roadmaps tailored to your specific business requirements, ensuring successful integration of computer vision capabilities into your operations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+  <section class="stats-section">
+    <div class="stats-card">
+      <div class="stats-container">
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">3000+</div>
+          <div class="stat-description">Software Projects<br>Delivered Successfully</div>
+        </div>
+       
+       
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">87%</div>
+          <div class="stat-description">Recurring Client Base</div>
+        </div>
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">8+</div>
+          <div class="stat-description">Years in Business</div>
+        </div>
+      
+      </div>
+      <a href="#" class="cta-button">Let's Discuss Your Project</a>
+    </div>
+  </section>
+
+  <section class="partner-section">
+    <div class="intro-container">
+      <h1 class="heading mt-5">Advanced Technologies Driving Our Computer Vision Services</h1>
+      <p class="intro-text">
+        As a premium computer vision software development company, 
+        we leverage a suite of cutting-edge technologies. These 
+        technologies are at the forefront of computer vision services, 
+        enabling us to deliver robust and effective solutions that help 
+        businesses leverage visual data for actionable insights and 
+        operational efficiencies.
+      </p>
+    </div>
+
+    <div class="features-container">
+      
+     
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+                <path d="M24 8L8 16v16c0 8 16 16 16 16s16-8 16-16V16L24 8z" />
+                <path d="M24 24a4 4 0 100-8 4 4 0 000 8z" fill="white"/>
+                <path d="M24 22v10M19 27h10" stroke="white" stroke-width="2"/>
+              </svg>
+        </div>
+      <div>
+        <h2 class="feature-title">AI Algorithms</h2>
+        <p class="feature-text">
+          Advanced artificial intelligence algorithms are the backbone of computer vision solutions, enabling accurate image recognition, object detection, and pattern analysis. These algorithms continuously evolve and learn from data to improve performance and adaptability.
+        </p>
+      </div>
+    </div>
+      <hr />
+      
+
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+            <path d="M12 28h24M12 36h24M12 20h24M12 12h24" />
+            <circle cx="20" cy="12" r="3" fill="white"/>
+            <circle cx="16" cy="20" r="3" fill="white"/>
+            <circle cx="30" cy="28" r="3" fill="white"/>
+            <circle cx="24" cy="36" r="3" fill="white"/>
+          </svg>
+        </div>
+        <div>
+        <h2 class="feature-title">Machine Learning Models</h2>
+        <p class="feature-text">
+          Being one of the reputed machine vision software companies, we build and train ML models on large datasets to recognize patterns and make predictions from visual data. Based on supervised and unsupervised learning techniques, our machine learning excellence enhances the precision and efficiency of our computer vision applications.
+        </p>
+      </div>
+    </div>
+      <hr />
+
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+                <circle cx="24" cy="24" r="20" />
+                <path d="M24 14v20M14 24h20" stroke="white" stroke-width="2"/>
+                <circle cx="24" cy="24" r="4" fill="white"/>
+              </svg>
+          </div>
+        <div>
+        <h2 class="feature-title">Deep Learning and Neural Networks</h2>
+        <p class="feature-text">
+          Deep learning enables us to build complex neural networks that excel at understanding and processing a vast volume of visual data. These networks are pivotal in developing sophisticated computer vision models for tasks such as image segmentation and anomaly detection.
+        </p>
+      </div>
+    </div>
+      <hr />
+
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+                <rect x="8" y="12" width="32" height="24" rx="2" />
+                <path d="M18 24l4 4 8-8" stroke="white" stroke-width="2"/>
+                <path d="M16 36v4h16v-4" stroke="white" stroke-width="2"/>
+              </svg>
+          </div>
+        <div>
+        <h2 class="feature-title">Big Data & Analytics</h2>
+        <p class="feature-text">
+            Big data technologies help us manage and analyze vast amounts of visual data efficiently. By extracting actionable insights and identifying patterns, we optimize operational processes, enhance accuracy in computer vision tasks, and drive informed decision-making.
+        </p>
+      </div>
+    </div>
+      <hr />
+
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+                <path d="M8 12h32v24H8z" />
+                <path d="M16 12v24M32 12v24M8 24h32" stroke="white" stroke-width="2"/>
+                <circle cx="24" cy="24" r="4" fill="white"/>
+              </svg>
+          </div>
+        <div>
+        <h2 class="feature-title">Cloud Computing</h2>
+        <p class="feature-text">
+            We recognize the transformative impact of cloud computing in building scalable computer vision solutions. Our strategic partnerships with leading cloud platforms like Microsoft Azure, AWS, and Google Cloud enable us to develop scalable computer vision models that ensure seamless access to visual data across diverse environments.
+        </p>
+      </div>
+    </div>
+      <hr />
+
+      <div class="feature-box">
+        <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+                <path d="M24 6c-5.5 0-10 4.5-10 10v16c0 5.5 4.5 10 10 10s10-4.5 10-10V16c0-5.5-4.5-10-10-10z" />
+                <path d="M24 42c-2.5 0-4.5-2-4.5-4.5h9c0 2.5-2 4.5-4.5 4.5z" fill="white"/>
+                <path d="M24 6v8M31 20h-14" stroke="white" stroke-width="2"/>
+              </svg>
+          </div>
+        <div>
+        <h2 class="feature-title">Edge Computing</h2>
+        <p class="feature-text">
+            We implement edge computing to bring computer vision capabilities closer to the data source, allowing for real-time processing and analysis. By deploying computer vision models on edge devices, we enable faster decision-making and immediate responses, which are essential for applications such as autonomous vehicles, industrial automation, and smart surveillance.
+        </p>
+      </div>
+    </div>
+      
+    </div>
+  </section>
+
+
+  <section class="dpd-company-section">
+    <div class="dpd-company-container">
+      <div class="dpd-company-header">
+        <h2 class="heading">Why Trust KKRF to Outsource Computer Vision Software Development Services</h2>
+        
+        <p class="dpd-company-description">
+          KKRF, as a leading computer vision development company, builds state-of-the-art solutions tailored to your specific needs. Here are some compelling reasons to consider outsourcing your computer vision development to us:
+        </p>
+      </div>
+      
+      <div class="dpd-company-grid">
+        <!-- Reliability and Security -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">001</div>
+            <h3 class="dpd-feature-title">Reliability and Security</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            We prioritize reliability and security in every project. Our robust protocols ensure your data and applications are protected, providing you with peace of mind and delivering dependable results.
+          </p>
+        </div>
+        
+        <!-- Tech Excellence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">002</div>
+            <h3 class="dpd-feature-title">Tech Excellence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Our team of 100+ tech nerds brings unparalleled efficiency to your computer vision projects. They leverage cutting-edge technologies to deliver innovative solutions that drive your business forward.
+          </p>
+        </div>
+        
+        <!-- Custom Solutions -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">003</div>
+            <h3 class="dpd-feature-title">Custom Solutions</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            We understand that each industry has unique requirements. Keeping this in mind, our computer vision developers build efficient custom solutions designed to meet your business's specific needs, ensuring optimal performance and maximum impact.
+          </p>
+        </div>
+        
+        <!-- Scalability and Flexibility -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="numbered-label">004</div>
+            <h3 class="dpd-feature-title">Scalability and Flexibility</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Our computer vision solutions are built with scalability and flexibility in mind. Whether your project needs to adapt to changing market demands or expand over time, your computer vision product can grow with your business, ensuring long-term success.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+<section class="arvr_hero_outer_container">
+    <div class="container-fluid">
+      <div class="arvr_hero_inner_wrapper" style="display: flex; align-items: center;">
+        <div class="arvr_hero_content_container" style="flex: 1; padding: 30px;">
+          <h1 class="arvr_hero_heading">Why Choose KKRF for Your Computer Vision Project</h1>
+          <ul style="list-style: none; padding-left: 0;">
+            <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <span>Specialized expertise in computer vision, image processing, and video analytics</span>
+            </li>
+            <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <span>Advanced AI algorithms and deep learning models for accurate object detection</span>
+            </li>
+            
+            <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <span>Strict compliance with data privacy and security standards in visual analytics</span>
+            </li>
+          </ul>
+          <a href="#contact" class="arvr_hero_button">
+            Discuss Your Computer Vision Project
+            <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+          </a>
+        </div>
+        <div class="arvr_hero_image_container" style="flex: 1; text-align: right; padding: 20px;">
+          <img src="assets/close-up-of-surgeon-doctor-wearing-medical-uniform-2025-02-20-04-54-00-utc (1).webp" alt="Computer Vision Professionals" class="arvr_hero_image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="kkrf-industry-section mb-5">
+    <div class="kkrf-industry-header">
+        <h2 class="heading mt-5">Our Custom Computer Vision Development Services Transform Every Industry</h2>
+        <p class="kkrf-industry-description">Our custom computer vision development services are designed to revolutionize various industries. By leveraging advanced AI technologies, we create tailored solutions that enhance operational efficiency, drive innovation, and unlock new opportunities for your business growth across diverse sectors.</p>
+    </div>
+  
+    <div class="kkrf-industry-grid">
+        <!-- Row 1 -->
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Healthcare</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Banking and Finance</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                    <path d="M2 17l10 5 10-5"></path>
+                    <path d="M2 12l10 5 10-5"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Manufacturing</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Retail and eCommerce</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="1" y="3" width="15" height="13"></rect>
+                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                    <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                    <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Logistics and Supply Chain</span>
+        </div>
+  
+        <!-- Row 2 -->
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Automotive</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                    <path d="M12 12h.01"></path>
+                    <path d="M7 12h.01"></path>
+                    <path d="M17 12h.01"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Social Networking</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Entertainment</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 2L2 22"></path>
+                    <path d="M6.5 17.5L17.5 6.5"></path>
+                    <path d="M2 12h2a10 10 0 0 1 10 10v-2"></path>
+                    <path d="M22 12h-2a10 10 0 0 0-10-10v2"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Aviation</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Education</span>
+        </div>
+  
+        <!-- Row 3 -->
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Restaurant</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4H6z"></path>
+                    <path d="M3 6h18"></path>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Security</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Agriculture</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Smart Cities</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Healthcare Imaging</span>
+        </div>
+    </div>
+  </section>
+
+ 
+
+
+
+
+  <section class="tech-stack-section">
+    <div class="container text-center py-5">
+      <h1 class="heading mt-5 mb-4">Ideal Tech Stack We Use for Computer Vision Solutions Development</h1>
+      
+      <p class="subheading mb-5">
+        Our computer vision development services leverage a multi-layer library of frameworks, platforms, tools, and methodologies for computer vision development. Here is a comprehensive list of the ideal tech stack we use to deliver our machine vision consulting services.
+      </p>
+      
+      <!-- Tech Category Tabs -->
+      <div class="tech-categories mb-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-3">
+            <div class="tech-category active" data-category="deep-learning">
+              <p class="mb-0">Models & APIs</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-3">
+            <div class="tech-category" data-category="modules-toolkits">
+              <p class="mb-0">Vector Databases</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="gen-ai-models">
+              <p class="mb-0">LLM Frameworks</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="neural-networks">
+              <p class="mb-0">Deployment</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="image-classification">
+              <p class="mb-0">Image Classification Models</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tech Tools Display Area -->
+      <div class="tech-tools-container mt-5 pt-4">
+        <!-- Models & APIs (Default View) -->
+        <div class="tech-tools-content active" id="deep-learning-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- OpenAI Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <circle cx="12" cy="12" r="10" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+                    <text x="12" y="16" font-family="Arial" font-weight="bold" font-size="8" text-anchor="middle" fill="#000000">OpenAI</text>
+                  </svg>
+                </div>
+                <p class="tool-name">OpenAI</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Meta Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#0081FB"/>
+                    <text x="12" y="16" font-family="Arial" font-weight="bold" font-size="8" text-anchor="middle" fill="white">Meta</text>
+                  </svg>
+                </div>
+                <p class="tool-name">Meta</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- TensorFlow Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <path d="M1.292 5.856L11.54 0v24l-10.25-5.835V5.86z" fill="#FF6F00"/>
+                    <path d="M12.46 0l10.248 5.856v12.307L12.46 24V0z" fill="#FF9800"/>
+                    <path d="M1.292 5.856l10.249 5.856 10.246-5.856L11.538 0 1.292 5.856z" fill="#FFEB3B"/>
+                  </svg>
+                </div>
+                <p class="tool-name">TensorFlow</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- PyTorch Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <path d="M12 7m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" fill="#EE4C2C"/>
+                    <path d="M17 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" fill="#EE4C2C"/>
+                  </svg>
+                </div>
+                <p class="tool-name">PyTorch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Vector Databases (Hidden by Default) -->
+        <div class="tech-tools-content" id="modules-toolkits-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Mistral AI Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#E67E22"/>
+                    <text x="12" y="15" font-family="Arial" font-weight="bold" font-size="6" text-anchor="middle" fill="white">Mistral</text>
+                  </svg>
+                </div>
+                <p class="tool-name">Mistral AI</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Google Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <circle cx="12" cy="12" r="10" fill="#FFFFFF"/>
+                    <path d="M6 12h4v-2h8v4h-8v-2H6z" fill="#4285F4"/>
+                    <path d="M18 10v2h-8v2h8v-4z" fill="#34A853"/>
+                    <path d="M18 14H6v-2h12v2z" fill="#FBBC05"/>
+                    <path d="M6 10h4v4H6v-4z" fill="#EA4335"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Google</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Pinecone Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#5C5C5C"/>
+                    <path d="M12 7l5 3v4l-5 3l-5-3v-4l5-3z" fill="#FFFFFF" stroke="#5C5C5C" stroke-width="0.5"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Pinecone</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Milvus Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#00A8E1"/>
+                    <path d="M7 12l5-5l5 5l-5 5l-5-5z" fill="#FFFFFF"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Milvus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- LLM Frameworks (Hidden by Default) -->
+        <div class="tech-tools-content" id="gen-ai-models-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Hugging Face Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#FFDB4D"/>
+                    <circle cx="9" cy="10" r="1.5" fill="#000000"/>
+                    <circle cx="15" cy="10" r="1.5" fill="#000000"/>
+                    <path d="M9 15c0 1.5 1.5 3 3 3s3-1.5 3-3" stroke="#000000" stroke-width="1" fill="none"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Hugging Face</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Grok Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#000000"/>
+                    <text x="12" y="16" font-family="Arial" font-weight="bold" font-size="8" text-anchor="middle" fill="white">Grok</text>
+                  </svg>
+                </div>
+                <p class="tool-name">Grok</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- LangChain Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#2B6CB0"/>
+                    <path d="M7 12c0-2.8 2.2-5 5-5s5 2.2 5 5-2.2 5-5 5c-1.5 0-2.9-0.7-3.8-1.8" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+                    <path d="M7 9v3h3" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+                  </svg>
+                </div>
+                <p class="tool-name">LangChain</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Transformers Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#FF9500"/>
+                    <path d="M7 12h10M12 7v10" stroke="#FFFFFF" stroke-width="1.5"/>
+                    <circle cx="12" cy="12" r="3" fill="#FFFFFF"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Transformers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Deployment (Hidden by Default) -->
+        <div class="tech-tools-content" id="neural-networks-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Docker Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <path d="M13 11h-2v2h2v-2zM10 11H8v2h2v-2zM13 8h-2v2h2V8zM16 11h-2v2h2v-2zM10 8H8v2h2V8zM16 8h-2v2h2V8zM13 5h-2v2h2V5zM10 5H8v2h2V5zM7 11H5v2h2v-2z" fill="#2496ED"/>
+                    <path d="M22 12.5c0-1.3-1-2.5-2.3-3-0.3-4-3.9-5.5-3.7-5.5 0 0-0.2 0.9 0.1 1.7-0.3 0.1-1.2 0.6-1.1 1.9h-11c0 0.7 0.3 6.8 0.8 8.9 0.5 2.1 1.7 3.3 3 3.4h12.3c2 0 3.7-1.1 4.7-2.9-1.2-0.6-1.9-2.7-2.8-4.5z" fill="#2496ED"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Docker</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Kubernetes Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <path d="M12 2.5c-0.3 0-0.5 0.1-0.7 0.3L4.1 9.6c-0.2 0.2-0.3 0.4-0.3 0.7v9.4c0 0.3 0.1 0.5 0.3 0.7l7.2 6.8c0.2 0.2 0.4 0.3 0.7 0.3s0.5-0.1 0.7-0.3l7.2-6.8c0.2-0.2 0.3-0.4 0.3-0.7v-9.4c0-0.3-0.1-0.5-0.3-0.7L12.7 2.8c-0.2-0.2-0.4-0.3-0.7-0.3z" fill="#326CE5"/>
+                    <path d="M12 4l7 6.5v9l-7 6.5L5 19.5v-9L12 4z" fill="white"/>
+                    <path d="M12 6.5L7.5 11v6L12 21.5l4.5-4.5v-6L12 6.5z" fill="#326CE5"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Kubernetes</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- AWS Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#FF9900"/>
+                    <path d="M7 13l5-5l5 5l-5 5l-5-5z" fill="#FFFFFF"/>
+                  </svg>
+                </div>
+                <p class="tool-name">AWS</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Azure Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#0078D4"/>
+                    <path d="M7 7h5v5H7z" fill="#FFFFFF"/>
+                    <path d="M13 7h4v4h-4z" fill="#FFFFFF"/>
+                    <path d="M7 13h4v4H7z" fill="#FFFFFF"/>
+                    <path d="M13 12h5v5h-5z" fill="#FFFFFF"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Azure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Image Classification Models (Hidden by Default) -->
+        <div class="tech-tools-content" id="image-classification-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- ResNet Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#3366CC"/>
+                    <path d="M7 8h10M7 12h10M7 16h10" stroke="#FFFFFF" stroke-width="1"/>
+                    <path d="M8 8v8M12 8v8M16 8v8" stroke="#FFFFFF" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">ResNet</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- YOLOv5 Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#00BFFF"/>
+                    <rect x="7" y="7" width="10" height="10" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+                    <circle cx="12" cy="12" r="2" fill="#FFFFFF"/>
+                  </svg>
+                </div>
+                <p class="tool-name">YOLOv5</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Vision Transformer Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#FF6347"/>
+                    <path d="M7 7h10v10H7z" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+                    <path d="M7 7l10 10M17 7L7 17" stroke="#FFFFFF" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Vision Transformer</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- MobileNet Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#A569BD"/>
+                    <path d="M7 12h10M12 7v10" stroke="#FFFFFF" stroke-width="1"/>
+                    <path d="M9 9l6 6M15 9l-6 6" stroke="#FFFFFF" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">MobileNet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="product-features-section">
+    <div class="product-features-container">
+      <h2 class="heading text-center">Computer Vision Development Process We Follow</h2>
+      
+      <p class="product-features-description">
+        We follow a meticulous and comprehensive process to deliver top-notch computer vision software development services. Here is a glimpse into our approach to build custom computer vision solutions:
+      </p>
+      
+      <div class="product-features-slider-container">
+        <div class="product-features-slider" id="productFeaturesSlider">
+          <!-- Process Step 1 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">01</div>
+            <h3 class="product-feature-title">Strategic Discovery</h3>
+            <p class="product-feature-description">
+              Our computer vision software development process starts with an in-depth consultation to comprehend your unique business needs and challenges. At this stage, we understand your business objectives, collect key insights, and brainstorm how we can leverage computer vision technology to meet those goals.
+            </p>
+          </div>
+          
+          <!-- Process Step 2 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">02</div>
+            <h3 class="product-feature-title">Project Planning</h3>
+            <p class="product-feature-description">
+              After comprehensive computer vision consulting, we move to the next stage — project planning. This is the stage where we build a comprehensive roadmap that outlines the scope, timelines, costs, resource allocation, and other critical aspects essential to bringing your project to life.
+            </p>
+          </div>
+          
+          <!-- Process Step 3 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">03</div>
+            <h3 class="product-feature-title">Data Analysis and Preprocessing</h3>
+            <p class="product-feature-description">
+              Be it image analysis, video analytics, or face recognition, it requires high-quality visual data to train the model. Therefore, our team cleanses and preprocesses the data, removing any inconsistencies and ensuring it is ready for effective model training. This step is crucial for enhancing the accuracy and performance of our computer vision models.
+            </p>
+          </div>
+          
+          <!-- Process Step 4 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">04</div>
+            <h3 class="product-feature-title">UI/UX Design</h3>
+            <p class="product-feature-description">
+              Our UI/UX design phase focuses on crafting interfaces that are not only visually appealing but also highly functional. We design intuitive and user-friendly interfaces to ensure a seamless interaction with our computer vision applications. By prioritizing usability and user experience, we make sure the final product is easy to navigate and meets your specific requirements.
+            </p>
+          </div>
+          
+          <!-- Process Step 5 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">05</div>
+            <h3 class="product-feature-title">End-to-End Development</h3>
+            <p class="product-feature-description">
+              With a foolproof plan, solid roadmap, and user-friendly interface, we embark on the most critical stage of computer vision development, where we actually shape your vision to life. Throughout this phase, we maintain open lines of communication, allowing for responsive adjustments to the project as it evolves.
+            </p>
+          </div>
+          
+          <!-- Process Step 6 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">06</div>
+            <h3 class="product-feature-title">Testing and Validation</h3>
+            <p class="product-feature-description">
+              After development, we rigorously test the trained model against unseen data to ensure accuracy and consistency. At this stage, we make any necessary adjustments to fine-tune performance. Our testing and quality assurance process ensures the model is reliable and ready for deployment in real-world applications.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Navigation Arrows -->
+        <button class="product-features-nav-arrow product-features-prev-arrow" id="productFeaturesPrev" aria-label="Previous feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <button class="product-features-nav-arrow product-features-next-arrow" id="productFeaturesNext" aria-label="Next feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="nxtstp-wrapper">
+    <div class="nxtstp-decorative-border"></div>
+    <div class="nxtstp-container">
+        <h1 class="nxtstp-heading">Take the Next Step Today</h1>
+        
+        <button class="nxtstp-contact-btn">Contact Us</button>
+        
+        <div class="nxtstp-steps-container">
+            <div class="nxtstp-step-card nxtstp-step-card--gold">
+                <div class="nxtstp-step-icon nxtstp-step-icon--gold">
+                    <span class="nxtstp-icon-number">1</span>
+                </div>
+                <div class="nxtstp-step-num nxtstp-step-num--gold">STEP 1</div>
+                <h3 class="nxtstp-step-title">Reach Out to Us</h3>
+                <p class="nxtstp-step-desc">Complete our <a href="#" class="nxtstp-link">contact form</a> to schedule a consultation call with us.</p>
+            </div>
+            
+            <div class="nxtstp-step-card nxtstp-step-card--pink">
+                <div class="nxtstp-step-icon nxtstp-step-icon--pink">
+                    <span class="nxtstp-icon-number">2</span>
+                </div>
+                <div class="nxtstp-step-num nxtstp-step-num--pink">STEP 2</div>
+                <h3 class="nxtstp-step-title">Schedule a Consultation</h3>
+                <p class="nxtstp-step-desc">Discuss your project idea with our experts to understand its intricacies.</p>
+            </div>
+            
+            <div class="nxtstp-step-card nxtstp-step-card--purple">
+                <div class="nxtstp-step-icon nxtstp-step-icon--purple">
+                    <span class="nxtstp-icon-number">3</span>
+                </div>
+                <div class="nxtstp-step-num nxtstp-step-num--purple">STEP 3</div>
+                <h3 class="nxtstp-step-title">Receive a Quotation</h3>
+                <p class="nxtstp-step-desc">We will provide a detailed proposal with cost and timeline estimates.</p>
+            </div>
+            
+            <div class="nxtstp-step-card nxtstp-step-card--blue">
+                <div class="nxtstp-step-icon nxtstp-step-icon--blue">
+                    <span class="nxtstp-icon-number">4</span>
+                </div>
+                <div class="nxtstp-step-num nxtstp-step-num--blue">STEP 4</div>
+                <h3 class="nxtstp-step-title">Project Kickoff</h3>
+                <p class="nxtstp-step-desc">Sign the contract and partner with us to kick-start your project.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<section class="bi-contact-wrapper mt-5">
+  <div class="bi-contact-container">
+    <div class="bi-contact-grid">
+      <div class="bi-contact-info">
+        <h2 class="heading">Let's take the first step together.</h2>
+        <p class="bi-contact-subtitle">Complete the form and an BI expert will contact you shortly.</p>
+        <div class="bi-career-info">
+          <p class="bi-career-text">Looking to join our team?</p>
+          <p class="bi-career-link-wrapper">Visit our <a href="#" class="bi-career-link">Careers & Culture page</a></p>
+        </div>
+      </div>
+      
+      <div class="bi-form-wrapper">
+        <form class="bi-contact-form">
+          <div class="bi-form-row">
+            <div class="bi-form-group">
+              <label for="firstName" class="bi-form-label">First name*</label>
+              <input type="text" id="firstName" class="bi-form-input" required>
+            </div>
+            <div class="bi-form-group">
+              <label for="lastName" class="bi-form-label">Last name*</label>
+              <input type="text" id="lastName" class="bi-form-input" required>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+              <div class="bi-form-group">
+                  <label for="workEmail" class="bi-form-label">Work email*</label>
+                  <input type="email" id="workEmail" class="bi-form-input" required>
+                </div>
+            <div class="bi-form-group">
+              <label for="companyName" class="bi-form-label">Company name</label>
+              <input type="text" id="companyName" class="bi-form-input">
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+              <div class="bi-form-group">
+                  <label for="budget" class="bi-form-label">What is your budget range?*</label>
+                  <select id="budget" class="bi-form-select" required>
+                    <option value="" disabled selected>— Please choose an option —</option>
+                    <option value="under-5k">Under $5,000</option>
+                    <option value="5k-15k">$5,000 - $15,000</option>
+                    <option value="15k-50k">$15,000 - $50,000</option>
+                    <option value="50k-100k">$50,000 - $100,000</option>
+                    <option value="over-100k">Over $100,000</option>
+                  </select>
+                </div>
+            <div class="bi-form-group">
+              <label for="helpType" class="bi-form-label">How can we help?*</label>
+              <select id="helpType" class="bi-form-select" required>
+                <option value="" disabled selected>— Please choose an option —</option>
+                <option value="bi-consulting">BI Consulting</option>
+                <option value="data-analysis">Data Analysis</option>
+                <option value="dashboards">Dashboard Creation</option>
+                <option value="bi-implementation">BI Implementation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+            <div class="bi-form-group bi-full-width">
+              <label for="moreInfo" class="bi-form-label">Let us know more about Your Project/Idea *</label>
+              <textarea id="moreInfo" class="bi-form-textarea" rows="5" required></textarea>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+            <button type="submit" class="bi-submit-button">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  <!-- faq section -->
+  <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white">Frequently Asked Questions</h2>
+      
+      <div class="max-w-4xl mx-auto space-y-6">
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold">What services do you provide?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer ">
+                  We offer comprehensive technology solutions including software development, cloud computing, cybersecurity, and digital transformation consulting for enterprises worldwide.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">How do you ensure data security?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  Our robust security protocols include end-to-end encryption, multi-factor authentication, regular security audits, and compliance with international data protection standards.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">What industries do you serve?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  We specialize in serving diverse sectors including finance, healthcare, e-commerce, education, and manufacturing with tailored technological solutions.
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- blog section -->
+
+
+
+
+ 
+  
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+  
+<script src="scripts/hero.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/card.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/switch.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/faqs.js"></script>
+
+</body>
+</html>

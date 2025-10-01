@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+    
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body>
+<!-- hero section -->
+<section class="hero-section" style="height: 10vh; background-image: url('assets/ai/arvr.jpg'); background-size: cover; background-position: center;">
+    <div class="hero-overlay"></div>
+    <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+        <h1 class="heading" style="font-size: 3.5rem;">Custom Software Development Services </h1>
+        <p class="subheading">Elevate your business with robust custom software services, designed to unleash innovation and drive unparalleled growth </p>
+    </div>
+</section>
+
+
+    
+
+    <section class="trusted-section">
+      <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+  
+      <!-- Desktop View -->
+      <div class="desktop-logos">
+          <img src="assets/kfc.jpg" alt="KFC">
+          <img src="assets/kmpc.jpg" alt="KPMG">
+          <img src="assets/dominos.png" alt="Domino's">
+      <img src="assets/google.png" alt="Google">
+      <img src="assets/bcg.png" alt="BCG">
+          <img src="assets/kfc.jpg" alt="Americana">
+      </div>
+  
+      <!-- Mobile View (Carousel) -->
+      <div class="swiper-container mobile-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+          <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+          <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+          <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+          <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="Americana"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cloud services section -->
+    <section class="software-section d-none d-md-block">
+      <div class="crm-software-con">
+          <div class="sofware-spacing">
+              <h5 class="heading">Comprehensive Suite of Custom Software Development Services</h5>
+              <p class="crm-Software-text">Our custom software development process revolves around a hyper-focused approach that prioritizes the tailoring of user experiences and the creation of highly efficient solutions. With our service offerings, we guarantee a transparent and trusted partnership that guarantees delivery of impactful and innovative software development solutions.</p>
+          </div>
+  
+          <div class="services-container">
+              <div class="services-nav">
+                  <div class="service-item active" data-service="software-consulting">
+                      <span class="number">01.</span>
+                      Software Consulting Services
+                  </div>
+                  <div class="service-item" data-service="custom-software">
+                      <span class="number">02.</span>
+                      Custom Software Development Services
+                  </div>
+                  <div class="service-item" data-service="enterprise-software">
+                      <span class="number">03.</span>
+                      Enterprise Software Development Services
+                  </div>
+                  <div class="service-item" data-service="product-development">
+                      <span class="number">04.</span>
+                      Software Product Development Services
+                  </div>
+                  <div class="service-item" data-service="integration-services">
+                      <span class="number">05.</span>
+                      Software Integration Services
+                  </div>
+                  <div class="service-item" data-service="crm-development">
+                      <span class="number">06.</span>
+                      Custom CRM Development Services
+                  </div>
+                  <div class="service-item" data-service="api-development">
+                      <span class="number">07.</span>
+                      API Development Services
+                  </div>
+              </div>
+          
+              <div class="service-content" id="software-consulting">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 2c0-3.31-2.69-6-6-6s-6 2.69-6 6c0 2.22 1.21 4.15 3 5.19l1-1.74c-1.19-.7-2-1.97-2-3.45 0-2.21 1.79-4 4-4s4 1.79 4 4c0 1.48-.81 2.75-2 3.45l1 1.74c1.79-1.04 3-2.97 3-5.19zM12 3C6.48 3 2 7.48 2 13c0 3.7 2.01 6.92 4.99 8.65l1-1.73C5.61 18.53 4 15.96 4 13c0-4.42 3.58-8 8-8s8 3.58 8 8c0 2.96-1.61 5.53-4 6.92l1 1.73c2.99-1.73 5-4.95 5-8.65 0-5.52-4.48-10-10-10z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Software Consulting Services</h2>
+                  <p class="service-description">
+                      As one of the most sought-after <a href="#">custom software consulting companies</a>, we analyze your business needs, conceptualize software structure, and help you get the best value from its development. Our dedicated team of experts leverages its technical prowess to deliver tailored software solutions that drive efficiency and productivity.
+                  </p>
+              </div>
+          
+              <div class="service-content hidden" id="custom-software">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02zM8 16h2.5l1.5 1.5 1.5-1.5H16v-2.5l1.5-1.5-1.5-1.5V8h-2.5L12 6.5 10.5 8H8v2.5L6.5 12 8 13.5V16zm4-7c1.66 0 3 1.34 3 3s-1.34 3-3 3V9z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Custom Software Development Services</h2>
+                  <p class="service-description">
+                      Our custom software development services are designed to create unique, tailor-made applications that address your specific business challenges. We follow an agile methodology throughout the development lifecycle, ensuring flexibility, transparency, and continuous delivery of value. Our solutions are scalable, secure, and built using cutting-edge technologies to provide you with a competitive edge in your industry.
+                  </p>
+              </div>
+          
+              <div class="service-content hidden" id="enterprise-software">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Enterprise Software Development Services</h2>
+                  <p class="service-description">
+                      We develop robust enterprise software solutions that streamline complex business processes and enhance organizational efficiency. Our enterprise-grade applications are designed to handle large-scale operations, integrate with existing systems, and provide comprehensive data management capabilities. We focus on creating secure, reliable, and high-performance software that supports your enterprise's growth and digital transformation initiatives.
+                  </p>
+              </div>
+          
+              <div class="service-content hidden" id="product-development">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2z"></path><circle fill="white" cx="12" cy="8" r="2"></circle><path fill="white" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm-5 7H3v1h4v-1zm11.5 0h-4v1h4v-1zm5.5 0h-4v1h4v-1z"></path><path fill="white" d="M17 4.26v2.09c.57.55.93 1.32.93 2.15 0 .87-.36 1.64-.93 2.18v2.09c1.76-.77 3-2.53 3-4.27s-1.24-3.5-3-4.24z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Software Product Development Services</h2>
+                  <p class="service-description">
+                      Our software product development services help you transform innovative ideas into market-ready products. We handle the entire product development lifecycle, from conceptualization and design to development, testing, and launch. Our team focuses on creating user-centric products with intuitive interfaces, scalable architectures, and compelling features that resonate with your target audience and drive user adoption.
+                  </p>
+              </div>
+
+              <div class="service-content hidden" id="integration-services">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Software Integration Services</h2>
+                  <p class="service-description">
+                      We provide comprehensive software integration services to connect your disparate systems and applications for seamless data flow and enhanced functionality. Our integration solutions enable efficient communication between different software components, eliminate data silos, and automate cross-platform workflows. Whether you need API integration, middleware implementation, or legacy system connectivity, we deliver robust solutions that enhance your operational efficiency.
+                  </p>
+              </div>
+
+              <div class="service-content hidden" id="crm-development">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM7 9H4V5h3v4zm10 6h3v4h-3v-4zm0-10h3v4h-3V5z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Custom CRM Development Services</h2>
+                  <p class="service-description">
+                      Our custom CRM development services create tailored customer relationship management solutions that align perfectly with your sales processes and customer engagement strategies. We develop feature-rich CRM systems with intuitive interfaces, advanced analytics, and automation capabilities that help you manage leads, nurture customer relationships, and drive sales growth. Our custom CRMs integrate seamlessly with your existing business systems for enhanced productivity.
+                  </p>
+              </div>
+
+              <div class="service-content hidden" id="api-development">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path></svg>
+                  </div>
+                  <h2 class="service-title">API Development Services</h2>
+                  <p class="service-description">
+                      Our API development services create robust, secure, and scalable application programming interfaces that enable seamless communication between different software systems. We design RESTful APIs, GraphQL APIs, and microservices architectures that facilitate data exchange, enhance application functionality, and support third-party integrations. Our APIs are thoroughly documented, properly versioned, and built with performance and security as top priorities.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <div class="iot-smart-faq">
+    <div class="faq-headline">
+        <h3 class="heading">Comprehensive Suite of Custom Software Development Services</h3>
+        <span>Our custom software development process revolves around a hyper-focused approach that prioritizes the tailoring of user experiences and the creation of highly efficient solutions. With our service offerings, we guarantee a transparent and trusted partnership that guarantees delivery of impactful and innovative software development solutions.</span>
+    </div>
+    
+    <div class="faq-category">
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4m16 0a8 8 0 01-7 7.94m7-7.94a8 8 0 00-7-7.93m-7 7.93a8 8 0 017-7.93m-7 7.93a8 8 0 007 7.94" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Software Consulting Services
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    As one of the most sought-after custom software consulting companies, we analyze your business needs, conceptualize software structure, and help you get the best value from its development. Our dedicated team of experts leverages its technical prowess to deliver tailored software solutions that drive efficiency and productivity.
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Custom Software Development Services
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our custom software development services are designed to create unique, tailor-made applications that address your specific business challenges. We follow an agile methodology throughout the development lifecycle, ensuring flexibility, transparency, and continuous delivery of value. Our solutions are scalable, secure, and built using cutting-edge technologies to provide you with a competitive edge in your industry.
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Enterprise Software Development Services
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  We develop robust enterprise software solutions that streamline complex business processes and enhance organizational efficiency. Our enterprise-grade applications are designed to handle large-scale operations, integrate with existing systems, and provide comprehensive data management capabilities. We focus on creating secure, reliable, and high-performance software that supports your enterprise's growth and digital transformation initiatives.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5V14m0-2.5v-6a2.5 2.5 0 015 0v6a2.5 2.5 0 01-5 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 9a2 2 0 012-2h4a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V9z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Software Product Development Services
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  Our software product development services help you transform innovative ideas into market-ready products. We handle the entire product development lifecycle, from conceptualization and design to development, testing, and launch. Our team focuses on creating user-centric products with intuitive interfaces, scalable architectures, and compelling features that resonate with your target audience and drive user adoption.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq-hexagon">
+      <div class="hexagon-wrapper">
+          <div class="hexagon-header">
+              <div class="hexagon-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+              </div>
+              <div class="hexagon-question">
+                Software Integration Services
+                  <span class="hexagon-toggle">+</span>
+              </div>
+          </div>
+          <div class="hexagon-content">
+              <div class="hexagon-answer">
+                We provide comprehensive software integration services to connect your disparate systems and applications for seamless data flow and enhanced functionality. Our integration solutions enable efficient communication between different software components, eliminate data silos, and automate cross-platform workflows. Whether you need API integration, middleware implementation, or legacy system connectivity, we deliver robust solutions that enhance your operational efficiency.
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="faq-hexagon">
+    <div class="hexagon-wrapper">
+        <div class="hexagon-header">
+            <div class="hexagon-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+            </div>
+            <div class="hexagon-question">
+              Custom CRM Development Services
+                <span class="hexagon-toggle">+</span>
+            </div>
+        </div>
+        <div class="hexagon-content">
+            <div class="hexagon-answer">
+              Our custom CRM development services create tailored customer relationship management solutions that align perfectly with your sales processes and customer engagement strategies. We develop feature-rich CRM systems with intuitive interfaces, advanced analytics, and automation capabilities that help you manage leads, nurture customer relationships, and drive sales growth. Our custom CRMs integrate seamlessly with your existing business systems for enhanced productivity.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="faq-hexagon">
+    <div class="hexagon-wrapper">
+        <div class="hexagon-header">
+            <div class="hexagon-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+            </div>
+            <div class="hexagon-question">
+              API Development Services
+                <span class="hexagon-toggle">+</span>
+            </div>
+        </div>
+        <div class="hexagon-content">
+            <div class="hexagon-answer">
+              Our API development services create robust, secure, and scalable application programming interfaces that enable seamless communication between different software systems. We design RESTful APIs, GraphQL APIs, and microservices architectures that facilitate data exchange, enhance application functionality, and support third-party integrations. Our APIs are thoroughly documented, properly versioned, and built with performance and security as top priorities.
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<section class="arvr_hero_outer_container">
+  <div class="container-fluid">
+    <div class="arvr_hero_inner_wrapper" style="display: flex; align-items: center;">
+      <div class="arvr_hero_content_container" style="flex: 1; padding: 30px;">
+        <h1 class="arvr_hero_heading">Why partnering with KKRF for DevOps is a rewarding venture</h1>
+        <ul style="list-style: none; padding-left: 0; margin-bottom: 30px;">
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Industry-leading DevOps expertise recognized by Gartner, Forrester, and Clutch</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Proven track record with 50% faster delivery timelines and 40% reduction in development risks</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Seamless implementation of CI/CD pipelines, infrastructure automation, and containerization</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Strategic partnerships with AWS, Azure, Google Cloud, and leading DevOps tool providers</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Strong security focus with DevSecOps practices integrated throughout our development processes</span>
+          </li>
+        </ul>
+        <a href="#contact" class="arvr_hero_button">
+          Discuss Your DevOps Transformation
+          <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+        </a>
+      </div>
+      <div class="arvr_hero_image_container" style="flex: 1; text-align: right; padding: 20px;">
+        <img src="https://images.unsplash.com/photo-1543013309-0d1f4edeb868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="DevOps Engineers Working" class="arvr_hero_image" style="max-width: 100%; height: auto; border-radius: 8px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="software-section d-none d-md-block">
+  <div class="crm-software-con">
+      <div class="sofware-spacing">
+          <h5 class="heading">Our Compliance-Friendly Software Adheres to the Highest Quality Standards</h5>
+          <p class="crm-Software-text">We specialize in developing custom software that helps you adhere to relevant regulatory compliance and protect your businesses from potential harm and reputational damages. Our cutting-edge software development services tailored to your unique business needs ensure foolproof adherence to safety, quality, and regulatory requirements, empowering businesses to achieve sustainable growth and operate with confidence.</p>
+          <p class="crm-Software-text">Some common compliances we follow for software development across industries include:</p>
+      </div>
+
+      <div class="services-container">
+          <div class="services-nav">
+              <div class="service-item active" data-service="ccpa-compliance">
+                  <span class="number">01.</span>
+                  CCPA
+              </div>
+              <div class="service-item" data-service="hipaa-compliance">
+                  <span class="number">02.</span>
+                  HIPAA
+              </div>
+              <div class="service-item" data-service="pci-dss">
+                  <span class="number">03.</span>
+                  PCI-DSS
+              </div>
+              <div class="service-item" data-service="soc2">
+                  <span class="number">04.</span>
+                  SOC 2
+              </div>
+              <div class="service-item" data-service="gdpr">
+                  <span class="number">05.</span>
+                  GDPR
+              </div>
+              <div class="service-item" data-service="iso-27001">
+                  <span class="number">06.</span>
+                  ISO 27001
+              </div>
+              <div class="service-item" data-service="fedramp">
+                  <span class="number">07.</span>
+                  FedRAMP
+              </div>
+          </div>
+      
+          <div class="service-content" id="ccpa-compliance">
+              <div class="service-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+              </div>
+              <h2 class="service-title">CCPA</h2>
+              <p class="service-description">
+                  We ensure all software developed complies with CCPA by incorporating robust data protection features that manage and secure consumer data rights in California. Our DevOps pipelines include automated compliance checks that verify proper handling of personal information, ensure transparent data collection processes, and implement secure deletion mechanisms. We integrate privacy-by-design principles throughout the development lifecycle, ensuring your software maintains CCPA compliance from conception to deployment.
+              </p>
+          </div>
+      
+          <div class="service-content hidden" id="hipaa-compliance">
+              <div class="service-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z"></path></svg>
+              </div>
+              <h2 class="service-title">HIPAA</h2>
+              <p class="service-description">
+                  Our HIPAA-compliant software development ensures proper protection of protected health information (PHI) through end-to-end encryption, secure access controls, and comprehensive audit logging. We implement strict data segregation in our DevOps environments to prevent unauthorized access to sensitive health data. Our automated testing includes specific HIPAA compliance scenarios, and we provide detailed documentation for Business Associate Agreements (BAAs) to support your compliance requirements.
+              </p>
+          </div>
+      
+          <div class="service-content hidden" id="pci-dss">
+              <div class="service-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"></path></svg>
+              </div>
+              <h2 class="service-title">PCI-DSS</h2>
+              <p class="service-description">
+                  For businesses handling payment card information, our PCI-DSS compliant DevOps practices ensure your software meets all security requirements for processing, storing, and transmitting credit card data. We implement network segmentation, regular vulnerability scanning, and strict access controls throughout our CI/CD pipelines. Our automated security testing includes specific checks for common vulnerabilities in payment systems, ensuring your applications maintain PCI compliance with every release.
+              </p>
+          </div>
+      
+          <div class="service-content hidden" id="soc2">
+              <div class="service-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"></path></svg>
+              </div>
+              <h2 class="service-title">SOC 2</h2>
+              <p class="service-description">
+                  We design our DevOps processes to adhere to SOC 2 principles of security, availability, processing integrity, confidentiality, and privacy. Our infrastructure-as-code templates incorporate SOC 2 controls by default, ensuring consistent security configurations across all environments. We implement continuous monitoring and automated alerting systems that help detect and respond to security incidents, with comprehensive audit trails that support your SOC 2 certification requirements.
+              </p>
+          </div>
+
+          <div class="service-content hidden" id="gdpr">
+              <div class="service-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>
+              </div>
+              <h2 class="service-title">GDPR</h2>
+              <p class="service-description">
+                  Our GDPR-compliant development processes ensure that personal data protection is built into your software from the ground up. We implement privacy-by-design principles, data minimization strategies, and user consent management systems. Our DevOps pipelines include automated tests for data subject access requests (DSARs), right to be forgotten capabilities, and data portability features. We provide detailed documentation to support your GDPR compliance efforts and help reduce the risk of severe penalties.
+              </p>
+          </div>
+
+          <div class="service-content hidden" id="iso-27001">
+              <div class="service-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></svg>
+              </div>
+              <h2 class="service-title">ISO 27001</h2>
+              <p class="service-description">
+                  We align our DevOps practices with ISO 27001 standards for information security management systems (ISMS). Our development workflows incorporate risk assessment, security controls, and continuous improvement processes required by ISO 27001. We implement secure coding practices, regular security testing, and comprehensive documentation to support your certification requirements. Our approach ensures that information security considerations are integrated throughout the software development lifecycle.
+              </p>
+          </div>
+
+          <div class="service-content hidden" id="fedramp">
+              <div class="service-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11 7 3.11V11zm-11.59.59L6 13l4 4 8-8-1.41-1.42L10 14.17z"></path></svg>
+              </div>
+              <h2 class="service-title">FedRAMP</h2>
+              <p class="service-description">
+                  For organizations working with the U.S. federal government, our FedRAMP-compliant DevOps processes ensure your software meets the stringent security requirements for cloud services. We implement continuous monitoring, regular security assessments, and detailed documentation required for FedRAMP authorization. Our infrastructure-as-code templates incorporate FedRAMP security controls by default, streamlining the certification process and helping you achieve and maintain compliance for government contracts.
+              </p>
+          </div>
+      </div>
+  </div>
+</section>
+  
+  
+
+ 
+
+<div class="bi-wrapper">
+  <h1 class="heading">Proven Capabilities to Build Diverse Industry-Based Software</h1>
+  <p class="bi-subtitle">As an industry leader in software application development services, our dedicated team works around the clock to build custom technology solutions tailored to your industry and business needs. We focus on delivering high-quality, scalable, and secure applications that drive efficiency and innovation. Our expertise spans various industries, ensuring that we can meet the unique challenges and requirements of your sector.</p>
+  
+  <div class="bi-accordion-container">
+      <!-- FinTech -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+              </svg></span>
+              <div class="bi-accordion-title">FinTech</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">Our DevOps practices for the FinTech sector ensure secure, compliant, and high-performance financial applications. We implement robust CI/CD pipelines that integrate automated security testing and compliance checks for regulations like PCI DSS and SOX. Our infrastructure automation ensures high availability and disaster recovery capabilities essential for financial services, while our monitoring solutions provide real-time insights into application performance and security.</p>
+          </div>
+      </div>
+      
+      <!-- Banking -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4 8.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+              </svg></span>
+              <div class="bi-accordion-title">Banking</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">For banking institutions, our DevOps solutions create secure deployment pipelines with multi-layered security validation. We implement infrastructure as code to ensure consistent, auditable environments that meet regulatory requirements. Our automated testing includes specific scenarios for banking applications, and our deployment processes include zero-downtime strategies to ensure continuous availability of critical banking services. We maintain strict separation of duties through granular access controls throughout the development lifecycle.</p>
+          </div>
+      </div>
+      
+      <!-- Insurance -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+              </svg></span>
+              <div class="bi-accordion-title">Insurance</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">Our DevOps solutions for insurance companies focus on data security, scalability, and compliance. We build automated pipelines that include specific tests for data privacy regulations and insurance industry standards. Our infrastructure automation enables rapid scaling during peak periods such as enrollment seasons or claim surges following natural disasters. We implement comprehensive monitoring solutions that track both system performance and data integrity to ensure accurate processing of policies and claims.</p>
+          </div>
+      </div>
+      
+      <!-- Lending -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+              </svg></span>
+              <div class="bi-accordion-title">Lending</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">For lending platforms, our DevOps practices ensure reliable, secure, and compliant loan processing applications. We implement automated deployment pipelines with integrated compliance checks for regulations like TILA and ECOA. Our infrastructure automation includes robust database management practices with special attention to data integrity and audit trails. We build monitoring systems that track application performance metrics specifically relevant to lending operations, ensuring fast loan processing and excellent customer experience.</p>
+          </div>
+      </div>
+      
+      <!-- Payment -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+              </svg></span>
+              <div class="bi-accordion-title">Payment</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">Our DevOps solutions for payment systems prioritize security, reliability, and performance. We implement secure CI/CD pipelines with comprehensive security testing including OWASP top 10 vulnerabilities and PCI DSS requirements. Our infrastructure automation creates isolated, secure environments with strict network segmentation. We build monitoring solutions that detect unusual transaction patterns, alert on performance issues, and provide real-time visibility into payment processing status to ensure transaction integrity and availability.</p>
+          </div>
+      </div>
+      
+      <!-- Energy -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+              </svg></span>
+              <div class="bi-accordion-title">Energy</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">For the energy sector, our DevOps practices deliver reliable solutions for critical infrastructure. We implement robust CI/CD pipelines with specialized security testing for industrial control systems and SCADA environments. Our infrastructure automation includes high-availability architectures with geographic redundancy to ensure continuity of operations. We develop comprehensive monitoring solutions that track both IT and OT systems, providing early detection of potential issues and ensuring compliance with energy industry regulations and standards.</p>
+          </div>
+      </div>
+      
+      <!-- Oil and Gas -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6ZM6.646 4.646l.708.708c-.29.29-.584.582-.876.876l-.708-.708c.292-.294.588-.591.876-.876ZM8 15c-2.485 0-4.5-2.015-4.5-4.5S5.515 6 8 6s4.5 2.015 4.5 4.5S10.485 15 8 15Z"/>
+              </svg></span>
+              <div class="bi-accordion-title">Oil and Gas</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">Our DevOps solutions for the oil and gas industry focus on reliability, safety, and efficiency. We implement CI/CD pipelines with rigorous testing for applications that monitor and control critical operations. Our infrastructure automation approaches include high redundancy and disaster recovery capabilities to ensure operational continuity in even the most challenging conditions. We develop specialized monitoring solutions that integrate with industrial control systems to provide comprehensive visibility across both IT and OT environments.</p>
+          </div>
+      </div>
+      
+      <!-- EV -->
+      <div class="bi-accordion-item">
+          <div class="bi-accordion-header">
+              <span class="bi-accordion-index"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17 1.247 0 2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276Z"/>
+                  <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848Z"/>
+              </svg></span>
+              <div class="bi-accordion-title">EV</div>
+              <div class="bi-accordion-icon">+</div>
+          </div>
+          <div class="bi-accordion-content">
+              <p class="bi-accordion-text">For the electric vehicle industry, our DevOps practices support the rapid development of software for charging infrastructure, battery management systems, and connected vehicle applications. We implement CI/CD pipelines that include specialized testing for embedded systems and IoT devices. Our infrastructure automation supports edge computing deployments and cloud backend systems, ensuring reliable connectivity and performance. We build comprehensive monitoring solutions that provide insights into both hardware and software performance across distributed charging networks.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<section class="erp-services">
+  <div class="container">
+    <h2 class="heading m-5">Your Software Product Comes Pre-Built<br> With AI Integrations</h2>
+    <p class="section-description m-5">
+      One of our goals is to provide our clients with a ready competitive advantage and integrate AI capabilities during the software development process to empower:
+    </p>
+
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <!-- Higher Automation -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3" style="background-color: #1a1a1a; color: white;">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                  <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Higher Automation</h5>
+              <p class="card-text">With the latest AI LLMs taking over most of your mundane business processes, focus your resources' attention on ideas, strategies, and actions of growth.</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <!-- Smarter Predictions -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3" style="background-color: #1a1a1a; color: white;">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Smarter Predictions</h5>
+              <p class="card-text">Empower your efficiency, intelligence, and analytics teams with smarter, automatically curated, customizable data to provide deeper on-demand insights and consistent real-time monitoring.</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <!-- Quality Coding -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3" style="background-color: #1a1a1a; color: white;">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Quality Coding</h5>
+              <p class="card-text">One of our development teams' biggest boons is adding AI coding and code-reviewing integrations that help build top-quality codes for your product and provide a no-code environment for future innovations.</p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section">
+  <div class="stats-card" >
+    <div class="stats-container">
+      <div class="stat-card1 col-6 col-md-3">
+        <div class="stat-number">9+</div>
+        <div class="stat-description">Years in Custom<br>Software Development</div>
+      </div>
+      
+      <div class="stat-card1 col-6 col-md-3">
+        <div class="stat-number">3000+</div>
+        <div class="stat-description">Software Projects<br>Delivered</div>
+      </div>
+      
+      <div class="stat-card1 col-6 col-md-3">
+        <div class="stat-number">1600+</div>
+        <div class="stat-description">Certified Technology<br>Professionals</div>
+      </div>
+      
+      <div class="stat-card1 col-6 col-md-3">
+        <div class="stat-number">98%</div>
+        <div class="stat-description">Client Retention Rate</div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="#" class="cta-button" >Schedule Consultation Call</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="dpd-company-section">
+  <div class="dpd-company-container">
+    <div class="dpd-company-header">
+      <h2 class="heading">Factors that Cement Our Credibility as a Custom Software Development Company</h2>
+      
+      <p class="dpd-company-description">
+        With almost a decade of experience in the industry, we have the expertise to handle software development projects of diverse complexity levels, making KKRF's custom software development services the right fit for your <a href="#">IT consulting</a> needs.
+      </p>
+    </div>
+    
+    <div class="dpd-company-grid">
+      <!-- Quality Product -->
+      <div class="dpd-company-feature">
+        <div class="dpd-feature-header">
+          <div class="dpd-feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+              <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" stroke="#007bff" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <div class="numbered-label">001</div>
+          <h3 class="dpd-feature-title">Quality Product</h3>
+        </div>
+        <div class="dpd-feature-divider"></div>
+        <p class="dpd-feature-description">
+          As the best custom software development company in USA, we first build an MVP to test the efficiency of your product. We ensure the implementation of rigorous testing techniques, obtain continuous feedback to meet user requirements and deliver a user-friendly and intuitive software solution.
+        </p>
+      </div>
+      
+      <!-- Agile Software Services -->
+      <div class="dpd-company-feature">
+        <div class="dpd-feature-header">
+          <div class="dpd-feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+              <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#007bff" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <div class="numbered-label">002</div>
+          <h3 class="dpd-feature-title">Agile Software Services</h3>
+        </div>
+        <div class="dpd-feature-divider"></div>
+        <p class="dpd-feature-description">
+          As an esteemed software solution company, our team, with its rich expertise and diverse experience, optimizes all processes and employs the best agile practices for offering mobile software development services, leading to a reduction in custom software application development time by approximately 50%.
+        </p>
+      </div>
+      
+      <!-- Security and Compliance -->
+      <div class="dpd-company-feature">
+        <div class="dpd-feature-header">
+          <div class="dpd-feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+              <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+              <path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="#007bff" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <div class="numbered-label">003</div>
+          <h3 class="dpd-feature-title">Security and Compliance</h3>
+        </div>
+        <div class="dpd-feature-divider"></div>
+        <p class="dpd-feature-description">
+          As a trusted custom software development company, we adhere to relevant regulatory compliance and data security measures. We continually update our security protocols to counter emerging threats and maintain a secure, compliant environment tailored to your needs.
+        </p>
+      </div>
+      
+      <!-- Latest Technology Stack -->
+      <div class="dpd-company-feature">
+        <div class="dpd-feature-header">
+          <div class="dpd-feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+              <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="#007bff" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <div class="numbered-label">004</div>
+          <h3 class="dpd-feature-title">Latest Technology Stack</h3>
+        </div>
+        <div class="dpd-feature-divider"></div>
+        <p class="dpd-feature-description">
+          As a remarkable software development services company, we utilize a range of advanced technologies and programming languages for your project that guarantees seamless integration of processes, from system architecture to frontend and backend development and post-delivery maintenance.
+        </p>
+      </div>
+      
+      <!-- Complete Transparency -->
+      <div class="dpd-company-feature">
+        <div class="dpd-feature-header">
+          <div class="dpd-feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+              <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" stroke="#007bff" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <div class="numbered-label">005</div>
+          <h3 class="dpd-feature-title">Complete Transparency</h3>
+        </div>
+        <div class="dpd-feature-divider"></div>
+        <p class="dpd-feature-description">
+          Transparency is the key to effective business relationships. As a software development company, we always keep our clients up to date with the status of their projects and provide a clear view of every technological decision.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="arvr_hero_outer_container">
+  <div class="container-fluid">
+    <div class="arvr_hero_inner_wrapper" style="display: flex; align-items: center;">
+      <div class="arvr_hero_content_container" style="flex: 1; padding: 30px;">
+        <h1 class="arvr_hero_heading">Know What Makes KKRF Your Ideal Software Development Partner</h1>
+        <ul style="list-style: none; padding-left: 0; margin-bottom: 30px;">
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Recognized excellence by Deloitte, Clutch, Statista, Good Firms, The Economic Times, etc.</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Unmatched expertise in CI/CD, automation, containerization, infrastructure as code, and DevSecOps</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Adherence to FDA, HIPAA, GDPR, and other relevant regulations</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 24px; margin-right: 10px;">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Standing partnerships with Microsoft Azure, Google Cloud, and AWS</span>
+          </li>
+        </ul>
+        <a href="#contact" class="arvr_hero_button">
+          Discuss Your Project Idea
+          <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+        </a>
+      </div>
+      <div class="arvr_hero_image_container" style="flex: 1; text-align: right; padding: 20px;">
+        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80" alt="DevOps Engineers Working" class="arvr_hero_image" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bct-solutions-wrapper" style="background-color: #0f0f0f; color: white; padding: 40px 20px;">   
+  <div class="bct-solutions-inner-container">       
+    <h1 class="heading mb-5 mt-5">We Cover a Wide Range of Software Development</h1>              
+    
+    <p class="bct-solutions-intro-paragraph mb-5 mt-5">           
+      At KKRF, we specialize in creating a diverse range of software tailored to meet the unique needs of your business across industries.
+    </p>              
+    
+    <div class="bct-solutions-services-grid mb-5 mt-5">           
+      <!-- Column 1 -->           
+      <div class="bct-solutions-service-column">               
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Product Management Software</a>               
+        </div>                              
+        
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">CMS Software</a>               
+        </div>                              
+        
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">SCM Software</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">HRM Software</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Cybersecurity Software</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">CRM Software</a>               
+        </div>
+      </div>                      
+      
+      <!-- Column 2 -->           
+      <div class="bct-solutions-service-column">               
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Inventory Management Software</a>               
+        </div>                              
+        
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Asset Management Software</a>               
+        </div>                              
+        
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Dating Platforms</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Fitness Platforms</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Job Portals</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Online Marketplace</a>               
+        </div>
+      </div>                      
+      
+      <!-- Column 3 -->           
+      <div class="bct-solutions-service-column">               
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Cab and Rideshare Services Software</a>               
+        </div>                              
+        
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Food Delivery Platforms</a>               
+        </div>                              
+        
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Social Networking Solutions</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Learning Management Systems</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Content Creation Systems</a>               
+        </div>
+
+        <div class="bct-solutions-service-item">                   
+          <span class="bct-solutions-bullet-point"></span>                   
+          <a href="#" class="bct-solutions-service-link">Wealth Management Systems</a>               
+        </div>
+      </div>           
+    </div>   
+  </div> 
+</section>
+
+<section class="partner-section">
+  <div class="intro-container">
+    <h1 class="heading mt-5">Delivering Hyper-Focused and Bespoke Business Software Built On Future-Forward Technologies</h1>
+    <p class="intro-text">
+      As a leading software product development services provider, our custom software solutions encompass more than mere coding. We excel in all facets of custom application development, ranging from concept ideation and product management to design, security testing, and compliance assurance.
+    </p>
+  </div>
+
+  <div class="features-container">
+    
+   
+    <div class="feature-box">
+      <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+              <path d="M24 8L8 16v16c0 8 16 16 16 16s16-8 16-16V16L24 8z" />
+              <path d="M24 24a4 4 0 100-8 4 4 0 000 8z" fill="white"/>
+              <path d="M24 22v10M19 27h10" stroke="white" stroke-width="2"/>
+            </svg>
+      </div>
+    <div>
+      <h2 class="feature-title">Artificial Intelligence</h2>
+      <p class="feature-text">
+        An illustrious software development company in New York like ours leverages <a href="#">AI technology</a> in custom software solutions that enable intelligent automation, predictive analytics, and natural language processing. This enhances functionalities, decision-making, and user experiences, empowering businesses to optimize processes, gain valuable insights, and remain competitive in a digital environment.
+      </p>
+    </div>
+  </div>
+    <hr />
+    
+
+    <div class="feature-box">
+      <div class="feature-icon-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+          <path d="M12 28h24M12 36h24M12 20h24M12 12h24" />
+          <circle cx="20" cy="12" r="3" fill="white"/>
+          <circle cx="16" cy="20" r="3" fill="white"/>
+          <circle cx="30" cy="28" r="3" fill="white"/>
+          <circle cx="24" cy="36" r="3" fill="white"/>
+        </svg>
+      </div>
+      <div>
+      <h2 class="feature-title">IoT</h2>
+      <p class="feature-text">
+        As a custom software development consulting firm, our experts possess technical knowledge in leveraging <a href="#">IoT technology</a> to seamlessly integrate physical devices, sensors, and data streams with custom software solutions. This makes way for real-time monitoring, automation, and actionable insights.
+      </p>
+    </div>
+  </div>
+    <hr />
+
+    <div class="feature-box">
+      <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+              <circle cx="24" cy="24" r="20" />
+              <path d="M24 14v20M14 24h20" stroke="white" stroke-width="2"/>
+              <circle cx="24" cy="24" r="4" fill="white"/>
+            </svg>
+        </div>
+      <div>
+      <h2 class="feature-title">Metaverse</h2>
+      <p class="feature-text">
+        Being a leading custom software development solutions provider, we possess profound expertise in cutting-edge technologies like the <a href="#">Metaverse</a>. With our metaverse app development proficiency, we craft captivating virtual environments that set your business apart in a competitive market.
+      </p>
+    </div>
+  </div>
+    <hr />
+
+    <div class="feature-box">
+      <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+              <rect x="8" y="12" width="32" height="24" rx="2" />
+              <path d="M18 24l4 4 8-8" stroke="white" stroke-width="2"/>
+              <path d="M16 36v4h16v-4" stroke="white" stroke-width="2"/>
+            </svg>
+        </div>
+      <div>
+      <h2 class="feature-title">Cloud</h2>
+      <p class="feature-text">
+          Being a committed customized software development company, we harness the potential of <a href="#">cloud technology</a> to deliver seamless and secure software applications. Leveraging <a href="#">advanced security measures</a>, the cloud enables swift and effortless app updates, facilitating a streamlined and efficient business approach.
+      </p>
+    </div>
+  </div>
+    <hr />
+
+    <div class="feature-box">
+      <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+              <path d="M8 12h32v24H8z" />
+              <path d="M16 12v24M32 12v24M8 24h32" stroke="white" stroke-width="2"/>
+              <circle cx="24" cy="24" r="4" fill="white"/>
+            </svg>
+        </div>
+      <div>
+      <h2 class="feature-title">Data Analytics</h2>
+      <p class="feature-text">
+          Our <a href="#">data science and analytics services</a> unlock valuable insights from your business data and facilitate data-driven decision-making, optimized operations, and reduced risks. Being an esteemed customized software development company, we leverage advanced processing and data storage techniques to enhance user experiences, increase agility, and improve overall business performance.
+      </p>
+    </div>
+  </div>
+    <hr />
+
+    <div class="feature-box">
+      <div class="feature-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" stroke-width="2">
+              <path d="M24 6c-5.5 0-10 4.5-10 10v16c0 5.5 4.5 10 10 10s10-4.5 10-10V16c0-5.5-4.5-10-10-10z" />
+              <path d="M24 42c-2.5 0-4.5-2-4.5-4.5h9c0 2.5-2 4.5-4.5 4.5z" fill="white"/>
+              <path d="M24 6v8M31 20h-14" stroke="white" stroke-width="2"/>
+            </svg>
+        </div>
+      <div>
+      <h2 class="feature-title">Machine Learning</h2>
+      <p class="feature-text">
+          As a premier custom software development company, we leverage advanced machine learning technologies to unlock new possibilities for your business. Our deep understanding of data-driven analytics and machine learning applications enables us to build intelligent ML models that optimize decision-making and provide actionable insights.
+      </p>
+    </div>
+  </div>
+    
+  </div>
+</section>
+
+
+<section class="erp-services">
+  <div class="container">
+    <h2 class="heading m-5">Delivering Robust Software Solutions</h2>
+    <p class="section-description m-5">
+      KKRF provides specialized software development services to help organizations optimize business processes and gain a competitive edge in the digital landscape.
+    </p>
+
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <!-- Enterprise-Wide Software -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm5.5 1v1h5V4h-5zm-.5 2v1h6V6H5zm0 2v1h3V8H5zm0 2v1h4v-1H5zm5 0v1h1v-1h-1zm3 0v1h1v-1h-1z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Enterprise-Wide Software</h5>
+              <p class="card-text">Comprehensive, integrated solutions that serve as a centralized data repository, ensuring business resilience and seamless process flow across departments.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Departmental Software -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                  <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Departmental Software</h5>
+              <p class="card-text">Tailored solutions for specific departments, including CRM, HRIS, and Project Management software to enhance efficiency and productivity.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Business Process Management Software -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Business Process Management</h5>
+              <p class="card-text">Custom software solutions that support industry-specific workflows and optimize business processes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="erp-services">
+  <div class="container">
+    <h2 class="heading m-5">Our Collaboration Approaches</h2>
+    <p class="section-description m-5">
+      Strategic software development services tailored to your unique business needs and collaboration preferences.
+    </p>
+
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <!-- Software Development Outsourcing -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Software Development Outsourcing</h5>
+              <p class="card-text">Integrate expert teams to build intuitive, scalable solutions aligned with your vision.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Dedicated Software Development Team -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Dedicated Development Team</h5>
+              <p class="card-text">A focused team handling coding, QA, and integration, committed exclusively to your project for accelerated development.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Team Augmentation -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+          <div class="scroll-card p-3">
+            <div class="card-body text-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1E88E5" viewBox="0 0 16 16">
+                  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                </svg>
+              </div>
+              <h5 class="card-title">Team Augmentation</h5>
+              <p class="card-text">Strategic expansion of your workforce with skilled professionals, including developers, designers, and project managers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+<section class="stats-section">
+  <div class="stats-card">
+    <h2 class="text-center mb-4">Hiring our software development services comes with</h2>
+    <div class="stats-container">
+      <div class="stat-card1 col-6 col-md-4">
+        <div class="stat-number">95% </div>
+        <div class="stat-description">Quality of service</div>
+      </div>
+      
+      <div class="stat-card1 col-6 col-md-4">
+        <div class="stat-number">90% </div>
+        <div class="stat-description">Time to market</div>
+      </div>
+      
+      <div class="stat-card1 col-6 col-md-4">
+        <div class="stat-number">80%</div>
+        <div class="stat-description">Overall costs</div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="#" class="cta-button">Contact Us</a>
+    </div>
+  </div>
+</section>
+    
+
+<section class="product-features-section">
+  <div class="product-features-container">
+    <h2 class="heading text-center">Software Development Methodologies We Employ</h2>
+    
+    <p class="product-features-description">
+      We, as an illustrious business software development company, work with different software development methodologies as per your business needs to simplify routine tasks that accelerate the development process. With our software development services, you can leverage the power of:
+    </p>
+    
+    <div class="product-features-slider-container">
+      <div class="product-features-slider" id="productFeaturesSlider">
+        <!-- Process Step 1 -->
+        <div class="product-feature-card">
+          <div class="product-feature-number">01</div>
+          <h3 class="product-feature-title">DevOps</h3>
+          <p class="product-feature-description">
+            DevOps is a collaborative approach that is meant to improve work throughout the software development lifecycle. Our offshore and nearshore software development service experts adopt the industry-best <a href="#" class="product-feature-link">DevOps services practices</a> that help your business to achieve the desired transparency and real-time decision-making for all undergoing developments.
+          </p>
+        </div>
+        
+        <!-- Agile Methodology -->
+        <div class="product-feature-card">
+          <div class="product-feature-number">02</div>
+          <h3 class="product-feature-title">Agile</h3>
+          <p class="product-feature-description">
+            The agile methodology helps to manage a project by breaking it down into several phases. It involves constant collaboration and constant improvement at every stage. As one of the pioneering software developer companies, we are fully experienced with the best <a href="#" class="product-feature-link">agile software development practices</a> to ensure a top-notch quality product is delivered in less time.
+          </p>
+        </div>
+        
+        <!-- Scrum Methodology -->
+        <div class="product-feature-card">
+          <div class="product-feature-number">03</div>
+          <h3 class="product-feature-title">Scrum</h3>
+          <p class="product-feature-description">
+            Scrum is an agile development methodology based on iterative processes. It is a quick, flexible, and adaptable agile framework that delivers value to your project throughout your custom business software development project. As a dedicated software development service provider, our scrum software development process ensures transparency in communication, collective responsibility, and collective progress for your project.
+          </p>
+        </div>
+        
+        <!-- Waterfall Methodology -->
+        <div class="product-feature-card">
+          <div class="product-feature-number">04</div>
+          <h3 class="product-feature-title">Waterfall</h3>
+          <p class="product-feature-description">
+            The waterfall methodology is a sequential approach in which each phase of the project is completely wrapped up before the next phase begins. The success of the methodology depends on the amount and quality of work done on the front end. As a top-rated software development services provider, we understand the same and work towards all the planned goals with utmost diligence and flexibility.
+          </p>
+        </div>
+        
+        <!-- CI/CD Pipeline -->
+        <div class="product-feature-card">
+          <div class="product-feature-number">05</div>
+          <h3 class="product-feature-title">CI/CD Pipeline</h3>
+          <p class="product-feature-description">
+            Continuous Integration and Continuous Delivery (CI/CD) forms the backbone of our DevOps methodology. This approach enables frequent code integration, automated testing, and streamlined deployment, dramatically reducing time-to-market while maintaining high quality standards. Our robust CI/CD pipelines ensure that every code change is verified, tested, and delivered efficiently.
+          </p>
+        </div>
+        
+        <!-- Infrastructure as Code -->
+        <div class="product-feature-card">
+          <div class="product-feature-number">06</div>
+          <h3 class="product-feature-title">Infrastructure as Code</h3>
+          <p class="product-feature-description">
+            We implement Infrastructure as Code (IaC) practices to automate environment setup and management. This approach allows us to provision and configure infrastructure through code rather than manual processes, ensuring consistency across development, testing, and production environments while eliminating configuration drift and human error.
+          </p>
+        </div>
+        
+        <!-- Containerization -->
+        <div class="product-feature-card">
+          <div class="product-feature-number">07</div>
+          <h3 class="product-feature-title">Containerization</h3>
+          <p class="product-feature-description">
+            Our DevOps methodology leverages containerization technologies like Docker and Kubernetes to package applications and their dependencies into isolated, portable units. This approach ensures consistent behavior across different environments, simplifies deployment, and enables efficient scaling to meet varying workload demands while maintaining application reliability.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Navigation Arrows -->
+      <button class="product-features-nav-arrow product-features-prev-arrow" id="productFeaturesPrev" aria-label="Previous feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+      </button>
+      <button class="product-features-nav-arrow product-features-next-arrow" id="productFeaturesNext" aria-label="Next feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="tech-stack-section">
+  <div class="container text-center py-5">
+    <h1 class="heading mt-5 mb-4">Software development</h1>
+    
+    <p class="subheading mb-5">
+      The key to successful software development implementation lies in its advanced tools. Here are a few essential services tools and platforms we use for software development automation, seamless collaboration, and continuous delivery.
+    </p>
+    
+    <!-- Tech Category Tabs -->
+    <div class="tech-categories mb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+          <div class="tech-category active" data-category="backend">
+            <p class="mb-0">Backend Programming Languages</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+          <div class="tech-category" data-category="frontend">
+            <p class="mb-0">Frontend Programming Languages</p>
+          </div>
+        </div>
+        <!-- <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+          <div class="tech-category" data-category="javascript">
+            <p class="mb-0">JavaScript Frameworks</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+          <div class="tech-category" data-category="mobile">
+            <p class="mb-0">Mobile Development</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+          <div class="tech-category" data-category="desktop">
+            <p class="mb-0">Desktop Development</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    
+    <!-- Tech Tools Display Area -->
+    <div class="tech-tools-container mt-5 pt-4">
+      <!-- Backend Programming Languages (Default View) -->
+      <div class="tech-tools-content active" id="backend-tools">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- .NET Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#5C2D91" opacity="0.2"/>
+                  <path d="M2 15.5v-9c0-1.1.9-2 2-2h4L12 9 8 14H4c-1.1 0-2-.9-2-2z" fill="#5C2D91"/>
+                  <path d="M22 15.5v-9c0-1.1-.9-2-2-2h-4L12 9l4 5h4c1.1 0 2-.9 2-2z" fill="#5C2D91"/>
+                </svg>
+              </div>
+              <p class="tool-name">.NET</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- Java Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#007396" opacity="0.2"/>
+                  <path d="M8.851 18.56s-.917.534.653.714c1.902.218 2.874.187 4.969-.211 0 0 .552.346 1.321.646-4.699 2.013-10.633-.118-6.943-1.149M8.276 15.933s-1.028.761.542.924c2.032.209 3.636.227 6.413-.308 0 0 .384.389.987.602-5.679 1.661-12.007.13-7.942-1.218M13.116 11.475c1.158 1.333-.304 2.533-.304 2.533s2.939-1.518 1.589-3.418c-1.261-1.772-2.228-2.652 3.007-5.688 0-.001-8.216 2.051-4.292 6.573" fill="#007396"/>
+                  <path d="M19.33 20.504s.679.559-.747.991c-2.712.822-11.288 1.069-13.669.033-.856-.373.75-.89 1.254-.998.527-.114.828-.93.828-.093-0.953-.671-6.156 1.317-2.643 1.887 9.58 1.553 17.462-.7 14.977-1.82M9.292 13.21s-4.362 1.036-1.544 1.412c1.189.159 3.561.123 5.77-.062 1.806-.152 3.618-.477 3.618-.477s-.637.272-1.098.587c-4.429 1.165-12.986.623-10.522-.568 2.082-1.006 3.776-.892 3.776-.892M17.116 17.584c4.503-2.34 2.421-4.589.968-4.285-.355.074-.515.138-.515.138s.132-.207.385-.297c2.875-1.011 5.086 2.981-.928 4.562 0 0 .07-.062.090-.118" fill="#007396"/>
+                  <path d="M14.401 0s2.494 2.494-2.365 6.33c-3.896 3.077-.888 4.832-.001 6.836-2.274-2.053-3.943-3.858-2.824-5.539 1.644-2.469 6.197-3.665 5.19-7.627" fill="#007396"/>
+                  <path d="M10.139 23.863c4.363.28 11.059-.156 11.21-2.231 0 0-.305.787-3.605 1.411-3.731.705-8.333.623-11.061.171 0 0 .559.461 3.456.649" fill="#007396"/>
+                </svg>
+              </div>
+              <p class="tool-name">Java</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- Python Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#3776AB" opacity="0.2"/>
+                  <path d="M12 2C8.8 2 8 3.13 8 5v2h4v1H5.5C3.47 8 2 9.79 2 12c0 2.21 1.5 4 3.5 4H7v-2.5C7 11.29 9.07 9 11.32 9h5.35c1.99 0 3.31-1.54 3.31-3.5V5c0-1.88-1.59-3-4-3h-4zm-1.5 1.5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z" fill="#3776AB"/>
+                  <path d="M17 22c3.2 0 4-1.13 4-3v-2h-4v-1h6.5c2.03 0 3.5-1.79 3.5-4 0-2.21-1.5-4-3.5-4H17v2.5c0 2.21-2.07 4.5-4.32 4.5H7.33c-1.99 0-3.31 1.54-3.31 3.5v3c0 1.88 1.59 3 4 3h9-.02zm1.5-1.5c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z" fill="#FFD43B"/>
+                </svg>
+              </div>
+              <p class="tool-name">Python</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- PHP Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#777BB4" opacity="0.2"/>
+                  <path d="M12 2c-5.523 0-10 3.582-10 8s4.477 8 10 8 10-3.582 10-8-4.477-8-10-8zm-3.11 5.262h1.57l-.412 2.109h1.389c.789.009 1.359.13 1.699.361.34.222.461.667.365 1.326l-.502 2.581H11.5l.475-2.453c.55-.282.044-.475-.033-.566-.085-.09-.297-.123-.641-.123h-1.246l-.64 3.142h-1.57l1.045-5.377zm5.786 0h1.57l-.412 2.109h1.398c.79.009 1.36.13 1.699.361.34.222.461.667.366 1.326l-.502 2.581h-1.499l.475-2.453c.55-.282.044-.475-.033-.566-.085-.09-.297-.123-.641-.123h-1.246l-.64 3.142h-1.57l1.045-5.377zm-9.177.151h2.999c.866.01 1.476.106 1.837.291.361.194.575.5.644.919.074.419.037.762-.109 1.023-.142.27-.378.498-.711.683.366.116.632.295.8.539.169.235.22.618.155 1.141-.068.528-.225.955-.471 1.28-.246.326-.565.563-.958.713-.393.15-.959.226-1.696.228H3.454l1.045-5.817zm1.082 1.032l-.242 1.363h.998c.406 0 .675-.034.796-.099.121-.074.204-.242.249-.503.04-.261.017-.44-.076-.529-.093-.098-.373-.141-.837-.135l-.888-.097zm-.504 2.352l-.284 1.594h1.154c.46.008.77-.04.93-.145.16-.104.267-.292.322-.572.055-.28.035-.462-.059-.546-.093-.093-.375-.14-.84-.14l-1.223-.191z" fill="#777BB4"/>
+                </svg>
+              </div>
+              <p class="tool-name">PHP</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- Node.js Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#339933" opacity="0.2"/>
+                  <path d="M12 1.845c-.305 0-.61.072-.891.223L3.159 6.384c-.563.3-.908.891-.908 1.517v9.198c0 .626.346 1.218.908 1.517l7.949 4.315c.281.152.587.223.891.223.305 0 .61-.072.891-.223l7.949-4.315c.563-.3.908-.891.908-1.517V7.901c0-.626-.346-1.218-.908-1.517l-7.949-4.315c-.281-.152-.587-.223-.891-.223zm0 2.778c.064 0 .128.015.185.045l6.684 3.632c.114.061.185.18.185.309v7.263c0 .129-.07.248-.185.309l-6.684 3.632c-.057.03-.121.045-.185.045s-.128-.015-.185-.045l-6.684-3.632c-.114-.061-.185-.18-.185-.309V8.609c0-.129.07-.248.185-.309l6.684-3.632c.057-.03.121-.045.185-.045zm.008 1.956c-2.022 0-3.551 1.021-3.551 2.759 0 1.65 1.313 2.232 3.441 2.45 2.537.259 2.737.645 2.737 1.156 0 .89-.673 1.27-2.26 1.27-1.998 0-2.438-.502-2.589-1.499a.237.237 0 00-.234-.206h-.952c-.13 0-.234.11-.234.245 0 1.46.795 3.202 4.01 3.202 2.402 0 3.779-1.019 3.779-2.799 0-1.765-1.169-2.232-3.613-2.58-2.474-.343-2.564-.516-2.564-1.123 0-.501.219-1.167 2.029-1.167 1.628 0 2.236.359 2.484 1.47.022.114.12.198.237.198h.953c.068 0 .132-.28.176-.076a.245.245 0 00.055-.168c-.134-1.614-1.204-2.381-3.906-2.381l.001-.001z" fill="#339933"/>
+                </svg>
+              </div>
+              <p class="tool-name">Node.js</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- GO Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#00ADD8" opacity="0.2"/>
+                  <path d="M1.811 10.231c-.047 0-.058-.023-.035-.059l.246-.315c.023-.035.081-.058.128-.058h4.172c.046 0 .058.023.035.058l-.246.316c-.023.035-.081.058-.128.058h-4.172zM.047 11.306c-.047 0-.058-.023-.035-.059l.245-.315c.023-.035.081-.058.128-.058h5.328c.047 0 .07.023.058.058l-.093.315c-.012.047-.058.059-.105.059H.047zM2.405 12.381c-.047 0-.058-.023-.035-.059l.163-.215c.023-.035.07-.059.117-.059h2.339c.047 0 .07.024.07.059l-.023.215c0 .036-.047.059-.093.059h-2.538zM8.517 15.297c-.736.187-1.239.327-1.963.374-.176.012-.187 0-.163-.151.023-.128.4-1.884.4-1.884.047-.151.093-.175.187-.151L8.15 13.67c.187.035.4.152.4.339-.023.674-.233 1.112-.034 1.287zm.081-3.521c-.61.059-1.356.093-2.047.093-1.66 0-2.503-.303-2.503-.978 0-.514.058-.683 1.365-1.217 1.554-.63 2.187-.956 2.187-1.694 0-.772-.702-1.182-1.995-1.182-.818 0-1.614.093-2.374.27-.023 0-.128.012-.14.012-.117 0-.128-.082-.14-.216L2.87 6.262c0-.094.012-.176.093-.2.665-.245 1.551-.361 2.55-.361 2.066 0 3.109.679 3.109 2.036 0 .54-.221.867-1.084 1.33-1.488.795-1.811.994-1.811 1.642 0 .513.505.806 1.471.806.632 0 1.19-.056 1.798-.157.082-.012.128-.012.14-.012.092 0 .104.082.116.164l.13.514c.012.093-.012.198-.094.234z" fill="#00ADD8"/>
+                  <path d="M16.807 16.352c-.186.176-.538.235-.865.235-1.095 0-1.633-.679-1.633-2.036 0-1.627.866-2.575 2.236-2.575.748 0 1.58.245 1.58.915 0 .915-1.076 1.008-2.103 1.008h-.576c0 .719.245 1.214.854 1.214.352 0 .83-.12 1.028-.315.07-.046.094-.07.14-.046l.187.245c.047.046.035.117-.047.164l.01.01c-.01 0-.03.012-.03.012-.245.222-.654.361-1.124.361-1.356 0-2.022-.915-2.022-2.388 0-1.471.795-2.563 2.432-2.563 1.357 0 2.082.666 2.082 1.636 0 .737-.421 1.217-1.228 1.217-.398 0-.598-.117-.598-.35 0-.07.012-.164.024-.234.035-.093.093-.104.175-.15a.754.754 0 00.505-.725c0-.479-.352-.75-.889-.75-.701 0-1.132.457-1.239 1.33h.925c.363 0 .714-.035.865-.117.058-.035.082-.035.116 0l.187.222c.058.058.035.117-.034.14-.268.093-.714.128-1.075.128h-.842v.01c.02 2.634.02 2.646.043 2.692z" fill="#00ADD8"/>
+                  <path d="M17.85 10.494c-.187-.387-.596-.58-1.264-.58-1.264 0-2.085.821-2.085 2.086 0 1.03.69 1.671 1.764 1.671.55 0 .971-.234 1.17-.432.07-.07.082-.07.14-.023l.198.245c.058.058.047.117-.012.176-.316.315-.936.524-1.673.524-1.444 0-2.304-.925-2.304-2.482 0-1.636.983-2.739 2.62-2.739.959 0 1.838.338 1.838 1.135 0 .292-.186.49-.386.49-.198 0-.34-.117-.34-.269 0-.082.012-.14.047-.222.082-.14.245-.247.245-.52 0-.303-.386-.608-.96-.608-.795 0-1.33.526-1.476 1.263-.048.222-.06.456-.06.679 0 .35.058.667.175.913.21.444.596.69 1.088.69.526 0 .83-.139.959-.268.058-.047.094-.035.128.034l.21.21c.046.047.035.094 0 .164-.245.233-.63.361-1.169.361-1.288 0-1.951-.877-1.951-2.27 0-.62.14-1.19.435-1.654.365-.595.994-.902 1.798-.902 1.192 0 1.963.514 1.963 1.309 0 .292-.128.477-.304.477-.187 0-.34-.14-.34-.327 0-.082.012-.152.035-.21.07-.21.233-.245.233-.478 0-.187-.187-.352-.526-.352-.42 0-.747.234-.852.689a1.76 1.76 0 00-.047.432c0 .292.047.548.163.76.175.34.444.526.818.526.352 0 .62-.082.783-.199.082-.058.105-.47.163.035l.175.21c.059.07.047.106-.023.176-.245.222-.63.35-1.158.35-1.099 0-1.729-.69-1.729-1.844 0-1.377.866-2.27 2.223-2.27 1.076 0 1.74.502 1.74 1.284 0 .292-.14.444-.304.444-.14 0-.27-.082-.27-.222 0-.059.012-.14.046-.21.082-.14.21-.245.21-.468 0-.187-.152-.361-.48-.361-.479 0-.785.269-.877.772a2.04 2.04 0 00-.035.42c0 .28.047.537.152.76.175.35.46.515.854.515.34 0 .596-.082.76-.175.07-.047.093-.047.151.011l.164.199c.059.058.047.105-.023.164-.234.199-.596.316-1.099.316-1.216 0-1.868-.784-1.868-2.06 0-1.553.983-2.55 2.55-2.55.983 0 1.729.432 1.729 1.181 0 .327-.175.514-.34.514-.175 0-.315-.105-.315-.257 0-.082.011-.152.046-.222.083-.128.21-.233.21-.456 0-.234-.21-.444-.63-.444-.678 0-1.123.397-1.264 1.03 1.862-.011 2.83.572 2.83 1.636 0 .795-.63 1.24-1.393 1.24-.526 0-.924-.21-1.123-.596zm2.141-9.156l-.598.632c-.046.047-.105.035-.14-.023a3.133 3.133 0 01-.187-.432c-.023-.07.012-.117.07-.117h.854c.059 0 .094.046.07.105l-.07.14V1.34zm1.322 0l-.597.632c-.047.047-.105.035-.14-.023a3.133 3.133 0 01-.187-.432c-.024-.07.011-.117.07-.117h.854c.058 0 .093.046.07.105l-.07.14V1.34zm2.164 7.56c-.363 0-.748.117-1.053.315l-.105.058v-.327c0-.07-.046-.105-.093-.07l-.444.175c-.047.024-.07.082-.07.117v3.627c0 .07.023.105.094.07l.443-.163c.07-.024.094-.07.094-.14v-2.035c.327-.27.736-.42 1.157-.42.854 0 1.357.55 1.357 1.518v1.07c0 .07.024.106.94.07l.444-.163c.07-.024.094-.07.094-.14v-1.249c0-1.33-.726-2.012-1.961-2.012h-.05v-.3z" fill="#00ADD8"/>
+                </svg>
+              </div>
+              <p class="tool-name">GO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Frontend Programming Languages (Hidden by Default) -->
+      <div class="tech-tools-content" id="frontend-tools">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- HTML5 Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#E34F26" opacity="0.2"/>
+                  <path d="M3.5 2l1.568 17.526L11.999 22l6.93-2.476L20.5 2H3.5zm14.066 4.357l-.223 2.45-5.33 2.273-.012.004h5.021l-.59 6.588-4.406 1.258-4.409-1.258-.305-3.363h2.159l.157 1.719 2.4.65 2.397-.651.248-2.785-7.468-.003-.006-.045-.148-1.674-.08-.866h9.799l-.1 1.118-.247 2.586z" fill="#E34F26"/>
+                </svg>
+              </div>
+              <p class="tool-name">HTML5</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- CSS3 Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#1572B6" opacity="0.2"/>
+                  <path d="M3.5 2l1.568 17.526L11.999 22l6.93-2.476L20.5 2H3.5zm14.066 4.357l-.223 2.45-5.33 2.273-.012.004h5.021l-.59 6.588-4.406 1.258-4.409-1.258-.305-3.363h2.159l.157 1.719 2.4.65 2.397-.651.248-2.785-7.468-.003-.006-.045-.148-1.674-.08-.866h9.799l-.1 1.118-.247 2.586z" fill="#1572B6"/>
+                </svg>
+              </div>
+              <p class="tool-name">CSS3</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+                <!-- JavaScript Icon -->
+                <svg viewBox="0 0 24 24" width="40" height="40">
+                  <rect width="20" height="20" x="2" y="2" rx="2" fill="#F7DF1E" opacity="0.2"/>
+                  <path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.528.113-.431.706-.56 1.067-.439.272.086.527.297.688.636.728-.477.728-.477 1.235-.8-.189-.297-.277-.427-.404-.55-.435-.485-1.012-.731-1.951-.712l-.487.061c-.467.113-.909.44-1.178.839-.785.918-.558 2.503.39 3.156.935.689 2.306.84 2.482 1.493.178.701-.525.927-1.193.846-.493-.114-.768-.358-1.067-.816l-1.11.637c.128.293.264.418.477.668.995 1.092 3.486.653 3.934-.62.016-.061.122-.472.042-1.101zm-6.837-5.372h-1.372c0 1.19-.009 2.372-.009 3.572 0 .759.037 1.455-.082 1.669-.196.428-.705.377-.938.305-.238-.125-.358-.297-.498-.547-.039-.082-.067-.15-.077-.15l-1.114.68c.185.389.453.738.811.95.518.326 1.213.392 1.937.258.472-.099.879-.332 1.092-.683.308-.484.242-1.075.239-1.733.009-1.064.001-2.129.001-3.202v-.15z" fill="#F7DF1E"/>
+                </svg>
+              </div>
+              <p class="tool-name">JavaScript</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+            <div class="tool-card">
+              <div class="icon-container">
+             <!-- TypeScript Icon (completing) -->
+<svg viewBox="0 0 24 24" width="40" height="40">
+  <rect width="20" height="20" x="2" y="2" rx="2" fill="#3178C6" opacity="0.2"/>
+  <path d="M3 3h18v18H3V3zm14.871 11.584c.453-.172.802-.449 1.036-.827.23-.379.347-.832.347-1.36 0-.77-.25-1.388-.751-1.853-.496-.465-1.22-.697-2.172-.697h-3.66V16.5h1.755v-2.051h1.47l1.534 2.05H19l-1.781-2.318c.321-.126.591-.295.81-.506.22-.211.39-.458.515-.741h.003c.124-.283.216-.59.274-.92.06-.33.09-.683.09-1.057 0-.749-.135-1.372-.405-1.87a2.715 2.715 0 00-1.073-1.12c-.446-.257-.95-.425-1.514-.505-.564-.08-1.136-.12-1.713-.12H9.33V16.5h1.755v-5.414h1.345c.434 0 .794.034 1.081.103.288.07.516.183.686.342.169.16.289.37.358.633.7.261.104.585.104.97 0 .385-.031.709-.092.97a1.292 1.292 0 01-.312.633c-.15.16-.35.273-.602.342a3.37 3.37 0 01-.937.104h-1.209v1.305h1.351v-.001l1.532 2.05h1.782l-1.782-2.313zm-8.19-3.156v-1.422h4.222v1.422h-1.237V16.5h-1.747v-5.072H9.681z" fill="#3178C6"/>
+</svg>
+
+<!-- JavaScript Frameworks (Hidden by Default) -->
+<div class="tech-tools-content" id="javascript-tools">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- React Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#61DAFB" opacity="0.2"/>
+            <path d="M12 10.11c1.03 0 1.87.84 1.87 1.89 0 1-.84 1.85-1.87 1.85-1.03 0-1.87-.85-1.87-1.85 0-1.05.84-1.89 1.87-1.89M7.37 20c.63.38 2.01-.2 3.6-1.7-.52-.59-1.03-1.23-1.51-1.9a22.7 22.7 0 01-2.4-.36c-.51 2.14-.32 3.61.31 3.96m.71-5.74l-.29-.51c-.11.29-.22.58-.29.86.27.06.57.11.88.16l-.3-.51m6.54-.76l.81-1.5-.81-1.5c-.3-.53-.62-1-.91-1.47C13.17 9 12.6 9 12 9c-.6 0-1.17 0-1.71.03-.29.47-.61.94-.91 1.47L8.57 12l.81 1.5c.3.53.62 1 .91 1.47.54.03 1.11.03 1.71.03.6 0 1.17 0 1.71-.03.29-.47.61-.94.91-1.47M12 6.78c-.19.22-.39.45-.59.72h1.18c-.2-.27-.4-.5-.59-.72m0 10.44c.19-.22.39-.45.59-.72h-1.18c.2.27.4.5.59.72M16.62 4c-.62-.38-2 .2-3.59 1.7.52.59 1.03 1.23 1.51 1.9.82.08 1.63.2 2.4.36.51-2.14.32-3.61-.32-3.96m-.7 5.74l.29.51c.11-.29.22-.58.29-.86-.27-.06-.57-.11-.88-.16l.3.51m1.45-7.05c1.47.84 1.63 3.05 1.01 5.63 2.54.75 4.37 1.99 4.37 3.68 0 1.69-1.83 2.93-4.37 3.68.62 2.58.46 4.79-1.01 5.63-1.46.84-3.45-.12-5.37-1.95-1.92 1.83-3.91 2.79-5.38 1.95-1.46-.84-1.62-3.05-1-5.63-2.54-.75-4.37-1.99-4.37-3.68 0-1.69 1.83-2.93 4.37-3.68-.62-2.58-.46-4.79 1-5.63 1.47-.84 3.46.12 5.38 1.95 1.92-1.83 3.91-2.79 5.37-1.95M17.08 12c.34.75.64 1.5.89 2.26 2.1-.63 3.28-1.53 3.28-2.26 0-.73-1.18-1.63-3.28-2.26-.25.76-.55 1.51-.89 2.26M6.92 12c-.34-.75-.64-1.5-.89-2.26-2.1.63-3.28 1.53-3.28 2.26 0 .73 1.18 1.63 3.28 2.26.25-.76.55-1.51.89-2.26m9 2.26l-.3.51c.31-.05.61-.1.88-.16-.07-.28-.18-.57-.29-.86l-.29.51m-2.89 4.04c1.59 1.5 2.97 2.08 3.59 1.7.64-.35.83-1.82.32-3.96-.77.16-1.58.28-2.4.36-.48.67-.99 1.31-1.51 1.9M8.08 9.74l.3-.51c-.31.05-.61.1-.88.16.07.28.18.57.29.86l.29-.51m2.89-4.04C9.38 4.2 8 3.62 7.37 4c-.63.36-.82 1.82-.31 3.96a22.7 22.7 0 012.4-.36c.48-.67.99-1.31 1.51-1.9z" fill="#61DAFB"/>
+          </svg>
+        </div>
+        <p class="tool-name">React</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Angular Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#DD0031" opacity="0.2"/>
+            <path d="M9.93 12.645h4.134L12 7.255zm4.134-9.389L20.5 17.207 21.559 5.638 12 3.256h.001zm-7.785 9.389l4.449 8.596L3.5 17.207 4.559 5.638 12 3.256h.001L6.28 12.645v-.001z" fill="#DD0031"/>
+          </svg>
+        </div>
+        <p class="tool-name">Angular</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Vue.js Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#4FC08D" opacity="0.2"/>
+            <path d="M19.197 3.406l.004-.002h-4.425L12 8.906l-2.776-5.502H2.25l9.75 17.25 9.75-17.25-.553.002zm-15.3 1.05h2.88l5.223 9.323 5.223-9.325h2.88L12 18.655 3.897 4.456z" fill="#4FC08D"/>
+          </svg>
+        </div>
+        <p class="tool-name">Vue.js</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Next.js Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#000000" opacity="0.2"/>
+            <path d="M11.214 10.975c.572-3.941 4.229-6.525 8.036-5.818A7.798 7.798 0 1 1 11.214 10.975Z" fill="none" stroke="#000" stroke-width="2"/>
+            <path d="M11.213 12.666a7.798 7.798 0 1 0 8.036-7.51c-3.807-.706-7.464 1.878-8.036 5.819-1.443 9.935 15.395 9.935 13.953 0" fill="none" stroke="#000" stroke-width="2"/>
+          </svg>
+        </div>
+        <p class="tool-name">Next.js</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile Development (Hidden by Default) -->
+<div class="tech-tools-content" id="mobile-tools">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- React Native Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#61DAFB" opacity="0.2"/>
+            <path d="M12 10.11c1.03 0 1.87.84 1.87 1.89 0 1-.84 1.85-1.87 1.85-1.03 0-1.87-.85-1.87-1.85 0-1.05.84-1.89 1.87-1.89M7.37 20c.63.38 2.01-.2 3.6-1.7-.52-.59-1.03-1.23-1.51-1.9a22.7 22.7 0 01-2.4-.36c-.51 2.14-.32 3.61.31 3.96m.71-5.74l-.29-.51c-.11.29-.22.58-.29.86.27.06.57.11.88.16l-.3-.51m6.54-.76l.81-1.5-.81-1.5c-.3-.53-.62-1-.91-1.47C13.17 9 12.6 9 12 9c-.6 0-1.17 0-1.71.03-.29.47-.61.94-.91 1.47L8.57 12l.81 1.5c.3.53.62 1 .91 1.47.54.03 1.11.03 1.71.03.6 0 1.17 0 1.71-.03.29-.47.61-.94.91-1.47M12 6.78c-.19.22-.39.45-.59.72h1.18c-.2-.27-.4-.5-.59-.72m0 10.44c.19-.22.39-.45.59-.72h-1.18c.2.27.4.5.59.72M16.62 4c-.62-.38-2 .2-3.59 1.7.52.59 1.03 1.23 1.51 1.9.82.08 1.63.2 2.4.36.51-2.14.32-3.61-.32-3.96m-.7 5.74l.29.51c.11-.29.22-.58.29-.86-.27-.06-.57-.11-.88-.16l.3.51m1.45-7.05c1.47.84 1.63 3.05 1.01 5.63 2.54.75 4.37 1.99 4.37 3.68 0 1.69-1.83 2.93-4.37 3.68.62 2.58.46 4.79-1.01 5.63-1.46.84-3.45-.12-5.37-1.95-1.92 1.83-3.91 2.79-5.38 1.95-1.46-.84-1.62-3.05-1-5.63-2.54-.75-4.37-1.99-4.37-3.68 0-1.69 1.83-2.93 4.37-3.68-.62-2.58-.46-4.79 1-5.63 1.47-.84 3.46.12 5.38 1.95 1.92-1.83 3.91-2.79 5.37-1.95M17.08 12c.34.75.64 1.5.89 2.26 2.1-.63 3.28-1.53 3.28-2.26 0-.73-1.18-1.63-3.28-2.26-.25.76-.55 1.51-.89 2.26M6.92 12c-.34-.75-.64-1.5-.89-2.26-2.1.63-3.28 1.53-3.28 2.26 0 .73 1.18 1.63 3.28 2.26.25-.76.55-1.51.89-2.26m9 2.26l-.3.51c.31-.05.61-.1.88-.16-.07-.28-.18-.57-.29-.86l-.29.51m-2.89 4.04c1.59 1.5 2.97 2.08 3.59 1.7.64-.35.83-1.82.32-3.96-.77.16-1.58.28-2.4.36-.48.67-.99 1.31-1.51 1.9M8.08 9.74l.3-.51c-.31.05-.61.1-.88.16.07.28.18.57.29.86l.29-.51m2.89-4.04C9.38 4.2 8 3.62 7.37 4c-.63.36-.82 1.82-.31 3.96a22.7 22.7 0 012.4-.36c.48-.67.99-1.31 1.51-1.9z" fill="#61DAFB"/>
+          </svg>
+        </div>
+        <p class="tool-name">React Native</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Flutter Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#02569B" opacity="0.2"/>
+            <path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z" fill="#02569B"/>
+          </svg>
+        </div>
+        <p class="tool-name">Flutter</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Swift Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#F05138" opacity="0.2"/>
+            <path d="M21.984 16.348c.056-.112.056-.224.112-.336 1.346-5.272-1.851-11.44-7.347-14.693 2.412 3.253 3.365 7.122 2.524 10.599-.056.28-.168.505-.28.785-.112-.112-.224-.224-.336-.336-4.603-3.694-9.66-7.566-13.996-11.372l-.113.112c3.921 4.154 8.075 7.903 12.549 11.26-3.2 1.955-7.683 1.85-12.157-.78 1.29 1.346 3.026 2.748 5.104 3.582 2.467.895 5.103.728 7.459-.448.056 0 .168.056.224.112 1.234 1.346 2.523 3.922 3.594 5.603 1.009-1.346 1.905-3.026 2.188-4.109v-.059z" fill="#F05138"/>
+          </svg>
+        </div>
+        <p class="tool-name">Swift</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Kotlin Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#7F52FF" opacity="0.2"/>
+            <path d="M2 2h10.5L2 12.5zm0 20l20-20H12L2 12z" fill="#7F52FF"/>
+            <path d="M2 22l10-10L22 22z" fill="#7F52FF"/>
+          </svg>
+        </div>
+        <p class="tool-name">Kotlin</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Desktop Development (Hidden by Default) -->
+<div class="tech-tools-content" id="desktop-tools">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Electron Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#47848F" opacity="0.2"/>
+            <path d="M12 11.807A9.827 9.827 0 0 1 10.049 2.5a.897.897 0 0 0-.309-.218 1.162 1.162 0 0 0-.143-.054 1.57 1.57 0 0 0-.54.063 1.67 1.67 0 0 0-.26.097c-.083.036-.16.08-.228.128a.903.903 0 0 0-.306.326 1.203 1.203 0 0 0-.121.61A9.877 9.877 0 0 1 5.941 12a10.06 10.06 0 0 1 2.173 6.304c-.004.242.036.484.117.707.078.21.208.404.377.553a1.5 1.5 0 0 0 .954.357c.242.001.482-.053.692-.16.214-.11.395-.287.51-.5a1.32 1.32 0 0 0 .153-.654.76.76 0 0 0-.085-.362 9.922 9.922 0 0 1 1.093-5.139 10.052 10.052 0 0 1 4.474-4.142 5.853 5.853 0 0 1-.446-2.296c.001-.332.048-.661.137-.979.089-.318.22-.622.39-.903.17-.278.38-.532.622-.748s.52-.397.823-.535c.291-.124.603-.202.923-.234a4.41 4.41 0 0 1 .96.06c.31.063.615.176.899.336.286.161.549.363.782.603.22.22.417.473.58.748.169.29.304.597.4.921a5.812 5.812 0 0 1 .124 1.703c-.013.35-.082.694-.206 1.023a6.22 6.22 0 0 1-.974 1.564 9.91 9.91 0 0 1 3.306 2.98A10.041 10.041 0 0 1 23 12.1a1.81 1.81 0 0 0 .15-.772 1.69 1.69 0 0 0-.47-1.228 1.65 1.65 0 0 0-1.263-.445 9.958 9.958 0 0 1-9.266-4.01 10.001 10.001 0 0 1-4.099 9.132 4.492 4.492 0 0 1-2.941-1.602 4.959 4.959 0 0 1-1.115-3.22 5.073 5.073 0 0 1 .282-1.634 4.927 4.927 0 0 1 .808-1.459c.337-.425.744-.794 1.203-1.087s.969-.499 1.501-.64a4.706 4.706 0 0 1 3.285.206 4.797 4.797 0 0 1 2.463 2.557A9.99 9.99 0 0 1 12 11.807z" fill="#47848F"/>
+          </svg>
+        </div>
+        <p class="tool-name">Electron</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- WPF Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#5C2D91" opacity="0.2"/>
+            <path d="M2 3h5v5H2zm7.5 0h5v5h-5zm7.5 0h5v5h-5zM2 10.5h5v5H2zm7.5 0h5v5h-5zm7.5 0h5v5h-5zM2 18h5v5H2zm7.5 0h5v5h-5zm7.5 0h5v5h-5z" fill="#5C2D91"/>
+          </svg>
+        </div>
+        <p class="tool-name">WPF</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- Qt Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#41CD52" opacity="0.2"/>
+            <path d="M19.933 10.777c0-6.827-3.316-9.741-8.498-9.741-5.194 0-8.482 3.267-8.482 9.741 0 6.915 3.78 10.382 8.597 10.382 4.82 0 8.383-3.362 8.383-10.382zM9.791 3.909c2.816 0 6.046 1.11 6.046 6.842 0 5.831-3.23 6.988-6.046 6.988-2.815 0-6.048-1.14-6.048-6.988 0-5.816 3.233-6.842 6.048-6.842z" fill="#41CD52"/>
+          </svg>
+        </div>
+        <p class="tool-name">Qt</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+      <div class="tool-card">
+        <div class="icon-container">
+          <!-- JavaFX Icon -->
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <rect width="20" height="20" x="2" y="2" rx="2" fill="#5382A1" opacity="0.2"/>
+            <path d="M8.851 18.56s-.917.534.653.714c1.902.218 2.874.187 4.969-.211 0 0 .552.346 1.321.646-4.699 2.013-10.633-.118-6.943-1.149M8.276 15.933s-1.028.761.542.924c2.032.209 3.636.227 6.413-.308 0 0 .384.389.987.602-5.679 1.661-12.007.13-7.942-1.218M13.116 11.475c1.158 1.333-.304 2.533-.304 2.533s2.939-1.518 1.589-3.418c-1.261-1.772-2.228-2.652 3.007-5.688 0-.001-8.216 2.051-4.292 6.573" fill="#5382A1"/>
+            <path d="M19.33 20.504s.679.559-.747.991c-2.712.822-11.288 1.069-13.669.033-.856-.373.75-.89 1.254-.998.527-.114.828-.93.828-.093-0.953-.671-6.156 1.317-2.643 1.887 9.58 1.553 17.462-.7 14.977-1.82M9.292 13.21s-4.362 1.036-1.544 1.412c1.189.159 3.561.123 5.77-.062 1.806-.152 3.618-.477 3.618-.477s-.637.272-1.098.587c-4.429 1.165-12.986.623-10.522-.568 2.082-1.006 3.776-.892 3.776-.892M17.116 17.584c4.503-2.34 2.421-4.589.968-4.285-.355.074-.515.138-.515.138s.132-.207.385-.297c2.875-1.011 5.086 2.981-.928 4.562 0 0 .07-.062.09-.118" fill="#5382A1"/>
+            <path d="M14.401 0s2.494 2.494-2.365 6.33c-3.896 3.077-.888 4.832-.001 6.836-2.274-2.053-3.943-3.858-2.824-5.539 1.644-2.469 6.197-3.665 5.19-7.627" fill="#5382A1"/>
+          </svg>
+        </div>
+        <p class="tool-name">JavaFX</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <section class="forms-section" style="background: linear-gradient(to bottom right, #040500,#04050085, #295A57, #313C12);">
+    <div class="container-fluid py-5 px-3 text-light px-md-5">
+      <div class="d-flex flex-column flex-lg-row mx-md-5 me-lg-0">
+        <div class="forms-first-section me-lg-5 py-lg-5 animate__animated animate__fadeInLeft">
+          <div>
+            <h2 class="forms-first-section-heading">Need quick help?<br class="d-none d-md-inline"> Contact us now!</h2>
+            <p class="forms-first-section-para mt-md-4 px-md-5 px-lg-0">Reach out for immediate assistance, and our team
+              will
+              respond as quickly
+              as possible.</p>
+          </div>
+          <div class="d-flex flex-column mt-5 ms-2 flex-md-row px-md-5 px-lg-0">
+            <div class="d-flex flex-column mb-4 col-lg-4">
+              <div class="contact-widget-icon-wrap mb-4">
+                <img
+                  src="https://cdn.prod.website-files.com/6753c944298bec1f730af5a1/6755352cc9989275ef3d0efc_map-pin.svg"
+                  loading="lazy" width="24" height="24" alt="">
+              </div>
+              <p>Address</p>
+              <p class="forms-section-lg-address ">Noida Sector 18<br class="d-none d-md-inline d-lg-none">
+                India</p>
+            </div>
+            <div class="d-flex flex-column mb-4 col-lg-4 ms-md-auto">
+              <div class="contact-widget-icon-wrap mb-4">
+                <img
+                  src="https://cdn.prod.website-files.com/6753c944298bec1f730af5a1/675536652eca5a31b7a4f260_call-calling.svg"
+                  loading="lazy" width="24" height="24" alt="">
+              </div>
+              <p>Contact</p>
+              <p class="forms-section-lg-address">support@kkrfgroup.com<br class=" d-none d-md-inline"> (123) 456-7890
+              </p>
+            </div>
+          </div>
+          <hr>
+          <div class="px-md-5 px-lg-0">
+            <p class="fs-5 mb-5">Office Hours: Mon – Sat: 8:00 AM – 10:00 PM</p>
+          </div>
+        </div>
+  
+        <div
+          class="animate__animated animate__fadeInRight forms-second-section bg-light rounded-4 p-3 text-black px-md-5 mx-md-5 py-md-5 ms-lg-5">
+          <div>
+            <h2 class="forms-second-section-heading mt-1 mb-3">Fill the contact form</h2>
+            <p class="forms-second-section-para text-dark">Have a question or need support? Fill out the form below, and
+              we’ll get back to you as soon as possible.
+            </p>
+            <form action="" class="">
+              <div class="mb-4 ">
+                <input type="text" class="form-control p-3" id="exampleFormControlInput1" placeholder="First name">
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control p-3" id="exampleFormControlInput2" placeholder="Email address">
+              </div>
+              <div class="mb-4">
+                <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="Phone number">
+              </div>
+              <div class="mb-4">
+                <textarea id="Message" name="Message" maxlength="5000" data-name="Message"
+                  placeholder="Type your message here" class="form-control p-4" spellcheck="false"></textarea>
+              </div>
+              <button class="btn d-block btn-dark w-100 py-3" type="button">Submit</button>
+            </form>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- faq section -->
+  <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Frequently Asked Questions</h2>
+      
+      <div class="max-w-4xl mx-auto space-y-6">
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold">What services do you provide?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer ">
+                  We offer comprehensive technology solutions including software development, cloud computing, cybersecurity, and digital transformation consulting for enterprises worldwide.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">How do you ensure data security?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  Our robust security protocols include end-to-end encryption, multi-factor authentication, regular security audits, and compliance with international data protection standards.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">What industries do you serve?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  We specialize in serving diverse sectors including finance, healthcare, e-commerce, education, and manufacturing with tailored technological solutions.
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- blog section -->
+
+
+
+
+ 
+  
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+  
+<script src="scripts/hero.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/card.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/switch.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/faqs.js"></script>
+
+</body>
+</html>

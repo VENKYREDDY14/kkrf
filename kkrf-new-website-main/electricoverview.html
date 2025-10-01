@@ -1,0 +1,2460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+    
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body>
+  
+  <div class="htec-nav d-none d-lg-block">
+    <div class="htec-navbar-container">
+        <nav class="htec-navbar">
+            <div class="htec-logo">
+                <a href="#">   <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" /></a>
+            </div>
+            
+            <ul class="htec-nav-links">
+              <li class="htec-nav-item htec-active">
+                <a href="#">Services <span class="htec-dropdown-arrow"></span></a>
+                <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-services-content">
+                    <div class="htec-sidebar">
+                        <h3 class="htec-sidebar-title">Services</h3>
+                        <ul class="htec-sidebar-menu">
+                            <li class="htec-sidebar-item"><a href="#" data-content="all-services">ALL SERVICES</a></li>
+                            <li class="htec-sidebar-item active"><a href="#" data-content="software-development">SOFTWARE DEVELOPMENT</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="blockchain-services">BLOCKCHAIN SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="cloud-services">CLOUD SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="it-consulting">IT CONSULTING</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="data-analytics">DATA ANALYTICS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="devops">DEVOPS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="artificial-intelligence">ARTIFICIAL INTELLIGENCE</a></li>
+                        </ul>
+                        <a href="#" style="display: inline-block; margin-top: 32px; padding: 12px 28px; background-color: rgba(255, 255, 255, 0.1); border-radius: 25px; color: white; text-decoration: none; font-size: 15px;">Explore</a>
+                    </div>
+                    <div class="htec-main-content">
+                        <!-- SOFTWARE DEVELOPMENT Content (Default/Initial View) -->
+                        <div id="software-development" class="content-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="softwreoverview.html">SOFTWARE DEVELOPMENT</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="erp.html">ERP Software development</a></h4>
+                                    <p class="htec-content-description">Custom enterprise solutions integrating finance, HR, supply chain, and manufacturing into a unified platform.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="crm.html">Custom CRM</a></h4>
+                                    <p class="htec-content-description">Tailored systems enhancing client engagement with lead scoring, pipeline analytics, and automation tools that integrate with your tech stack.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="arvr.html">AR/VR Development</a></h4>
+                                    <p class="htec-content-description">Immersive applications for training, marketing, and customer experiences using spatial computing and intuitive interaction design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="iot.html">IoT Development</a></h4>
+                                    <p class="htec-content-description">Connected device solutions transforming environments into intelligent ecosystems with embedded systems and analytics platforms.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="microservice.html">Microservices</a></h4>
+                                    <p class="htec-content-description">Modular architecture transforming monolithic applications into agile, scalable services with robust API gateways and observability.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="product.html">Product Development</a></h4>
+                                    <p class="htec-content-description">End-to-end digital product creation combining design thinking with iterative engineering to build market-ready solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- BLOCKCHAIN SERVICES Content -->
+                        <div id="blockchain-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="blockchainservices.html">BLOCKCHAIN SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="nftmarket.html">NFT Marketplace</a></h4>
+                                    <p class="htec-content-description">Custom platforms for secure creation and trading of digital assets with wallet integration, smart contracts, and royalty systems.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="metaverse.html">Metaverse Development</a></h4>
+                                    <p class="htec-content-description">Immersive virtual worlds leveraging 3D rendering and blockchain technology for digital interaction and commerce.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dapp.html">Dapp development</a></h4>
+                                    <p class="htec-content-description">Decentralized applications for DeFi, supply chain, and marketplaces with comprehensive testing and intuitive interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CLOUD SERVICES -->
+                        <div id="cloud-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="cloudconsulting.html">CLOUD SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudmanaged.html">Cloud Managed Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive infrastructure management with 24/7 monitoring, automated scaling, and cost governance that reduces cloud spend.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudconsulting.html">Cloud Consulting</a></h4>
+                                    <p class="htec-content-description">Strategic guidance for adoption and migration with tailored roadmaps, TCO analysis, and compliance architecture design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="aws.html">AWS</a></h4>
+                                    <p class="htec-content-description">Specialized solutions leveraging serverless architectures, containerized platforms, and machine learning pipelines following best practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- IT CONSULTING -->
+                        <div id="it-consulting" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="itoverview.html">IT CONSULTING</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="health.html">Healthcare IT Consulting Services</a></h4>
+                                    <p class="htec-content-description">HIPAA-compliant systems, telehealth platforms, and interoperability solutions improving patient outcomes and operational efficiency.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="itoutsourcing.html">IT Outsourcing Services</a></h4>
+                                    <p class="htec-content-description">Strategic technology outsourcing with dedicated teams, defined SLAs, and quality assurance processes ensuring accountability.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="manageditservices.html">Managed IT Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive technology management including infrastructure monitoring, endpoint management, and virtual CIO services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DEVOPS -->
+                        <div id="devops" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="devopsoverview.html">DEVOPS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="scops.html">SecOps</a></h4>
+                                    <p class="htec-content-description">Integrated security frameworks with automated vulnerability scanning, threat modeling, and incident response automation.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="devopsoverview.html">DevOps Implementation</a></h4>
+                                    <p class="htec-content-description">End-to-end automation with CI/CD pipelines and observability stacks increasing deployment frequency and reducing recovery time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DATA ANALYTICS -->
+                        <div id="data-analytics" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="dataanalytics.html">DATA ANALYTICS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="businessintelligence.html">Business Intelligence</a></h4>
+                                    <p class="htec-content-description">Data visualization platforms transforming complex information into actionable insights with self-service capabilities and governance.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dataanalytics.html">Data Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive data management including engineering, governance, and analytics environments driving informed business decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- ARTIFICIAL INTELLIGENCE -->
+                        <div id="artificial-intelligence" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="aioverview.html">ARTIFICIAL INTELLIGENCE</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="generativeai.html">Generative AI</a></h4>
+                                    <p class="htec-content-description">Custom systems creating content across text, image, and code with language models, knowledge retrieval, and responsible AI frameworks.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="computer.html">Computer Vision</a></h4>
+                                    <p class="htec-content-description">Visual intelligence solutions implementing deep learning for object detection, segmentation, and anomaly detection with high accuracy.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="machinnelearning.html">Machine Learning</a></h4>
+                                    <p class="htec-content-description">Predictive analytics for forecasting, churn prediction, and personalization with MLOps frameworks and explainable AI techniques.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- All Services -->
+                        <div id="all-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title">All Services</h3>
+                                <div>
+                                    <h4 class="htec-content-title">Our Comprehensive Approach</h4>
+                                    <p class="htec-content-description">Integrated solutions across the digital transformation spectrum delivering measurable business outcomes.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Integrated Solutions</h4>
+                                    <p class="htec-content-description">Cross-functional teams combining strategic thinking, design excellence, and technical expertise for real-world results.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Technology Partnerships</h4>
+                                    <p class="htec-content-description">Strategic alliances with leading providers while ensuring vendor-independent advice aligned with your specific needs.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4 class="htec-content-title">Industry-Specific Expertise</h4>
+                                    <p class="htec-content-description">Specialized knowledge across healthcare, financial, manufacturing, retail, and energy sectors with regulatory understanding.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Global Delivery Capabilities</h4>
+                                    <p class="htec-content-description">International presence providing access to specialized talent and flexible engagement models to scale efficiently.</p>
+                                </div>
+                                <h3 class="htec-section-title" style="margin-top: 28px;">Key Service Areas</h3>
+                                <div class="htec-solutions-links">
+                                    <a href="softwreoverview.html" class="htec-solution-link">Software Development</a>
+                                    <a href="blockchainservices.html" class="htec-solution-link">Blockchain Services</a>
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="htec-nav-item">
+              <a href="#">Industries <span class="htec-dropdown-arrow"></span></a>
+              <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                  <div class="htec-firm-column">
+                    <h3 class="htec-section-header">Industries</h3>
+                    <ul class="htec-firm-links">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-film me-2"></i>Media & Entertainment</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-currency-dollar me-2"></i>Financial Services & Insurance</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-lightning-charge me-2"></i>Energy & Utilities</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-building me-2"></i>Industrials</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-heart-pulse me-2"></i>Healthcare & Life Sciences</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-cpu me-2"></i>Technology</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-bag me-2"></i>Retail & CPG</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-truck me-2"></i>Transportation & Mobility</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-broadcast me-2"></i>Telecommunications</a></li>
+                    </ul>
+                </div>
+                  <div class="htec-firm-column">
+                      <!-- Placeholder for additional content -->
+                  </div>
+                  <div class="htec-news-section">
+                      <div class="htec-news-header">
+                          <h3 class="htec-news-title">Latest News</h3>
+                          <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                      </div>
+                      <div class="htec-news-grid">
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Healthcare Technology Innovation" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">AI-Powered Diagnostics Breakthrough in Healthcare</h4>
+                                  <p style="font-size:12px; color:#666;">March 15, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Financial Technology Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Blockchain Revolution in Banking Services</h4>
+                                  <p style="font-size:12px; color:#666;">March 10, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Smart Energy Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Smart Grid Technology Transforms Energy Sector</h4>
+                                  <p style="font-size:12px; color:#666;">March 5, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Media Streaming Technology" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Next-Gen Streaming Platform for Media Industry</h4>
+                                  <p style="font-size:12px; color:#666;">February 28, 2025</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </li>
+          <li class="htec-nav-item">
+            <a href="#">Our Firm <span class="htec-dropdown-arrow"></span></a>
+            <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                    <div class="htec-firm-column ">
+                        <h3 class="htec-section-header">About KKRF</h3>
+                        <ul class="htec-firm-links">
+                            <li class="htec-firm-link"><a href="#">Company Overview</a></li>
+                            <li class="htec-firm-link"><a href="#">Global Locations</a></li>
+                            <li class="htec-firm-link"><a href="#">History</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="#">Leadership & Board</a></li>
+                            <li class="htec-firm-link"><a href="#">Alliances</a></li>
+                            <li class="htec-firm-link"><a href="carrer.html">Careers & Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="blog.html">Press & Media</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <!-- Placeholder for additional content -->
+                    </div>
+                    <div class="htec-news-section">
+                        <div class="htec-news-header">
+                            <h3 class="htec-news-title">Latest News</h3>
+                            <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                        </div>
+                        <div class="htec-news-grid">
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="KKRF Expansion" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Group Expands with New Office in Singapore</h4>
+                                    <p style="font-size:12px; color:#666;">March 18, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Leadership Summit" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Annual Leadership Summit Announces Strategic Direction</h4>
+                                    <p style="font-size:12px; color:#666;">March 12, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="New Partnership" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Forms Strategic Alliance with Global Tech Leader</h4>
+                                    <p style="font-size:12px; color:#666;">March 8, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Sustainability Initiative" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">New Sustainability Initiative Launches with Zero-Carbon Goal</h4>
+                                    <p style="font-size:12px; color:#666;">March 1, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="htec-nav-item d-none d-xl-block">
+                    <a href="blog.html">Insights & Events</a>
+                </li>
+                <li class="htec-nav-item">
+                    <a href="carrer.html">Careers & Culture </a>
+                </li>
+            </ul>
+            
+            <div class="htec-right-section">
+               
+              <a href="contact.html"><button class="htec-partner-button d-none d-xl-block">Let's partner up</button></a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+  <section class="d-block  d-lg-none">
+    <nav class="navbar-override1 flex items-center px-10 py-4 bg-black relative">
+      <!-- Logo -->
+      <div>
+        <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" />
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="nav-center hidden lg:flex items-center gap-8">
+        <!-- Dropdown Menu for "What we do" -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn"
+          >
+            What we do
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <div class="dropdown">
+              <h2 class="title">What we do <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <a href="#" class="text-white hover:text-purple-500">Industries</a>
+        
+        <!-- Who we are dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn1"
+          >
+            Who we are
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu1" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown2">
+              <h2 class="title">who we are <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Careers dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn2"
+          >
+            Careers
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu2" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown3">
+              <h2 class="title">Careers<span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Us & Country Selector -->
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="#" class="text-white hover:text-purple-500">Contact Us</a>
+        <select class="bg-black text-white border border-gray-600 rounded p-1">
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Germany</option>
+        </select>
+      </div>
+  
+      <!-- Hamburger Icon for Mobile -->
+  
+      <div class="lg:hidden">
+        <button id="menuTriggerTab" class="text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  
+    <!-- Mobile Menu -->
+  
+    
+    <div class="tabtab-menu" id="tabMenu1">
+      <!-- Header -->
+      <div class="tabtab-menu-header">
+          <button id="backBtn1" class="tabtab-back-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Back
+          </button>
+          <button id="closeBtn1" class="tabtab-p-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+          </button>
+          <button class="tabtab-country-selector">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              Global
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 9l6 6 6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <!-- Menu Sections -->
+      <div class="tabtab-menu-section tabtab-active" id="mainMenu1">
+          <button class="tabtab-menu-item" data-target="services1">
+              Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="industries1">
+              Industries
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ourFirm1">
+              Our Firm
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <a href="blog.html" class="tabtab-menu-item">
+              Insights & Events
+          </a>
+          <a href="careers.html" class="tabtab-menu-item">
+              Careers & Culture
+          </a>
+          <div class="bottom-link">
+          <a href="contact.html"  style="color: white;">Let's partner up</a>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/company/htec-group" class="social-icon" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/htecgroup" class="social-icon" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="services1">
+          <h2 class=" tabtab-mb-6 heading" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Services</h2>
+          <button class="tabtab-menu-item" data-target="softwareDev1">
+              Software Development
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="blockchain1">
+              Blockchain Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="cloud1">
+              Cloud Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="itConsulting1">
+              IT Consulting
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="dataAnalytics1">
+              Data Analytics
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="devOps1">
+              DevOps
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ai1">
+              Artificial Intelligence
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <div class="tabtab-menu-section" id="softwareDev1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="softwreoverview.html">Software Development</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="erp.html" class="tabtab-menu-item">ERP Software Development</a>
+              <a href="crm.html" class="tabtab-menu-item">Custom CRM</a>
+              <a href="arvr.html" class="tabtab-menu-item">AR/VR Development</a>
+              <a href="iot.html" class="tabtab-menu-item">IoT Development</a>
+              <a href="microservice.html" class="tabtab-menu-item">Microservices</a>
+              <a href="product.html" class="tabtab-menu-item">Product Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="blockchain1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="blockchainservices.html">Blockchain Services</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="nftmarket.html" class="tabtab-menu-item">NFT Marketplace</a>
+              <a href="metaverse.html" class="tabtab-menu-item">Metaverse Development</a>
+              <a href="dapp.html" class="tabtab-menu-item">Dapp Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="cloud1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Cloud Services</h2>
+          <div class="tabtab-grid-layout">
+              <a href="cloudmanaged.html" class="tabtab-menu-item">Cloud Managed Services</a>
+              <a href="cloudconsulting.html" class="tabtab-menu-item">Cloud Consulting</a>
+              <a href="aws.html" class="tabtab-menu-item">AWS</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="itConsulting1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="itoverview.html">IT Consulting</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="health.html" class="tabtab-menu-item">Healthcare IT Consulting Services</a>
+              <a href="itoutsourcing.html" class="tabtab-menu-item">IT Outsourcing Services</a>
+              <a href="manageditservices.html" class="tabtab-menu-item">Managed IT Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="dataAnalytics1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="dataanalytics.html">Data Analytics</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="businessintelligence.html" class="tabtab-menu-item">Business Intelligence</a>
+              <a href="dataanalytics.html" class="tabtab-menu-item">Data Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="devOps1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="devopsoverview.html">DevOps</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="scops.html" class="tabtab-menu-item">SecOps</a>
+              <a href="devopsoverview.html" class="tabtab-menu-item">DevOps Implementation</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ai1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="aioverview.html" >Artificial Intelligence</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="generativeai.html" class="tabtab-menu-item">Generative AI</a>
+              <a href="computer.html" class="tabtab-menu-item">Computer Vision</a>
+              <a href="machinnelearning.html" class="tabtab-menu-item">Machine Learning</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="industries1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Industries</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Media & Entertainment</a>
+              <a href="#" class="tabtab-menu-item">Financial Services & Insurance</a>
+              <a href="#" class="tabtab-menu-item">Energy & Utilities</a>
+              <a href="#" class="tabtab-menu-item">Industrials</a>
+              <a href="#" class="tabtab-menu-item">Healthcare & Life Sciences</a>
+              <a href="#" class="tabtab-menu-item">Technology</a>
+              <a href="#" class="tabtab-menu-item">Retail & CPG</a>
+              <a href="#" class="tabtab-menu-item">Transportation & Mobility</a>
+              <a href="#" class="tabtab-menu-item">Telecommunications</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ourFirm1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Our Firm</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Company Overview</a>
+              <a href="#" class="tabtab-menu-item">Global Locations</a>
+              <a href="#" class="tabtab-menu-item">History</a>
+              <a href="#" class="tabtab-menu-item">Leadership & Board</a>
+              <a href="#" class="tabtab-menu-item">Alliances</a>
+              <a href="carrer.html" class="tabtab-menu-item">Careers & Culture</a>
+              <a href="blog.html" class="tabtab-menu-item">Press & Media</a>
+          </div>
+      </div>
+
+      <!-- Footer -->
+  </div>
+
+    
+    
+  
+   </section>
+<!-- hero section -->
+<section class="hero-section" style="height: 10vh; background-image: url('assets/ai/arvr.jpg'); background-size: cover; background-position: center;">
+    <div class="hero-overlay"></div>
+    <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+        <h1 class="heading" style="font-size: 3.5rem;">Electric Vehicle Software Development Services </h1>
+        <p class="subheading">Driving the transition to electric vehicles with innovative custom EV software and mobile app solutions</p>
+    </div>
+</section>
+
+
+    
+
+    <section class="trusted-section">
+      <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+  
+      <!-- Desktop View -->
+      <div class="desktop-logos">
+          <img src="assets/kfc.jpg" alt="KFC">
+          <img src="assets/kmpc.jpg" alt="KPMG">
+          <img src="assets/dominos.png" alt="Domino's">
+      <img src="assets/google.png" alt="Google">
+      <img src="assets/bcg.png" alt="BCG">
+          <img src="assets/kfc.jpg" alt="Americana">
+      </div>
+  
+      <!-- Mobile View (Carousel) -->
+      <div class="swiper-container mobile-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+          <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+          <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+          <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+          <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="Americana"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cloud services section -->
+    <section class="software-section d-none d-md-block">
+        <div class="crm-software-con">
+            <div class="sofware-spacing">
+                <h5 class="heading">Our Custom Range of EV Charging Station Solutions</h5>
+                <p class="crm-Software-text">As one of the globally recognized EV technology providers, we specialize in offering tailored charging station management solutions designed to drive innovation and take your business to greater heights. Explore how our EV charging station services can transform your operations and propel your business into the electric mobility era.</p>
+            </div>
+    
+            <div class="services-container">
+                <div class="services-nav">
+                    <div class="service-item active" data-service="ml-consulting">
+                        <span class="number">01.</span>
+                        EV Charging Station Management
+                    </div>
+                    <div class="service-item" data-service="ml-development">
+                        <span class="number">02.</span>
+                        Parking Detection and Management Systems
+                    </div>
+                    <div class="service-item" data-service="neural-network">
+                        <span class="number">03.</span>
+                        V2G Systems
+                    </div>
+                    <div class="service-item" data-service="ml-engineering">
+                        <span class="number">04.</span>
+                        Demand Response Systems
+                    </div>
+                    <div class="service-item" data-service="ml-implementation">
+                        <span class="number">05.</span>
+                        Energy Management Systems (EMS)
+                    </div>
+                    <div class="service-item" data-service="ml-saas">
+                        <span class="number">06.</span>
+                        Connectivity (OCPP, OCPI, OICP & more)
+                    </div>
+                    <div class="service-item" data-service="mlops">
+                        <span class="number">07.</span>
+                        Smart Charging
+                    </div>
+                    <div class="service-item" data-service="ev-telematics">
+                        <span class="number">08.</span>
+                        EV Telematics Integration
+                    </div>
+                    <div class="service-item" data-service="escooter-app">
+                        <span class="number">09.</span>
+                        eScooter App Development
+                    </div>
+                    <div class="service-item" data-service="ev-battery">
+                        <span class="number">10.</span>
+                        EV Battery Management System
+                    </div>
+                </div>
+            
+                <div class="service-content" id="ml-consulting">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 2c0-3.31-2.69-6-6-6s-6 2.69-6 6c0 2.22 1.21 4.15 3 5.19l1-1.74c-1.19-.7-2-1.97-2-3.45 0-2.21 1.79-4 4-4s4 1.79 4 4c0 1.48-.81 2.75-2 3.45l1 1.74c1.79-1.04 3-2.97 3-5.19zM12 3C6.48 3 2 7.48 2 13c0 3.7 2.01 6.92 4.99 8.65l1-1.73C5.61 18.53 4 15.96 4 13c0-4.42 3.58-8 8-8s8 3.58 8 8c0 2.96-1.61 5.53-4 6.92l1 1.73c2.99-1.73 5-4.95 5-8.65 0-5.52-4.48-10-10-10z"></path></svg>
+                    </div>
+                    <h2 class="service-title">EV Charging Station Management Systems</h2>
+                    <p class="service-description">
+                        Reduce electricity costs and get advanced diagnostics on station health to keep it up and running. Grow your charging infrastructure and deliver exceptional experiences to customers with effortless tracking, management, and optimization of EV charging.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="ml-development">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02zM8 16h2.5l1.5 1.5 1.5-1.5H16v-2.5l1.5-1.5-1.5-1.5V8h-2.5L12 6.5 10.5 8H8v2.5L6.5 12 8 13.5V16zm4-7c1.66 0 3 1.34 3 3s-1.34 3-3 3V9z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Parking Detection and Management Systems</h2>
+                    <p class="service-description">
+                        Our parking management solutions use advanced sensors and machine learning algorithms to detect vehicle presence, optimize parking space utilization, and provide real-time availability data. These systems integrate seamlessly with EV charging infrastructure to create a comprehensive mobility solution that improves user experience and maximizes resource efficiency.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="neural-network">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"></path></svg>
+                    </div>
+                    <h2 class="service-title">V2G Systems</h2>
+                    <p class="service-description">
+                        Our Vehicle-to-Grid (V2G) systems enable bidirectional energy flow between electric vehicles and the power grid. This technology allows EV owners to sell excess energy back to the grid during peak demand periods while optimizing charging during low-demand times. Our V2G solutions include sophisticated control algorithms, grid integration interfaces, and user-friendly management tools to maximize financial and environmental benefits.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="ml-engineering">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2z"></path><circle fill="white" cx="12" cy="8" r="2"></circle><path fill="white" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm-5 7H3v1h4v-1zm11.5 0h-4v1h4v-1zm5.5 0h-4v1h4v-1z"></path><path fill="white" d="M17 4.26v2.09c.57.55.93 1.32.93 2.15 0 .87-.36 1.64-.93 2.18v2.09c1.76-.77 3-2.53 3-4.27s-1.24-3.5-3-4.24z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Demand Response Systems</h2>
+                    <p class="service-description">
+                        Our demand response systems for EV charging networks intelligently adjust charging patterns in response to grid conditions, energy prices, and user preferences. These systems help prevent grid overload during peak demand periods while ensuring vehicles are charged when needed. By participating in utility demand response programs, charging network operators can generate additional revenue while contributing to grid stability.
+                    </p>
+                </div>
+  
+                <div class="service-content hidden" id="ml-implementation">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Energy Management Systems (EMS)</h2>
+                    <p class="service-description">
+                        Our Energy Management Systems (EMS) optimize power distribution across charging stations, building systems, and renewable energy sources. These comprehensive solutions monitor real-time energy usage, predict demand patterns, and implement dynamic load balancing to prevent circuit overloads and minimize demand charges. Our EMS integrates with solar arrays, battery storage, and building management systems to create holistic energy ecosystems.
+                    </p>
+                </div>
+  
+                <div class="service-content hidden" id="ml-saas">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM7 9H4V5h3v4zm10 6h3v4h-3v-4zm0-10h3v4h-3V5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Connectivity (OCPP, OCPI, OICP & more)</h2>
+                    <p class="service-description">
+                        We provide comprehensive connectivity solutions that ensure your charging stations can communicate using industry-standard protocols including Open Charge Point Protocol (OCPP), Open Charge Point Interface (OCPI), Open InterCharge Protocol (OICP), and more. Our expertise enables seamless integration with multiple back-end systems, roaming platforms, and payment providers, giving your customers access to a wider charging network while simplifying management and billing processes.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="mlops">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Smart Charging</h2>
+                    <p class="service-description">
+                        Our smart charging solutions use advanced algorithms to optimize charging schedules based on grid capacity, energy prices, renewable energy availability, and user preferences. These systems can automatically adjust charging power and timing to minimize costs while ensuring vehicles are ready when needed. Smart charging capabilities include peak shaving, load balancing across multiple stations, and integration with time-of-use electricity rates.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="ev-telematics">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 2c0-3.31-2.69-6-6-6s-6 2.69-6 6c0 2.22 1.21 4.15 3 5.19l1-1.74c-1.19-.7-2-1.97-2-3.45 0-2.21 1.79-4 4-4s4 1.79 4 4c0 1.48-.81 2.75-2 3.45l1 1.74c1.79-1.04 3-2.97 3-5.19zM12 3C6.48 3 2 7.48 2 13c0 3.7 2.01 6.92 4.99 8.65l1-1.73C5.61 18.53 4 15.96 4 13c0-4.42 3.58-8 8-8s8 3.58 8 8c0 2.96-1.61 5.53-4 6.92l1 1.73c2.99-1.73 5-4.95 5-8.65 0-5.52-4.48-10-10-10z"></path></svg>
+                    </div>
+                    <h2 class="service-title">EV Telematics Integration</h2>
+                    <p class="service-description">
+                        Our EV telematics integration solutions enable seamless communication between vehicles, charging stations, and management systems. By collecting and analyzing data from vehicle onboard systems, we provide insights into battery health, charging patterns, and energy consumption. This integration enables features such as automatic charging station authentication, pre-conditioning during charging, and smart route planning based on charging infrastructure availability.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="escooter-app">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"></path></svg>
+                    </div>
+                    <h2 class="service-title">eScooter App Development</h2>
+                    <p class="service-description">
+                        We design and develop comprehensive mobile applications for electric scooter sharing services that provide seamless user experiences from registration to ride completion. Our eScooter apps include features such as real-time scooter location tracking, unlocking mechanisms, route mapping, payment processing, and ride history. The platforms integrate with backend management systems for fleet monitoring, maintenance scheduling, and operational analytics.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="ev-battery">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02zM8 16h2.5l1.5 1.5 1.5-1.5H16v-2.5l1.5-1.5-1.5-1.5V8h-2.5L12 6.5 10.5 8H8v2.5L6.5 12 8 13.5V16zm4-7c1.66 0 3 1.34 3 3s-1.34 3-3 3V9z"></path></svg>
+                    </div>
+                    <h2 class="service-title">EV Battery Management System</h2>
+                    <p class="service-description">
+                        Our EV Battery Management Systems (BMS) maximize battery performance, lifespan, and safety through advanced monitoring and control technologies. These systems continuously track battery cell parameters, optimize charging and discharging processes, and implement protective measures against harmful conditions. Our BMS solutions include software interfaces for remote monitoring, diagnostic tools for predictive maintenance, and data analytics for performance optimization and longevity assessment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <div class="iot-smart-faq">
+        <div class="faq-headline">
+            <h3 class="heading">Our Custom Range of EV Charging Station Solutions</h3>
+            <span>As one of the globally recognized EV technology providers, we specialize in offering tailored charging station management solutions designed to drive innovation and take your business to greater heights. Our EV charging station services can transform your operations and propel your business into the electric mobility era.</span>
+        </div>
+        
+        <div class="faq-category">
+            <div class="faq-hexagon">
+              <div class="hexagon-wrapper">
+                  <div class="hexagon-header">
+                      <div class="hexagon-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4m16 0a8 8 0 01-7 7.94m7-7.94a8 8 0 00-7-7.93m-7 7.93a8 8 0 017-7.93m-7 7.93a8 8 0 007 7.94" />
+                          </svg>
+                      </div>
+                      <div class="hexagon-question">
+                        EV Charging Station Management Systems
+                          <span class="hexagon-toggle">+</span>
+                      </div>
+                  </div>
+                  <div class="hexagon-content">
+                      <div class="hexagon-answer">
+                        Reduce electricity costs and get advanced diagnostics on station health to keep it up and running. Grow your charging infrastructure and deliver exceptional experiences to customers with effortless tracking, management, and optimization of EV charging.
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="faq-hexagon">
+              <div class="hexagon-wrapper">
+                  <div class="hexagon-header">
+                      <div class="hexagon-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                          </svg>
+                      </div>
+                      <div class="hexagon-question">
+                        Parking Detection and Management Systems
+                          <span class="hexagon-toggle">+</span>
+                      </div>
+                  </div>
+                  <div class="hexagon-content">
+                      <div class="hexagon-answer">
+                        Our parking management solutions use advanced sensors and machine learning algorithms to detect vehicle presence, optimize parking space utilization, and provide real-time availability data. These systems integrate seamlessly with EV charging infrastructure to create a comprehensive mobility solution that improves user experience and maximizes resource efficiency.
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+          <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      V2G Systems
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our Vehicle-to-Grid (V2G) systems enable bidirectional energy flow between electric vehicles and the power grid. This technology allows EV owners to sell excess energy back to the grid during peak demand periods while optimizing charging during low-demand times. Our V2G solutions include sophisticated control algorithms, grid integration interfaces, and user-friendly management tools to maximize financial and environmental benefits.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5V14m0-2.5v-6a2.5 2.5 0 015 0v6a2.5 2.5 0 01-5 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 9a2 2 0 012-2h4a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V9z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      Demand Response Systems
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our demand response systems for EV charging networks intelligently adjust charging patterns in response to grid conditions, energy prices, and user preferences. These systems help prevent grid overload during peak demand periods while ensuring vehicles are charged when needed. By participating in utility demand response programs, charging network operators can generate additional revenue while contributing to grid stability.
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Energy Management Systems (EMS)
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our Energy Management Systems (EMS) optimize power distribution across charging stations, building systems, and renewable energy sources. These comprehensive solutions monitor real-time energy usage, predict demand patterns, and implement dynamic load balancing to prevent circuit overloads and minimize demand charges. Our EMS integrates with solar arrays, battery storage, and building management systems to create holistic energy ecosystems.
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Connectivity (OCPP, OCPI, OICP & more)
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  We provide comprehensive connectivity solutions that ensure your charging stations can communicate using industry-standard protocols including Open Charge Point Protocol (OCPP), Open Charge Point Interface (OCPI), Open InterCharge Protocol (OICP), and more. Our expertise enables seamless integration with multiple back-end systems, roaming platforms, and payment providers, giving your customers access to a wider charging network while simplifying management and billing processes.
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+
+    
+
+  <section class="stats-section">
+    <div class="stats-card">
+      <div class="stats-container">
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">3000+</div>
+          <div class="stat-description">Software Projects<br>Delivered Successfully</div>
+        </div>
+       
+       
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">87%</div>
+          <div class="stat-description">Recurring Client Base</div>
+        </div>
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">8+</div>
+          <div class="stat-description">Years in Business</div>
+        </div>
+      
+      </div>
+      <a href="#" class="cta-button">Let's Discuss Your Project</a>
+    </div>
+  </section>
+
+  <section class="kkrf-industry-section mb-5">
+    <div class="kkrf-industry-header">
+        <h2 class="heading mt-5">Types of EV Apps We Develop</h2>
+        <p class="kkrf-industry-description">Having served 150+ prestigious EV clients so far, we have the experience and expertise to deliver e-vehicle app development solutions of any scale and complexity. Be it a simple EV station finder app or a complex EV fleet management software development solution, we deliver applications that yield success for our clients.</p>
+    </div>
+  
+    <div class="kkrf-industry-grid">
+        <!-- Row 1 -->
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="8" />
+                    <path d="M12 8v4l2 2" />
+                    <path d="M18 12h2" />
+                    <path d="M4 12h2" />
+                    <path d="M12 4v2" />
+                    <path d="M12 18v2" />
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Smart Charging App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Charging Station App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Fleet Management App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Range Estimation App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="1" y="3" width="15" height="13"></rect>
+                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                    <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                    <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Performance Monitoring App</span>
+        </div>
+  
+        <!-- Row 2 -->
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 3h5v5"></path>
+                    <path d="M21 3l-9 9"></path>
+                    <path d="M7 14A2 2 0 0 0 5 16v1a2 2 0 0 0 4 0v-1a2 2 0 0 0-2-2z"></path>
+                    <path d="M3 15h8"></path>
+                    <path d="M7 18v3"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Trip and Route Planner App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                    <path d="M12 12h.01"></path>
+                    <path d="M7 12h.01"></path>
+                    <path d="M17 12h.01"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">On-Demand EV Ride-Sharing App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">On-Demand eScooter App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Energy Management App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Smart Grid Integration App</span>
+        </div>
+  
+        <!-- Row 3 -->
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Infotainment App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 2L2 22"></path>
+                    <path d="M6.5 17.5L17.5 6.5"></path>
+                    <path d="M2 12h2a10 10 0 0 1 10 10v-2"></path>
+                    <path d="M22 12h-2a10 10 0 0 0-10-10v2"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">Battery Swapping App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Payment Solutions</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Maintenance App</span>
+        </div>
+  
+        <div class="kkrf-industry-item">
+            <div class="kkrf-industry-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+                </svg>
+            </div>
+            <span class="kkrf-industry-name">EV Analytics Dashboard</span>
+        </div>
+    </div>
+  </section>
+
+  <div class="container-fluid arvrtech_services_outer_container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="heading">Key Features We Add to Your EV Apps and Software</h1>
+            <p class="arvrtech_intro_paragraph">
+                As a leading electric vehicle app development company, we craft sophisticated EV solutions equipped with all the essential and advanced features as per the needs of your business. From our electric vehicle charging app solutions to our cutting-edge fleet management systems, we prioritize excellence in every aspect to empower your EV business for the future.
+            </p>
+        </div>
+    </div>
+    
+    <div class="row arvrtech_cards_horizontal_row">
+        <!-- Locating Charging Stations -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-battery-charging arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Locating Charging Stations</h3>
+                <p class="arvrtech_card_description_text">
+                    Help users find the nearest charging stations with real-time availability information, filtering by connector types, charging speeds, and amenities.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Booking Charging Stations -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-plug arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Booking Charging Stations</h3>
+                <p class="arvrtech_card_description_text">
+                    Enable users to reserve charging slots in advance, ensuring availability when needed and reducing wait times during their journey.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Sharing Residential Chargers -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-house arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Sharing Residential Chargers</h3>
+                <p class="arvrtech_card_description_text">
+                    Peer-to-peer platform allowing homeowners to rent out their private charging stations, increasing network coverage and creating additional income streams.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Charger Details -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-info-circle arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Charger Details</h3>
+                <p class="arvrtech_card_description_text">
+                    Comprehensive information about each charging point including power output, connector types, pricing, user reviews, and real-time operational status.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row arvrtech_cards_horizontal_row">
+        <!-- GPS Navigation -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-geo-alt arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">GPS Navigation</h3>
+                <p class="arvrtech_card_description_text">
+                    Turn-by-turn directions to charging stations with intelligent route planning that considers battery range and optimal charging stops during long journeys.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Payment Gateways -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-credit-card arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Payment Gateways</h3>
+                <p class="arvrtech_card_description_text">
+                    Secure and flexible payment options including credit cards, mobile wallets, and subscription models with automated billing for seamless transactions.
+                </p>
+            </div>
+        </div>
+        
+        <!-- eWallets -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-wallet2 arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">eWallets</h3>
+                <p class="arvrtech_card_description_text">
+                    Integrated digital wallets for managing funds, tracking expenditure, storing rewards, and enabling one-tap payments at compatible charging stations.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Push Notifications -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-bell arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Push Notifications</h3>
+                <p class="arvrtech_card_description_text">
+                    Timely alerts about charging status, session completion, nearby stations, special offers, and important updates to enhance user engagement.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row arvrtech_cards_horizontal_row">
+        <!-- Geofencing Notifications -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-phone arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Geofencing Notifications</h3>
+                <p class="arvrtech_card_description_text">
+                    Location-based alerts that notify users when they enter areas with available charging stations or when they're approaching their reserved charging slot.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Remote Charging Control -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-lightning arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Remote Charging Control</h3>
+                <p class="arvrtech_card_description_text">
+                    Start, stop, and monitor charging sessions remotely through the app, with options to set charging limits and schedules based on electricity rates.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Vehicle Integration -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-car-front arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Vehicle Integration</h3>
+                <p class="arvrtech_card_description_text">
+                    Deep integration with vehicle systems to provide accurate battery status, range estimates, and preconditioning capabilities during charging sessions.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Analytics Dashboard -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-graph-up arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Analytics Dashboard</h3>
+                <p class="arvrtech_card_description_text">
+                    Comprehensive usage statistics with insights on charging patterns, energy consumption, cost analysis, and environmental impact visualizations.
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  
+
+
+  <section class="appinv-why-choose-section">
+    <div class="appinv-why-choose-container">
+      <div class="appinv-section-header">
+        <h2 class="heading mt-5">Why Choose KKRF for Your Electric Vehicle Software Development Needs?</h2>
+        <p class="appinv-main-subheading">KKRF is a leading electric vehicle software development company with a proven track record of delivering exceptional EV solutions to clients worldwide. Here's why clients choose us for their custom e-vehicle software and mobile app development needs.</p>
+      </div>
+  
+      <div class="appinv-benefits-container">
+        <div class="appinv-benefits-nav">
+          <div class="appinv-benefit-item appinv-active" data-benefit="industry-expertise">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </span>
+            Rich Industry Expertise
+          </div>
+          <div class="appinv-benefit-item" data-benefit="support">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12h-8a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h8"></path>
+                <path d="M22 12v7a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h8"></path>
+                <path d="M18 12V5a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h2"></path>
+              </svg>
+            </span>
+            24/7 Support
+          </div>
+          
+          <div class="appinv-benefit-item" data-benefit="security">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </span>
+            Conformity to Compliances and Regulations
+          </div>
+          
+          <div class="appinv-benefit-item" data-benefit="business-approach">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </span>
+            Agile Methodology
+          </div>
+        </div>
+  
+        <div class="appinv-benefit-display">
+          <div class="appinv-benefit-content appinv-active" id="industry-expertise">
+            <div class="appinv-benefit-image">
+              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Industry Expertise - Electric vehicle charging" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Rich Industry Expertise</h3>
+              <p class="appinv-benefit-description">At KKRF, we've built a reputation for excellence in the electric vehicle software development industry. Our team of specialized engineers and developers brings years of experience in creating sophisticated EV solutions that address the unique challenges of the e-mobility ecosystem.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Specialized knowledge in electric vehicle technologies</li>
+                <li class="appinv-benefit-list-item">Experience with diverse EV charging infrastructure projects</li>
+                <li class="appinv-benefit-list-item">Comprehensive understanding of electric vehicle market dynamics</li>
+                <li class="appinv-benefit-list-item">Proven success stories across multiple continents</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="support">
+            <div class="appinv-benefit-image">
+              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="24/7 Support - Customer service team" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">24/7 Support</h3>
+              <p class="appinv-benefit-description">We understand that EV ecosystems require continuous reliable operation. Our dedicated support teams work around the clock to ensure your electric vehicle solutions function flawlessly at all times, with rapid response protocols for any issues that may arise.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Round-the-clock technical support for all EV software solutions</li>
+                <li class="appinv-benefit-list-item">Proactive monitoring and issue resolution</li>
+                <li class="appinv-benefit-list-item">Multi-channel support through phone, email, and live chat</li>
+                <li class="appinv-benefit-list-item">Dedicated account managers for enterprise clients</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="security">
+            <div class="appinv-benefit-image">
+              <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Compliance and Security - Digital security concept" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Conformity to Compliances and Regulations</h3>
+              <p class="appinv-benefit-description">As a trusted eVehicle app development company, we prioritize full compliance with industry regulations, standards, and protocols. Be it guidelines such as GDPR and ISO 27001 or protocols such as OCPP and OCPI, we adhere to all to protect sensitive data and implement robust security measures.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">GDPR and regional data protection compliance</li>
+                <li class="appinv-benefit-list-item">Adherence to EV charging protocols including OCPP and OCPI</li>
+                <li class="appinv-benefit-list-item">ISO 27001 certified security practices</li>
+                <li class="appinv-benefit-list-item">Industry-standard encryption for data protection</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="business-approach">
+            <div class="appinv-benefit-image">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Agile Methodology - Development team collaboration" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Agile Methodology</h3>
+              <p class="appinv-benefit-description">Our development approach embraces agile methodologies to ensure adaptability, transparency, and continuous improvement. This enables us to respond quickly to market changes and evolving client requirements, delivering better outcomes faster for your EV software solutions.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Iterative development with regular client feedback</li>
+                <li class="appinv-benefit-list-item">Flexible adaptation to changing requirements</li>
+                <li class="appinv-benefit-list-item">Sprint-based delivery for faster time-to-market</li>
+                <li class="appinv-benefit-list-item">Continuous integration and deployment practices</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Section -->
+      <div class="appinv-contact-section d-none d-lg-block">
+        <div class="appinv-contact-image">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Electric Vehicle Development Team - Professional developers" />
+        </div>
+        <div class="appinv-contact-text">
+          <h3>Ready to accelerate your electric vehicle software journey?</h3>
+          
+          <a href="#contact" class="appinv-contact-button">Schedule a Consultation Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-black text-white">
+    <div class="container mx-auto px-6 py-12">
+      <!-- Text Section -->
+      <div class="text-center space-y-6">
+        <h1 class="heading mt-5">
+          <span class="text-blue-500">350 Million eVehicles</span><br>
+          will be on road globally by 2030
+        </h1>
+        <p class="text-xl md:text-2xl">
+          Get the early advantage by building your own EV software now
+        </p>
+        <button
+          class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-black transition">
+          <a href="#">Connect with an EV Expert</a> 
+        </button>
+      </div>
+  
+
+
+      <!-- Image Section -->
+      <div class="mt-12 flex justify-center">
+        <img
+          class="rounded-lg shadow-lg max-w-full md:max-w-[80%] h-auto object-cover"
+          src="https://example.com/ev-charging-image.jpg" 
+          alt="Person charging an electric vehicle"
+          onerror="this.onerror=null; this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 1200 800%22 fill%3D%22%23f3f4f6%22%3E%3Crect width%3D%221200%22 height%3D%22800%22%2F%3E%3Ctext x%3D%22600%22 y%3D%22400%22 dominant-baseline%3D%22middle%22 text-anchor%3D%22middle%22 font-family%3D%22sans-serif%22 font-size%3D%2236px%22 fill%3D%22%23d1d5db%22%3EEV Charging Image%3C%2Ftext%3E%3C%2Fsvg%3E';">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="d-flex flex-column flex-lg-row bg-black p-4 py-md-5 py-lg-3 px-lg-5">
+      <div class="partners-content pt-lg-5 me-lg-5 ms-lg-5 mb-lg-4">
+        <h2 class="text-light fw-normal fs-2 d-md-none">
+          Strategic Partnerships To Unlock Greater Business Value
+        </h2>
+        <h2 class="text-light fw-medium fs-2 d-none d-md-inline">
+          Strategic Partnerships To <br />Unlock Greater Business Value
+        </h2>
+      </div>
+      <div class="partners-images d-flex flex-column flex-md-row justify-content-lg-center pt-5 ms-lg-5">
+        <div class="d-flex flex-row mb-4 mb-lg-3 me-lg-5 ms-md-3">
+          <div class="w-50 py-md-3 me-md-5 me-lg-3">
+            <img src="assets/aws-partner.svg" class="partner-logo me-lg-5" alt="aws-partner" />
+          </div>
+          <div class="w-50 py-md-3 ms-md-5 ms-lg-0 me-lg-3">
+            <img src="assets/google-cloud-partner.svg" alt="google-cloud-partner" class="partner-logo ms-lg-4" />
+          </div>
+        </div>
+
+        <div class="d-flex flex-row mx-md-auto mx-lg-0">
+          <div class="w-50 me-md-5 me-lg-3 ms-lg-3">
+            <img src="assets/sap-partner.svg" class="sap-partner-logo mx-lg-auto" alt="sap-partner" />
+          </div>
+          <div class="w-50 py-md-3 pt-3 ms-md-5 ms-lg-5">
+            <img src="assets/azure-partner.svg.png" class="azure-partner-logo mx-lg-auto" alt="azure-partner" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="tech-stack-section">
+    <div class="container text-center py-5">
+      <h1 class="heading mt-5 mb-4">EV Tech Stack We Use</h1>
+      
+      <p class="subheading mb-5">
+        Our EV solution experts make use of an advanced tech stack and innovative techniques to develop electric vehicle software. For delivering top-notch electric vehicle charging software solutions, we strive to use the latest tools and technologies that are not only robust and secure but also meets the needs and expectations of users.
+      </p>
+      
+      <!-- Tech Category Tabs -->
+      <div class="tech-categories mb-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category active" data-category="mobile-app">
+              <p class="mb-0">Mobile App Development</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="web-application">
+              <p class="mb-0">Web Application</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="cloud">
+              <p class="mb-0">Cloud</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="devops">
+              <p class="mb-0">DevOps</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="backend">
+              <p class="mb-0">Backend & Microservices</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-6 mb-3">
+            <div class="tech-category" data-category="testing">
+              <p class="mb-0">Testing & QA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tech Tools Display Area -->
+      <div class="tech-tools-container mt-5 pt-4">
+        <!-- Mobile App Development (Default View) -->
+        <div class="tech-tools-content active" id="mobile-app-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- React Native Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#61DAFB" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="2" fill="#61DAFB"/>
+                    <path d="M12 7a15 5 0 1 0 0 10 15 5 0 1 0 0-10" stroke="#61DAFB" fill="none" stroke-width="1"/>
+                    <path d="M7 12a15 5 0 1 0 10 0 15 5 0 1 0-10 0" stroke="#61DAFB" fill="none" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">React Native</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Flutter Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#02569B" opacity="0.2"/>
+                    <path d="M4 12l4-4h12l-8 8z" fill="#54C5F8"/>
+                    <path d="M12 16l-8-8L20 8z" fill="#01579B"/>
+                    <path d="M20 8L4 12l8 8z" fill="#29B6F6"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Flutter</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Swift Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#F05138" opacity="0.2"/>
+                    <path d="M7 12c0-4 1-7 8-7 0 0-1 3 2 5s5 3 5 7-3 5-6 5c-2 0-3-1-4-2-1-1-2-2-3-2s-2 1-2 1c0 0-2-3 0-7z" fill="#F05138"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Swift</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Kotlin Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#7F52FF" opacity="0.2"/>
+                    <path d="M4 4h16L4 20z" fill="#7F52FF"/>
+                    <path d="M4 20l8-8 8 8z" fill="#7F52FF"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Kotlin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Web Application (Hidden by Default) -->
+        <div class="tech-tools-content" id="web-application-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Angular Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#DD0031" opacity="0.2"/>
+                    <path d="M12 3L4 7.5l1.5 11L12 21l6.5-2.5L20 7.5L12 3z" fill="#DD0031"/>
+                    <path d="M12 3v18l6.5-2.5L20 7.5L12 3z" fill="#C3002F"/>
+                    <path d="M12 5.5L7 16h2l1-2.5h4l1 2.5h2L12 5.5zm0 3.5l1.5 3h-3L12 9z" fill="white"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Angular</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- React Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#61DAFB" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="2" fill="#61DAFB"/>
+                    <path d="M12 7a15 5 0 1 0 0 10 15 5 0 1 0 0-10" stroke="#61DAFB" fill="none" stroke-width="1"/>
+                    <path d="M7 12a15 5 0 1 0 10 0 15 5 0 1 0-10 0" stroke="#61DAFB" fill="none" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">React</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Vue.js Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#4FC08D" opacity="0.2"/>
+                    <path d="M12 3L8 9l-4-6h4l4 6 4-6h4l-8 12z" fill="#4FC08D"/>
+                    <path d="M12 3l4 6 4-6h-4l-4 6z" fill="#2C4E41"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Vue.js</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- TypeScript Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#007ACC" opacity="0.2"/>
+                    <path d="M3 3h18v18H3V3zm14.5 12.5v-2h-7v2h2v5h3v-5h2z" fill="#007ACC"/>
+                    <path d="M13 7.5v2h5v2h-5v2h6.5v-6H13z" fill="#007ACC"/>
+                  </svg>
+                </div>
+                <p class="tool-name">TypeScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Cloud (Hidden by Default) -->
+        <div class="tech-tools-content" id="cloud-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- AWS Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#FF9900" opacity="0.2"/>
+                    <path d="M15 14l-2 2v-4l2 2zM9 14l2 2v-4l-2 2z" fill="#FF9900"/>
+                    <path d="M8 17l4 1 4-1v-2l-4 1-4-1v2z" fill="#FF9900"/>
+                    <path d="M8 11l4-1 4 1v-2l-4-1-4 1v2z" fill="#FF9900"/>
+                  </svg>
+                </div>
+                <p class="tool-name">AWS</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Google Cloud Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#4285F4" opacity="0.2"/>
+                    <path d="M12 3L4 13h3l5-8.5L17 13h3L12 3z" fill="#EA4335"/>
+                    <path d="M4 13v4h16v-4H4z" fill="#4285F4"/>
+                    <path d="M4 17v3h16v-3H4z" fill="#34A853"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Google Cloud</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Azure Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#0089D6" opacity="0.2"/>
+                    <path d="M12 4L5 16h5l-3 4h10l3-4h-4l-4-12z" fill="#0089D6"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Azure</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Firebase Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#FFCA28" opacity="0.2"/>
+                    <path d="M5 19l7-14 1.5 10L5 19z" fill="#FFA000"/>
+                    <path d="M5 19l3.5-16L12 7l-7 12z" fill="#F57F17"/>
+                    <path d="M5 19l13-11-4 2L5 19z" fill="#FFCA28"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Firebase</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- DevOps (Hidden by Default) -->
+        <div class="tech-tools-content" id="devops-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Docker Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#2496ED" opacity="0.2"/>
+                    <path d="M13 11h-2v-2h2v2zm0-3h-2V6h2v2zm3 0h-2V6h2v2zm0 3h-2v-2h2v2zm-6 0H8v-2h2v2zm-3 0H5v-2h2v2zm-3 3c0-2 1-3 2.5-3.5C8 6 10 4 14 4c-1 2.5-1 4-0.5 6 0.5 1.5 0.5 2 0.5 3h-12z" fill="#2496ED"/>
+                    <path d="M21 14c-1-1.5-2.5-2-3.5-2 0.5 1 0.5 2.5-0.5 3.5-0.5 0.5-1.5 1-3 1H4c0 1 0.5 2 1.5 2.5 1 0.5 2 0.5 3 0.5 2.5 0 4-1 5-2 1 0 2 0 3-0.5 1-0.5 1.5-1 2-2 0.5-1 0.5-2 0.5-3 1 0 2 0.5 2 2z" fill="#2496ED"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Docker</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Kubernetes Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#326CE5" opacity="0.2"/>
+                    <path d="M12 3L4 7.5v9L12 21l8-4.5v-9L12 3z" fill="#326CE5"/>
+                    <path d="M12 15c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z" fill="white"/>
+                    <path d="M12 7v2m0 6v2m-5-5h2m6 0h2" stroke="white" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Kubernetes</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Jenkins Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#D33833" opacity="0.2"/>
+                    <path d="M12 3a8 8 0 0 0-8 8v2a8 8 0 0 0 8 8 8 8 0 0 0 8-8v-2a8 8 0 0 0-8-8z" fill="white"/>
+                    <path d="M12 7c-1.5 0-3 1-3 3 0 1.5 1 3 3 3s3-1.5 3-3c0-2-1.5-3-3-3z" fill="#D33833"/>
+                    <path d="M9 14c0 1 1.5 2 3 2s3-1 3-2H9z" fill="#D33833"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Jenkins</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- GitLab CI/CD Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#FC6D26" opacity="0.2"/>
+                    <path d="M12 20.5l4.5-9H16L12 20.5z" fill="#FC6D26"/>
+                    <path d="M12 20.5L7.5 11.5H8L12 20.5z" fill="#FC6D26"/>
+                    <path d="M4 11.5l-1 3L12 20.5 7.5 11.5H4z" fill="#FCA326"/>
+                    <path d="M4 11.5l-1-3 4.5 3H4z" fill="#E24329"/>
+                    <path d="M8 11.5L4 3.5 4 11.5H8z" fill="#FC6D26"/>
+                    <path d="M20 11.5l1 3L12 20.5l8.5-9H20z" fill="#FCA326"/>
+                    <path d="M20 11.5l1-3-4.5 3H20z" fill="#E24329"/>
+                    <path d="M16 11.5L20 3.5 20 11.5H16z" fill="#FC6D26"/>
+                  </svg>
+                </div>
+                <p class="tool-name">GitLab CI/CD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend & Microservices (Hidden by Default) -->
+        <div class="tech-tools-content" id="backend-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Django Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#092E20" opacity="0.2"/>
+                    <text x="12" y="15" font-family="Arial" font-weight="bold" font-size="7" text-anchor="middle" fill="#092E20">Django</text>
+                  </svg>
+                </div>
+                <p class="tool-name">Django</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Spring Boot Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#6DB33F" opacity="0.2"/>
+                    <path d="M12 3C7 3 3 7 3 12s4 9 9 9 9-4 9-9-4-9-9-9z" fill="#6DB33F"/>
+                    <path d="M12 15.5c-2 0-3.5-1.5-3.5-3.5s1.5-3.5 3.5-3.5 3.5 1.5 3.5 3.5-1.5 3.5-3.5 3.5z" fill="white"/>
+                    <path d="M10.5 9.5L10.5 14.5M13.5 9.5L13.5 14.5" stroke="white" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Spring Boot</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Node.js Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#339933" opacity="0.2"/>
+                    <path d="M12 2l-8.5 5v10L12 22l8.5-5V7L12 2z" fill="#339933"/>
+                    <path d="M12 7v10m-4.5-8v6" stroke="white" stroke-width="1"/>
+                    <path d="M16.5 9v6" stroke="white" stroke-width="1"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Node.js</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Flask Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#000000" opacity="0.2"/>
+                    <text x="12" y="15" font-family="Arial" font-weight="bold" font-size="7" text-anchor="middle" fill="#000000">Flask</text>
+                  </svg>
+                </div>
+                <p class="tool-name">Flask</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testing & QA (Hidden by Default) -->
+        <div class="tech-tools-content" id="testing-tools">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Selenium Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#43B02A" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="6" fill="#43B02A"/>
+                    <circle cx="12" cy="12" r="3" fill="white"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Selenium</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Jest Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#C21325" opacity="0.2"/>
+                    <path d="M12 3a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9z" fill="#C21325"/>
+                    <path d="M16 10a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4 4 4 0 0 1 4 4z" fill="white"/>
+                    <path d="M11 9v2h2V9h-2z" fill="#C21325"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Jest</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- JUnit Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#25A162" opacity="0.2"/>
+                    <text x="12" y="15" font-family="Arial" font-weight="bold" font-size="7" text-anchor="middle" fill="#25A162">JUnit</text>
+                  </svg>
+                </div>
+                <p class="tool-name">JUnit</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+              <div class="tool-card">
+                <div class="icon-container">
+                  <!-- Cypress Icon -->
+                  <svg viewBox="0 0 24 24" width="40" height="40">
+                    <rect width="20" height="20" x="2" y="2" rx="2" fill="#17202C" opacity="0.2"/>
+                    <circle cx="12" cy="12" r="6" fill="#17202C"/>
+                    <path d="M9 12l2 2 4-4" stroke="white" stroke-width="1" fill="none"/>
+                  </svg>
+                </div>
+                <p class="tool-name">Cypress</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="product-features-section">
+    <div class="product-features-container">
+      <h2 class="heading text-center">EV Development Process We Follow as a Dedicated Electric Vehicle App Development Company</h2>
+      
+      <p class="product-features-description">
+        As a reliable electric vehicle application development company, we follow an agile development process, focusing on iterative development, transparent client communication, and continuous feedback. This allows us to deliver exceptional electric vehicle charging app solutions effectively.
+      </p>
+      
+      <div class="product-features-slider-container">
+        <div class="product-features-slider" id="productFeaturesSlider">
+          <!-- Process Step 1 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">01</div>
+            <h3 class="product-feature-title">Discover</h3>
+            <ul class="product-feature-list">
+              <li>Identifying project intent</li>
+              <li>Determining market potential</li>
+              <li>Visualizing KPIs</li>
+            </ul>
+          </div>
+          
+          <!-- Process Step 2 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">02</div>
+            <h3 class="product-feature-title">Define</h3>
+            <ul class="product-feature-list">
+              <li>Identifying problem statement</li>
+              <li>Defining user journeys</li>
+              <li>Laying information architecture</li>
+            </ul>
+          </div>
+          
+          <!-- Process Step 3 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">03</div>
+            <h3 class="product-feature-title">Ideate</h3>
+            <ul class="product-feature-list">
+              <li>Conducting intensive workshops</li>
+              <li>Acquisition and evaluation of ideas</li>
+              <li>Laying foundation for MVP</li>
+            </ul>
+          </div>
+          
+          <!-- Process Step 4 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">04</div>
+            <h3 class="product-feature-title">Design</h3>
+            <ul class="product-feature-list">
+              <li>Building wireframes and design systems</li>
+              <li>Building visual designs and animations</li>
+              <li>Developing rapid-interactive prototypes</li>
+            </ul>
+          </div>
+          
+          <!-- Process Step 5 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">05</div>
+            <h3 class="product-feature-title">Prototype</h3>
+            <ul class="product-feature-list">
+              <li>Building multiple interactive prototypes</li>
+              <li>User testing on target audience</li>
+              <li>Mitigating bugs</li>
+            </ul>
+          </div>
+          
+          <!-- Process Step 6 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">06</div>
+            <h3 class="product-feature-title">Develop</h3>
+            <ul class="product-feature-list">
+              <li>Picking the right technology stack</li>
+              <li>Deploying technology specialists</li>
+              <li>Beginning to code</li>
+            </ul>
+          </div>
+          
+          <!-- Process Step 7 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">07</div>
+            <h3 class="product-feature-title">Test</h3>
+            <ul class="product-feature-list">
+              <li>Functional testing of each module</li>
+              <li>Integration/system testing</li>
+              <li>Performance testing</li>
+            </ul>
+          </div>
+
+          <!-- Process Step 8 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">08</div>
+            <h3 class="product-feature-title">Launch</h3>
+            <ul class="product-feature-list">
+              <li>Publishing apps on stores</li>
+              <li>Launching websites and other software products</li>
+              <li>Ensuring seamless deployment</li>
+            </ul>
+          </div>
+
+          <!-- Process Step 9 -->
+          <div class="product-feature-card">
+            <div class="product-feature-number">09</div>
+            <h3 class="product-feature-title">Maintain</h3>
+            <ul class="product-feature-list">
+              <li>Feature expansion and diversification</li>
+              <li>Absolute version revamps</li>
+              <li>Managed services</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Navigation Arrows -->
+        <button class="product-features-nav-arrow product-features-prev-arrow" id="productFeaturesPrev" aria-label="Previous feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <button class="product-features-nav-arrow product-features-next-arrow" id="productFeaturesNext" aria-label="Next feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <section class="forms-section" style="background: linear-gradient(to bottom right, #040500,#04050085, #295A57, #313C12);">
+    <div class="container-fluid py-5 px-3 text-light px-md-5">
+      <div class="d-flex flex-column flex-lg-row mx-md-5 me-lg-0">
+        <div class="forms-first-section me-lg-5 py-lg-5 animate__animated animate__fadeInLeft">
+          <div>
+            <h2 class="forms-first-section-heading">Need quick help?<br class="d-none d-md-inline"> Contact us now!</h2>
+            <p class="forms-first-section-para mt-md-4 px-md-5 px-lg-0">Reach out for immediate assistance, and our team
+              will
+              respond as quickly
+              as possible.</p>
+          </div>
+          <div class="d-flex flex-column mt-5 ms-2 flex-md-row px-md-5 px-lg-0">
+            <div class="d-flex flex-column mb-4 col-lg-4">
+              <div class="contact-widget-icon-wrap mb-4">
+                <img
+                  src="https://cdn.prod.website-files.com/6753c944298bec1f730af5a1/6755352cc9989275ef3d0efc_map-pin.svg"
+                  loading="lazy" width="24" height="24" alt="">
+              </div>
+              <p>Address</p>
+              <p class="forms-section-lg-address ">Noida Sector 18<br class="d-none d-md-inline d-lg-none">
+                India</p>
+            </div>
+            <div class="d-flex flex-column mb-4 col-lg-4 ms-md-auto">
+              <div class="contact-widget-icon-wrap mb-4">
+                <img
+                  src="https://cdn.prod.website-files.com/6753c944298bec1f730af5a1/675536652eca5a31b7a4f260_call-calling.svg"
+                  loading="lazy" width="24" height="24" alt="">
+              </div>
+              <p>Contact</p>
+              <p class="forms-section-lg-address">support@kkrfgroup.com<br class=" d-none d-md-inline"> (123) 456-7890
+              </p>
+            </div>
+          </div>
+          <hr>
+          <div class="px-md-5 px-lg-0">
+            <p class="fs-5 mb-5">Office Hours: Mon – Sat: 8:00 AM – 10:00 PM</p>
+          </div>
+        </div>
+  
+        <div
+          class="animate__animated animate__fadeInRight forms-second-section bg-light rounded-4 p-3 text-black px-md-5 mx-md-5 py-md-5 ms-lg-5">
+          <div>
+            <h2 class="forms-second-section-heading mt-1 mb-3">Fill the contact form</h2>
+            <p class="forms-second-section-para text-dark">Have a question or need support? Fill out the form below, and
+              we’ll get back to you as soon as possible.
+            </p>
+            <form action="" class="">
+              <div class="mb-4 ">
+                <input type="text" class="form-control p-3" id="exampleFormControlInput1" placeholder="First name">
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control p-3" id="exampleFormControlInput2" placeholder="Email address">
+              </div>
+              <div class="mb-4">
+                <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="Phone number">
+              </div>
+              <div class="mb-4">
+                <textarea id="Message" name="Message" maxlength="5000" data-name="Message"
+                  placeholder="Type your message here" class="form-control p-4" spellcheck="false"></textarea>
+              </div>
+              <button class="btn d-block btn-dark w-100 py-3" type="button">Submit</button>
+            </form>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- faq section -->
+  <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Frequently Asked Questions</h2>
+      
+      <div class="max-w-4xl mx-auto space-y-6">
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold">What services do you provide?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer ">
+                  We offer comprehensive technology solutions including software development, cloud computing, cybersecurity, and digital transformation consulting for enterprises worldwide.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">How do you ensure data security?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  Our robust security protocols include end-to-end encryption, multi-factor authentication, regular security audits, and compliance with international data protection standards.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">What industries do you serve?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  We specialize in serving diverse sectors including finance, healthcare, e-commerce, education, and manufacturing with tailored technological solutions.
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- blog section -->
+
+
+
+
+ 
+  
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+  
+<script src="scripts/hero.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/card.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/switch.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/faqs.js"></script>
+
+</body>
+</html>

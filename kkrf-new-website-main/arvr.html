@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body class="bg-[#000] overflowx">
+
+    <div class="htec-nav d-none d-lg-block">
+      <div class="htec-navbar-container">
+          <nav class="htec-navbar">
+              <div class="htec-logo">
+                  <a href="index.html">   <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" /></a>
+              </div>
+              
+              <ul class="htec-nav-links">
+                <li class="htec-nav-item htec-active">
+                  <a href="#">Services <span class="htec-dropdown-arrow"></span></a>
+                  <div class="htec-dropdown-menu">
+                    <div class="htec-dropdown-inner htec-services-content">
+                      <div class="htec-sidebar">
+                          <h3 class="htec-sidebar-title">Services</h3>
+                          <ul class="htec-sidebar-menu">
+                              <li class="htec-sidebar-item"><a href="#" data-content="all-services">ALL SERVICES</a></li>
+                              <li class="htec-sidebar-item active"><a href="#" data-content="software-development">SOFTWARE DEVELOPMENT</a></li>
+                              <li class="htec-sidebar-item"><a href="#" data-content="blockchain-services">BLOCKCHAIN SERVICES</a></li>
+                              <li class="htec-sidebar-item"><a href="#" data-content="cloud-services">CLOUD SERVICES</a></li>
+                              <li class="htec-sidebar-item"><a href="#" data-content="it-consulting">IT CONSULTING</a></li>
+                              <li class="htec-sidebar-item"><a href="#" data-content="data-analytics">DATA ANALYTICS</a></li>
+                              <li class="htec-sidebar-item"><a href="#" data-content="devops">DEVOPS</a></li>
+                              <li class="htec-sidebar-item"><a href="#" data-content="artificial-intelligence">ARTIFICIAL INTELLIGENCE</a></li>
+                          </ul>
+                          <a href="#" style="display: inline-block; margin-top: 32px; padding: 12px 28px; background-color: rgba(255, 255, 255, 0.1); border-radius: 25px; color: white; text-decoration: none; font-size: 15px;">Explore</a>
+                      </div>
+                      <div class="htec-main-content">
+                          <!-- SOFTWARE DEVELOPMENT Content (Default/Initial View) -->
+                          <div id="software-development" class="content-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title"><a href="softwreoverview.html">SOFTWARE DEVELOPMENT</a></h3>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="erp.html">ERP Software development</a></h4>
+                                      <p class="htec-content-description">Custom enterprise solutions integrating finance, HR, supply chain, and manufacturing into a unified platform.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="crm.html">Custom CRM</a></h4>
+                                      <p class="htec-content-description">Tailored systems enhancing client engagement with lead scoring, pipeline analytics, and automation tools that integrate with your tech stack.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="arvr.html">AR/VR Development</a></h4>
+                                      <p class="htec-content-description">Immersive applications for training, marketing, and customer experiences using spatial computing and intuitive interaction design.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="mt-5">
+                                      <h4 class="htec-content-title"><a href="iot.html">IoT Development</a></h4>
+                                      <p class="htec-content-description">Connected device solutions transforming environments into intelligent ecosystems with embedded systems and analytics platforms.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="microservice.html">Microservices</a></h4>
+                                      <p class="htec-content-description">Modular architecture transforming monolithic applications into agile, scalable services with robust API gateways and observability.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="product.html">Product Development</a></h4>
+                                      <p class="htec-content-description">End-to-end digital product creation combining design thinking with iterative engineering to build market-ready solutions.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!-- BLOCKCHAIN SERVICES Content -->
+                          <div id="blockchain-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title"><a href="blockchainservices.html">BLOCKCHAIN SERVICES</a></h3>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="nftmarket.html">NFT Marketplace</a></h4>
+                                      <p class="htec-content-description">Custom platforms for secure creation and trading of digital assets with wallet integration, smart contracts, and royalty systems.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="metaverse.html">Metaverse Development</a></h4>
+                                      <p class="htec-content-description">Immersive virtual worlds leveraging 3D rendering and blockchain technology for digital interaction and commerce.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="mt-5">
+                                      <h4 class="htec-content-title"><a href="dapp.html">Dapp development</a></h4>
+                                      <p class="htec-content-description">Decentralized applications for DeFi, supply chain, and marketplaces with comprehensive testing and intuitive interfaces.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!-- CLOUD SERVICES -->
+                          <div id="cloud-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title"><a href="cloudconsulting.html">CLOUD SERVICES</a></h3>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="cloudmanaged.html">Cloud Managed Services</a></h4>
+                                      <p class="htec-content-description">Comprehensive infrastructure management with 24/7 monitoring, automated scaling, and cost governance that reduces cloud spend.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="cloudconsulting.html">Cloud Consulting</a></h4>
+                                      <p class="htec-content-description">Strategic guidance for adoption and migration with tailored roadmaps, TCO analysis, and compliance architecture design.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="mt-5">
+                                      <h4 class="htec-content-title"><a href="aws.html">AWS</a></h4>
+                                      <p class="htec-content-description">Specialized solutions leveraging serverless architectures, containerized platforms, and machine learning pipelines following best practices.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!-- IT CONSULTING -->
+                          <div id="it-consulting" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title"><a href="itoverview.html">IT CONSULTING</a></h3>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="health.html">Healthcare IT Consulting Services</a></h4>
+                                      <p class="htec-content-description">HIPAA-compliant systems, telehealth platforms, and interoperability solutions improving patient outcomes and operational efficiency.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="itoutsourcing.html">IT Outsourcing Services</a></h4>
+                                      <p class="htec-content-description">Strategic technology outsourcing with dedicated teams, defined SLAs, and quality assurance processes ensuring accountability.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="mt-5">
+                                      <h4 class="htec-content-title"><a href="manageditservices.html">Managed IT Services</a></h4>
+                                      <p class="htec-content-description">Comprehensive technology management including infrastructure monitoring, endpoint management, and virtual CIO services.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!-- DEVOPS -->
+                          <div id="devops" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title"><a href="devopsoverview.html">DEVOPS</a></h3>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="scops.html">SecOps</a></h4>
+                                      <p class="htec-content-description">Integrated security frameworks with automated vulnerability scanning, threat modeling, and incident response automation.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="mt-5">
+                                      <h4 class="htec-content-title"><a href="devopsoverview.html">DevOps Implementation</a></h4>
+                                      <p class="htec-content-description">End-to-end automation with CI/CD pipelines and observability stacks increasing deployment frequency and reducing recovery time.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!-- DATA ANALYTICS -->
+                          <div id="data-analytics" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title"><a href="dataanalytics.html">DATA ANALYTICS</a></h3>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="businessintelligence.html">Business Intelligence</a></h4>
+                                      <p class="htec-content-description">Data visualization platforms transforming complex information into actionable insights with self-service capabilities and governance.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="mt-5">
+                                      <h4 class="htec-content-title"><a href="dataanalytics.html">Data Services</a></h4>
+                                      <p class="htec-content-description">Comprehensive data management including engineering, governance, and analytics environments driving informed business decisions.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!-- ARTIFICIAL INTELLIGENCE -->
+                          <div id="artificial-intelligence" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title"><a href="aioverview.html">ARTIFICIAL INTELLIGENCE</a></h3>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="generativeai.html">Generative AI</a></h4>
+                                      <p class="htec-content-description">Custom systems creating content across text, image, and code with language models, knowledge retrieval, and responsible AI frameworks.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title"><a href="computer.html">Computer Vision</a></h4>
+                                      <p class="htec-content-description">Visual intelligence solutions implementing deep learning for object detection, segmentation, and anomaly detection with high accuracy.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="mt-5">
+                                      <h4 class="htec-content-title"><a href="machinnelearning.html">Machine Learning</a></h4>
+                                      <p class="htec-content-description">Predictive analytics for forecasting, churn prediction, and personalization with MLOps frameworks and explainable AI techniques.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!-- All Services -->
+                          <div id="all-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                              <div>
+                                  <h3 class="htec-section-title">All Services</h3>
+                                  <div>
+                                      <h4 class="htec-content-title">Our Comprehensive Approach</h4>
+                                      <p class="htec-content-description">Integrated solutions across the digital transformation spectrum delivering measurable business outcomes.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title">Integrated Solutions</h4>
+                                      <p class="htec-content-description">Cross-functional teams combining strategic thinking, design excellence, and technical expertise for real-world results.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title">Technology Partnerships</h4>
+                                      <p class="htec-content-description">Strategic alliances with leading providers while ensuring vendor-independent advice aligned with your specific needs.</p>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div>
+                                      <h4 class="htec-content-title">Industry-Specific Expertise</h4>
+                                      <p class="htec-content-description">Specialized knowledge across healthcare, financial, manufacturing, retail, and energy sectors with regulatory understanding.</p>
+                                  </div>
+                                  <div>
+                                      <h4 class="htec-content-title">Global Delivery Capabilities</h4>
+                                      <p class="htec-content-description">International presence providing access to specialized talent and flexible engagement models to scale efficiently.</p>
+                                  </div>
+                                  <h3 class="htec-section-title" style="margin-top: 28px;">Key Service Areas</h3>
+                                  <div class="htec-solutions-links">
+                                      <a href="softwreoverview.html" class="htec-solution-link">Software Development</a>
+                                      <a href="blockchainservices.html" class="htec-solution-link">Blockchain Services</a>
+                                      
+                                     
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </li>
+              <li class="htec-nav-item">
+                <a href="inderstiesoverview.html">Industries <span class="htec-dropdown-arrow"></span></a>
+                <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-firm-content">
+                    <div class="htec-firm-column">
+                      <h3 class="htec-section-header">Industries</h3>
+                      <ul class="htec-firm-links">
+                          <li class="htec-firm-link"><a href="mediaandent.html"><i class="bi bi-film me-2"></i>Media & Entertainment</a></li>
+                          <li class="htec-firm-link"><a href="finance.html"><i class="bi bi-currency-dollar me-2"></i>Financial Services & Insurance</a></li>
+                          <li class="htec-firm-link"><a href="energy.html"><i class="bi bi-lightning-charge me-2"></i>Energy & Utilities</a></li>
+                      </ul>
+                  </div>
+                  <div class="htec-firm-column">
+                      <ul class="htec-firm-links" style="margin-top: 52px;">
+                          <li class="htec-firm-link"><a href="inderstiesoverview.html"><i class="bi bi-building me-2"></i>Industrials</a></li>
+                          <li class="htec-firm-link"><a href="healthcare.html"><i class="bi bi-heart-pulse me-2"></i>Healthcare & Life Sciences</a></li>
+                          <li class="htec-firm-link"><a href="technology.html"><i class="bi bi-cpu me-2"></i>Technology</a></li>
+                      </ul>
+                  </div>
+                  <div class="htec-firm-column">
+                      <ul class="htec-firm-links" style="margin-top: 52px;">
+                          <li class="htec-firm-link"><a href="retail.html"><i class="bi bi-bag me-2"></i>Retail & CPG</a></li>
+                          <li class="htec-firm-link"><a href="technology.html"><i class="bi bi-truck me-2"></i>Transportation & Mobility</a></li>
+                          <li class="htec-firm-link"><a href="telecommunication.html"><i class="bi bi-broadcast me-2"></i>Telecommunications</a></li>
+                      </ul>
+                  </div>
+                    <div class="htec-firm-column">
+                        <!-- Placeholder for additional content -->
+                    </div>
+                    <div class="htec-news-section">
+                        <div class="htec-news-header">
+                            <h3 class="htec-news-title">Latest News</h3>
+                            <a href="aboutus.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                        </div>
+                        <div class="htec-news-grid">
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Healthcare Technology Innovation" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">AI-Powered Diagnostics Breakthrough in Healthcare</h4>
+                                    <p style="font-size:12px; color:#666;">March 15, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Financial Technology Solutions" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Blockchain Revolution in Banking Services</h4>
+                                    <p style="font-size:12px; color:#666;">March 10, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Smart Energy Solutions" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Smart Grid Technology Transforms Energy Sector</h4>
+                                    <p style="font-size:12px; color:#666;">March 5, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Media Streaming Technology" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Next-Gen Streaming Platform for Media Industry</h4>
+                                    <p style="font-size:12px; color:#666;">February 28, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="htec-nav-item">
+              <a href="#">Our Firm <span class="htec-dropdown-arrow"></span></a>
+              <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-firm-content">
+                      <div class="htec-firm-column ">
+                          <h3 class="htec-section-header">About KKRF</h3>
+                          <ul class="htec-firm-links">
+                              <li class="htec-firm-link"><a href="aboutus.html">Company Overview</a></li>
+                              <li class="htec-firm-link"><a href="carrer.html">Careers & Culture</a></li>
+                              <li class="htec-firm-link"><a href="blog.html">Blog</a></li>
+                              
+                          </ul>
+                      </div>
+                      <div class="htec-firm-column">
+                          <ul class="htec-firm-links" style="margin-top: 52px;">
+                              <li class="htec-firm-link"><a href="leaderboard.html">Leadership & Board</a></li>
+                              <li class="htec-firm-link dinon"><a href="what.html">What's going at KKRF</a></li>
+                              <li class="htec-firm-link"><a href="dummy.html">Alliances</a></li>
+                              
+  
+                              
+                          </ul>
+                      </div>
+                      <div class="htec-firm-column">
+                          <ul class="htec-firm-links" style="margin-top: 52px;">
+                              <li class="htec-firm-link"><a href="press.html">Press & Media</a></li>
+                              <li class="htec-firm-link"><a href="case.html">Case study</a></li>
+                          </ul>
+                      </div>
+                      <div class="htec-firm-column">
+                          <!-- Placeholder for additional content -->
+                      </div>
+                      <div class="htec-news-section">
+                          <div class="htec-news-header">
+                              <h3 class="htec-news-title">Latest News</h3>
+                              <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                          </div>
+                          <div class="htec-news-grid">
+                              <div class="htec-news-card">
+                                  <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="KKRF Expansion" style="width:100%; height:150px; object-fit:cover;">
+                                  <div class="htec-news-content" style="padding:10px;">
+                                      <h4 style="font-size:14px; margin:5px 0;">KKRF Group Expands with New Office in Singapore</h4>
+                                      <p style="font-size:12px; color:#666;">March 18, 2025</p>
+                                  </div>
+                              </div>
+                              <div class="htec-news-card">
+                                  <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Leadership Summit" style="width:100%; height:150px; object-fit:cover;">
+                                  <div class="htec-news-content" style="padding:10px;">
+                                      <h4 style="font-size:14px; margin:5px 0;">Annual Leadership Summit Announces Strategic Direction</h4>
+                                      <p style="font-size:12px; color:#666;">March 12, 2025</p>
+                                  </div>
+                              </div>
+                              <div class="htec-news-card">
+                                  <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="New Partnership" style="width:100%; height:150px; object-fit:cover;">
+                                  <div class="htec-news-content" style="padding:10px;">
+                                      <h4 style="font-size:14px; margin:5px 0;">KKRF Forms Strategic Alliance with Global Tech Leader</h4>
+                                      <p style="font-size:12px; color:#666;">March 8, 2025</p>
+                                  </div>
+                              </div>
+                              <div class="htec-news-card">
+                                  <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Sustainability Initiative" style="width:100%; height:150px; object-fit:cover;">
+                                  <div class="htec-news-content" style="padding:10px;">
+                                      <h4 style="font-size:14px; margin:5px 0;">New Sustainability Initiative Launches with Zero-Carbon Goal</h4>
+                                      <p style="font-size:12px; color:#666;">March 1, 2025</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          <li class="htec-nav-item htec-careers-nav-item11">
+            <a href="carrer.html">Careers & Culture</a>
+        </li>
+              
+              </ul>
+              
+              <div class="htec-right-section">
+  
+               
+              <div class="language-selector" id="language-selector-1">
+                <span class="language-dropdown-label">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                        <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+                    </svg>
+                </span>
+                <div class="language-select-container">
+                    <button class="language-select-button">Select Language</button>
+                    <div class="language-dropdown">
+                        <input type="text" class="language-search" placeholder="Search language...">
+                        <div class="language-options">
+                            <!-- Language options will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <a href="contact.html"><button class="htec-partner-button d-none d-xl-block">Let's partner up</button></a>
+              </div>
+          </nav>
+      </div>
+  </div>
+  
+    <section class="d-block  d-lg-none">
+      <nav class="navbar-override1 flex items-center px-10 py-4 bg-black relative">
+        <!-- Logo -->
+        <div>
+          <a href="index.html">
+            <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" />
+        </a>
+    
+        </div>
+    
+        <!-- Navigation Menu -->
+        <div class="nav-center hidden lg:flex items-center gap-8">
+          <!-- Dropdown Menu for "What we do" -->
+          <div class="relative">
+            <button
+              class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+              id="dropdown-btn"
+            >
+          
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="dropdown-menu" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            
+            </div>
+          </div>
+    
+          <a href="#" class="text-white hover:text-purple-500">Industries</a>
+          
+          <!-- Who we are dropdown -->
+          <div class="relative">
+            <button
+              class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+              id="dropdown-btn1"
+            >
+            
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="dropdown-menu1" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+              <!-- Dropdown content remains the same -->
+            
+            </div>
+          </div>
+    
+          <!-- Careers dropdown -->
+          <div class="relative">
+            <button
+              class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+              id="dropdown-btn2"
+            >
+           
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="dropdown-menu2" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+              <!-- Dropdown content remains the same -->
+            
+            </div>
+          </div>
+        </div>
+    
+        <!-- Contact Us & Country Selector -->
+       
+    
+        <!-- Hamburger Icon for Mobile -->
+    
+        <div class="lg:hidden">
+          <button id="menuTriggerTab" class="text-white focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    
+      <!-- Mobile Menu -->
+    
+      
+      <div class="tabtab-menu" id="tabMenu1">
+        <!-- Header -->
+        <div class="tabtab-menu-header">
+            <button id="backBtn1" class="tabtab-back-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back
+            </button>
+            <button id="closeBtn1" class="tabtab-p-2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="language-selector" id="language-selector-2">
+              <span class="language-dropdown-label">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                      <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+                  </svg>
+              </span>
+              <div class="language-select-container">
+                  <button class="language-select-button">Select Language</button>
+                  <div class="language-dropdown">
+                      <input type="text" class="language-search" placeholder="Search language...">
+                      <div class="language-options">
+                          <!-- Language options will be populated by JavaScript -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+        </div>
+  
+        <!-- Menu Sections -->
+        <div class="tabtab-menu-section tabtab-active" id="mainMenu1">
+            <button class="tabtab-menu-item" data-target="services1">
+                Services
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="industries1">
+                Industries
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="ourFirm1">
+                Our Firm
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <a href="blog.html" class="tabtab-menu-item">
+                Insights & Events
+            </a>
+            <a href="careers.html" class="tabtab-menu-item">
+                Careers & Culture
+            </a>
+            <div class="bottom-link">
+            <a href="contact.html"  style="color: white;">Let's partner up</a>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/company/htec-group" class="social-icon" aria-label="LinkedIn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/htecgroup" class="social-icon" aria-label="Facebook">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                  <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="services1">
+            <h2 class=" tabtab-mb-6 heading" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Services</h2>
+            <button class="tabtab-menu-item" data-target="softwareDev1">
+                Software Development
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="blockchain1">
+                Blockchain Services
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="cloud1">
+                Cloud Services
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="itConsulting1">
+                IT Consulting
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="dataAnalytics1">
+                Data Analytics
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="devOps1">
+                DevOps
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <button class="tabtab-menu-item" data-target="ai1">
+                Artificial Intelligence
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+        </div>
+  
+        <div class="tabtab-menu-section" id="softwareDev1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="softwreoverview.html">Software Development</a></h2>
+            <div class="tabtab-grid-layout">
+                <a href="erp.html" class="tabtab-menu-item">ERP Software Development</a>
+                <a href="crm.html" class="tabtab-menu-item">Custom CRM</a>
+                <a href="arvr.html" class="tabtab-menu-item">AR/VR Development</a>
+                <a href="iot.html" class="tabtab-menu-item">IoT Development</a>
+                <a href="microservice.html" class="tabtab-menu-item">Microservices</a>
+                <a href="product.html" class="tabtab-menu-item">Product Development</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="blockchain1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="blockchainservices.html">Blockchain Services</a></h2>
+            <div class="tabtab-grid-layout">
+                <a href="nftmarket.html" class="tabtab-menu-item">NFT Marketplace</a>
+                <a href="metaverse.html" class="tabtab-menu-item">Metaverse Development</a>
+                <a href="dapp.html" class="tabtab-menu-item">Dapp Development</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="cloud1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Cloud Services</h2>
+            <div class="tabtab-grid-layout">
+                <a href="cloudmanaged.html" class="tabtab-menu-item">Cloud Managed Services</a>
+                <a href="cloudconsulting.html" class="tabtab-menu-item">Cloud Consulting</a>
+                <a href="aws.html" class="tabtab-menu-item">AWS</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="itConsulting1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="itoverview.html">IT Consulting</a></h2>
+            <div class="tabtab-grid-layout">
+                <a href="health.html" class="tabtab-menu-item">Healthcare IT Consulting Services</a>
+                <a href="itoutsourcing.html" class="tabtab-menu-item">IT Outsourcing Services</a>
+                <a href="manageditservices.html" class="tabtab-menu-item">Managed IT Services</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="dataAnalytics1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="dataanalytics.html">Data Analytics</a></h2>
+            <div class="tabtab-grid-layout">
+                <a href="businessintelligence.html" class="tabtab-menu-item">Business Intelligence</a>
+                <a href="dataanalytics.html" class="tabtab-menu-item">Data Services</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="devOps1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="devopsoverview.html">DevOps</a></h2>
+            <div class="tabtab-grid-layout">
+                <a href="scops.html" class="tabtab-menu-item">SecOps</a>
+                <a href="devopsoverview.html" class="tabtab-menu-item">DevOps Implementation</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="ai1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="aioverview.html" >Artificial Intelligence</a></h2>
+            <div class="tabtab-grid-layout">
+                <a href="generativeai.html" class="tabtab-menu-item">Generative AI</a>
+                <a href="computer.html" class="tabtab-menu-item">Computer Vision</a>
+                <a href="machinnelearning.html" class="tabtab-menu-item">Machine Learning</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="industries1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Industries</h2>
+            <div class="tabtab-grid-layout">
+                <a href="mediaandent.html" class="tabtab-menu-item">Media & Entertainment</a>
+                <a href="finance.html" class="tabtab-menu-item">Financial Services & Insurance</a>
+                <a href="energy.html" class="tabtab-menu-item">Energy & Utilities</a>
+                <a href="inderstiesoverview.html" class="tabtab-menu-item">Industrials</a>
+                <a href="healthcare.html" class="tabtab-menu-item">Healthcare & Life Sciences</a>
+                <a href="technology.html" class="tabtab-menu-item">Technology</a>
+                <a href="retail.html" class="tabtab-menu-item">Retail & CPG</a>
+                <a href="transportation.html" class="tabtab-menu-item">Transportation & Mobility</a>
+                <a href="telecommunication.html" class="tabtab-menu-item">Telecommunications</a>
+            </div>
+        </div>
+  
+        <div class="tabtab-menu-section" id="ourFirm1">
+            <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Our Firm</h2>
+            <div class="tabtab-grid-layout">
+                <a href="aboutus.html" class="tabtab-menu-item">Company Overview</a>
+                <a href="what.html" class="tabtab-menu-item dinon" >What's going at KKRF</a>
+               
+                <a href="leaderboard.html" class="tabtab-menu-item">Leadership & Board</a>
+                <a href="dummy.html" class="tabtab-menu-item">Alliances</a>
+                <a href="carrer.html" class="tabtab-menu-item">Careers & Culture</a>
+                <a href="press.html" class="tabtab-menu-item">Press & Media</a>
+                <a href="blog.html" class="tabtab-menu-item">Blog</a>
+                <a href="case.html" class="tabtab-menu-item">Case study</a>
+             
+            </div>
+        </div>
+  
+        <!-- Footer -->
+    </div>
+  
+      
+      
+    
+     </section>
+<!-- hero section -->
+    <section class="hero-section" style="height: 10vh; background-image: url('assets/ai/arvr.jpg'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+            
+            <h1 class="heading">AR/VR Development</h1>
+            <p class="subheading">Chasing new frontiers of customer engagement with Mobile App Development</p>
+        </div>
+    </section>
+
+    <!-- KEY VALUES -->
+    <section class="luxoft_expertise_section">
+      <h1 class="luxoft_expertise_title">KKRF's Expertise In 3D AR/VR App Development</h1>
+      
+      <div class="luxoft_expertise_stats_container">
+          <div class="luxoft_expertise_stat_item">
+              <h2 class="luxoft_expertise_number">20+</h2>
+              <p class="luxoft_expertise_text">years of experience as an AR/VR development company</p>
+          </div>
+          
+          <div class="luxoft_expertise_stat_item">
+              <h2 class="luxoft_expertise_number">30+</h2>
+              <p class="luxoft_expertise_text">major airlines using our 3D solutions for pilot and mechanic training</p>
+          </div>
+          
+          <div class="luxoft_expertise_stat_item">
+              <h2 class="luxoft_expertise_number">30+</h2>
+              <p class="luxoft_expertise_text">desktop and mobile XR applications delivered</p>
+          </div>
+      </div>
+      
+      <h2 class="luxoft_keypoints_title">Key points</h2>
+      <div class="luxoft_tech_container">
+          <div class="luxoft_tech_column">
+              <div class="luxoft_tech_icon">
+                  <i class="bi bi-gear-wide-connected"></i>
+              </div>
+              <h3 class="luxoft_tech_title">Technologies</h3>
+              <ul class="luxoft_tech_list">
+                  <li>Unity</li>
+                  <li>MRTK</li>
+                  <li>C#</li>
+                  <li>C++</li>
+              </ul>
+          </div>
+          
+          <div class="luxoft_tech_column">
+              <div class="luxoft_tech_icon">
+                  <i class="bi bi-box"></i>
+              </div>
+              <h3 class="luxoft_tech_title">SDKs</h3>
+              <ul class="luxoft_tech_list">
+                  <li>Unity VR</li>
+                  <li>Open XR</li>
+                  <li>Steam VR</li>
+                  <li>Oculus VR</li>
+              </ul>
+          </div>
+          
+          <div class="luxoft_tech_column">
+              <div class="luxoft_tech_icon">
+                  <i class="bi bi-display"></i>
+              </div>
+              <h3 class="luxoft_tech_title">Hardware</h3>
+              <ul class="luxoft_tech_list">
+                  <li>HTC Vive and Index</li>
+                  <li>Google Cardboard</li>
+                  <li>Android</li>
+                  <li>iOS</li>
+                  <li>HoloLens</li>
+                  <li>Oculus</li>
+              </ul>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- arvr -->
+   
+  <section>
+    <div class="arvr-custom-body bg-[#000] text-white ">
+        <div class="container flex flex-wrap gap-10 py-5">
+            <div class="arvr-row-content col-12 col-lg-5 mr-lg-6 mr-xl-6">
+                <div>
+                    <h5 class="arvr-custom-heading mb-6">Our AR VR Technology Expertise</h5>
+                    <p class="arvr-custom-paragraph">Being an esteemed augmented reality app development company, we trust these tools and platforms to build successful AR and VR applications that offer exceptional experiences to users.</p>
+                </div>
+                
+            </div>
+            <div class="d-flex flex-column justify-content-center mb-4 col-12 col-lg-6">
+                <div class="d-flex flex-row justify-content-center align-items-center mb-5">
+
+                <button id="arTab" class="btn arvr-custom-active-tab me-2" onclick="switchTab('ar')">AR</button>
+                <button id="vrTab" class="btn arvr-custom-inactive-tab" onclick="switchTab('vr')">VR</button>
+            </div>
+                <div>
+                    <div id="arContent" class="row justify-content-start text-white">
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">ARTOOLKIT</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">GOOGLE-ARCORE</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">APPLE ARKIT</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">VUFORIA</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">KUDAN</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">MAXST</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">DEEPAR</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">WIKITUDE</div>
+                        </div>
+                    </div>
+            
+                    <div id="vrContent" class="row justify-content-start d-none text-white">
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">UNITY 3D</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">LIBGDX</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">BLENDER</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">CRY ENGINE</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">TILT BRUSH</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">APPGAMEKIT VR</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">UNREAL ENGINE</div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="p-3 arvr-custom-border bg-dark text-center">GOOGLE SKETCH UP</div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+        <!-- Bootstrap Bundle JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+           
+        </script>
+    </div>
+  </section>
+
+
+     <!-- consulting section -->
+     <section class="software-section  d-none d-md-block">
+        <div class="crm-software-con">
+            <div class="sofware-spacing">
+                <h5 class="heading">Enhance Business Proficiency Using Our High-End Custom AR/VR Development Services</h5>
+                <p class="crm-Software-text">From healthcare and finance to retail and real estate, our custom AR/VR application development services
+                  help build immersive solutions for innovative brands.</p>
+            </div>
+    
+            <div class="services-container">
+              <div class="services-nav">
+                  <div class="service-item active" data-service="consulting">
+                      <span class="number">01.</span>
+                      AR/VR Consulting
+                  </div>
+                  <div class="service-item" data-service="migration">
+                      <span class="number">02.</span>
+                      AR/VR App Development
+                  </div>
+                  <div class="service-item" data-service="design">
+                      <span class="number">03.</span>
+                      AR/VR Wearable Integration
+                  </div>
+                  <div class="service-item" data-service="integration">
+                      <span class="number">04.</span>
+                      AR/VR Testing and Maintenance
+                  </div>
+                  <div class="service-item" data-service="development">
+                      <span class="number">05.</span>
+                      AR/VR with AI
+                  </div>
+                  <div class="service-item" data-service="implementation">
+                      <span class="number">06.</span>
+                      Industrial AR/VR
+                  </div>
+                  <div class="service-item" data-service="mobile">
+                      <span class="number">07.</span>
+                      Medical AR/VR
+                  </div>
+                
+              </div>
+            
+              <div class="service-content" id="consulting">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h-2v-2h2v2zm0-4h-2V7h2v5zm4 4h-2v-2h2v2zm0-4h-2V7h2v5z"></path></svg>
+                  </div>
+                  <h2 class="service-title">AR/VR Consulting</h2>
+                  <p class="service-description">
+                    As a leading Augmented and Virtual Reality development company, we ensure that you get professional and sound advice on building AR/VR applications and exploring the potential of immersive technologies through our experienced AR/VR consultants.
+               
+                  </p>
+              </div>
+            
+              <div class="service-content hidden" id="migration">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M20 10v4h-6v6h-4v-6H4v-4h6V4h4v6h6z"></path></svg>
+                  </div>
+                  <h2 class="service-title">AR/VR App Development</h2>
+                  <p class="service-description">
+                      Our expert team creates cutting-edge AR/VR applications tailored to your specific business needs. We design scalable, immersive, and intuitive solutions that create engaging experiences, collect meaningful data, and provide actionable insights to transform your operations and customer interactions.
+                
+                    </p>
+              </div>
+            
+              <div class="service-content hidden" id="design">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M3 3h18v18H3z"></path></svg>
+                  </div>
+                  <h2 class="service-title">AR/VR Wearable Integration</h2>
+                  <p class="service-description">
+                      We specialize in creating seamless connections between wearable devices and AR/VR ecosystems. Our solutions enable real-time data synchronization, optimized performance, and enhanced user experiences across health monitoring, industrial training, and smart accessory applications.
+                  
+                    </p>
+              </div>
+            
+              <div class="service-content hidden" id="integration">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19 6h-2V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-4-2h-4V4h4v2zm-6 0H7V4h4v2zm10 14H5V10h14v8z"></path></svg>
+                  </div>
+                  <h2 class="service-title">AR/VR Testing and Maintenance</h2>
+                  <p class="service-description">
+                      Our comprehensive AR/VR testing and maintenance services ensure your immersive systems perform optimally at all times. We provide rigorous user experience testing, performance optimization, compatibility assessment, and continuous monitoring to prevent issues and maintain operational excellence.
+                  
+                    </p>
+              </div>
+            
+              <div class="service-content hidden" id="development">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M10 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2h12c1.1 0 1.99-.9 1.99-2V4c0-1.1-.89-2-1.99-2h-4l-2-2H8L6 2zm0 2h8v16H6V4h4V2z"></path></svg>
+                  </div>
+                  <h2 class="service-title">AR/VR with AI</h2>
+                  <p class="service-description">
+                      Our AI-powered AR/VR solutions combine the power of artificial intelligence with immersive technologies to create intelligent systems that learn, adapt, and optimize automatically. We develop smart applications that analyze user behavior, make autonomous decisions, and deliver personalized experiences that transform how businesses operate and serve their customers.
+                  
+                    </p>
+              </div>
+            
+              <div class="service-content hidden" id="implementation">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M3 3h18v18H3z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Industrial AR/VR</h2>
+                  <p class="service-description">
+                      Our Industrial AR/VR solutions revolutionize manufacturing and industrial processes through immersive training, remote assistance, and advanced visualization. We deliver robust platforms for maintenance guidance, equipment simulation, production optimization, and supply chain visualization that increase efficiency, reduce downtime, and drive significant cost savings.
+                  
+                    </p>
+              </div>
+            
+              <div class="service-content hidden" id="mobile">
+                  <div class="service-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M6 8h12v2H6z"></path></svg>
+                  </div>
+                  <h2 class="service-title">Medical AR/VR</h2>
+                  <p class="service-description">
+                    Our Medical AR/VR development services revolutionize healthcare by integrating immersive technologies and advanced analytics, enabling surgical training, patient education, therapeutic applications, and facilitating data-driven decision-making for better patient outcomes. As a top-rated healthcare application development company, we build robust AR/VR solutions through which healthcare providers can deliver personalized care, optimize resource utilization, and enhance overall operational efficiency.
+                   
+                  </p>
+              </div>
+            
+             
+            </div>
+        </div>
+    </section>
+  
+    <div class="iot-smart-faq">
+      <div class="faq-headline">
+          <h3 class="heading">Enhance Business Proficiency Using Our High-End Custom AR/VR Development Services</h3>
+          <span>From healthcare and finance to retail and real estate, our custom AR/VR application development services
+            help build immersive solutions for innovative brands.</span>
+      </div>
+      
+      <div class="faq-category">
+         
+          
+          
+  
+          <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      AR/VR Consulting
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      As a leading Augmented and Virtual Reality development company, we ensure that you get professional and sound advice on building AR/VR applications and exploring the potential of immersive technologies through our experienced AR/VR consultants.
+             
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      AR/VR App Development
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our expert team creates cutting-edge AR/VR applications tailored to your specific business needs. We design scalable, immersive, and intuitive solutions that create engaging experiences, collect meaningful data, and provide actionable insights to transform your operations and customer interactions.
+              
+                      </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    AR/VR Wearable Integration
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    We specialize in creating seamless connections between wearable devices and AR/VR ecosystems. Our solutions enable real-time data synchronization, optimized performance, and enhanced user experiences across health monitoring, industrial training, and smart accessory applications.
+           
+                    </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    AR/VR with AI
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our AI-powered AR/VR solutions combine the power of artificial intelligence with immersive technologies to create intelligent systems that learn, adapt, and optimize automatically. We develop smart applications that analyze user behavior, make autonomous decisions, and deliver personalized experiences that transform how businesses operate and serve their customers.
+                  
+                    </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Industrial AR/VR
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  Our Industrial AR/VR solutions revolutionize manufacturing and industrial processes through immersive training, remote assistance, and advanced visualization. We deliver robust platforms for maintenance guidance, equipment simulation, production optimization, and supply chain visualization that increase efficiency, reduce downtime, and drive significant cost savings.
+                  
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="faq-hexagon">
+      <div class="hexagon-wrapper">
+          <div class="hexagon-header">
+              <div class="hexagon-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+              </div>
+              <div class="hexagon-question">
+                Medical AR/VR
+                  <span class="hexagon-toggle">+</span>
+              </div>
+          </div>
+          <div class="hexagon-content">
+              <div class="hexagon-answer">
+                Our Medical AR/VR development services revolutionize healthcare by integrating immersive technologies and advanced analytics, enabling surgical training, patient education, therapeutic applications, and facilitating data-driven decision-making for better patient outcomes. As a top-rated healthcare application development company, we build robust AR/VR solutions through which healthcare providers can deliver personalized care, optimize resource utilization, and enhance overall operational efficiency.
+                   
+                </div>
+          </div>
+      </div>
+  </div>
+  
+      </div>
+  </div>
+
+
+
+      <!-- sats section -->
+      <div class="container-fluid arvrtech_services_outer_container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="heading">Development Services</h1>
+                <p class="arvrtech_intro_paragraph">
+                    As a leading AR app development company, we assist startups and enterprises across various industries leverage our AR/VR development services to drive digital transformation, enhance business growth, and maximize ROI.
+                </p>
+            </div>
+        </div>
+        
+        <div class="row arvrtech_cards_horizontal_row">
+            <!-- Healthcare -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-heart-fill arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">Healthcare</h3>
+                    <p class="arvrtech_card_description_text">
+                        Enhance training, diagnostics, and patient engagement with immersive AR/VR simulations. Elevate procedural accuracy and personalized treatment experiences.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Finance -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-arrow-repeat arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">Finance</h3>
+                    <p class="arvrtech_card_description_text">
+                        Streamline complex financial products and data visualization through AR/VR-driven insights. Empower user decision-making and boost customer trust.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Restaurant -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-bell-fill arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">Restaurant</h3>
+                    <p class="arvrtech_card_description_text">
+                        Transform dining with AR/VR menus, staff training, and virtual storytelling. Elevate customer satisfaction and operational efficiency.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- eCommerce -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-cart-fill arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">eCommerce</h3>
+                    <p class="arvrtech_card_description_text">
+                        Offer virtual product try-ons and 360° store experiences with AR/VR. Boost customer confidence, reduce returns, and drive conversions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row arvrtech_cards_horizontal_row">
+            <!-- Logistics -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-box-seam arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">Logistics</h3>
+                    <p class="arvrtech_card_description_text">
+                        Optimize warehouse operations, driver training, and route planning through immersive AR/VR solutions. Enhance efficiency and reduce operational costs.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Social Media -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-chat-fill arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">Social Media</h3>
+                    <p class="arvrtech_card_description_text">
+                        Enable interactive, real-time virtual meetups and shared experiences via AR/VR. Foster deeper user engagement and innovative social connections.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Games -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-controller arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">Games</h3>
+                    <p class="arvrtech_card_description_text">
+                        Create captivating AR/VR gaming worlds for heightened realism and engagement. Unlock new levels of immersion and replay value.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Entertainment -->
+            <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+                <div class="arvrtech_industry_content_card">
+                    <div class="arvrtech_icon_circle_container">
+                        <i class="bi bi-tv arvrtech_feature_icon_element"></i>
+                    </div>
+                    <h3 class="arvrtech_card_header_text">Entertainment</h3>
+                    <p class="arvrtech_card_description_text">
+                        Enrich shows, films, and live events with immersive AR/VR features. Offer interactive storytelling and heightened audience engagement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <section class="arvr_hero_outer_container">
+      <div class="container-fluid">
+          <div class="arvr_hero_inner_wrapper">
+          <div class="arvr_hero_image_container">
+              <img src="assets/ai/arversub.webp" alt="VR user interacting with 3D machine model" class="arvr_hero_image">
+          </div>
+          <div class="arvr_hero_content_container">
+              <h1 class="arvr_hero_heading">Redefine your industry with a next-generation interactive XR solution</h1>
+              <a href="#contact" class="arvr_hero_button">
+                  GET IN TOUCH
+                  <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+              </a>
+          </div>
+          </div>
+      </div>
+  </section>   
+
+      <!-- trusted-section -->
+
+      <section class="trusted-section">
+        <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+    
+        <!-- Desktop View -->
+        <div class="desktop-logos">
+            <img src="assets/kfc.jpg" alt="KFC">
+            <img src="assets/kmpc.jpg" alt="KPMG">
+            <img src="assets/dominos.png" alt="Domino's">
+        <img src="assets/google.png" alt="Google">
+        <img src="assets/bcg.png" alt="BCG">
+            <img src="assets/americana.png" alt="Americana">
+        </div>
+    
+        <!-- Mobile View (Carousel) -->
+        <div class="swiper-container mobile-carousel">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+            <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+            <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+            <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+            <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+            <div class="swiper-slide"><img src="assets/americana.png" alt="Americana"></div>
+          </div>
+        </div>
+      </section>
+
+
+      
+
+      <!-- form section -->
+
+      <section class="bi-contact-wrapper mt-5">
+        <div class="bi-contact-container">
+          <div class="bi-contact-grid">
+            <div class="bi-contact-info">
+              <h2 class="heading">Let's take the first step together.</h2>
+              <p class="bi-contact-subtitle">Complete the form and an BI expert will contact you shortly.</p>
+              <div class="bi-career-info">
+                <p class="bi-career-text">Looking to join our team?</p>
+                <p class="bi-career-link-wrapper">Visit our <a href="#" class="bi-career-link">Careers & Culture page</a></p>
+              </div>
+            </div>
+            
+            <div class="bi-form-wrapper">
+              <form class="bi-contact-form">
+                <div class="bi-form-row">
+                  <div class="bi-form-group">
+                    <label for="firstName" class="bi-form-label">First name*</label>
+                    <input type="text" id="firstName" class="bi-form-input" required>
+                  </div>
+                  <div class="bi-form-group">
+                    <label for="lastName" class="bi-form-label">Last name*</label>
+                    <input type="text" id="lastName" class="bi-form-input" required>
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                    <div class="bi-form-group">
+                        <label for="workEmail" class="bi-form-label">Work email*</label>
+                        <input type="email" id="workEmail" class="bi-form-input" required>
+                      </div>
+                  <div class="bi-form-group">
+                    <label for="companyName" class="bi-form-label">Company name</label>
+                    <input type="text" id="companyName" class="bi-form-input">
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                    <div class="bi-form-group">
+                        <label for="budget" class="bi-form-label">What is your budget range?*</label>
+                        <select id="budget" class="bi-form-select" required>
+                          <option value="" disabled selected>— Please choose an option —</option>
+                          <option value="under-5k">Under $5,000</option>
+                          <option value="5k-15k">$5,000 - $15,000</option>
+                          <option value="15k-50k">$15,000 - $50,000</option>
+                          <option value="50k-100k">$50,000 - $100,000</option>
+                          <option value="over-100k">Over $100,000</option>
+                        </select>
+                      </div>
+                  <div class="bi-form-group">
+                    <label for="helpType" class="bi-form-label">How can we help?*</label>
+                    <select id="helpType" class="bi-form-select" required>
+                      <option value="" disabled selected>— Please choose an option —</option>
+                      <option value="bi-consulting">BI Consulting</option>
+                      <option value="data-analysis">Data Analysis</option>
+                      <option value="dashboards">Dashboard Creation</option>
+                      <option value="bi-implementation">BI Implementation</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                  <div class="bi-form-group bi-full-width">
+                    <label for="moreInfo" class="bi-form-label">Let us know more about Your Project/Idea *</label>
+                    <textarea id="moreInfo" class="bi-form-textarea" rows="5" required></textarea>
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                  <button type="submit" class="bi-submit-button">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+     
+     
+
+    
+
+
+
+
+
+
+
+
+ <!-- faq section -->
+ <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+        <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Frequently Asked Questions</h2>
+        
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">What services does AWZ provide?</h3>
+                    <i class="faq-icon fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    AWZ offers a comprehensive range of cloud computing services including storage solutions, database management, artificial intelligence platforms, machine learning tools, and serverless computing options to help businesses of all sizes scale their digital infrastructure.
+                </div>
+            </div>
+            
+            <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">How does AWZ pricing work?</h3>
+                    <i class="faq-icon fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    AWZ follows a pay-as-you-go pricing model, allowing customers to only pay for the services they use. We offer flexible pricing tiers, volume discounts, and free tier options for many services to help businesses optimize their costs while scaling their operations.
+                </div>
+            </div>
+            
+            <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">What kind of support does AWZ offer?</h3>
+                    <i class="faq-icon fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    AWZ provides multiple support options including 24/7 customer service, technical documentation, developer forums, and dedicated support plans. Our enterprise customers can access personalized support with dedicated technical account managers to ensure optimal performance of their cloud infrastructure.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+
+      <!-- blog section -->
+      <section class="tech-blog-section mb-5">
+        <div class="tech-blog-container">
+          <div class="tech-blog-header">
+            <h2 class="heading">Tech Insights:<br class="fs-5 d-none d-lg-inline">Updates, Solutions, and Expert Guides</h2>
+            <button class="tech-blog-view-all">Read All Blogs</button>
+          </div>
+          
+          <div class="tech-blog-card-container">
+            <!-- Card 1 -->
+            <div class="tech-blog-card-wrapper">
+              <div class="tech-blog-card">
+                <img src="assets/blogs/image1.webp" class="tech-blog-card-image" alt="Top signs your computer needs immediate repair">
+                <span class="tech-blog-date-badge">Dec 9, 2024</span>
+                <div class="tech-blog-card-content">
+                  <h5 class="tech-blog-card-title">Top signs your computer needs immediate repair</h5>
+                  <p class="tech-blog-card-excerpt">Is your computer acting up? This blog highlights the key signs that indicate your computer needs professional repair.</p>
+                  <button type="button" class="tech-blog-read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                      class="tech-blog-arrow-icon" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" 
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="tech-blog-card-wrapper">
+              <div class="tech-blog-card">
+                <img src="assets/blogs/image2.webp" class="tech-blog-card-image" alt="How to safeguard your business from cyber threats">
+                <span class="tech-blog-date-badge">Dec 9, 2024</span>
+                <div class="tech-blog-card-content">
+                  <h5 class="tech-blog-card-title">How to safeguard your business from cyber threats</h5>
+                  <p class="tech-blog-card-excerpt">In today's digital age, cyber threats are a constant concern for businesses. This blog explores practical steps you can take.</p>
+                  <button type="button" class="tech-blog-read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                      class="tech-blog-arrow-icon" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" 
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="tech-blog-card-wrapper">
+              <div class="tech-blog-card">
+                <img src="assets/blogs/image3.webp" class="tech-blog-card-image" alt="Maximizing productivity with these simple IT hacks">
+                <span class="tech-blog-date-badge">Dec 9, 2024</span>
+                <div class="tech-blog-card-content">
+                  <h5 class="tech-blog-card-title">Maximizing productivity with these simple IT hacks</h5>
+                  <p class="tech-blog-card-excerpt">Boosting productivity doesn't always require expensive software or tools. In this blog, we share easy IT hacks that can help you.</p>
+                  <button type="button" class="tech-blog-read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                      class="tech-blog-arrow-icon" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" 
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      
+
+
+      <div class="kkrf-header-container">
+        <img src="assets/kkrf gray color.svg" alt="KKRF Logo" class="kkrf-logo" style="filter: brightness(0) saturate(100%) invert(30%) sepia(0%) saturate(0%) hue-rotate(153deg) brightness(90%) contrast(95%);">
+      </div>
+    
+    <footer class="kkrf-footer">
+      <div class="kkrf-footer-container">
+        <!-- Column 1 -->
+        <div class="kkrf-footer-col kkrf-footer-col-main">
+          <div class="kkrf-footer-slogan">
+            Empowering your<br>
+            digital tomorrow
+          </div>
+          <div class="kkrf-footer-locations">
+            <div class="kkrf-footer-location-item">HQ</div>
+            <div class="kkrf-footer-location-item">Palo Alto</div>
+            <div class="kkrf-footer-location-item">London</div>
+            <div class="kkrf-footer-location-item">Belgrade</div>
+          </div>
+        </div>
+    
+        <!-- Column 2: Services -->
+        <div class="kkrf-footer-col">
+          <div class="kkrf-footer-heading" onclick="toggleMenu(this)">
+            Services <span class="kkrf-footer-arrow">&rarr;</span>
+          </div>
+          <ul class="kkrf-footer-menu">
+            <li class="kkrf-footer-menu-item"><a href="erp.html" class="kkrf-footer-link">Software Development</a></li>
+            <li class="kkrf-footer-menu-item"><a href="blockchainservices.html" class="kkrf-footer-link">Blockchain Services</a></li>
+            <li class="kkrf-footer-menu-item"><a href="Aws.html" class="kkrf-footer-link">Cloud Services</a></li>
+            <li class="kkrf-footer-menu-item"><a href="health.html" class="kkrf-footer-link">IT Consulting</a></li>
+            <li class="kkrf-footer-menu-item"><a href="businessintelligencs.html" class="kkrf-footer-link">Data Analytics</a></li>
+            <li class="kkrf-footer-menu-item"><a href="devops-engineer.html" class="kkrf-footer-link">DevOps</a></li>
+            <li class="kkrf-footer-menu-item"><a href="aioverview.html" class="kkrf-footer-link">Artificial Intelligence</a></li>
+          </ul>
+        </div>
+    
+        <!-- Column 3: Industries -->
+        <div class="kkrf-footer-col d-none d-lg-block">
+          <div class="kkrf-footer-heading" onclick="toggleMenu(this)">
+            Industries <span class="kkrf-footer-arrow">&rarr;</span>
+          </div>
+          <ul class="kkrf-footer-menu">
+            <li class="kkrf-footer-menu-item"><a href="mediaandent.html" class="kkrf-footer-link">Media & Entertainment</a></li>
+            <li class="kkrf-footer-menu-item"><a href="finance.html" class="kkrf-footer-link">Financial Services & Insurance</a></li>
+            <li class="kkrf-footer-menu-item"><a href="energy.html" class="kkrf-footer-link">Energy & Utilities</a></li>
+            <li class="kkrf-footer-menu-item"><a href="inderstiesoverview.html" class="kkrf-footer-link">Industrials</a></li>
+            <li class="kkrf-footer-menu-item"><a href="healthcare.html" class="kkrf-footer-link">Healthcare & Life Sciences</a></li>
+            <li class="kkrf-footer-menu-item"><a href="technology.html" class="kkrf-footer-link">Technology</a></li>
+            <li class="kkrf-footer-menu-item"><a href="retail.html" class="kkrf-footer-link">Retail & CPG</a></li>
+            <li class="kkrf-footer-menu-item"><a href="transportation.html" class="kkrf-footer-link">Transportation & Mobility</a></li>
+            <li class="kkrf-footer-menu-item"><a href="telecommunication.html" class="kkrf-footer-link">Telecommunications</a></li>
+          </ul>
+        </div>
+    
+        <!-- Column 4: Our Firm -->
+        <div class="kkrf-footer-col d-none d-lg-block">
+          <div class="kkrf-footer-heading" onclick="toggleMenu(this)">
+            Our Firm <span class="kkrf-footer-arrow">&rarr;</span>
+          </div>
+          <ul class="kkrf-footer-menu">
+            <li class="kkrf-footer-menu-item"><a href="aboutus.html" class="kkrf-footer-link">Company Overview</a></li>
+            <li class="kkrf-footer-menu-item"><a href="blog.html" class="kkrf-footer-link">Blogs</a></li>
+            <li class="kkrf-footer-menu-item"><a href="case.html" class="kkrf-footer-link">Case study</a></li>
+            <li class="kkrf-footer-menu-item"><a href="leaderboard.html" class="kkrf-footer-link">Leadership & Board</a></li>
+            <li class="kkrf-footer-menu-item"><a href="press.html" class="kkrf-footer-link">Press & Media</a></li>
+            <li class="kkrf-footer-menu-item"><a href="dummy.html" class="kkrf-footer-link">Alliances</a></li>
+            <li class="kkrf-footer-menu-item"><a href="carrer.html" class="kkrf-footer-link">Careers & Culture</a></li>
+            
+          </ul>
+        </div>
+    
+        <!-- Column 5: Sub-services -->
+        <div class="kkrf-footer-col">
+          <div class="kkrf-footer-heading" onclick="toggleMenu(this)">
+            Software Development <span class="kkrf-footer-arrow">&rarr;</span>
+          </div>
+          <ul class="kkrf-footer-menu">
+            <li class="kkrf-footer-menu-item"><a href="erp.html" class="kkrf-footer-link">ERP Software Development</a></li>
+            <li class="kkrf-footer-menu-item"><a href="crm.html" class="kkrf-footer-link">Custom CRM</a></li>
+            <li class="kkrf-footer-menu-item"><a href="arvr.html" class="kkrf-footer-link">AR/VR Development</a></li>
+            <li class="kkrf-footer-menu-item"><a href="iot.html" class="kkrf-footer-link">IoT Development</a></li>
+            <li class="kkrf-footer-menu-item"><a href="microservice.html" class="kkrf-footer-link">Microservices</a></li>
+            <li class="kkrf-footer-menu-item"><a href="product.html" class="kkrf-footer-link">Product Development</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Bottom section - Single row with space-between alignment -->
+    <div class="kkrf-bottom-bar">
+      <div class="kkrf-bottom-container">
+        <!-- Copyright and links -->
+        <div class="kkrf-bottom-row">
+          <div class="kkrf-copyright">© 2025 KKRF. All rights reserved.</div>
+          <div class="kkrf-policy-links">
+            <a href="#" class="kkrf-policy-link">Privacy Policy</a>
+            <a href="#" class="kkrf-policy-link hide-mobile">Cookie Policy</a>
+            <a href="#" class="kkrf-policy-link hide-mobile">Terms of Use</a>
+            <a href="#" class="kkrf-policy-link">Quality First</a>
+          </div>
+        </div>
+        
+        <!-- Social media links -->
+        <div class="kkrf-social-links d-none d-md-block">
+          <a href="https://www.linkedin.com/company/kkrf-group/" class="kkrf-social-link">LinkedIn</a>
+          <a href="https://twitter.com/kkrf" class="kkrf-social-link">X</a>
+          <a href="https://www.facebook.com/" class="kkrf-social-link hide-mobile">Facebook</a>
+          <a href="https://www.instagram.com/kkrfgroup_?igsh=dzlwYWN6dGZtOHlr" class="kkrf-social-link hide-mobile">Instagram</a>
+          <a href="https://www.youtube.com/channel/UCLhmjAfJdpZV-esTQAWTCSQ" class="kkrf-social-link">YouTube</a>
+        </div>
+      </div>
+    </div>
+      
+
+      
+      
+
+     
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+      
+    <script src="scripts/hero.js"></script>
+    <script src="scripts/caseStudy.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/caseStudy.js"></script>
+    <script src="scripts/card.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/switch.js"></script>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/faqs.js"></script>
+</body>
+</html>

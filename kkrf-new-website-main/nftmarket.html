@@ -1,0 +1,2252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+    
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body>
+  
+  <div class="htec-nav d-none d-lg-block">
+    <div class="htec-navbar-container">
+        <nav class="htec-navbar">
+            <div class="htec-logo">
+                <a href="#">   <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" /></a>
+            </div>
+            
+            <ul class="htec-nav-links">
+              <li class="htec-nav-item htec-active">
+                <a href="#">Services <span class="htec-dropdown-arrow"></span></a>
+                <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-services-content">
+                    <div class="htec-sidebar">
+                        <h3 class="htec-sidebar-title">Services</h3>
+                        <ul class="htec-sidebar-menu">
+                            <li class="htec-sidebar-item"><a href="#" data-content="all-services">ALL SERVICES</a></li>
+                            <li class="htec-sidebar-item active"><a href="#" data-content="software-development">SOFTWARE DEVELOPMENT</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="blockchain-services">BLOCKCHAIN SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="cloud-services">CLOUD SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="it-consulting">IT CONSULTING</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="data-analytics">DATA ANALYTICS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="devops">DEVOPS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="artificial-intelligence">ARTIFICIAL INTELLIGENCE</a></li>
+                        </ul>
+                        <a href="#" style="display: inline-block; margin-top: 32px; padding: 12px 28px; background-color: rgba(255, 255, 255, 0.1); border-radius: 25px; color: white; text-decoration: none; font-size: 15px;">Explore</a>
+                    </div>
+                    <div class="htec-main-content">
+                        <!-- SOFTWARE DEVELOPMENT Content (Default/Initial View) -->
+                        <div id="software-development" class="content-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="softwreoverview.html">SOFTWARE DEVELOPMENT</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="erp.html">ERP Software development</a></h4>
+                                    <p class="htec-content-description">Custom enterprise solutions integrating finance, HR, supply chain, and manufacturing into a unified platform.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="crm.html">Custom CRM</a></h4>
+                                    <p class="htec-content-description">Tailored systems enhancing client engagement with lead scoring, pipeline analytics, and automation tools that integrate with your tech stack.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="arvr.html">AR/VR Development</a></h4>
+                                    <p class="htec-content-description">Immersive applications for training, marketing, and customer experiences using spatial computing and intuitive interaction design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="iot.html">IoT Development</a></h4>
+                                    <p class="htec-content-description">Connected device solutions transforming environments into intelligent ecosystems with embedded systems and analytics platforms.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="microservice.html">Microservices</a></h4>
+                                    <p class="htec-content-description">Modular architecture transforming monolithic applications into agile, scalable services with robust API gateways and observability.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="product.html">Product Development</a></h4>
+                                    <p class="htec-content-description">End-to-end digital product creation combining design thinking with iterative engineering to build market-ready solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- BLOCKCHAIN SERVICES Content -->
+                        <div id="blockchain-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="blockchainservices.html">BLOCKCHAIN SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="nftmarket.html">NFT Marketplace</a></h4>
+                                    <p class="htec-content-description">Custom platforms for secure creation and trading of digital assets with wallet integration, smart contracts, and royalty systems.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="metaverse.html">Metaverse Development</a></h4>
+                                    <p class="htec-content-description">Immersive virtual worlds leveraging 3D rendering and blockchain technology for digital interaction and commerce.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dapp.html">Dapp development</a></h4>
+                                    <p class="htec-content-description">Decentralized applications for DeFi, supply chain, and marketplaces with comprehensive testing and intuitive interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CLOUD SERVICES -->
+                        <div id="cloud-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="cloudconsulting.html">CLOUD SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudmanaged.html">Cloud Managed Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive infrastructure management with 24/7 monitoring, automated scaling, and cost governance that reduces cloud spend.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudconsulting.html">Cloud Consulting</a></h4>
+                                    <p class="htec-content-description">Strategic guidance for adoption and migration with tailored roadmaps, TCO analysis, and compliance architecture design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="aws.html">AWS</a></h4>
+                                    <p class="htec-content-description">Specialized solutions leveraging serverless architectures, containerized platforms, and machine learning pipelines following best practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- IT CONSULTING -->
+                        <div id="it-consulting" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="itoverview.html">IT CONSULTING</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="health.html">Healthcare IT Consulting Services</a></h4>
+                                    <p class="htec-content-description">HIPAA-compliant systems, telehealth platforms, and interoperability solutions improving patient outcomes and operational efficiency.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="itoutsourcing.html">IT Outsourcing Services</a></h4>
+                                    <p class="htec-content-description">Strategic technology outsourcing with dedicated teams, defined SLAs, and quality assurance processes ensuring accountability.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="manageditservices.html">Managed IT Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive technology management including infrastructure monitoring, endpoint management, and virtual CIO services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DEVOPS -->
+                        <div id="devops" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="devopsoverview.html">DEVOPS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="scops.html">SecOps</a></h4>
+                                    <p class="htec-content-description">Integrated security frameworks with automated vulnerability scanning, threat modeling, and incident response automation.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="devopsoverview.html">DevOps Implementation</a></h4>
+                                    <p class="htec-content-description">End-to-end automation with CI/CD pipelines and observability stacks increasing deployment frequency and reducing recovery time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DATA ANALYTICS -->
+                        <div id="data-analytics" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="dataanalytics.html">DATA ANALYTICS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="businessintelligence.html">Business Intelligence</a></h4>
+                                    <p class="htec-content-description">Data visualization platforms transforming complex information into actionable insights with self-service capabilities and governance.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dataanalytics.html">Data Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive data management including engineering, governance, and analytics environments driving informed business decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- ARTIFICIAL INTELLIGENCE -->
+                        <div id="artificial-intelligence" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="aioverview.html">ARTIFICIAL INTELLIGENCE</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="generativeai.html">Generative AI</a></h4>
+                                    <p class="htec-content-description">Custom systems creating content across text, image, and code with language models, knowledge retrieval, and responsible AI frameworks.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="computer.html">Computer Vision</a></h4>
+                                    <p class="htec-content-description">Visual intelligence solutions implementing deep learning for object detection, segmentation, and anomaly detection with high accuracy.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="machinnelearning.html">Machine Learning</a></h4>
+                                    <p class="htec-content-description">Predictive analytics for forecasting, churn prediction, and personalization with MLOps frameworks and explainable AI techniques.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- All Services -->
+                        <div id="all-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title">All Services</h3>
+                                <div>
+                                    <h4 class="htec-content-title">Our Comprehensive Approach</h4>
+                                    <p class="htec-content-description">Integrated solutions across the digital transformation spectrum delivering measurable business outcomes.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Integrated Solutions</h4>
+                                    <p class="htec-content-description">Cross-functional teams combining strategic thinking, design excellence, and technical expertise for real-world results.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Technology Partnerships</h4>
+                                    <p class="htec-content-description">Strategic alliances with leading providers while ensuring vendor-independent advice aligned with your specific needs.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4 class="htec-content-title">Industry-Specific Expertise</h4>
+                                    <p class="htec-content-description">Specialized knowledge across healthcare, financial, manufacturing, retail, and energy sectors with regulatory understanding.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Global Delivery Capabilities</h4>
+                                    <p class="htec-content-description">International presence providing access to specialized talent and flexible engagement models to scale efficiently.</p>
+                                </div>
+                                <h3 class="htec-section-title" style="margin-top: 28px;">Key Service Areas</h3>
+                                <div class="htec-solutions-links">
+                                    <a href="softwreoverview.html" class="htec-solution-link">Software Development</a>
+                                    <a href="blockchainservices.html" class="htec-solution-link">Blockchain Services</a>
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="htec-nav-item">
+              <a href="#">Industries <span class="htec-dropdown-arrow"></span></a>
+              <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                  <div class="htec-firm-column">
+                    <h3 class="htec-section-header">Industries</h3>
+                    <ul class="htec-firm-links">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-film me-2"></i>Media & Entertainment</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-currency-dollar me-2"></i>Financial Services & Insurance</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-lightning-charge me-2"></i>Energy & Utilities</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-building me-2"></i>Industrials</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-heart-pulse me-2"></i>Healthcare & Life Sciences</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-cpu me-2"></i>Technology</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-bag me-2"></i>Retail & CPG</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-truck me-2"></i>Transportation & Mobility</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-broadcast me-2"></i>Telecommunications</a></li>
+                    </ul>
+                </div>
+                  <div class="htec-firm-column">
+                      <!-- Placeholder for additional content -->
+                  </div>
+                  <div class="htec-news-section">
+                      <div class="htec-news-header">
+                          <h3 class="htec-news-title">Latest News</h3>
+                          <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                      </div>
+                      <div class="htec-news-grid">
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Healthcare Technology Innovation" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">AI-Powered Diagnostics Breakthrough in Healthcare</h4>
+                                  <p style="font-size:12px; color:#666;">March 15, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Financial Technology Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Blockchain Revolution in Banking Services</h4>
+                                  <p style="font-size:12px; color:#666;">March 10, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Smart Energy Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Smart Grid Technology Transforms Energy Sector</h4>
+                                  <p style="font-size:12px; color:#666;">March 5, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Media Streaming Technology" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Next-Gen Streaming Platform for Media Industry</h4>
+                                  <p style="font-size:12px; color:#666;">February 28, 2025</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </li>
+          <li class="htec-nav-item">
+            <a href="#">Our Firm <span class="htec-dropdown-arrow"></span></a>
+            <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                    <div class="htec-firm-column ">
+                        <h3 class="htec-section-header">About KKRF</h3>
+                        <ul class="htec-firm-links">
+                            <li class="htec-firm-link"><a href="#">Company Overview</a></li>
+                            <li class="htec-firm-link"><a href="#">Global Locations</a></li>
+                            <li class="htec-firm-link"><a href="#">History</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="#">Leadership & Board</a></li>
+                            <li class="htec-firm-link"><a href="#">Alliances</a></li>
+                            <li class="htec-firm-link"><a href="carrer.html">Careers & Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="blog.html">Press & Media</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <!-- Placeholder for additional content -->
+                    </div>
+                    <div class="htec-news-section">
+                        <div class="htec-news-header">
+                            <h3 class="htec-news-title">Latest News</h3>
+                            <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                        </div>
+                        <div class="htec-news-grid">
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="KKRF Expansion" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Group Expands with New Office in Singapore</h4>
+                                    <p style="font-size:12px; color:#666;">March 18, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Leadership Summit" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Annual Leadership Summit Announces Strategic Direction</h4>
+                                    <p style="font-size:12px; color:#666;">March 12, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="New Partnership" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Forms Strategic Alliance with Global Tech Leader</h4>
+                                    <p style="font-size:12px; color:#666;">March 8, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Sustainability Initiative" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">New Sustainability Initiative Launches with Zero-Carbon Goal</h4>
+                                    <p style="font-size:12px; color:#666;">March 1, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="htec-nav-item d-none d-xl-block">
+                    <a href="blog.html">Insights & Events</a>
+                </li>
+                <li class="htec-nav-item">
+                    <a href="carrer.html">Careers & Culture </a>
+                </li>
+            </ul>
+            
+            <div class="htec-right-section">
+               
+              <a href="contact.html"><button class="htec-partner-button d-none d-xl-block">Let's partner up</button></a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+  <section class="d-block  d-lg-none">
+    <nav class="navbar-override1 flex items-center px-10 py-4 bg-black relative">
+      <!-- Logo -->
+      <div>
+        <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" />
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="nav-center hidden lg:flex items-center gap-8">
+        <!-- Dropdown Menu for "What we do" -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn"
+          >
+            What we do
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <div class="dropdown">
+              <h2 class="title">What we do <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <a href="#" class="text-white hover:text-purple-500">Industries</a>
+        
+        <!-- Who we are dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn1"
+          >
+            Who we are
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu1" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown2">
+              <h2 class="title">who we are <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Careers dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn2"
+          >
+            Careers
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu2" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown3">
+              <h2 class="title">Careers<span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Us & Country Selector -->
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="#" class="text-white hover:text-purple-500">Contact Us</a>
+        <select class="bg-black text-white border border-gray-600 rounded p-1">
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Germany</option>
+        </select>
+      </div>
+  
+      <!-- Hamburger Icon for Mobile -->
+  
+      <div class="lg:hidden">
+        <button id="menuTriggerTab" class="text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  
+    <!-- Mobile Menu -->
+  
+    
+    <div class="tabtab-menu" id="tabMenu1">
+      <!-- Header -->
+      <div class="tabtab-menu-header">
+          <button id="backBtn1" class="tabtab-back-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Back
+          </button>
+          <button id="closeBtn1" class="tabtab-p-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+          </button>
+          <button class="tabtab-country-selector">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              Global
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 9l6 6 6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <!-- Menu Sections -->
+      <div class="tabtab-menu-section tabtab-active" id="mainMenu1">
+          <button class="tabtab-menu-item" data-target="services1">
+              Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="industries1">
+              Industries
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ourFirm1">
+              Our Firm
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <a href="blog.html" class="tabtab-menu-item">
+              Insights & Events
+          </a>
+          <a href="careers.html" class="tabtab-menu-item">
+              Careers & Culture
+          </a>
+          <div class="bottom-link">
+          <a href="contact.html"  style="color: white;">Let's partner up</a>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/company/htec-group" class="social-icon" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/htecgroup" class="social-icon" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="services1">
+          <h2 class=" tabtab-mb-6 heading" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Services</h2>
+          <button class="tabtab-menu-item" data-target="softwareDev1">
+              Software Development
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="blockchain1">
+              Blockchain Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="cloud1">
+              Cloud Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="itConsulting1">
+              IT Consulting
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="dataAnalytics1">
+              Data Analytics
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="devOps1">
+              DevOps
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ai1">
+              Artificial Intelligence
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <div class="tabtab-menu-section" id="softwareDev1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="softwreoverview.html">Software Development</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="erp.html" class="tabtab-menu-item">ERP Software Development</a>
+              <a href="crm.html" class="tabtab-menu-item">Custom CRM</a>
+              <a href="arvr.html" class="tabtab-menu-item">AR/VR Development</a>
+              <a href="iot.html" class="tabtab-menu-item">IoT Development</a>
+              <a href="microservice.html" class="tabtab-menu-item">Microservices</a>
+              <a href="product.html" class="tabtab-menu-item">Product Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="blockchain1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="blockchainservices.html">Blockchain Services</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="nftmarket.html" class="tabtab-menu-item">NFT Marketplace</a>
+              <a href="metaverse.html" class="tabtab-menu-item">Metaverse Development</a>
+              <a href="dapp.html" class="tabtab-menu-item">Dapp Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="cloud1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Cloud Services</h2>
+          <div class="tabtab-grid-layout">
+              <a href="cloudmanaged.html" class="tabtab-menu-item">Cloud Managed Services</a>
+              <a href="cloudconsulting.html" class="tabtab-menu-item">Cloud Consulting</a>
+              <a href="aws.html" class="tabtab-menu-item">AWS</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="itConsulting1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="itoverview.html">IT Consulting</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="health.html" class="tabtab-menu-item">Healthcare IT Consulting Services</a>
+              <a href="itoutsourcing.html" class="tabtab-menu-item">IT Outsourcing Services</a>
+              <a href="manageditservices.html" class="tabtab-menu-item">Managed IT Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="dataAnalytics1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="dataanalytics.html">Data Analytics</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="businessintelligence.html" class="tabtab-menu-item">Business Intelligence</a>
+              <a href="dataanalytics.html" class="tabtab-menu-item">Data Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="devOps1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="devopsoverview.html">DevOps</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="scops.html" class="tabtab-menu-item">SecOps</a>
+              <a href="devopsoverview.html" class="tabtab-menu-item">DevOps Implementation</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ai1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="aioverview.html" >Artificial Intelligence</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="generativeai.html" class="tabtab-menu-item">Generative AI</a>
+              <a href="computer.html" class="tabtab-menu-item">Computer Vision</a>
+              <a href="machinnelearning.html" class="tabtab-menu-item">Machine Learning</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="industries1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Industries</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Media & Entertainment</a>
+              <a href="#" class="tabtab-menu-item">Financial Services & Insurance</a>
+              <a href="#" class="tabtab-menu-item">Energy & Utilities</a>
+              <a href="#" class="tabtab-menu-item">Industrials</a>
+              <a href="#" class="tabtab-menu-item">Healthcare & Life Sciences</a>
+              <a href="#" class="tabtab-menu-item">Technology</a>
+              <a href="#" class="tabtab-menu-item">Retail & CPG</a>
+              <a href="#" class="tabtab-menu-item">Transportation & Mobility</a>
+              <a href="#" class="tabtab-menu-item">Telecommunications</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ourFirm1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Our Firm</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Company Overview</a>
+              <a href="#" class="tabtab-menu-item">Global Locations</a>
+              <a href="#" class="tabtab-menu-item">History</a>
+              <a href="#" class="tabtab-menu-item">Leadership & Board</a>
+              <a href="#" class="tabtab-menu-item">Alliances</a>
+              <a href="carrer.html" class="tabtab-menu-item">Careers & Culture</a>
+              <a href="blog.html" class="tabtab-menu-item">Press & Media</a>
+          </div>
+      </div>
+
+      <!-- Footer -->
+  </div>
+
+    
+    
+  
+   </section>
+<!-- hero section -->
+<section class="hero-section" style="height: 10vh; background-image: url('assets/shopping-trolley-with-bitcoins-and-pc-2025-01-08-23-32-49-utc\ \(1\).WEBP'); background-size: cover; background-position: center;">
+    <div class="hero-overlay"></div>
+    <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+        
+        <h1 class="heading1" style="font-size: 3.5rem;">NFT Marketplace Development Services </h1>
+        <p class="subheading">The asset landscape is turning digital; seize the rising momentum with an NFT marketplace  </p>
+    </div>
+</section>
+
+
+    
+
+    <section class="trusted-section">
+      <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+  
+      <!-- Desktop View -->
+      <div class="desktop-logos">
+          <img src="assets/kfc.jpg" alt="KFC">
+          <img src="assets/kmpc.jpg" alt="KPMG">
+          <img src="assets/dominos.png" alt="Domino's">
+      <img src="assets/google.png" alt="Google">
+      <img src="assets/bcg.png" alt="BCG">
+          <img src="assets/americana.png" alt="Americana">
+      </div>
+  
+      <!-- Mobile View (Carousel) -->
+      <div class="swiper-container mobile-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+          <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+          <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+          <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+          <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+          <div class="swiper-slide"><img src="assets/americana.png" alt="Americana"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cloud services section -->
+      
+    <section class="software-section d-none d-md-block">
+        <div class="crm-software-con">
+            <div class="sofware-spacing">
+                <h5 class="heading">NFT Development Services for the New-Age Marketplace</h5>
+                <p class="crm-Software-text">Leverage our NFT marketplace development services to create custom applications from scratch, tailored with meticulously hand-picked features.</p>
+            </div>
+    
+            <div class="services-container">
+                <div class="services-nav">
+                    <div class="service-item active" data-service="marketplace-design">
+                        <span class="number">01.</span>
+                        NFT Marketplace Design
+                    </div>
+                    <div class="service-item" data-service="nft-development">
+                        <span class="number">02.</span>
+                        NFT Development
+                    </div>
+                    <div class="service-item" data-service="smart-contract">
+                        <span class="number">03.</span>
+                        NFT Smart Contract Development and Audit
+                    </div>
+                    <div class="service-item" data-service="marketplace-support">
+                        <span class="number">04.</span>
+                        NFT Marketplace Support and Maintenance
+                    </div>
+                    <div class="service-item" data-service="marketplace-integration">
+                        <span class="number">05.</span>
+                        NFT Marketplace Integration
+                    </div>
+                    <div class="service-item" data-service="tokenization">
+                        <span class="number">06.</span>
+                        Digital Asset Tokenization
+                    </div>
+                    <div class="service-item" data-service="multichain">
+                        <span class="number">07.</span>
+                        Multi-Chain NFT Solutions
+                    </div>
+                    <div class="service-item" data-service="metaverse">
+                        <span class="number">08.</span>
+                        Metaverse NFT Development
+                    </div>
+                    <div class="service-item" data-service="white-label">
+                        <span class="number">09.</span>
+                        White-Label NFT Marketplace
+                    </div>
+                </div>
+            
+                <div class="service-content" id="marketplace-design">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path></svg>
+                    </div>
+                    <h2 class="service-title">NFT Marketplace Design</h2>
+                    <p class="service-description">
+                      Our team designs and builds NFT marketplace platforms that are user-centric. We follow the right standards (ERC-721 and ERC-1155) for the creation of IPFS protocols and smart contracts where the users can smoothly trade and create NFTs.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="nft-development">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 6h-4V3c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1v3H3c-.55 0-1 .45-1 1v13c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1zM9 4h6v2H9V4zm10 14H5V8h14v10z"></path></svg>
+                    </div>
+                    <h2 class="service-title">NFT Development</h2>
+                    <p class="service-description">
+                        We create customized NFT solutions across various blockchains including Ethereum, Binance Smart Chain, Solana, and Polygon. Our team handles everything from token creation to deployment, ensuring your NFTs meet the highest standards of quality and security.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="smart-contract">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"></path></svg>
+                    </div>
+                    <h2 class="service-title">NFT Smart Contract Development and Audit</h2>
+                    <p class="service-description">
+                        Our expert developers create secure, optimized smart contracts that power your NFT marketplace. We conduct thorough audits to identify vulnerabilities and ensure your smart contracts are secure, gas-efficient, and fully compliant with blockchain standards.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="marketplace-support">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">NFT Marketplace Support and Maintenance</h2>
+                    <p class="service-description">
+                        We provide comprehensive post-launch support and maintenance services for your NFT marketplace. Our team handles regular updates, performance optimization, security monitoring, and rapid issue resolution to keep your platform running smoothly.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="marketplace-integration">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">NFT Marketplace Integration</h2>
+                    <p class="service-description">
+                        We seamlessly integrate NFT capabilities into your existing platforms and applications. Our solutions connect with wallets, payment gateways, and other essential services to create a cohesive ecosystem for minting, buying, and selling digital assets.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="tokenization">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Digital Asset Tokenization</h2>
+                    <p class="service-description">
+                        We transform real-world assets into digital tokens through our advanced tokenization services. Our solutions enable businesses to represent artwork, real estate, collectibles, and other valuable assets as NFTs, opening up new markets and investment opportunities.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="multichain">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Multi-Chain NFT Solutions</h2>
+                    <p class="service-description">
+                        We build cross-chain NFT platforms that operate across multiple blockchain networks. Our multi-chain solutions provide flexibility, lower gas fees, and expanded market reach by allowing users to interact with NFTs on various popular blockchains.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="metaverse">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Metaverse NFT Development</h2>
+                    <p class="service-description">
+                        We create immersive NFT experiences for metaverse environments. Our solutions enable the creation, display, and trading of 3D assets, virtual land, wearables, and other digital items that can be integrated into various metaverse platforms and virtual worlds.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="white-label">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">White-Label NFT Marketplace</h2>
+                    <p class="service-description">
+                        We provide ready-to-launch white-label NFT marketplace solutions that can be customized with your branding and specific requirements. These cost-effective platforms allow you to enter the NFT market quickly with a professional, feature-rich marketplace.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <div class="iot-smart-faq">
+      <div class="faq-headline">
+          <h3 class="heading">Our NFT Marketplace Expertise</h3>
+          <span>Our comprehensive NFT development services empower businesses to create, deploy, and manage digital assets on the blockchain. From innovative marketplaces to custom NFT collections, we deliver solutions that drive engagement and create new revenue streams.</span>
+      </div>
+      
+      <div class="faq-category">
+          <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      Art and Collectibles
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      We create specialized NFT platforms for digital art, collectibles, and rare items with features like provenance tracking, royalty payments, and authentic certificate generation. Our solutions support various file formats and enable creators to showcase and monetize their digital assets effectively.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      Gaming NFTs
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our gaming NFT solutions enable true ownership of in-game assets, characters, and virtual land. We develop platforms that allow players to trade, rent, and monetize their gaming items across different games and ecosystems, creating new revenue streams for both developers and players.
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Real Estate NFTs
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    We develop tokenization platforms that convert real estate properties into fractional NFTs, making property investment more accessible. Our solutions handle ownership verification, transaction management, and automated revenue distribution, revolutionizing how properties are bought, sold, and managed.
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Music and Entertainment NFTs
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our music and entertainment NFT platforms enable artists to tokenize songs, albums, concert tickets, and exclusive experiences. We implement royalty systems, fan engagement features, and content protection mechanisms that help creators monetize their work directly while building stronger connections with their audience.
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Sports and Memorabilia NFTs
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  We build specialized NFT platforms for sports teams, leagues, and athletes to tokenize memorable moments, digital trading cards, and exclusive fan experiences. Our solutions include authentication systems, limited-edition releases, and interactive fan engagement features that create new revenue streams and enhance fan loyalty.
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="faq-hexagon">
+      <div class="hexagon-wrapper">
+          <div class="hexagon-header">
+              <div class="hexagon-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
+              </div>
+              <div class="hexagon-question">
+                NFT Security and Compliance
+                  <span class="hexagon-toggle">+</span>
+              </div>
+          </div>
+          <div class="hexagon-content">
+              <div class="hexagon-answer">
+                Our security services ensure your NFT marketplace remains protected from vulnerabilities and exploits. We implement robust authentication systems, transaction verification protocols, and automated compliance checks to safeguard digital assets and provide users with a secure trading environment that meets all regulatory requirements.
+              </div>
+          </div>
+      </div>
+  </div>
+      </div>
+  </div>
+
+
+  <section class="stats-section">
+    <div class="stats-card">
+      <div class="stats-container">
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">3000+</div>
+          <div class="stat-description">Software Projects<br>Delivered Successfully</div>
+        </div>
+       
+       
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">87%</div>
+          <div class="stat-description">Recurring Client Base</div>
+        </div>
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">8+</div>
+          <div class="stat-description">Years in Business</div>
+        </div>
+      
+      </div>
+      <a href="#" class="cta-button">Let's Discuss Your Project</a>
+    </div>
+  </section>
+
+  
+  <section class="my-class-name">
+    <h2 class="heading m-5">Leverage the Power of NFT Metaverse Marketplace Development</h2>
+    <p class="m-5 fs-4">Consider a parallel universe, where avatars can perform activities similar to the real world. We help businesses launch their own NFT metaverse marketplace to bring together the ever-growing community of NFT traders and users.</p>
+    <p class="m-5 fs-5">The best part is, our NFT metaverse marketplace is interoperable with multiple metaverse projects. It supports tokenizations and you can instantly start trading on various types of avatars, digital lands, in-game assets, and other elements of the giant virtual world.</p>
+</section>
+
+
+  <div class="container-fluid arvrtech_services_outer_container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="heading mt-5">Redefining Industry Verticals with ROI-Focused NFT Development Services</h1>
+            <p class="arvrtech_intro_paragraph">
+                Our NFT development services can be beneficial for multiple industrial domains that deal with unique and valuable assets that can be represented digitally.
+            </p>
+        </div>
+    </div>
+    
+    <div class="row arvrtech_cards_horizontal_row">
+        <!-- Gaming -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-controller arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Gaming</h3>
+                <p class="arvrtech_card_description_text">
+                    From offering concept development and game design to creating robust NFT games, we are a dedicated NFT game development company that can create engaging and immersive gameplay experiences for your target audience.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Art and Collectibles -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-palette-fill arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Art and Collectibles</h3>
+                <p class="arvrtech_card_description_text">
+                    Our robust NFT platform development services allow artists to easily trade their art and collectibles without having to wonder about content theft and copyright infringement.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Sports -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-trophy-fill arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Sports</h3>
+                <p class="arvrtech_card_description_text">
+                    Our NFT development services, backed by blockchain technology, allow sports enthusiasts to create and trade unique and authentic digital assets like collectibles, game highlights, and memorabilia.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Music -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-music-note-beamed arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Music</h3>
+                <p class="arvrtech_card_description_text">
+                    Our NFT development allows musicians to tokenize their track records before selling and trading them on a marketplace. It allows them to create a loyal fan base while eliminating the chances of piracy.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row arvrtech_cards_horizontal_row">
+        <!-- Real Estate -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-house-fill arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Real Estate</h3>
+                <p class="arvrtech_card_description_text">
+                    Our NFT development services can take the real estate sector up a notch by allowing the fractionalization of real estate assets. It makes way for investors to buy and sell portions of properties seamlessly.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Fashion -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-bag-fill arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Fashion</h3>
+                <p class="arvrtech_card_description_text">
+                    Our robust NFT development solutions allow brands and designers to authenticate their products in order to create limited-edition collectibles that can be bought and traded exclusively.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Finance -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-currency-exchange arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Finance</h3>
+                <p class="arvrtech_card_description_text">
+                    Our NFT finance services make way for fractional ownership of financial assets like stocks, bonds, and commodities, thereby making way for transparent and secure trading among buyers and sellers.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Media -->
+        <div class="col-lg-3 col-md-6 col-sm-12 arvrtech_card_outer_wrapper">
+            <div class="arvrtech_industry_content_card">
+                <div class="arvrtech_icon_circle_container">
+                    <i class="bi bi-newspaper arvrtech_feature_icon_element"></i>
+                </div>
+                <h3 class="arvrtech_card_header_text">Media</h3>
+                <p class="arvrtech_card_description_text">
+                    Our custom NFT solutions allow media organizations the opportunity to create and monetize their content and track ownership, allowing for secure and transparent management of digital assets.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="appinv-why-choose-section">
+    <div class="appinv-why-choose-container">
+      <div class="appinv-section-header">
+        <h2 class="heading mt-5">The Trust Built over Years of Reliable NFT Marketplace Development Services</h2>
+        <p class="appinv-main-subheading">Our experts can help you build a transparent, easy-to-use, and robust NFT marketplace that can give your business the much-needed boost.</p>
+      </div>
+  
+      <div class="appinv-benefits-container">
+        <div class="appinv-benefits-nav">
+          <div class="appinv-benefit-item appinv-active" data-benefit="expert-integration">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </span>
+            Expert NFT Integration
+          </div>
+          <div class="appinv-benefit-item" data-benefit="security-driven">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
+                <line x1="16" y1="5" x2="22" y2="5"></line>
+                <line x1="19" y1="2" x2="19" y2="8"></line>
+                <polyline points="9 15 12 12 9 9"></polyline>
+                <line x1="12" y1="12" x2="5" y2="12"></line>
+              </svg>
+            </span>
+            NFT Security-Driven Development
+          </div>
+         
+        
+          
+         
+          
+          <div class="appinv-benefit-item" data-benefit="blockchain-platforms">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </span>
+            Expertise in Multiple Blockchain Platforms
+          </div>
+          
+          <div class="appinv-benefit-item" data-benefit="agile-development">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </span>
+            Agile Development Approach
+          </div>
+        </div>
+  
+        <div class="appinv-benefit-display">
+          <div class="appinv-benefit-content appinv-active" id="expert-integration">
+            <div class="appinv-benefit-image">
+              <img src="assets/young-woman-talking-to-her-colleague-in-office-2025-04-29-02-40-48-utc (1).webp" alt="Expert NFT Integration" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Expert NFT Integration</h3>
+              <p class="appinv-benefit-description">Our team specializes in seamless integration of NFT functionality into new and existing platforms, ensuring your marketplace can handle a wide range of digital assets efficiently.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">ERC-721 and ERC-1155 token standard support</li>
+                <li class="appinv-benefit-list-item">Cross-platform compatibility</li>
+                <li class="appinv-benefit-list-item">Advanced metadata handling</li>
+                <li class="appinv-benefit-list-item">IPFS integration for decentralized storage</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="security-driven">
+            <div class="appinv-benefit-image">
+              <img src="assets/secured-nft-2024-12-05-00-40-18-utc (2).webp" alt="NFT Security-Driven Development" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">NFT Security-Driven Development</h3>
+              <p class="appinv-benefit-description">Security is at the core of our development process. We implement rigorous security measures to protect your NFT marketplace from vulnerabilities and ensure the safety of digital assets and user data.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Smart contract security audits</li>
+                <li class="appinv-benefit-list-item">Multi-signature wallet integration</li>
+                <li class="appinv-benefit-list-item">DDoS protection implementation</li>
+                <li class="appinv-benefit-list-item">Regular security updates and monitoring</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="multiple-currency">
+            <div class="appinv-benefit-image">
+              <img src="assets/golden-bitcoin-cryptocurrency-2025-02-22-09-48-11-utc (1).webp" alt="Multiple Currency Support" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Multiple Currency Support</h3>
+              <p class="appinv-benefit-description">Our NFT marketplaces support a wide range of cryptocurrencies, enabling users to trade using their preferred digital assets. This flexibility increases your platform's accessibility and appeal to a broader user base.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Support for major cryptocurrencies (ETH, BNB, SOL)</li>
+                <li class="appinv-benefit-list-item">Cross-chain transaction capability</li>
+                <li class="appinv-benefit-list-item">Fiat currency payment gateways</li>
+                <li class="appinv-benefit-list-item">Custom token integration</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="intuitive-ux">
+            <div class="appinv-benefit-image">
+              <img src="assets/designer-planning-to-work-together-draw-applicatio-2025-03-09-15-51-45-utc (1).webp" alt="Intuitive User Experience" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Intuitive User Experience</h3>
+              <p class="appinv-benefit-description">We specialize in providing intuitive UI/UX experience to the end-users. Bring your Ethereum NFT marketplace to the App Store and Google Play Store with a fully-featured and easy-to-navigate mobile app, not just a responsive version of your website.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">User-centered design approach</li>
+                <li class="appinv-benefit-list-item">Simplified wallet integration</li>
+                <li class="appinv-benefit-list-item">Mobile-first development</li>
+                <li class="appinv-benefit-list-item">Seamless navigation and search functionality</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="appinv-benefit-content" id="blockchain-platforms">
+            <div class="appinv-benefit-image">
+              <img src="assets/designer-planning-to-work-together-draw-applicatio-2025-03-09-15-51-45-utc (1).webp" alt="Expertise in Multiple Blockchain Platforms" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Expertise in Multiple Blockchain Platforms</h3>
+              <p class="appinv-benefit-description">Our development team has extensive experience across various blockchain networks, allowing us to build NFT marketplaces that leverage the unique advantages of each platform while ensuring optimal performance.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Ethereum, Binance Smart Chain, and Solana expertise</li>
+                <li class="appinv-benefit-list-item">Layer-2 solutions implementation (Polygon, Arbitrum)</li>
+                <li class="appinv-benefit-list-item">Cross-chain compatibility development</li>
+                <li class="appinv-benefit-list-item">Custom blockchain selection based on project needs</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="appinv-benefit-content" id="agile-development">
+            <div class="appinv-benefit-image">
+              <img src="assets/team-brainstorming-session-with-charts-and-sticky-2024-12-13-15-05-56-utc (1).webp" alt="Agile Development Approach" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Agile Development Approach</h3>
+              <p class="appinv-benefit-description">We follow an agile methodology that enables rapid development, continuous testing, and iterative improvements. This approach ensures your NFT marketplace can adapt quickly to market trends and user feedback.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Flexible project management</li>
+                <li class="appinv-benefit-list-item">Regular sprint deliveries</li>
+                <li class="appinv-benefit-list-item">Continuous integration and deployment</li>
+                <li class="appinv-benefit-list-item">Adaptable to changing requirements</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Section -->
+      <div class="appinv-contact-section d-none d-lg-block">
+        <div class="appinv-contact-image">
+          <img src="assets/trader-doing-nft-payment-on-metaverse-market-using-2025-02-13-00-53-07-utc (1).webp" alt="Contact Us" />
+        </div>
+        <div class="appinv-contact-text">
+          <h3>Ready to launch your NFT marketplace?</h3>
+          
+          <a href="#contact" class="appinv-contact-button">Book Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-black text-white">
+    <div class="container mx-auto px-6 py-12">
+      <!-- Text Section -->
+      <div class="text-center space-y-6">
+        <h1 class="heading mt-5">
+            Need support building a strong digital space for your NFT marketplace project?
+        </h1>
+        <p class="text-xl md:text-2xl">
+            Our experienced developers can help you create a secure, user-friendly NFT marketplace that stands out in the competitive blockchain ecosystem
+        </p>
+        <button
+          class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-black transition">
+          <a herf="#">Hire Our NFT Developers</a> 
+        </button>
+      </div>
+  
+      <!-- Image Section -->
+      <div class="mt-12 flex justify-center">
+        <img
+          class="rounded-lg shadow-lg max-w-[50vw] h-auto md:h-auto object-cover"
+          src= "assets/it-seems-to-be-in-order-2024-10-18-05-09-57-utc (1).webp"
+          alt="NFT Development Team">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <section class="partner-section">
+    <div class="intro-container">
+      <h1 class="intro-heading">Overcome Challenges and Master Scalability with NFT Marketplace Architecture</h1>
+      <p class="intro-text">
+        To reap the benefits of the fast-growing and promising NFT marketplace, our NFT development services can help you build a scalable architecture capable of overcoming all challenges.
+      </p>
+    </div>
+    
+    <div class="features-container">
+        <div class="feature-box">
+          <div class="feature-icon-wrapper mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M12 2a10 10 0 1 1-10 10A10 10 0 0 1 12 2Z"/>
+              <path d="M15 12h-6"/>
+              <path d="M12 9v6"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title ml-2">01. Flawless UX/UI</h2>
+            <p class="feature-text ml-2">
+              We ensure you a smoother selling process as you get seamless navigational features, including filters, search, listing management, etc. Overall, we deliver you a gaming NFT marketplace application that has a flawless UI & UX design.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M3 3h18v18H3V3z"/>
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M8 12h8"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title ml-2">02. 99.9% Reliability</h2>
+            <p class="feature-text ml-2">
+              With KKRF Group, you get access to a state-of-art infrastructure that handles the users, operators, and transactions in bulk because we know that it is a must for decentralized NFT marketplace app development.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M2 12h20"/>
+              <path d="M6 16h12"/>
+              <path d="M8 20h8"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">03. Smart Contracts</h2>
+            <p class="feature-text">
+              We are a dedicated NFT token development company that offers bulletproof smart contracts with proper IP tokenization and NFT minting, along with ensuring accuracy, transparency, and high speed.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M6 8h12"/>
+              <path d="M6 12h12"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">04. Cybersecurity</h2>
+            <p class="feature-text">
+              Maintaining strict cybersecurity is a must to protect against all external and internal threats. Our NFT development service experts understand this and offer applications that are integrated with top-class security protocols.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M6 8h12"/>
+              <path d="M6 12h12"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">05. Crypto-Native Payment Options</h2>
+            <p class="feature-text">
+              For smoother white-label NFT marketplace development, we offer the perfect medium through which your users can buy and sell NFTs using cryptocurrencies.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M6 8h12"/>
+              <path d="M6 12h12"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">06. AML/KYC Compliant</h2>
+            <p class="feature-text">
+              For the prevention of money laundering, our tech wiz enables the monitoring of customers' transactions to generate reports on suspicious transactional activities.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+   
+
+
+      <section class="tech-stack-section">
+        <div class="container text-center py-5">
+          <h1 class="heading mt-5 mb-4">Technology Stack that Our NFT Marketplace Developers Utilize</h1>
+          
+          <p class="subheading mb-5">
+            Our NFT marketplace development experts utilize cutting-edge technologies for building innovative
+            NFT marketplace solutions and offer you a hassle-free and seamless experience.
+          </p>
+          
+          <!-- Tech Category Tabs -->
+          <div class="tech-categories m-5 ">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="tech-category active" data-category="frontend">
+                  <p class="mb-0">Frontend and Blockchain Technology</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="tech-category" data-category="storage">
+                  <p class="mb-0">Storage Platform</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                <div class="tech-category" data-category="project">
+                  <p class="mb-0">Project Management Tools</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project Management Description -->
+         
+          
+          <!-- Tech Tools Display Area -->
+          <div class="tech-tools-container mt-5 pt-4">
+            <!-- Frontend and Blockchain Technologies (Default View) -->
+            <div class="tech-tools-content active" id="frontend-tools">
+              <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Solidity Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <path d="M12 2L3 12l9 10 9-10L12 2z" fill="#505050" />
+                        <path d="M17 11l-5 5-5-5 5-5 5 5z" fill="#ffffff" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Solidity</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Ethereum Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <path d="M12 2L3 12l9 4.5L21 12 12 2z" fill="#627EEA" />
+                        <path d="M12 2v9l9 1-9-10z" fill="#3C3C3B" opacity="0.2" />
+                        <path d="M12 16.5L3 12 12 22l9-10-9 4.5z" fill="#627EEA" />
+                        <path d="M12 22V16.5l9-4.5L12 22z" fill="#3C3C3B" opacity="0.2" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Ethereum</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Web3.js Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <circle cx="12" cy="12" r="10" fill="#F16822" />
+                        <text x="12" y="16" font-family="Arial" font-weight="bold" font-size="10" text-anchor="middle" fill="white">Web3</text>
+                      </svg>
+                    </div>
+                    <p class="tool-name">Web3.js</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- ReactJS Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <circle cx="12" cy="12" r="2" fill="#61DAFB" />
+                        <ellipse cx="12" cy="12" rx="10" ry="4" stroke="#61DAFB" fill="none" stroke-width="1" />
+                        <ellipse cx="12" cy="12" rx="10" ry="4" stroke="#61DAFB" fill="none" stroke-width="1" transform="rotate(60 12 12)" />
+                        <ellipse cx="12" cy="12" rx="10" ry="4" stroke="#61DAFB" fill="none" stroke-width="1" transform="rotate(120 12 12)" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">ReactJS</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Smart Contracts Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <rect x="3" y="3" width="18" height="18" rx="2" fill="#0078D7" />
+                        <path d="M8 7h8M8 12h8M8 17h8" stroke="white" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Smart Contracts</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Storage Platform Tools (Hidden by Default) -->
+            <div class="tech-tools-content" id="storage-tools">
+              <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- IPFS Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <path d="M12 2L2 7v10l10 5 10-5V7L12 2z" fill="#65C2CB" />
+                        <path d="M7 10.5l5-2.5 5 2.5-5 2.5-5-2.5z" fill="white" />
+                        <path d="M12 13v5.5M17 10.5v5.5" stroke="white" stroke-width="1" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">IPFS</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Filecoin Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <circle cx="12" cy="12" r="10" fill="#42A5F5" />
+                        <path d="M8 12v-2h8v2H8zM8 16v-2h8v2H8z" fill="white" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Filecoin</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Arweave Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <rect width="24" height="24" rx="4" fill="#222222" />
+                        <text x="12" y="16" font-family="Arial" font-weight="bold" font-size="12" text-anchor="middle" fill="white">AR</text>
+                      </svg>
+                    </div>
+                    <p class="tool-name">Arweave</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Pinata Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <circle cx="12" cy="12" r="10" fill="#E91E63" />
+                        <path d="M9 9h6v6H9z" fill="white" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Pinata</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Project Management Tools (Hidden by Default) -->
+            <div class="tech-tools-content" id="project-tools">
+              <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Trello Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <rect width="24" height="24" rx="4" fill="#0079BF" />
+                        <rect x="6" y="6" width="5" height="7" rx="1" fill="white" />
+                        <rect x="13" y="6" width="5" height="4" rx="1" fill="white" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Trello</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Jira Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <path d="M12 2L3 11l9 11 9-11-9-9z" fill="#2684FF" />
+                        <path d="M12 8l-4 4 4 4 4-4-4-4z" fill="white" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Jira</p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                  <div class="tool-card">
+                    <div class="icon-container">
+                      <!-- Slack Icon -->
+                      <svg viewBox="0 0 24 24" width="40" height="40">
+                        <path d="M6 15a3 3 0 1 1 0-6h3v3a3 3 0 0 1-3 3z" fill="#E01E5A" />
+                        <path d="M9 6a3 3 0 1 1 6 0v3h-3a3 3 0 0 1-3-3z" fill="#36C5F0" />
+                        <path d="M18 9a3 3 0 1 1 0 6h-3v-3a3 3 0 0 1 3-3z" fill="#2EB67D" />
+                        <path d="M15 18a3 3 0 1 1-6 0v-3h3a3 3 0 0 1 3 3z" fill="#ECB22E" />
+                      </svg>
+                    </div>
+                    <p class="tool-name">Slack</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="arvr_hero_outer_container">
+        <div class="container-fluid">
+            <div class="arvr_hero_inner_wrapper">
+                <div class="arvr_hero_image_container mt-3">
+                    <img src="assets/trading-stocks-online-on-the-trading-exchange-coll-2025-02-25-02-21-27-utc (1).webp" alt="NFT Marketplace Development" class="arvr_hero_image">
+                </div>
+                <div class="arvr_hero_content_container">
+                    <h1 class="arvr_hero_heading">Make your NFT platform started with the NFT marketplace development</h1>
+                    <a href="#contact" class="arvr_hero_button">
+                        Talk with Our Experts
+                        <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bct-solutions-wrapper">
+        <div class="bct-solutions-inner-container">
+            <h1 class="heading mb-5 mt-5">100% Compliance Assured to Global NFT Standards</h1>
+            
+            <p class="bct-solutions-intro-paragraph mb-5 mt-5">
+                Enhanced security and ease of trade are something that are in high demand for NFT development services. Our white-label NFT marketplace development services are compliant with the following standards.
+            </p>
+            
+            <div class="bct-solutions-services-grid mb-5 mt-5">
+                <!-- Column 1 -->
+                <div class="bct-solutions-service-column">
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">ST-20</a>
+                    </div>
+                    
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">AML</a>
+                    </div>
+                    
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">PCI-DSS</a>
+                    </div>
+                </div>
+                
+                <!-- Column 2 -->
+                <div class="bct-solutions-service-column">
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">ERC-20</a>
+                    </div>
+                    
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">KYC</a>
+                    </div>
+                    
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">PSD2</a>
+                    </div>
+                </div>
+                
+                <!-- Column 3 -->
+                <div class="bct-solutions-service-column">
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">ERC-721</a>
+                    </div>
+                    
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">GDPR</a>
+                    </div>
+                    
+                    <div class="bct-solutions-service-item">
+                        <span class="bct-solutions-bullet-point"></span>
+                        <a href="#" class="bct-solutions-service-link">ERC-1155</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dpd-company-section">
+        <div class="dpd-company-container">
+          <div class="dpd-company-header">
+            <h2 class="heading">An NFT Marketplace Development Process That Meets Goals Seamlessly</h2>
+            <p class="dpd-company-description">
+              The NFT marketplace app development mainly involves sets of work processes, right from planning to deployment. A well-stacked team of NFT developers works with multiple groups of technologies and finally brings up a scalable NFT marketplace platform.
+            </p>
+          </div>
+          
+          <div class="dpd-company-grid">
+            <!-- Stage 1: Choose Assets -->
+            <div class="dpd-company-feature">
+              <div class="dpd-feature-header">
+                <div class="dpd-feature-number">01 — 07</div>
+                <h3 class="dpd-feature-title">Choose Assets for Tokenization</h3>
+              </div>
+              <div class="dpd-feature-divider"></div>
+              <p class="dpd-feature-description">
+                As an NFT token development company, we guide you throughout the development process, beginning with the selection of assets for tokenization and preparing them for further steps. Right from traditional assets like bonds, capital funds, and real estate properties to exotic assets like racehorses and sports teams, we help you streamline all.
+              </p>
+            </div>
+            
+            <div class="dpd-company-feature">
+              <div class="dpd-feature-header">
+                <div class="dpd-feature-number">02 — 07</div>
+                <h3 class="dpd-feature-title">Define User Roles and Set Permissions</h3>
+              </div>
+              <div class="dpd-feature-divider"></div>
+              <p class="dpd-feature-description">
+                The efficiency and security of your platform mainly depend on how well you are defining the user roles. For instance, you need to set proper management permissions. Our NFT developers help you align your business goals with defining the user roles and permissions.
+              </p>
+            </div>
+            
+            <!-- Stage 3: Outline Workflow -->
+            <div class="dpd-company-feature">
+              <div class="dpd-feature-header">
+                <div class="dpd-feature-number">03 — 07</div>
+                <h3 class="dpd-feature-title">Outline the Development Workflow</h3>
+              </div>
+              <div class="dpd-feature-divider"></div>
+              <p class="dpd-feature-description">
+                Our NFT developers help you utilize the most suitable libraries, technologies, and other microservices that suit your case. A detailed plan of the NFT development flow is charted out with criteria and deadlines that ensure quicker delivery of your project.
+              </p>
+            </div>
+            
+            <!-- Stage 4: Develop Smart Contracts -->
+            <div class="dpd-company-feature">
+              <div class="dpd-feature-header">
+                <div class="dpd-feature-number">04 — 07</div>
+                <h3 class="dpd-feature-title">Develop Smart Contracts</h3>
+              </div>
+              <div class="dpd-feature-divider"></div>
+              <p class="dpd-feature-description">
+                An NFT marketplace company like KKRF Group, with its skilled team, creates smart contracts for you, which makes the operation of your NFT marketplace development possible. We deliver secure and TPS-friendly smart contracts along with providing you with the pre-launch audit in this plan.
+              </p>
+            </div>
+            
+            <!-- Stage 5: Integrate Tokens -->
+            <div class="dpd-company-feature">
+              <div class="dpd-feature-header">
+                <div class="dpd-feature-number">05 — 07</div>
+                <h3 class="dpd-feature-title">Integrate Tokens with the Platform</h3>
+              </div>
+              <div class="dpd-feature-divider"></div>
+              <p class="dpd-feature-description">
+                Our NFT marketplace development service includes end-to-end token integration with the platform. Our tech experts integrate the front end with the back end along with the deployment of the developed marketplace on a particular server.
+              </p>
+            </div>
+            
+            <!-- Stage 6: Quality Testing -->
+            <div class="dpd-company-feature">
+              <div class="dpd-feature-header">
+                <div class="dpd-feature-number">06 — 07</div>
+                <h3 class="dpd-feature-title">Quality Testing</h3>
+              </div>
+              <div class="dpd-feature-divider"></div>
+              <p class="dpd-feature-description">
+                It is a necessary stage that we never miss before every launch. Although we create a platform that is itself scalable with easy navigational features, we also ensure high-end quality assurance or testing to make the application free of unpleasant corners and bugs.
+              </p>
+            </div>
+            
+            <!-- Stage 7: Platform Release -->
+            <div class="dpd-company-feature">
+              <div class="dpd-feature-header">
+                <div class="dpd-feature-number">07 — 07</div>
+                <h3 class="dpd-feature-title">Platform Release</h3>
+              </div>
+              <div class="dpd-feature-divider"></div>
+              <p class="dpd-feature-description">
+                Once the testing process is done, we go for the deployment process. And here you have your brand new NFT marketplace architecture, professionally configured and ready to amaze your audience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+  
+      <section class="bi-contact-wrapper mt-5">
+        <div class="bi-contact-container">
+          <div class="bi-contact-grid">
+            <div class="bi-contact-info">
+              <h2 class="heading">Let's take the first step together.</h2>
+              <p class="bi-contact-subtitle">Complete the form and an BI expert will contact you shortly.</p>
+              <div class="bi-career-info">
+                <p class="bi-career-text">Looking to join our team?</p>
+                <p class="bi-career-link-wrapper">Visit our <a href="#" class="bi-career-link">Careers & Culture page</a></p>
+              </div>
+            </div>
+            
+            <div class="bi-form-wrapper">
+              <form class="bi-contact-form">
+                <div class="bi-form-row">
+                  <div class="bi-form-group">
+                    <label for="firstName" class="bi-form-label">First name*</label>
+                    <input type="text" id="firstName" class="bi-form-input" required>
+                  </div>
+                  <div class="bi-form-group">
+                    <label for="lastName" class="bi-form-label">Last name*</label>
+                    <input type="text" id="lastName" class="bi-form-input" required>
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                    <div class="bi-form-group">
+                        <label for="workEmail" class="bi-form-label">Work email*</label>
+                        <input type="email" id="workEmail" class="bi-form-input" required>
+                      </div>
+                  <div class="bi-form-group">
+                    <label for="companyName" class="bi-form-label">Company name</label>
+                    <input type="text" id="companyName" class="bi-form-input">
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                    <div class="bi-form-group">
+                        <label for="budget" class="bi-form-label">What is your budget range?*</label>
+                        <select id="budget" class="bi-form-select" required>
+                          <option value="" disabled selected>— Please choose an option —</option>
+                          <option value="under-5k">Under $5,000</option>
+                          <option value="5k-15k">$5,000 - $15,000</option>
+                          <option value="15k-50k">$15,000 - $50,000</option>
+                          <option value="50k-100k">$50,000 - $100,000</option>
+                          <option value="over-100k">Over $100,000</option>
+                        </select>
+                      </div>
+                  <div class="bi-form-group">
+                    <label for="helpType" class="bi-form-label">How can we help?*</label>
+                    <select id="helpType" class="bi-form-select" required>
+                      <option value="" disabled selected>— Please choose an option —</option>
+                      <option value="bi-consulting">BI Consulting</option>
+                      <option value="data-analysis">Data Analysis</option>
+                      <option value="dashboards">Dashboard Creation</option>
+                      <option value="bi-implementation">BI Implementation</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                  <div class="bi-form-group bi-full-width">
+                    <label for="moreInfo" class="bi-form-label">Let us know more about Your Project/Idea *</label>
+                    <textarea id="moreInfo" class="bi-form-textarea" rows="5" required></textarea>
+                  </div>
+                </div>
+                
+                <div class="bi-form-row">
+                  <button type="submit" class="bi-submit-button">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      
+      <section class="tech-blog-section mb-5">
+        <div class="tech-blog-container">
+          <div class="tech-blog-header">
+            <h2 class="heading">Tech Insights:<br class="fs-5 d-none d-lg-inline">Updates, Solutions, and Expert Guides</h2>
+            <button class="tech-blog-view-all">Read All Blogs</button>
+          </div>
+          
+          <div class="tech-blog-card-container">
+            <!-- Card 1 -->
+            <div class="tech-blog-card-wrapper">
+              <div class="tech-blog-card">
+                <img src="assets/blogs/image1.webp" class="tech-blog-card-image" alt="Top signs your computer needs immediate repair">
+                <span class="tech-blog-date-badge">Dec 9, 2024</span>
+                <div class="tech-blog-card-content">
+                  <h5 class="tech-blog-card-title">Top signs your computer needs immediate repair</h5>
+                  <p class="tech-blog-card-excerpt">Is your computer acting up? This blog highlights the key signs that indicate your computer needs professional repair.</p>
+                  <a href="blog.html" class="tech-blog-read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="tech-blog-arrow-icon" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="tech-blog-card-wrapper">
+              <div class="tech-blog-card">
+                <img src="assets/blogs/image2.webp" class="tech-blog-card-image" alt="How to safeguard your business from cyber threats">
+                <span class="tech-blog-date-badge">Dec 9, 2024</span>
+                <div class="tech-blog-card-content">
+                  <h5 class="tech-blog-card-title">How to safeguard your business from cyber threats</h5>
+                  <p class="tech-blog-card-excerpt">In today's digital age, cyber threats are a constant concern for businesses. This blog explores practical steps you can take.</p>
+                  <a href="blog.html" class="tech-blog-read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="tech-blog-arrow-icon" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="tech-blog-card-wrapper">
+              <div class="tech-blog-card">
+                <img src="assets/blogs/image3.webp" class="tech-blog-card-image" alt="Maximizing productivity with these simple IT hacks">
+                <span class="tech-blog-date-badge">Dec 9, 2024</span>
+                <div class="tech-blog-card-content">
+                  <h5 class="tech-blog-card-title">Maximizing productivity with these simple IT hacks</h5>
+                  <p class="tech-blog-card-excerpt">Boosting productivity doesn't always require expensive software or tools. In this blog, we share easy IT hacks that can help you.</p>
+                  <a href="blog.html" class="tech-blog-read-more">
+                    Read More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="tech-blog-arrow-icon" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  <!-- faq section -->
+  <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white">Frequently Asked Questions</h2>
+      
+      <div class="max-w-4xl mx-auto space-y-6">
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold">What services do you provide?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer ">
+                  We offer comprehensive technology solutions including software development, cloud computing, cybersecurity, and digital transformation consulting for enterprises worldwide.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">How do you ensure data security?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  Our robust security protocols include end-to-end encryption, multi-factor authentication, regular security audits, and compliance with international data protection standards.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">What industries do you serve?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  We specialize in serving diverse sectors including finance, healthcare, e-commerce, education, and manufacturing with tailored technological solutions.
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- blog section -->
+
+
+
+
+ 
+  
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+  
+<script src="scripts/hero.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/card.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/switch.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/faqs.js"></script>
+
+</body>
+</html>

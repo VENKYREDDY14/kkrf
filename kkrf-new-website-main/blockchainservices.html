@@ -1,0 +1,1909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+    
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body class="bg-[#000] overflowx">
+
+  <div class="htec-nav d-none d-lg-block">
+    <div class="htec-navbar-container">
+        <nav class="htec-navbar">
+            <div class="htec-logo">
+                <a href="index.html">   <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" /></a>
+            </div>
+            
+            <ul class="htec-nav-links">
+              <li class="htec-nav-item htec-active">
+                <a href="#">Services <span class="htec-dropdown-arrow"></span></a>
+                <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-services-content">
+                    <div class="htec-sidebar">
+                        <h3 class="htec-sidebar-title">Services</h3>
+                        <ul class="htec-sidebar-menu">
+                            <li class="htec-sidebar-item"><a href="#" data-content="all-services">ALL SERVICES</a></li>
+                            <li class="htec-sidebar-item active"><a href="#" data-content="software-development">SOFTWARE DEVELOPMENT</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="blockchain-services">BLOCKCHAIN SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="cloud-services">CLOUD SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="it-consulting">IT CONSULTING</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="data-analytics">DATA ANALYTICS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="devops">DEVOPS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="artificial-intelligence">ARTIFICIAL INTELLIGENCE</a></li>
+                        </ul>
+                        <a href="#" style="display: inline-block; margin-top: 32px; padding: 12px 28px; background-color: rgba(255, 255, 255, 0.1); border-radius: 25px; color: white; text-decoration: none; font-size: 15px;">Explore</a>
+                    </div>
+                    <div class="htec-main-content">
+                        <!-- SOFTWARE DEVELOPMENT Content (Default/Initial View) -->
+                        <div id="software-development" class="content-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="softwreoverview.html">SOFTWARE DEVELOPMENT</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="erp.html">ERP Software development</a></h4>
+                                    <p class="htec-content-description">Custom enterprise solutions integrating finance, HR, supply chain, and manufacturing into a unified platform.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="crm.html">Custom CRM</a></h4>
+                                    <p class="htec-content-description">Tailored systems enhancing client engagement with lead scoring, pipeline analytics, and automation tools that integrate with your tech stack.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="arvr.html">AR/VR Development</a></h4>
+                                    <p class="htec-content-description">Immersive applications for training, marketing, and customer experiences using spatial computing and intuitive interaction design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="iot.html">IoT Development</a></h4>
+                                    <p class="htec-content-description">Connected device solutions transforming environments into intelligent ecosystems with embedded systems and analytics platforms.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="microservice.html">Microservices</a></h4>
+                                    <p class="htec-content-description">Modular architecture transforming monolithic applications into agile, scalable services with robust API gateways and observability.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="product.html">Product Development</a></h4>
+                                    <p class="htec-content-description">End-to-end digital product creation combining design thinking with iterative engineering to build market-ready solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- BLOCKCHAIN SERVICES Content -->
+                        <div id="blockchain-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="blockchainservices.html">BLOCKCHAIN SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="nftmarket.html">NFT Marketplace</a></h4>
+                                    <p class="htec-content-description">Custom platforms for secure creation and trading of digital assets with wallet integration, smart contracts, and royalty systems.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="metaverse.html">Metaverse Development</a></h4>
+                                    <p class="htec-content-description">Immersive virtual worlds leveraging 3D rendering and blockchain technology for digital interaction and commerce.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dapp.html">Dapp development</a></h4>
+                                    <p class="htec-content-description">Decentralized applications for DeFi, supply chain, and marketplaces with comprehensive testing and intuitive interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CLOUD SERVICES -->
+                        <div id="cloud-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="cloudconsulting.html">CLOUD SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudmanaged.html">Cloud Managed Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive infrastructure management with 24/7 monitoring, automated scaling, and cost governance that reduces cloud spend.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudconsulting.html">Cloud Consulting</a></h4>
+                                    <p class="htec-content-description">Strategic guidance for adoption and migration with tailored roadmaps, TCO analysis, and compliance architecture design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="aws.html">AWS</a></h4>
+                                    <p class="htec-content-description">Specialized solutions leveraging serverless architectures, containerized platforms, and machine learning pipelines following best practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- IT CONSULTING -->
+                        <div id="it-consulting" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="itoverview.html">IT CONSULTING</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="health.html">Healthcare IT Consulting Services</a></h4>
+                                    <p class="htec-content-description">HIPAA-compliant systems, telehealth platforms, and interoperability solutions improving patient outcomes and operational efficiency.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="itoutsourcing.html">IT Outsourcing Services</a></h4>
+                                    <p class="htec-content-description">Strategic technology outsourcing with dedicated teams, defined SLAs, and quality assurance processes ensuring accountability.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="manageditservices.html">Managed IT Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive technology management including infrastructure monitoring, endpoint management, and virtual CIO services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DEVOPS -->
+                        <div id="devops" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="devopsoverview.html">DEVOPS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="scops.html">SecOps</a></h4>
+                                    <p class="htec-content-description">Integrated security frameworks with automated vulnerability scanning, threat modeling, and incident response automation.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="devopsoverview.html">DevOps Implementation</a></h4>
+                                    <p class="htec-content-description">End-to-end automation with CI/CD pipelines and observability stacks increasing deployment frequency and reducing recovery time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DATA ANALYTICS -->
+                        <div id="data-analytics" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="dataanalytics.html">DATA ANALYTICS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="businessintelligence.html">Business Intelligence</a></h4>
+                                    <p class="htec-content-description">Data visualization platforms transforming complex information into actionable insights with self-service capabilities and governance.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dataanalytics.html">Data Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive data management including engineering, governance, and analytics environments driving informed business decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- ARTIFICIAL INTELLIGENCE -->
+                        <div id="artificial-intelligence" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="aioverview.html">ARTIFICIAL INTELLIGENCE</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="generativeai.html">Generative AI</a></h4>
+                                    <p class="htec-content-description">Custom systems creating content across text, image, and code with language models, knowledge retrieval, and responsible AI frameworks.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="computer.html">Computer Vision</a></h4>
+                                    <p class="htec-content-description">Visual intelligence solutions implementing deep learning for object detection, segmentation, and anomaly detection with high accuracy.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="machinnelearning.html">Machine Learning</a></h4>
+                                    <p class="htec-content-description">Predictive analytics for forecasting, churn prediction, and personalization with MLOps frameworks and explainable AI techniques.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- All Services -->
+                        <div id="all-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title">All Services</h3>
+                                <div>
+                                    <h4 class="htec-content-title">Our Comprehensive Approach</h4>
+                                    <p class="htec-content-description">Integrated solutions across the digital transformation spectrum delivering measurable business outcomes.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Integrated Solutions</h4>
+                                    <p class="htec-content-description">Cross-functional teams combining strategic thinking, design excellence, and technical expertise for real-world results.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Technology Partnerships</h4>
+                                    <p class="htec-content-description">Strategic alliances with leading providers while ensuring vendor-independent advice aligned with your specific needs.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4 class="htec-content-title">Industry-Specific Expertise</h4>
+                                    <p class="htec-content-description">Specialized knowledge across healthcare, financial, manufacturing, retail, and energy sectors with regulatory understanding.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Global Delivery Capabilities</h4>
+                                    <p class="htec-content-description">International presence providing access to specialized talent and flexible engagement models to scale efficiently.</p>
+                                </div>
+                                <h3 class="htec-section-title" style="margin-top: 28px;">Key Service Areas</h3>
+                                <div class="htec-solutions-links">
+                                    <a href="softwreoverview.html" class="htec-solution-link">Software Development</a>
+                                    <a href="blockchainservices.html" class="htec-solution-link">Blockchain Services</a>
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="htec-nav-item">
+              <a href="inderstiesoverview.html">Industries <span class="htec-dropdown-arrow"></span></a>
+              <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                  <div class="htec-firm-column">
+                    <h3 class="htec-section-header">Industries</h3>
+                    <ul class="htec-firm-links">
+                        <li class="htec-firm-link"><a href="mediaandent.html"><i class="bi bi-film me-2"></i>Media & Entertainment</a></li>
+                        <li class="htec-firm-link"><a href="finance.html"><i class="bi bi-currency-dollar me-2"></i>Financial Services & Insurance</a></li>
+                        <li class="htec-firm-link"><a href="energy.html"><i class="bi bi-lightning-charge me-2"></i>Energy & Utilities</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="inderstiesoverview.html"><i class="bi bi-building me-2"></i>Industrials</a></li>
+                        <li class="htec-firm-link"><a href="healthcare.html"><i class="bi bi-heart-pulse me-2"></i>Healthcare & Life Sciences</a></li>
+                        <li class="htec-firm-link"><a href="technology.html"><i class="bi bi-cpu me-2"></i>Technology</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="retail.html"><i class="bi bi-bag me-2"></i>Retail & CPG</a></li>
+                        <li class="htec-firm-link"><a href="technology.html"><i class="bi bi-truck me-2"></i>Transportation & Mobility</a></li>
+                        <li class="htec-firm-link"><a href="telecommunication.html"><i class="bi bi-broadcast me-2"></i>Telecommunications</a></li>
+                    </ul>
+                </div>
+                  <div class="htec-firm-column">
+                      <!-- Placeholder for additional content -->
+                  </div>
+                  <div class="htec-news-section">
+                      <div class="htec-news-header">
+                          <h3 class="htec-news-title">Latest News</h3>
+                          <a href="aboutus.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                      </div>
+                      <div class="htec-news-grid">
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Healthcare Technology Innovation" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">AI-Powered Diagnostics Breakthrough in Healthcare</h4>
+                                  <p style="font-size:12px; color:#666;">March 15, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Financial Technology Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Blockchain Revolution in Banking Services</h4>
+                                  <p style="font-size:12px; color:#666;">March 10, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Smart Energy Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Smart Grid Technology Transforms Energy Sector</h4>
+                                  <p style="font-size:12px; color:#666;">March 5, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Media Streaming Technology" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Next-Gen Streaming Platform for Media Industry</h4>
+                                  <p style="font-size:12px; color:#666;">February 28, 2025</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </li>
+          <li class="htec-nav-item">
+            <a href="#">Our Firm <span class="htec-dropdown-arrow"></span></a>
+            <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                    <div class="htec-firm-column ">
+                        <h3 class="htec-section-header">About KKRF</h3>
+                        <ul class="htec-firm-links">
+                            <li class="htec-firm-link"><a href="aboutus.html">Company Overview</a></li>
+                            <li class="htec-firm-link"><a href="carrer.html">Careers & Culture</a></li>
+                            <li class="htec-firm-link"><a href="blog.html">Blog</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="leaderboard.html">Leadership & Board</a></li>
+                            <li class="htec-firm-link dinon"><a href="what.html">What's going at KKRF</a></li>
+                            <li class="htec-firm-link"><a href="dummy.html">Alliances</a></li>
+                            
+
+                            
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="press.html">Press & Media</a></li>
+                            <li class="htec-firm-link"><a href="case.html">Case study</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <!-- Placeholder for additional content -->
+                    </div>
+                    <div class="htec-news-section">
+                        <div class="htec-news-header">
+                            <h3 class="htec-news-title">Latest News</h3>
+                            <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                        </div>
+                        <div class="htec-news-grid">
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="KKRF Expansion" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Group Expands with New Office in Singapore</h4>
+                                    <p style="font-size:12px; color:#666;">March 18, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Leadership Summit" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Annual Leadership Summit Announces Strategic Direction</h4>
+                                    <p style="font-size:12px; color:#666;">March 12, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="New Partnership" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Forms Strategic Alliance with Global Tech Leader</h4>
+                                    <p style="font-size:12px; color:#666;">March 8, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Sustainability Initiative" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">New Sustainability Initiative Launches with Zero-Carbon Goal</h4>
+                                    <p style="font-size:12px; color:#666;">March 1, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="htec-nav-item htec-careers-nav-item11">
+          <a href="carrer.html">Careers & Culture</a>
+      </li>
+            
+            </ul>
+            
+            <div class="htec-right-section">
+
+             
+            <div class="language-selector" id="language-selector-1">
+              <span class="language-dropdown-label">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                      <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+                  </svg>
+              </span>
+              <div class="language-select-container">
+                  <button class="language-select-button">Select Language</button>
+                  <div class="language-dropdown">
+                      <input type="text" class="language-search" placeholder="Search language...">
+                      <div class="language-options">
+                          <!-- Language options will be populated by JavaScript -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+              <a href="contact.html"><button class="htec-partner-button d-none d-xl-block">Let's partner up</button></a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+  <section class="d-block  d-lg-none">
+    <nav class="navbar-override1 flex items-center px-10 py-4 bg-black relative">
+      <!-- Logo -->
+      <div>
+        <a href="index.html">
+          <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" />
+      </a>
+  
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="nav-center hidden lg:flex items-center gap-8">
+        <!-- Dropdown Menu for "What we do" -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn"
+          >
+        
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+          
+          </div>
+        </div>
+  
+        <a href="#" class="text-white hover:text-purple-500">Industries</a>
+        
+        <!-- Who we are dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn1"
+          >
+          
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu1" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+          
+          </div>
+        </div>
+  
+        <!-- Careers dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn2"
+          >
+         
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu2" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+          
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Us & Country Selector -->
+     
+  
+      <!-- Hamburger Icon for Mobile -->
+  
+      <div class="lg:hidden">
+        <button id="menuTriggerTab" class="text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  
+    <!-- Mobile Menu -->
+  
+    
+    <div class="tabtab-menu" id="tabMenu1">
+      <!-- Header -->
+      <div class="tabtab-menu-header">
+          <button id="backBtn1" class="tabtab-back-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Back
+          </button>
+          <button id="closeBtn1" class="tabtab-p-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+          </button>
+          <div class="language-selector" id="language-selector-2">
+            <span class="language-dropdown-label">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                    <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+                </svg>
+            </span>
+            <div class="language-select-container">
+                <button class="language-select-button">Select Language</button>
+                <div class="language-dropdown">
+                    <input type="text" class="language-search" placeholder="Search language...">
+                    <div class="language-options">
+                        <!-- Language options will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+
+      <!-- Menu Sections -->
+      <div class="tabtab-menu-section tabtab-active" id="mainMenu1">
+          <button class="tabtab-menu-item" data-target="services1">
+              Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="industries1">
+              Industries
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ourFirm1">
+              Our Firm
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <a href="blog.html" class="tabtab-menu-item">
+              Insights & Events
+          </a>
+          <a href="careers.html" class="tabtab-menu-item">
+              Careers & Culture
+          </a>
+          <div class="bottom-link">
+          <a href="contact.html"  style="color: white;">Let's partner up</a>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/company/htec-group" class="social-icon" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/htecgroup" class="social-icon" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="services1">
+          <h2 class=" tabtab-mb-6 heading" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Services</h2>
+          <button class="tabtab-menu-item" data-target="softwareDev1">
+              Software Development
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="blockchain1">
+              Blockchain Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="cloud1">
+              Cloud Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="itConsulting1">
+              IT Consulting
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="dataAnalytics1">
+              Data Analytics
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="devOps1">
+              DevOps
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ai1">
+              Artificial Intelligence
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <div class="tabtab-menu-section" id="softwareDev1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="softwreoverview.html">Software Development</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="erp.html" class="tabtab-menu-item">ERP Software Development</a>
+              <a href="crm.html" class="tabtab-menu-item">Custom CRM</a>
+              <a href="arvr.html" class="tabtab-menu-item">AR/VR Development</a>
+              <a href="iot.html" class="tabtab-menu-item">IoT Development</a>
+              <a href="microservice.html" class="tabtab-menu-item">Microservices</a>
+              <a href="product.html" class="tabtab-menu-item">Product Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="blockchain1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="blockchainservices.html">Blockchain Services</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="nftmarket.html" class="tabtab-menu-item">NFT Marketplace</a>
+              <a href="metaverse.html" class="tabtab-menu-item">Metaverse Development</a>
+              <a href="dapp.html" class="tabtab-menu-item">Dapp Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="cloud1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Cloud Services</h2>
+          <div class="tabtab-grid-layout">
+              <a href="cloudmanaged.html" class="tabtab-menu-item">Cloud Managed Services</a>
+              <a href="cloudconsulting.html" class="tabtab-menu-item">Cloud Consulting</a>
+              <a href="aws.html" class="tabtab-menu-item">AWS</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="itConsulting1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="itoverview.html">IT Consulting</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="health.html" class="tabtab-menu-item">Healthcare IT Consulting Services</a>
+              <a href="itoutsourcing.html" class="tabtab-menu-item">IT Outsourcing Services</a>
+              <a href="manageditservices.html" class="tabtab-menu-item">Managed IT Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="dataAnalytics1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="dataanalytics.html">Data Analytics</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="businessintelligence.html" class="tabtab-menu-item">Business Intelligence</a>
+              <a href="dataanalytics.html" class="tabtab-menu-item">Data Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="devOps1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="devopsoverview.html">DevOps</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="scops.html" class="tabtab-menu-item">SecOps</a>
+              <a href="devopsoverview.html" class="tabtab-menu-item">DevOps Implementation</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ai1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="aioverview.html" >Artificial Intelligence</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="generativeai.html" class="tabtab-menu-item">Generative AI</a>
+              <a href="computer.html" class="tabtab-menu-item">Computer Vision</a>
+              <a href="machinnelearning.html" class="tabtab-menu-item">Machine Learning</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="industries1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Industries</h2>
+          <div class="tabtab-grid-layout">
+              <a href="mediaandent.html" class="tabtab-menu-item">Media & Entertainment</a>
+              <a href="finance.html" class="tabtab-menu-item">Financial Services & Insurance</a>
+              <a href="energy.html" class="tabtab-menu-item">Energy & Utilities</a>
+              <a href="inderstiesoverview.html" class="tabtab-menu-item">Industrials</a>
+              <a href="healthcare.html" class="tabtab-menu-item">Healthcare & Life Sciences</a>
+              <a href="technology.html" class="tabtab-menu-item">Technology</a>
+              <a href="retail.html" class="tabtab-menu-item">Retail & CPG</a>
+              <a href="transportation.html" class="tabtab-menu-item">Transportation & Mobility</a>
+              <a href="telecommunication.html" class="tabtab-menu-item">Telecommunications</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ourFirm1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Our Firm</h2>
+          <div class="tabtab-grid-layout">
+              <a href="aboutus.html" class="tabtab-menu-item">Company Overview</a>
+              <a href="what.html" class="tabtab-menu-item dinon" >What's going at KKRF</a>
+             
+              <a href="leaderboard.html" class="tabtab-menu-item">Leadership & Board</a>
+              <a href="dummy.html" class="tabtab-menu-item">Alliances</a>
+              <a href="carrer.html" class="tabtab-menu-item">Careers & Culture</a>
+              <a href="press.html" class="tabtab-menu-item">Press & Media</a>
+              <a href="blog.html" class="tabtab-menu-item">Blog</a>
+              <a href="case.html" class="tabtab-menu-item">Case study</a>
+           
+          </div>
+      </div>
+
+      <!-- Footer -->
+  </div>
+
+    
+    
+  
+   </section>
+ 
+    <section class="hero-section" style="height: 10vh; background-image: url('assets/Blockchain-home.webp'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+            
+            <h1 class="heading" style="font-size: 3.5rem;">Custom Blockchain Development Services </h1>
+            <p class="subheading">Tap into the blockchain universe with KKRF GROUP, a leading custom blockchain development company, to unlock world-class decentralized solutions. </p>
+        </div>
+    </section>
+
+
+    
+
+    <section class="trusted-section">
+      <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+  
+      <!-- Desktop View -->
+      <div class="desktop-logos">
+          <img src="assets/kfc.jpg" alt="KFC">
+          <img src="assets/kmpc.jpg" alt="KPMG">
+          <img src="assets/dominos.png" alt="Domino's">
+      <img src="assets/google.png" alt="Google">
+      <img src="assets/bcg.png" alt="BCG">
+          <img src="assets/kfc.jpg" alt="Americana">
+      </div>
+  
+      <!-- Mobile View (Carousel) -->
+      <div class="swiper-container mobile-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+          <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+          <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+          <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+          <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="Americana"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cloud services section -->
+      
+    <section class="software-section d-none d-md-block">
+        <div class="crm-software-con">
+            <div class="sofware-spacing">
+                <h5 class="heading">Elevate Your Business Security through Advanced Blockchain App Development Solutions</h5>
+                <p class="crm-Software-text">From startups taking their first steps to established enterprises seeking business automation, our secure and reliable custom blockchain development services provide comprehensive coverage for your unique needs.</p>
+            </div>
+    
+            <div class="services-container">
+                <div class="services-nav">
+                    <div class="service-item active" data-service="consulting">
+                        <span class="number">01.</span>
+                        Blockchain Consulting and Strategy
+                    </div>
+                    <div class="service-item" data-service="dapps">
+                        <span class="number">02.</span>
+                        dApps Development
+                    </div>
+                    <div class="service-item" data-service="wallet">
+                        <span class="number">03.</span>
+                        Cryptocurrency Wallet and Exchange Development
+                    </div>
+                    <div class="service-item" data-service="layer2">
+                        <span class="number">04.</span>
+                        Layer-2 Development
+                    </div>
+                    <div class="service-item" data-service="smartcontract">
+                        <span class="number">05.</span>
+                        Smart Contract Audit and Development
+                    </div>
+                    <div class="service-item" data-service="tokenization">
+                        <span class="number">06.</span>
+                        Asset Tokenization Platform Development
+                    </div>
+                    <div class="service-item" data-service="exchange">
+                        <span class="number">07.</span>
+                        Cryptocurrency Exchange Development
+                    </div>
+                    <div class="service-item" data-service="ico">
+                        <span class="number">08.</span>
+                        ICO Development
+                    </div>
+                    <div class="service-item" data-service="solidity">
+                        <span class="number">09.</span>
+                        Solidity Development
+                    </div>
+                </div>
+            
+                <div class="service-content" id="consulting">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Blockchain Consulting and Strategy</h2>
+                    <p class="service-description">
+                      As a premier blockchain application and software development firm, KKRF delivers both expert consulting and strategic roadmapping for launching sophisticated blockchain solutions. Whether building from the ground up or enhancing existing systems, our experienced blockchain developers create robust, secure solutions precisely aligned with your strategic business objectives.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="dapps">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 6h-4V3c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1v3H3c-.55 0-1 .45-1 1v13c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1zM9 4h6v2H9V4zm10 14H5V8h14v10z"></path></svg>
+                    </div>
+                    <h2 class="service-title">dApps Development</h2>
+                    <p class="service-description">
+                        Our specialized decentralized application services empower businesses with innovative blockchain-based solutions. We engineer secure, transparent dApps that function independently of central authorities, facilitating direct peer-to-peer interactions and integrating smart contract capabilities tailored for diverse industry applications.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="wallet">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Cryptocurrency Wallet and Exchange Development</h2>
+                    <p class="service-description">
+                        We create highly secure, intuitive cryptocurrency management platforms featuring multi-currency compatibility, real-time trading capabilities, advanced authentication systems, and full regulatory compliance. Our comprehensive solutions guarantee safe storage, seamless exchanges, and efficient management of digital assets.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="layer2">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Layer-2 Development</h2>
+                    <p class="service-description">
+                        Our Layer-2 solutions specialize in enhancing existing blockchain networks with advanced scaling technologies that dramatically improve transaction speeds while reducing costs. We implement cutting-edge state channels, sidechains, and rollup architectures that maintain security while significantly boosting overall network performance.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="smartcontract">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Smart Contract Audit and Development</h2>
+                    <p class="service-description">
+                        We deliver end-to-end smart contract services, from custom development to rigorous security auditing, ensuring your blockchain applications operate flawlessly and remain vulnerability-free. Our technical experts meticulously craft custom smart contracts and conduct exhaustive code reviews to preemptively identify and resolve potential issues.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="tokenization">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Asset Tokenization Platform Development</h2>
+                    <p class="service-description">
+                        As innovators in blockchain consulting, we provide feature-rich tokenization platforms that transform traditional assets into digital tokens. Our enterprise-grade tokenization services enable businesses to unlock new financial opportunities by converting assets into tradable digital securities accessible across multiple blockchain marketplaces.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="exchange">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Cryptocurrency Exchange Development</h2>
+                    <p class="service-description">
+                        We engineer high-security, performance-optimized cryptocurrency exchange platforms featuring sophisticated trading tools, advanced liquidity management, and comprehensive security protocols. Our exchange solutions encompass centralized, decentralized, and hybrid models, all designed with full regulatory compliance.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="ico">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">ICO Development</h2>
+                    <p class="service-description">
+                        Our all-inclusive ICO development services span the entire process from token engineering and smart contract creation to platform design and marketing strategy implementation. We guide both emerging startups and established enterprises through successful, compliant token offering campaigns that meet all regulatory requirements.
+                    </p>
+                </div>
+
+                <div class="service-content hidden" id="solidity">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Solidity Development</h2>
+                    <p class="service-description">
+                        Our specialized Solidity development team creates meticulously optimized, highly secure smart contracts for Ethereum and compatible blockchain networks. We implement industry-leading best practices throughout the development lifecycle to ensure maximum efficiency, robust security measures, and optimized gas consumption.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <div class="iot-smart-faq">
+      <div class="faq-headline">
+          <h3 class="heading">Our Blockchain Expertise</h3>
+          <span>From meticulously engineered smart contracts to sophisticated decentralized applications, our comprehensive blockchain solutions empower organizations to revolutionize their operational infrastructure through distributed ledger technology, delivering unparalleled security and operational efficiency.</span>
+      </div>
+      
+      <div class="faq-category">
+          <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      DeFi Solutions
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our advanced decentralized finance ecosystem enables sophisticated lending, borrowing, trading, and yield optimization on secure blockchain networks. We develop comprehensive DeFi platforms that deliver transparent, non-custodial financial services that operate entirely without traditional intermediaries or centralized gatekeepers.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      NFT Marketplaces
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our comprehensive NFT marketplace solutions enable enterprises to establish powerful platforms for minting, purchasing, selling, and exchanging non-fungible tokens. We engineer bespoke ecosystems with advanced capabilities including token minting, multi-format auctions, creator royalties, and cross-chain compatibility.
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Enterprise Blockchain
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our enterprise-grade blockchain infrastructure utilizes private and consortium networks to revolutionize cross-organizational processes and collaboration frameworks. We implement highly secure, scalable distributed ledger systems that seamlessly integrate with existing corporate infrastructure and legacy systems.
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Supply Chain Traceability
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our blockchain-powered supply chain platforms deliver comprehensive visibility and immutable tracking across complex distribution networks. We empower organizations to monitor products from production source to consumer delivery, authenticate items, and maintain transparent, tamper-proof records of all transactions and shipment activities.
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Cross-Chain Solutions
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  We engineer sophisticated cross-chain bridging and interoperability frameworks that facilitate frictionless asset transfers and communication between disparate blockchain ecosystems. Our technology bridges previously isolated networks to foster a cohesive, interconnected blockchain environment.
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="faq-hexagon">
+      <div class="hexagon-wrapper">
+          <div class="hexagon-header">
+              <div class="hexagon-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
+              </div>
+              <div class="hexagon-question">
+                Blockchain Security
+                  <span class="hexagon-toggle">+</span>
+              </div>
+          </div>
+          <div class="hexagon-content">
+              <div class="hexagon-answer">
+                Our comprehensive blockchain security offerings encompass thorough smart contract auditing, systematic vulnerability identification, and implementation of industry-leading security protocols. We safeguard your blockchain applications against sophisticated exploits, targeted attacks, and emerging security threats through exhaustive testing and meticulous code analysis.
+              </div>
+          </div>
+      </div>
+  </div>
+      </div>
+  </div>
+
+
+  <section class="stats-section">
+    <div class="stats-card">
+      <div class="stats-container">
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">3000+</div>
+          <div class="stat-description">Software Projects<br>Delivered Successfully</div>
+        </div>
+       
+       
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">87%</div>
+          <div class="stat-description">Recurring Client Base</div>
+        </div>
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">8+</div>
+          <div class="stat-description">Years in Business</div>
+        </div>
+      
+      </div>
+      <a href="#" class="cta-button">Let's Discuss Your Project</a>
+    </div>
+  </section>
+
+
+  <section class="bct-solutions-wrapper">
+    <div class="bct-solutions-inner-container">
+        <h1 class="heading mb-5 mt-5">Enterprise-Grade Blockchain Solutions Tailored for Your Business</h1>
+        
+        <p class="bct-solutions-intro-paragraph mb-5 mt-5">
+            As a leading blockchain development company, KKRF delivers sophisticated distributed ledger solutions precisely engineered to match your organizational objectives. Our strategic approach focuses on thoroughly understanding your industry-specific challenges, enabling us to create bespoke blockchain implementations that transform your operational capabilities.
+        </p>
+        
+        <div class="bct-solutions-services-grid mb-5 mt-5">
+            <!-- Column 1 -->
+            <div class="bct-solutions-service-column">
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">NFT Marketplace Development</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">Secure Payment Infrastructure</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">Decentralized Autonomous Organizations</a>
+                </div>
+            </div>
+            
+            <!-- Column 2 -->
+            <div class="bct-solutions-service-column">
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">Tokenized Crowdfunding Platforms</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">Institutional Trading Systems</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">DeFi Protocol Engineering</a>
+                </div>
+            </div>
+            
+            <!-- Column 3 -->
+            <div class="bct-solutions-service-column">
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">Multi-signature Wallet Solutions</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link">Decentralized Exchange Platforms</a>
+                </div>
+                
+                <div class="bct-solutions-service-item">
+                    <span class="bct-solutions-bullet-point"></span>
+                    <a href="#" class="bct-solutions-service-link bct-solutions-underlined-link">Blockchain Gaming Ecosystems</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="appinv-why-choose-section">
+    <div class="appinv-why-choose-container">
+      <div class="appinv-section-header">
+        <h2 class="heading mt-5">Why Choose KKRF as Your Custom Blockchain App Development Company?</h2>
+        <p class="appinv-main-subheading">As a blockchain application development company with the experience of handling hundreds of blockchain projects of varied complexity levels, we offer the expertise to convert your ideas into practical, secure and scalable solutions. Here's why we are the perfect fit as your custom blockchain development company:</p>
+      </div>
+  
+      <div class="appinv-benefits-container">
+        <div class="appinv-benefits-nav">
+          <div class="appinv-benefit-item appinv-active" data-benefit="experts">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </span>
+            Certified Experts
+          </div>
+          <div class="appinv-benefit-item" data-benefit="client-focused">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
+                <line x1="16" y1="5" x2="22" y2="5"></line>
+                <line x1="19" y1="2" x2="19" y2="8"></line>
+                <polyline points="9 15 12 12 9 9"></polyline>
+                <line x1="12" y1="12" x2="5" y2="12"></line>
+              </svg>
+            </span>
+            Client-Focused Approach
+          </div>
+         
+          <div class="appinv-benefit-item" data-benefit="compliance">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </span>
+            Compliance-Assured Products
+          </div>
+          
+          <div class="appinv-benefit-item" data-benefit="support">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </span>
+            24/7 Support
+          </div>
+        </div>
+  
+        <div class="appinv-benefit-display">
+          <div class="appinv-benefit-content appinv-active" id="experts">
+            <div class="appinv-benefit-image">
+              <img src="assets/Blockchain-Expert.webp" alt="Certified blockchain experts" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Certified Experts</h3>
+              <p class="appinv-benefit-description">Count on the team of 500+ certified blockchain experts who have the experience of working on a multitude of blockchain projects, fulfilling the needs of a varied set of industries and businesses.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Specialized blockchain developers</li>
+                <li class="appinv-benefit-list-item">Industry-specific expertise</li>
+                <li class="appinv-benefit-list-item">Continuous professional development</li>
+                <li class="appinv-benefit-list-item">Multi-chain proficiency</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="client-focused">
+            <div class="appinv-benefit-image">
+              <img src="assets/Blockchain-client-focused.webp" alt="Client-focused approach" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Client-Focused Approach</h3>
+              <p class="appinv-benefit-description">We prioritize understanding your business needs and objectives to deliver blockchain solutions that align with your strategic goals. Our collaborative process ensures that your vision is transformed into a functional, market-ready product.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Personalized solution design</li>
+                <li class="appinv-benefit-list-item">Regular client consultations</li>
+                <li class="appinv-benefit-list-item">Transparent development process</li>
+                <li class="appinv-benefit-list-item">Commitment to client success</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="compliance">
+            <div class="appinv-benefit-image">
+              <img src="assets/Compliance-assured-Product.webp" alt="Compliance-assured products" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Compliance-Assured Products</h3>
+              <p class="appinv-benefit-description">Our blockchain solutions are built with regulatory compliance at their core. We ensure that all applications meet industry standards and legal requirements, reducing risk and building trust with your stakeholders.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Regulatory-compliant development</li>
+                <li class="appinv-benefit-list-item">Security audits and testing</li>
+                <li class="appinv-benefit-list-item">Data protection measures</li>
+                <li class="appinv-benefit-list-item">Industry-specific compliance frameworks</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="support">
+            <div class="appinv-benefit-image">
+              <img src="assets/Support-blockchain.webp" alt="24/7 Support" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">24/7 Support</h3>
+              <p class="appinv-benefit-description">Our dedicated support team is available around the clock to address any issues, provide technical assistance, and ensure the continuous operation of your blockchain applications. We're committed to maintaining the reliability of your systems.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Round-the-clock technical assistance</li>
+                <li class="appinv-benefit-list-item">Rapid issue resolution</li>
+                <li class="appinv-benefit-list-item">Proactive system monitoring</li>
+                <li class="appinv-benefit-list-item">Regular maintenance and updates</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Section -->
+      <div class="appinv-contact-section">
+        <div class="appinv-contact-image">
+          <img src="https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_1280.jpg" alt="Contact KKRF" />
+        </div>
+        <div class="appinv-contact-text">
+          <h3>Ready to transform your blockchain strategy?</h3>
+          
+          <a href="#contact" class="appinv-contact-button">Book Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section class="kkrf-industry-section mb-5">
+  <div class="kkrf-industry-header">
+      <h2 class="heading mt-5">Through Business Intelligence Services for Industries Across the Globe</h2>
+      <p class="kkrf-industry-description">Our business intelligence services cater to various industries, focusing on delivering the essential feature set that ensures optimal traction within each specific domain. Here are the industries that can leverage our robust and well-designed business intelligence software development solutions to gain a competitive edge:</p>
+  </div>
+
+  <div class="kkrf-industry-grid">
+      <!-- Row 1 -->
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Healthcare</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Finance</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 3h18v18H3zM9 15h6M9 9h6M15 15v6M15 9v6M9 15v6M9 9v6"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Restaurant</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">eCommerce</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="3" width="15" height="13"></rect>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Logistics</span>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Social Networking</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                  <path d="M12 12h.01"></path>
+                  <path d="M7 12h.01"></path>
+                  <path d="M17 12h.01"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Games and Sports</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Travel</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 2L2 22"></path>
+                  <path d="M6.5 17.5L17.5 6.5"></path>
+                  <path d="M2 12h2a10 10 0 0 1 10 10v-2"></path>
+                  <path d="M22 12h-2a10 10 0 0 0-10-10v2"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Aviation</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Real Estate</span>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Education</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">On-Demand</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Entertainment</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Government</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v8M4.93 10.93l1.41 1.41"></path>
+                  <path d="M2 18h2M20 18h2M19.07 10.93l-1.41 1.41"></path>
+                  <path d="M22 22H2M16 6l-4 4-4-4"></path>
+                  <path d="M16 18a4 4 0 0 0-8 0"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Agriculture</span>
+      </div>
+  </div>
+</section>
+
+
+
+<section class="arvr_hero_outer_container" >
+    <div class="container-fluid">
+      <div class="arvr_hero_inner_wrapper" style="display: flex; align-items: center;">
+        <div class="arvr_hero_content_container" style="flex: 1; padding: 30px;">
+          <h1 class="arvr_hero_heading">Elevate Your Business Security with KKRF's Blockchain Development Solutions</h1>
+          <p class="arvr_hero_subheading" style="margin-bottom: 25px;">From startups embarking on their initial journey to established enterprises seeking business automation, our secure and reliable custom blockchain development services provide comprehensive solutions tailored to your specific needs.</p>
+          <a href="#contact" class="arvr_hero_button">
+            Schedule a Consultation
+            <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+        </a>
+        </div>
+        <div class="arvr_hero_image_container" style="flex: 1; text-align: right; padding: 20px;">
+          <!-- Embedded SVG directly instead of referencing an external file -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" style="max-width: 100%; height: auto;">
+            <!-- Background gradient -->
+            <defs>
+              <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0b0054;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#1a0080;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            
+            <!-- Background lines -->
+            <path d="M50,200 L550,200" stroke="#3a2b8c" stroke-width="1.5" opacity="0.5"/>
+            <path d="M50,150 L550,150" stroke="#3a2b8c" stroke-width="1.5" opacity="0.5"/>
+            <path d="M50,250 L550,250" stroke="#3a2b8c" stroke-width="1.5" opacity="0.5"/>
+            <path d="M50,100 L550,300" stroke="#3a2b8c" stroke-width="1.5" opacity="0.5"/>
+            <path d="M50,300 L550,100" stroke="#3a2b8c" stroke-width="1.5" opacity="0.5"/>
+            
+            <!-- Cube 1: Blue -->
+            <g transform="translate(150,180)">
+              <!-- Top face -->
+              <polygon points="0,-40 35,-20 0,0 -35,-20" fill="#31a0ff" opacity="0.8"/>
+              <!-- Right face -->
+              <polygon points="0,0 35,-20 35,20 0,40" fill="#2680ca" opacity="0.8"/>
+              <!-- Left face -->
+              <polygon points="0,0 -35,-20 -35,20 0,40" fill="#2068a8" opacity="0.8"/>
+              <!-- Glow effect -->
+              <circle cx="0" cy="0" r="25" fill="#00ffff" opacity="0.3"/>
+            </g>
+            
+            <!-- Cube 2: Purple -->
+            <g transform="translate(250,120)">
+              <!-- Top face -->
+              <polygon points="0,-40 35,-20 0,0 -35,-20" fill="#c531ff" opacity="0.8"/>
+              <!-- Right face -->
+              <polygon points="0,0 35,-20 35,20 0,40" fill="#9c26ca" opacity="0.8"/>
+              <!-- Left face -->
+              <polygon points="0,0 -35,-20 -35,20 0,40" fill="#8120a8" opacity="0.8"/>
+              <!-- Glow effect -->
+              <circle cx="0" cy="0" r="25" fill="#ff00ff" opacity="0.3"/>
+            </g>
+            
+            <!-- Cube 3: Blue -->
+            <g transform="translate(350,200)">
+              <!-- Top face -->
+              <polygon points="0,-30 25,-15 0,0 -25,-15" fill="#31a0ff" opacity="0.8"/>
+              <!-- Right face -->
+              <polygon points="0,0 25,-15 25,15 0,30" fill="#2680ca" opacity="0.8"/>
+              <!-- Left face -->
+              <polygon points="0,0 -25,-15 -25,15 0,30" fill="#2068a8" opacity="0.8"/>
+              <!-- Glow effect -->
+              <circle cx="0" cy="0" r="18" fill="#00ffff" opacity="0.3"/>
+            </g>
+            
+            <!-- Cube 4: Blue -->
+            <g transform="translate(450,150)">
+              <!-- Top face -->
+              <polygon points="0,-35 30,-17.5 0,0 -30,-17.5" fill="#31a0ff" opacity="0.8"/>
+              <!-- Right face -->
+              <polygon points="0,0 30,-17.5 30,17.5 0,35" fill="#2680ca" opacity="0.8"/>
+              <!-- Left face -->
+              <polygon points="0,0 -30,-17.5 -30,17.5 0,35" fill="#2068a8" opacity="0.8"/>
+              <!-- Glow effect -->
+              <circle cx="0" cy="0" r="20" fill="#00ffff" opacity="0.3"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partner-section">
+    <div class="intro-container">
+      <h1 class="intro-heading">KKRF's Industry-Leading Blockchain Development Methodology</h1>
+      <p class="intro-text">
+        With over a decade of blockchain expertise, KKRF has developed and refined a comprehensive development approach trusted by industry leaders worldwide. Our methodical process ensures that each custom blockchain solution perfectly aligns with your specific business requirements and objectives.
+      </p>
+    </div>
+    
+    <div class="features-container">
+        <div class="feature-box">
+          <div class="feature-icon-wrapper mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M12 2a10 10 0 1 1-10 10A10 10 0 0 1 12 2Z"/>
+              <path d="M15 12h-6"/>
+              <path d="M12 9v6"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title ml-2">01. Strategic Requirements Analysis</h2>
+            <p class="feature-text ml-2">
+              Our process begins with comprehensive discovery sessions where KKRF's blockchain architects thoroughly analyze your business requirements and objectives. We conduct detailed risk assessments, identify potential challenges, and develop mitigation strategies while proposing innovative enhancements to your initial concept.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M3 3h18v18H3V3z"/>
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M8 12h8"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title ml-2">02. Architecture & Solution Design</h2>
+            <p class="feature-text ml-2">
+              <strong>Smart Contract Architecture</strong><br>
+              Our experts meticulously identify all decentralized interactions and map them to appropriate smart contract functionality. KKRF's smart contract development methodology encompasses comprehensive architecture design, strategic pattern selection, and implementation of modular structures that ensure optimal performance and scalability.
+            </p>
+            <p class="feature-text ml-2">
+              <strong>Middleware Infrastructure</strong><br>
+              For complex blockchain platforms with multiple integrated components, KKRF engineers design sophisticated middleware systems that securely encapsulate smart contract functionality. Our approach delivers robust, scalable API frameworks that enable seamless interaction between frontend applications and administrative systems.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M2 12h20"/>
+              <path d="M6 16h12"/>
+              <path d="M8 20h8"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">03. Smart Contract Implementation</h2>
+            <p class="feature-text">
+              Following our established architectural framework, KKRF's specialized blockchain developers translate design specifications into high-performance smart contracts. Our implementation process adheres to industry best practices for security, efficiency, and gas optimization while maintaining complete alignment with your business logic requirements.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M6 8h12"/>
+              <path d="M6 12h12"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">04. User & Administrative Interface Development</h2>
+            <p class="feature-text">
+              <strong>User-Facing Interface Components:</strong>
+              <ul style="list-style-type: none; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">• Transaction creation and processing frameworks</li>
+                <li style="margin-bottom: 8px;">• Secure wallet connection infrastructure</li>
+                <li style="margin-bottom: 8px;">• Cross-chain messaging capabilities</li>
+                <li style="margin-bottom: 8px;">• Blockchain data retrieval and display systems</li>
+              </ul>
+            </p>
+            <p class="feature-text">
+              <strong>Administrative Control Systems:</strong><br>
+              Based on project requirements, KKRF implements customized administrative interfaces that may include:
+              <ul style="list-style-type: none; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">• Comprehensive transaction analytics dashboards</li>
+                <li style="margin-bottom: 8px;">• Protocol fee management controls</li>
+                <li style="margin-bottom: 8px;">• Advanced user administration tools</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M6 8h12"/>
+              <path d="M6 12h12"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">05. System Integration & Workflow Orchestration</h2>
+            <p class="feature-text">
+              KKRF employs an iterative integration methodology that synchronizes smart contract functionality with user interfaces and administrative systems. This critical phase establishes complete end-to-end workflows while implementing rigorous unit and module testing protocols. Our blockchain integration specialists ensure flawless communication between all system components.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M6 8h12"/>
+              <path d="M6 12h12"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">06. Comprehensive Quality Assurance</h2>
+            <p class="feature-text">
+              KKRF's dedicated QA team conducts thorough testing across multiple blockchain environments, including testnets and customized testing infrastructures. Our rigorous quality assurance process examines every aspect of functionality, security, and performance to guarantee exceptional user experiences and complete client satisfaction.
+            </p>
+          </div>
+        </div>
+        <hr />
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M6 8h12"/>
+              <path d="M6 12h12"/>
+            </svg>
+          </div>
+          <div>
+            <h2 class="feature-title">07. Enterprise-Grade Deployment</h2>
+            <p class="feature-text">
+              The final phase involves deploying your blockchain solution according to industry-standard protocols and best practices. KKRF's deployment specialists ensure your application is properly implemented across all required platforms, with comprehensive documentation and operational support to maximize accessibility and adoption among your target audience.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+    <section class="blockchain-platforms-section mb-5">
+        <h2 class="heading">Blockchain Development<br>Platforms We Work On</h2>
+        
+        <p class="blockchain-platforms-description">
+            Explore our Ethereum application development services for building cutting-edge blockchain solutions.
+            No matter how old like Ethereum, or new like Polkadot, our team of blockchain developers are
+            experts at building solutions on the best available platforms as per your business needs.
+        </p>
+        
+        <div class="blockchain-logos-container">
+            <!-- Ethereum Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5 3.5v9.127l7.85 3.54L16.5 3.5z" fill="#8A92B2" fill-opacity="0.35"/>
+                    <path d="M16.5 3.5l-7.85 12.667 7.85-3.54V3.5z" fill="#62688F" fill-opacity="0.7"/>
+                    <path d="M16.5 21.167v7.333L24.35 17.5l-7.85 3.667z" fill="#8A92B2" fill-opacity="0.35"/>
+                    <path d="M16.5 28.5v-7.333L8.65 17.5l7.85 11z" fill="#62688F" fill-opacity="0.7"/>
+                    <path d="M16.5 19.333l7.85-4.5-7.85-3.54v8.04z" fill="#62688F" fill-opacity="0.4"/>
+                    <path d="M8.65 14.833l7.85 4.5v-8.04l-7.85 3.54z" fill="#454A75" fill-opacity="0.8"/>
+                </svg>
+            </div>
+            
+            <!-- Polkadot Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 3c-2.414 0-4.375 1.96-4.375 4.375 0 1.848 1.152 3.423 2.775 4.074-0.054 0.25-0.082 0.51-0.082 0.78 0 1.03 0.415 1.958 1.082 2.642-0.667 0.683-1.082 1.612-1.082 2.642 0 0.269 0.029 0.529 0.082 0.78-1.623 0.651-2.775 2.225-2.775 4.073C11.625 24.775 13.586 26.75 16 26.75s4.375-1.975 4.375-4.389c0-1.848-1.152-3.423-2.775-4.073 0.054-0.25 0.082-0.51 0.082-0.779 0-1.03-0.415-1.958-1.082-2.642 0.667-0.683 1.082-1.612 1.082-2.642 0-0.269-0.029-0.529-0.082-0.78 1.623-0.651 2.775-2.225 2.775-4.073C20.375 4.96 18.414 3 16 3z" fill="#E6007A"/>
+                    <circle cx="16" cy="7.5" r="2.5" fill="#E6007A"/>
+                    <circle cx="16" cy="24.5" r="2.5" fill="#E6007A"/>
+                    <circle cx="25" cy="16" r="2.5" fill="#E6007A"/>
+                    <circle cx="7" cy="16" r="2.5" fill="#E6007A"/>
+                </svg>
+            </div>
+            
+            <!-- Corda Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.333 9.5 16 4.333 25.667 9.5v13L16 27.667 6.333 22.5v-13z" stroke="#EF0E0E" fill="none" stroke-width="1.5"/>
+                    <path d="M16 8.667 8.667 13v8.667L16 26l7.333-4.333V13L16 8.667zm0 4.666a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" fill="#EF0E0E"/>
+                    <path d="m12.667 11.333 2-1.333m-2 11.333 2 1.334m4.666-12.667 2 1.333m-2 9.334 2-1.334" stroke="#EF0E0E" stroke-width="1.5"/>
+                </svg>
+            </div>
+            
+            <!-- Cardano Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="12" fill="none" stroke="#0033AD" stroke-width="1.5"/>
+                    <path d="M16 9a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-7 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm14 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-7 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-5-9a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm10 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="#0033AD"/>
+                </svg>
+            </div>
+            
+            <!-- EOS Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 3L4 15l12 12 12-12L16 3zm-7.15 12L16 7.85 23.15 15 16 22.15 8.85 15z" fill="#ffffff"/>
+                    <path d="M8.5 15h15M16 7.5v15" stroke="#ffffff" stroke-width="1.5"/>
+                </svg>
+            </div>
+            
+            <!-- Stellar Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M27 16c0-2.8-3.25-4.5-6.25-5.5-2.5-0.8-5.25-1-8.25-0.5m0 11c3 0.5 5.75 0.3 8.25-0.5 3-1 6.25-2.7 6.25-5.5m-22.5 0h17M16 7.5v17" stroke="#08B5E5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="16" cy="16" r="2" fill="#08B5E5"/>
+                </svg>
+            </div>
+            
+            <!-- Tron Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 3L7 10.5l2 13L16 29l7-5.5 2-13L16 3z" fill="none" stroke="#EF0E40" stroke-width="1.5"/>
+                    <path d="M16 3v26m0-26L7 23.5M16 29l9-19.5" stroke="#EF0E40" stroke-width="1.5"/>
+                </svg>
+            </div>
+            
+            <!-- Hedera Logo -->
+            <div class="blockchain-icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="12" fill="#0066FF"/>
+                    <path d="M10 10v12m12-12v12M10 16h12" stroke="white" stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+  
+    <section class="forms-section" style="background: linear-gradient(to bottom right, #040500,#04050085, #295A57, #313C12);">
+    <div class="container-fluid py-5 px-3 text-light px-md-5">
+      <div class="d-flex flex-column flex-lg-row mx-md-5 me-lg-0">
+        <div class="forms-first-section me-lg-5 py-lg-5 animate__animated animate__fadeInLeft">
+          <div>
+            <h2 class="forms-first-section-heading">Need quick help?<br class="d-none d-md-inline"> Contact us now!</h2>
+            <p class="forms-first-section-para mt-md-4 px-md-5 px-lg-0">Reach out for immediate assistance, and our team
+              will
+              respond as quickly
+              as possible.</p>
+          </div>
+          <div class="d-flex flex-column mt-5 ms-2 flex-md-row px-md-5 px-lg-0">
+            <div class="d-flex flex-column mb-4 col-lg-4">
+              <div class="contact-widget-icon-wrap mb-4">
+                <img
+                  src="https://cdn.prod.website-files.com/6753c944298bec1f730af5a1/6755352cc9989275ef3d0efc_map-pin.svg"
+                  loading="lazy" width="24" height="24" alt="">
+              </div>
+              <p>Address</p>
+              <p class="forms-section-lg-address ">Noida Sector 18<br class="d-none d-md-inline d-lg-none">
+                India</p>
+            </div>
+            <div class="d-flex flex-column mb-4 col-lg-4 ms-md-auto">
+              <div class="contact-widget-icon-wrap mb-4">
+                <img
+                  src="https://cdn.prod.website-files.com/6753c944298bec1f730af5a1/675536652eca5a31b7a4f260_call-calling.svg"
+                  loading="lazy" width="24" height="24" alt="">
+              </div>
+              <p>Contact</p>
+              <p class="forms-section-lg-address">support@kkrfgroup.com<br class=" d-none d-md-inline"> (123) 456-7890
+              </p>
+            </div>
+          </div>
+          <hr>
+          <div class="px-md-5 px-lg-0">
+            <p class="fs-5 mb-5">Office Hours: Mon – Sat: 8:00 AM – 10:00 PM</p>
+          </div>
+        </div>
+  
+        <div
+          class="animate__animated animate__fadeInRight forms-second-section bg-light rounded-4 p-3 text-black px-md-5 mx-md-5 py-md-5 ms-lg-5">
+          <div>
+            <h2 class="forms-second-section-heading mt-1 mb-3">Fill the contact form</h2>
+            <p class="forms-second-section-para text-dark">Have a question or need support? Fill out the form below, and
+              we’ll get back to you as soon as possible.
+            </p>
+            <form action="" class="">
+              <div class="mb-4 ">
+                <input type="text" class="form-control p-3" id="exampleFormControlInput1" placeholder="First name">
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control p-3" id="exampleFormControlInput2" placeholder="Email address">
+              </div>
+              <div class="mb-4">
+                <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="Phone number">
+              </div>
+              <div class="mb-4">
+                <textarea id="Message" name="Message" maxlength="5000" data-name="Message"
+                  placeholder="Type your message here" class="form-control p-4" spellcheck="false"></textarea>
+              </div>
+              <button class="btn d-block btn-dark w-100 py-3" type="button">Submit</button>
+            </form>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- faq section -->
+  <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Frequently Asked Questions</h2>
+      
+      <div class="max-w-4xl mx-auto space-y-6">
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold">What services do you provide?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer ">
+                  We offer comprehensive technology solutions including software development, cloud computing, cybersecurity, and digital transformation consulting for enterprises worldwide.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">How do you ensure data security?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  Our robust security protocols include end-to-end encryption, multi-factor authentication, regular security audits, and compliance with international data protection standards.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">What industries do you serve?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  We specialize in serving diverse sectors including finance, healthcare, e-commerce, education, and manufacturing with tailored technological solutions.
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- blog section -->
+
+
+
+
+ 
+  
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+  
+<script src="scripts/hero.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/card.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/switch.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/faqs.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        .groupkkrf-page-wrapper {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .groupkkrf-error-container {
+            max-width: 600px;
+            padding: 40px;
+            background-color: #111111;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            border: 1px solid #333;
+            position: relative;
+        }
+        
+        .groupkkrf-error-icon {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+        }
+        
+        .groupkkrf-error-code {
+            font-size: 72px;
+            font-weight: bold;
+            margin: 0;
+            color: #ffffff;
+        }
+        
+        .groupkkrf-error-title {
+            font-size: 28px;
+            margin: 10px 0 20px;
+            color: #ffffff;
+        }
+        
+        .groupkkrf-error-message {
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #cccccc;
+        }
+        
+        .groupkkrf-home-button {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #000000;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .groupkkrf-home-button:hover {
+            background-color: #f0f0f0;
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 576px) {
+            .groupkkrf-error-container {
+                margin: 20px;
+                padding: 30px 20px;
+            }
+            
+            .groupkkrf-error-code {
+                font-size: 60px;
+            }
+            
+            .groupkkrf-error-title {
+                font-size: 24px;
+            }
+            
+            .groupkkrf-error-message {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="groupkkrf-page-wrapper">
+        <div class="groupkkrf-error-container">
+            <div class="groupkkrf-error-icon">
+                <h1 class="groupkkrf-error-code">404</h1>
+            </div>
+            <h2 class="groupkkrf-error-title">Page Not Found</h2>
+            <p class="groupkkrf-error-message">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+            <a href="index.html" class="groupkkrf-home-button">Return to Home</a>
+        </div>
+    </div>
+</body>
+</html>

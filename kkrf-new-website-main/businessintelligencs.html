@@ -1,0 +1,2090 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External Stylesheets -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
+    
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-zR6NZhOJ6OG9GKNoAtRdhptxS7bqMC5v9azCm9dXKvtbGRV2KDqXW3qk9kFn1KVI"
+    crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+  
+    
+    
+    <title>AR/VR Development</title>
+</head>
+<body>
+  
+  <div class="htec-nav d-none d-lg-block">
+    <div class="htec-navbar-container">
+        <nav class="htec-navbar">
+            <div class="htec-logo">
+                <a href="#">   <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" /></a>
+            </div>
+            
+            <ul class="htec-nav-links">
+              <li class="htec-nav-item htec-active">
+                <a href="#">Services <span class="htec-dropdown-arrow"></span></a>
+                <div class="htec-dropdown-menu">
+                  <div class="htec-dropdown-inner htec-services-content">
+                    <div class="htec-sidebar">
+                        <h3 class="htec-sidebar-title">Services</h3>
+                        <ul class="htec-sidebar-menu">
+                            <li class="htec-sidebar-item"><a href="#" data-content="all-services">ALL SERVICES</a></li>
+                            <li class="htec-sidebar-item active"><a href="#" data-content="software-development">SOFTWARE DEVELOPMENT</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="blockchain-services">BLOCKCHAIN SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="cloud-services">CLOUD SERVICES</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="it-consulting">IT CONSULTING</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="data-analytics">DATA ANALYTICS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="devops">DEVOPS</a></li>
+                            <li class="htec-sidebar-item"><a href="#" data-content="artificial-intelligence">ARTIFICIAL INTELLIGENCE</a></li>
+                        </ul>
+                        <a href="#" style="display: inline-block; margin-top: 32px; padding: 12px 28px; background-color: rgba(255, 255, 255, 0.1); border-radius: 25px; color: white; text-decoration: none; font-size: 15px;">Explore</a>
+                    </div>
+                    <div class="htec-main-content">
+                        <!-- SOFTWARE DEVELOPMENT Content (Default/Initial View) -->
+                        <div id="software-development" class="content-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="softwreoverview.html">SOFTWARE DEVELOPMENT</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="erp.html">ERP Software development</a></h4>
+                                    <p class="htec-content-description">Custom enterprise solutions integrating finance, HR, supply chain, and manufacturing into a unified platform.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="crm.html">Custom CRM</a></h4>
+                                    <p class="htec-content-description">Tailored systems enhancing client engagement with lead scoring, pipeline analytics, and automation tools that integrate with your tech stack.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="arvr.html">AR/VR Development</a></h4>
+                                    <p class="htec-content-description">Immersive applications for training, marketing, and customer experiences using spatial computing and intuitive interaction design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="iot.html">IoT Development</a></h4>
+                                    <p class="htec-content-description">Connected device solutions transforming environments into intelligent ecosystems with embedded systems and analytics platforms.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="microservice.html">Microservices</a></h4>
+                                    <p class="htec-content-description">Modular architecture transforming monolithic applications into agile, scalable services with robust API gateways and observability.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="product.html">Product Development</a></h4>
+                                    <p class="htec-content-description">End-to-end digital product creation combining design thinking with iterative engineering to build market-ready solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- BLOCKCHAIN SERVICES Content -->
+                        <div id="blockchain-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="blockchainservices.html">BLOCKCHAIN SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="nftmarket.html">NFT Marketplace</a></h4>
+                                    <p class="htec-content-description">Custom platforms for secure creation and trading of digital assets with wallet integration, smart contracts, and royalty systems.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="metaverse.html">Metaverse Development</a></h4>
+                                    <p class="htec-content-description">Immersive virtual worlds leveraging 3D rendering and blockchain technology for digital interaction and commerce.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dapp.html">Dapp development</a></h4>
+                                    <p class="htec-content-description">Decentralized applications for DeFi, supply chain, and marketplaces with comprehensive testing and intuitive interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CLOUD SERVICES -->
+                        <div id="cloud-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="cloudconsulting.html">CLOUD SERVICES</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudmanaged.html">Cloud Managed Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive infrastructure management with 24/7 monitoring, automated scaling, and cost governance that reduces cloud spend.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="cloudconsulting.html">Cloud Consulting</a></h4>
+                                    <p class="htec-content-description">Strategic guidance for adoption and migration with tailored roadmaps, TCO analysis, and compliance architecture design.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="aws.html">AWS</a></h4>
+                                    <p class="htec-content-description">Specialized solutions leveraging serverless architectures, containerized platforms, and machine learning pipelines following best practices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- IT CONSULTING -->
+                        <div id="it-consulting" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="itoverview.html">IT CONSULTING</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="health.html">Healthcare IT Consulting Services</a></h4>
+                                    <p class="htec-content-description">HIPAA-compliant systems, telehealth platforms, and interoperability solutions improving patient outcomes and operational efficiency.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="itoutsourcing.html">IT Outsourcing Services</a></h4>
+                                    <p class="htec-content-description">Strategic technology outsourcing with dedicated teams, defined SLAs, and quality assurance processes ensuring accountability.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="manageditservices.html">Managed IT Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive technology management including infrastructure monitoring, endpoint management, and virtual CIO services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DEVOPS -->
+                        <div id="devops" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="devopsoverview.html">DEVOPS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="scops.html">SecOps</a></h4>
+                                    <p class="htec-content-description">Integrated security frameworks with automated vulnerability scanning, threat modeling, and incident response automation.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="devopsoverview.html">DevOps Implementation</a></h4>
+                                    <p class="htec-content-description">End-to-end automation with CI/CD pipelines and observability stacks increasing deployment frequency and reducing recovery time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- DATA ANALYTICS -->
+                        <div id="data-analytics" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="dataanalytics.html">DATA ANALYTICS</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="businessintelligence.html">Business Intelligence</a></h4>
+                                    <p class="htec-content-description">Data visualization platforms transforming complex information into actionable insights with self-service capabilities and governance.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="dataanalytics.html">Data Services</a></h4>
+                                    <p class="htec-content-description">Comprehensive data management including engineering, governance, and analytics environments driving informed business decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- ARTIFICIAL INTELLIGENCE -->
+                        <div id="artificial-intelligence" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title"><a href="aioverview.html">ARTIFICIAL INTELLIGENCE</a></h3>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="generativeai.html">Generative AI</a></h4>
+                                    <p class="htec-content-description">Custom systems creating content across text, image, and code with language models, knowledge retrieval, and responsible AI frameworks.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title"><a href="computer.html">Computer Vision</a></h4>
+                                    <p class="htec-content-description">Visual intelligence solutions implementing deep learning for object detection, segmentation, and anomaly detection with high accuracy.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-5">
+                                    <h4 class="htec-content-title"><a href="machinnelearning.html">Machine Learning</a></h4>
+                                    <p class="htec-content-description">Predictive analytics for forecasting, churn prediction, and personalization with MLOps frameworks and explainable AI techniques.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- All Services -->
+                        <div id="all-services" class="content-section" style="display: none; grid-template-columns: 1fr 1fr; gap: 50px; width: 80vw;">
+                            <div>
+                                <h3 class="htec-section-title">All Services</h3>
+                                <div>
+                                    <h4 class="htec-content-title">Our Comprehensive Approach</h4>
+                                    <p class="htec-content-description">Integrated solutions across the digital transformation spectrum delivering measurable business outcomes.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Integrated Solutions</h4>
+                                    <p class="htec-content-description">Cross-functional teams combining strategic thinking, design excellence, and technical expertise for real-world results.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Technology Partnerships</h4>
+                                    <p class="htec-content-description">Strategic alliances with leading providers while ensuring vendor-independent advice aligned with your specific needs.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h4 class="htec-content-title">Industry-Specific Expertise</h4>
+                                    <p class="htec-content-description">Specialized knowledge across healthcare, financial, manufacturing, retail, and energy sectors with regulatory understanding.</p>
+                                </div>
+                                <div>
+                                    <h4 class="htec-content-title">Global Delivery Capabilities</h4>
+                                    <p class="htec-content-description">International presence providing access to specialized talent and flexible engagement models to scale efficiently.</p>
+                                </div>
+                                <h3 class="htec-section-title" style="margin-top: 28px;">Key Service Areas</h3>
+                                <div class="htec-solutions-links">
+                                    <a href="softwreoverview.html" class="htec-solution-link">Software Development</a>
+                                    <a href="blockchainservices.html" class="htec-solution-link">Blockchain Services</a>
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="htec-nav-item">
+              <a href="#">Industries <span class="htec-dropdown-arrow"></span></a>
+              <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                  <div class="htec-firm-column">
+                    <h3 class="htec-section-header">Industries</h3>
+                    <ul class="htec-firm-links">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-film me-2"></i>Media & Entertainment</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-currency-dollar me-2"></i>Financial Services & Insurance</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-lightning-charge me-2"></i>Energy & Utilities</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-building me-2"></i>Industrials</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-heart-pulse me-2"></i>Healthcare & Life Sciences</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-cpu me-2"></i>Technology</a></li>
+                    </ul>
+                </div>
+                <div class="htec-firm-column">
+                    <ul class="htec-firm-links" style="margin-top: 52px;">
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-bag me-2"></i>Retail & CPG</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-truck me-2"></i>Transportation & Mobility</a></li>
+                        <li class="htec-firm-link"><a href="#"><i class="bi bi-broadcast me-2"></i>Telecommunications</a></li>
+                    </ul>
+                </div>
+                  <div class="htec-firm-column">
+                      <!-- Placeholder for additional content -->
+                  </div>
+                  <div class="htec-news-section">
+                      <div class="htec-news-header">
+                          <h3 class="htec-news-title">Latest News</h3>
+                          <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                      </div>
+                      <div class="htec-news-grid">
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Healthcare Technology Innovation" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">AI-Powered Diagnostics Breakthrough in Healthcare</h4>
+                                  <p style="font-size:12px; color:#666;">March 15, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Financial Technology Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Blockchain Revolution in Banking Services</h4>
+                                  <p style="font-size:12px; color:#666;">March 10, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Smart Energy Solutions" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Smart Grid Technology Transforms Energy Sector</h4>
+                                  <p style="font-size:12px; color:#666;">March 5, 2025</p>
+                              </div>
+                          </div>
+                          <div class="htec-news-card">
+                              <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Media Streaming Technology" style="width:100%; height:150px; object-fit:cover;">
+                              <div class="htec-news-content" style="padding:10px;">
+                                  <h4 style="font-size:14px; margin:5px 0;">Next-Gen Streaming Platform for Media Industry</h4>
+                                  <p style="font-size:12px; color:#666;">February 28, 2025</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </li>
+          <li class="htec-nav-item">
+            <a href="#">Our Firm <span class="htec-dropdown-arrow"></span></a>
+            <div class="htec-dropdown-menu">
+                <div class="htec-dropdown-inner htec-firm-content">
+                    <div class="htec-firm-column ">
+                        <h3 class="htec-section-header">About KKRF</h3>
+                        <ul class="htec-firm-links">
+                            <li class="htec-firm-link"><a href="#">Company Overview</a></li>
+                            <li class="htec-firm-link"><a href="#">Global Locations</a></li>
+                            <li class="htec-firm-link"><a href="#">History</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="#">Leadership & Board</a></li>
+                            <li class="htec-firm-link"><a href="#">Alliances</a></li>
+                            <li class="htec-firm-link"><a href="carrer.html">Careers & Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <ul class="htec-firm-links" style="margin-top: 52px;">
+                            <li class="htec-firm-link"><a href="blog.html">Press & Media</a></li>
+                        </ul>
+                    </div>
+                    <div class="htec-firm-column">
+                        <!-- Placeholder for additional content -->
+                    </div>
+                    <div class="htec-news-section">
+                        <div class="htec-news-header">
+                            <h3 class="htec-news-title">Latest News</h3>
+                            <a href="blog.html" class="htec-view-all">View all news <span class="htec-right-arrow">→</span></a>
+                        </div>
+                        <div class="htec-news-grid">
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="KKRF Expansion" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Group Expands with New Office in Singapore</h4>
+                                    <p style="font-size:12px; color:#666;">March 18, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Leadership Summit" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">Annual Leadership Summit Announces Strategic Direction</h4>
+                                    <p style="font-size:12px; color:#666;">March 12, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="New Partnership" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">KKRF Forms Strategic Alliance with Global Tech Leader</h4>
+                                    <p style="font-size:12px; color:#666;">March 8, 2025</p>
+                                </div>
+                            </div>
+                            <div class="htec-news-card">
+                                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200&q=80" alt="Sustainability Initiative" style="width:100%; height:150px; object-fit:cover;">
+                                <div class="htec-news-content" style="padding:10px;">
+                                    <h4 style="font-size:14px; margin:5px 0;">New Sustainability Initiative Launches with Zero-Carbon Goal</h4>
+                                    <p style="font-size:12px; color:#666;">March 1, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+                <li class="htec-nav-item d-none d-xl-block">
+                    <a href="blog.html">Insights & Events</a>
+                </li>
+                <li class="htec-nav-item">
+                    <a href="carrer.html">Careers & Culture </a>
+                </li>
+            </ul>
+            
+            <div class="htec-right-section">
+               
+              <a href="contact.html"><button class="htec-partner-button d-none d-xl-block">Let's partner up</button></a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+  <section class="d-block  d-lg-none">
+    <nav class="navbar-override1 flex items-center px-10 py-4 bg-black relative">
+      <!-- Logo -->
+      <div>
+        <img src="assets/kkrf logo FINAL white logo.jpg" alt="logo" style="max-width: 120px;" />
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="nav-center hidden lg:flex items-center gap-8">
+        <!-- Dropdown Menu for "What we do" -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn"
+          >
+            What we do
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <div class="dropdown">
+              <h2 class="title">What we do <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <a href="#" class="text-white hover:text-purple-500">Industries</a>
+        
+        <!-- Who we are dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn1"
+          >
+            Who we are
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu1" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown2">
+              <h2 class="title">who we are <span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Careers dropdown -->
+        <div class="relative">
+          <button
+            class="flex justify-center items-center text-white hover:text-purple-500 focus:outline-none"
+            id="dropdown-btn2"
+          >
+            Careers
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="dropdown-menu2" class="hidden absolute left-0 bg-black border border-gray-700 py-2 px-4 space-y-2 z-50">
+            <!-- Dropdown content remains the same -->
+            <div class="dropdown3">
+              <h2 class="title">Careers<span class="arrow">➔</span></h2>
+              <div class="dropdown-content">
+                <div class="column">
+                  <h3>Capabilities</h3>
+                  <ul>
+                    <li>Cloud</li>
+                    <li>Cybersecurity</li>
+                    <li>Data and Artificial Intelligence</li>
+                    <li>Digital Engineering and Manufacturing</li>
+                    <li>Emerging Technology</li>
+                    <li>Ecosystem Partners</li>
+                    <li>Finance and Risk Management</li>
+                    <li>Infrastructure and Capital Projects</li>
+                    <li>Learning</li>
+                    
+                  </ul>
+                </div>
+                <div class="column ">
+                  <ul>
+                      <li>Marketing and Experience</li>
+                    <li>Metaverse</li>
+                    <li>Sales and Commerce</li>
+                    <li>Strategic Managed Services</li>
+                    <li>Strategy</li>
+                    <li>Supply Chain</li>
+                    <li>Sustainability</li>
+                    <li>Talent and Organization</li>
+                    <li>Technology Transformation</li>
+                  </ul>
+                </div>
+                <div class="h-[49vh] border-l-2 border-grey mx-4"></div>
+                <div class="column">
+                  <h3>Industries</h3>
+                  <ul>
+                    <li>Aerospace and Defense</li>
+                    <li>Automotive</li>
+                    <li>Banking</li>
+                    <li>Capital Markets</li>
+                    <li>Chemicals</li>
+                    <li>Communications and Media</li>
+                    <li>Consumer Goods and Services</li>
+                    <li>Energy</li>
+                    <li>Health</li>
+                    <li>High Tech</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Us & Country Selector -->
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="#" class="text-white hover:text-purple-500">Contact Us</a>
+        <select class="bg-black text-white border border-gray-600 rounded p-1">
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Germany</option>
+        </select>
+      </div>
+  
+      <!-- Hamburger Icon for Mobile -->
+  
+      <div class="lg:hidden">
+        <button id="menuTriggerTab" class="text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  
+    <!-- Mobile Menu -->
+  
+    
+    <div class="tabtab-menu" id="tabMenu1">
+      <!-- Header -->
+      <div class="tabtab-menu-header">
+          <button id="backBtn1" class="tabtab-back-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Back
+          </button>
+          <button id="closeBtn1" class="tabtab-p-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+          </button>
+          <button class="tabtab-country-selector">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              Global
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 9l6 6 6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <!-- Menu Sections -->
+      <div class="tabtab-menu-section tabtab-active" id="mainMenu1">
+          <button class="tabtab-menu-item" data-target="services1">
+              Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="industries1">
+              Industries
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ourFirm1">
+              Our Firm
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <a href="blog.html" class="tabtab-menu-item">
+              Insights & Events
+          </a>
+          <a href="careers.html" class="tabtab-menu-item">
+              Careers & Culture
+          </a>
+          <div class="bottom-link">
+          <a href="contact.html"  style="color: white;">Let's partner up</a>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/company/htec-group" class="social-icon" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/htecgroup" class="social-icon" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="services1">
+          <h2 class=" tabtab-mb-6 heading" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Services</h2>
+          <button class="tabtab-menu-item" data-target="softwareDev1">
+              Software Development
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="blockchain1">
+              Blockchain Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="cloud1">
+              Cloud Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="itConsulting1">
+              IT Consulting
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="dataAnalytics1">
+              Data Analytics
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="devOps1">
+              DevOps
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+          <button class="tabtab-menu-item" data-target="ai1">
+              Artificial Intelligence
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 18l6-6-6-6"/>
+              </svg>
+          </button>
+      </div>
+
+      <div class="tabtab-menu-section" id="softwareDev1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="softwreoverview.html">Software Development</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="erp.html" class="tabtab-menu-item">ERP Software Development</a>
+              <a href="crm.html" class="tabtab-menu-item">Custom CRM</a>
+              <a href="arvr.html" class="tabtab-menu-item">AR/VR Development</a>
+              <a href="iot.html" class="tabtab-menu-item">IoT Development</a>
+              <a href="microservice.html" class="tabtab-menu-item">Microservices</a>
+              <a href="product.html" class="tabtab-menu-item">Product Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="blockchain1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="blockchainservices.html">Blockchain Services</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="nftmarket.html" class="tabtab-menu-item">NFT Marketplace</a>
+              <a href="metaverse.html" class="tabtab-menu-item">Metaverse Development</a>
+              <a href="dapp.html" class="tabtab-menu-item">Dapp Development</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="cloud1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Cloud Services</h2>
+          <div class="tabtab-grid-layout">
+              <a href="cloudmanaged.html" class="tabtab-menu-item">Cloud Managed Services</a>
+              <a href="cloudconsulting.html" class="tabtab-menu-item">Cloud Consulting</a>
+              <a href="aws.html" class="tabtab-menu-item">AWS</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="itConsulting1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="itoverview.html">IT Consulting</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="health.html" class="tabtab-menu-item">Healthcare IT Consulting Services</a>
+              <a href="itoutsourcing.html" class="tabtab-menu-item">IT Outsourcing Services</a>
+              <a href="manageditservices.html" class="tabtab-menu-item">Managed IT Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="dataAnalytics1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="dataanalytics.html">Data Analytics</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="businessintelligence.html" class="tabtab-menu-item">Business Intelligence</a>
+              <a href="dataanalytics.html" class="tabtab-menu-item">Data Services</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="devOps1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="devopsoverview.html">DevOps</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="scops.html" class="tabtab-menu-item">SecOps</a>
+              <a href="devopsoverview.html" class="tabtab-menu-item">DevOps Implementation</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ai1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;"><a href="aioverview.html" >Artificial Intelligence</a></h2>
+          <div class="tabtab-grid-layout">
+              <a href="generativeai.html" class="tabtab-menu-item">Generative AI</a>
+              <a href="computer.html" class="tabtab-menu-item">Computer Vision</a>
+              <a href="machinnelearning.html" class="tabtab-menu-item">Machine Learning</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="industries1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Industries</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Media & Entertainment</a>
+              <a href="#" class="tabtab-menu-item">Financial Services & Insurance</a>
+              <a href="#" class="tabtab-menu-item">Energy & Utilities</a>
+              <a href="#" class="tabtab-menu-item">Industrials</a>
+              <a href="#" class="tabtab-menu-item">Healthcare & Life Sciences</a>
+              <a href="#" class="tabtab-menu-item">Technology</a>
+              <a href="#" class="tabtab-menu-item">Retail & CPG</a>
+              <a href="#" class="tabtab-menu-item">Transportation & Mobility</a>
+              <a href="#" class="tabtab-menu-item">Telecommunications</a>
+          </div>
+      </div>
+
+      <div class="tabtab-menu-section" id="ourFirm1">
+          <h2 class="heading tabtab-mb-6" style="font-size:40px; margin-bottom: 15px; margin-top: 15px;">Our Firm</h2>
+          <div class="tabtab-grid-layout">
+              <a href="#" class="tabtab-menu-item">Company Overview</a>
+              <a href="#" class="tabtab-menu-item">Global Locations</a>
+              <a href="#" class="tabtab-menu-item">History</a>
+              <a href="#" class="tabtab-menu-item">Leadership & Board</a>
+              <a href="#" class="tabtab-menu-item">Alliances</a>
+              <a href="carrer.html" class="tabtab-menu-item">Careers & Culture</a>
+              <a href="blog.html" class="tabtab-menu-item">Press & Media</a>
+          </div>
+      </div>
+
+      <!-- Footer -->
+  </div>
+
+    
+    
+  
+   </section>
+   
+<!-- hero section -->
+    <section class="hero-section" style="height: 10vh; background-image: url('assets/Business-intelligence-home.webp'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
+            
+            <h1 class="heading" style="font-size: 3.5rem;">Business Intelligence Services & Solutions</h1>
+            <p class="subheading">Step into the data-driven world of business intelligence services with Appinventiv, an advanced Business Intelligence Consulting & BI Software Development Company. </p>
+        </div>
+    </section>
+
+
+    
+
+    <section class="trusted-section">
+      <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
+  
+      <!-- Desktop View -->
+      <div class="desktop-logos">
+          <img src="assets/kfc.jpg" alt="KFC">
+          <img src="assets/kmpc.jpg" alt="KPMG">
+          <img src="assets/dominos.png" alt="Domino's">
+      <img src="assets/google.png" alt="Google">
+      <img src="assets/bcg.png" alt="BCG">
+          <img src="assets/americana.png" alt="Americana">
+      </div>
+  
+      <!-- Mobile View (Carousel) -->
+      <div class="swiper-container mobile-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
+          <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
+          <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
+          <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
+          <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
+          <div class="swiper-slide"><img src="assets/americana.png" alt="Americana"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cloud services section -->
+      
+    <section class="software-section d-none d-md-block">
+        <div class="crm-software-con">
+            <div class="sofware-spacing">
+                <h5 class="heading">Business Intelligence Consulting Services that Empower Scalability</h5>
+                <p class="crm-Software-text">We are a dedicated business intelligence service company that offers a complete suite of BI analytics services, helping organizations get a comprehensive view of their business and make decisions quickly.</p>
+            </div>
+    
+            <div class="services-container">
+                <div class="services-nav">
+                    <div class="service-item active" data-service="consulting">
+                        <span class="number">01.</span>
+                        BI Consulting
+                    </div>
+                    <div class="service-item" data-service="enterprise">
+                        <span class="number">02.</span>
+                        Enterprise Business Intelligence
+                    </div>
+                    <div class="service-item" data-service="implementation">
+                        <span class="number">03.</span>
+                        Implementation of BI Applications
+                    </div>
+                    <div class="service-item" data-service="support">
+                        <span class="number">04.</span>
+                        BI Support & Maintenance
+                    </div>
+                </div>
+            
+                <div class="service-content" id="consulting">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"></path></svg>
+                    </div>
+                    <h2 class="service-title">BI Consulting</h2>
+                    <p class="service-description">
+                      Our business intelligence consulting services help organizations identify gaps and opportunities by providing powerful insights through various <a href="#" style="color:blue;">data visualization techniques</a>. We assign a multidisciplinary team of business intelligence technology consultants and analysts to ensure the best in class business intelligence consulting services. Such an approach allows for solving complex business problems.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="enterprise">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M21 6h-4V3c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1v3H3c-.55 0-1 .45-1 1v13c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1zM9 4h6v2H9V4zm10 14H5V8h14v10z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Enterprise Business Intelligence</h2>
+                    <p class="service-description">
+                        Our enterprise business intelligence solutions help large organizations transform raw data into actionable insights. We design and implement comprehensive BI ecosystems that integrate with existing enterprise systems, enabling real-time decision making and strategic planning across departments.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="implementation">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"></path></svg>
+                    </div>
+                    <h2 class="service-title">Implementation of BI Applications</h2>
+                    <p class="service-description">
+                        We specialize in implementing leading BI applications tailored to your business needs. Our technical experts handle everything from platform selection and architecture design to data integration, dashboard development, and user adoption. We ensure seamless deployment of BI tools that deliver immediate value.
+                    </p>
+                </div>
+            
+                <div class="service-content hidden" id="support">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14H15v1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V16h-4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V13h1.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z"></path></svg>
+                    </div>
+                    <h2 class="service-title">BI Support & Maintenance</h2>
+                    <p class="service-description">
+                        Our dedicated support and maintenance services ensure your BI systems operate at peak performance. We provide ongoing technical support, performance optimization, security updates, and continuous improvements to your BI infrastructure. Our team is available to resolve issues quickly and minimize disruptions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <div class="iot-smart-faq">
+      <div class="faq-headline">
+          <h3 class="heading">Our Business Intelligence Expertise</h3>
+          <span>From data integration and warehousing to advanced analytics and visualization, our BI solutions help organizations transform data into strategic assets for better decision-making.</span>
+      </div>
+      
+      <div class="faq-category">
+          <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      Data Warehousing
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      We design and implement robust data warehousing solutions that consolidate data from multiple sources into a centralized repository. Our data warehousing services provide a foundation for analytics, reporting, and data-driven decision making across your organization.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="faq-hexagon">
+            <div class="hexagon-wrapper">
+                <div class="hexagon-header">
+                    <div class="hexagon-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                        </svg>
+                    </div>
+                    <div class="hexagon-question">
+                      Data Visualization
+                        <span class="hexagon-toggle">+</span>
+                    </div>
+                </div>
+                <div class="hexagon-content">
+                    <div class="hexagon-answer">
+                      Our data visualization experts create intuitive dashboards and reports that transform complex data into clear, actionable insights. We utilize leading visualization tools to deliver customized solutions that help stakeholders quickly understand trends, patterns, and key performance indicators.
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Predictive Analytics
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our predictive analytics solutions leverage advanced statistical models, machine learning algorithms, and data mining techniques to forecast future trends and behaviors. We help organizations anticipate market changes, customer needs, and business opportunities with a high degree of accuracy.
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="faq-hexagon">
+          <div class="hexagon-wrapper">
+              <div class="hexagon-header">
+                  <div class="hexagon-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                  </div>
+                  <div class="hexagon-question">
+                    Real-time Analytics
+                      <span class="hexagon-toggle">+</span>
+                  </div>
+              </div>
+              <div class="hexagon-content">
+                  <div class="hexagon-answer">
+                    Our real-time analytics platforms enable businesses to monitor and analyze data as it's generated, providing instant insights for immediate action. We implement streaming analytics solutions that process and visualize data in real-time, allowing for faster response to business events and market changes.
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="faq-hexagon">
+        <div class="hexagon-wrapper">
+            <div class="hexagon-header">
+                <div class="hexagon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                    </svg>
+                </div>
+                <div class="hexagon-question">
+                  Self-Service BI
+                    <span class="hexagon-toggle">+</span>
+                </div>
+            </div>
+            <div class="hexagon-content">
+                <div class="hexagon-answer">
+                  We implement self-service BI solutions that empower business users to create their own reports and analyze data without IT assistance. Our user-friendly platforms provide intuitive interfaces, drag-and-drop functionality, and guided analytics that democratize data access while maintaining governance.
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="faq-hexagon">
+      <div class="hexagon-wrapper">
+          <div class="hexagon-header">
+              <div class="hexagon-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
+              </div>
+              <div class="hexagon-question">
+                Data Governance
+                  <span class="hexagon-toggle">+</span>
+              </div>
+          </div>
+          <div class="hexagon-content">
+              <div class="hexagon-answer">
+                Our data governance solutions establish the policies, procedures, and standards for managing data as a strategic asset. We help organizations ensure data quality, security, privacy, and compliance while maximizing the value of their information through proper management and controlled access.
+              </div>
+          </div>
+      </div>
+  </div>
+      </div>
+  </div>
+
+
+  <section class="stats-section">
+    <div class="stats-card">
+      <div class="stats-container">
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">3000+</div>
+          <div class="stat-description">Software Projects<br>Delivered Successfully</div>
+        </div>
+       
+       
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">87%</div>
+          <div class="stat-description">Recurring Client Base</div>
+        </div>
+        <div class="stat-card1 col-6 col-md-6">
+          <div class="stat-number">8+</div>
+          <div class="stat-description">Years in Business</div>
+        </div>
+      
+      </div>
+      <a href="#" class="cta-button">Let's Discuss Your Project</a>
+    </div>
+  </section>
+
+  <section class="dpd-company-section">
+    <div class="dpd-company-container">
+      <div class="dpd-company-header">
+        <h2 class="heading">Make Data-Driven Decisions with Our Custom Business Intelligence Development Services</h2>
+        
+        <p class="dpd-company-description">
+          Our custom business intelligence services and solutions empower different business departments to make data-driven decisions, optimize operational efficiency, and gain a competitive advantage in their respective markets.
+        </p>
+      </div>
+      
+      <div class="dpd-company-grid">
+        <!-- Financial Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M17 9V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2m2 4h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2zm7-5a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">Financial Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Unlock the power of precise financial insights with our scalable <a href="#" class="dpd-feature-link">business intelligence solutions</a> designed specifically for the finance sector. Let our banking intelligence solutions be your compass in navigating the complexities of financial management, guiding you toward sustainable growth and success.
+          </p>
+        </div>
+        
+        <!-- Warehouse Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M3 8V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3M3 8v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8M3 8h18M10 12h4" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">Warehouse Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Get real-time visibility into your stock levels and identify opportunities to improve your warehouse efficiency and profitability with our robust business analytics and business intelligence solutions for warehouses.
+          </p>
+        </div>
+        
+        <!-- Retail Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm2 12h12M9 17v3m6-3v3" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">Retail Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Optimize your retail inventory, improve merchandising strategies, and increase customer satisfaction with data-driven insights and predictions with a leading business intelligence consultancy like ours.
+          </p>
+        </div>
+        
+        <!-- Cloud and AI Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M6 16.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm6 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm6 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">Cloud and AI Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Take your <a href="#" class="dpd-feature-link">applications to the cloud</a> and make more accurate and quicker predictions with automated smart data analysis solutions.
+          </p>
+        </div>
+        
+        <!-- HR Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-7 9a7 7 0 1 1 14 0v3H5v-3z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">HR Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Our comprehensive business intelligence solutions for HR go beyond the surface, offering invaluable insights into your workforce dynamics. Our BI tools provide a holistic view of your HR landscape, all the way from performance metrics to training effectiveness.
+          </p>
+        </div>
+        
+        <!-- Operational Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">Operational Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Streamline your operations with our operational intelligence solutions, designed to enhance real-time decision-making across your production lines and operational frameworks. Our BI solutions help you monitor performance metrics and predict potential issues before they impact efficiency.
+          </p>
+        </div>
+
+        <!-- Customer Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">Customer Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Leverage our holistic and strategic BI consulting services to create marketing campaigns that can analyze in real-time which channels or content perform the best for your business.
+          </p>
+        </div>
+        
+        <!-- Supply Chain Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M16 3h-2a4 4 0 0 0-4 4v14h8a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM6 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2M14 4h2M14 8h2M14 12h2" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">Supply Chain Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Optimize your supply chain with advanced analytics that provide clear visibility into every aspect of your operations. Our experts can help you anticipate demand, manage risks, and ensure a smooth flow of goods and materials, improving the overall service levels.
+          </p>
+        </div>
+        
+        <!-- eCommerce Intelligence -->
+        <div class="dpd-company-feature">
+          <div class="dpd-feature-header">
+            <div class="dpd-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#007bff">
+                <circle cx="12" cy="12" r="10" fill="#007bff" opacity="0.2"/>
+                <path d="M3 3h2l.5 3m0 0H21l-2 7H6L3 3Zm7 11a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" stroke="#007bff" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="dpd-feature-title">eCommerce Intelligence</h3>
+          </div>
+          <div class="dpd-feature-divider"></div>
+          <p class="dpd-feature-description">
+            Leverage our holistic and strategic BI consulting services to create marketing campaigns that can analyze in real-time which channels or content perform the best for your business.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="kkrf-industry-section mb-5">
+  <div class="kkrf-industry-header">
+      <h2 class="heading">Through Business Intelligence Services for Industries Across the Globe</h2>
+      <p class="kkrf-industry-description">Our business intelligence services cater to various industries, focusing on delivering the essential feature set that ensures optimal traction within each specific domain. Here are the industries that can leverage our robust and well-designed business intelligence software development solutions to gain a competitive edge:</p>
+  </div>
+
+  <div class="kkrf-industry-grid">
+      <!-- Row 1 -->
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Healthcare</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Finance</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 3h18v18H3zM9 15h6M9 9h6M15 15v6M15 9v6M9 15v6M9 9v6"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Restaurant</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">eCommerce</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="3" width="15" height="13"></rect>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Logistics</span>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Social Networking</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                  <path d="M12 12h.01"></path>
+                  <path d="M7 12h.01"></path>
+                  <path d="M17 12h.01"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Games and Sports</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Travel</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 2L2 22"></path>
+                  <path d="M6.5 17.5L17.5 6.5"></path>
+                  <path d="M2 12h2a10 10 0 0 1 10 10v-2"></path>
+                  <path d="M22 12h-2a10 10 0 0 0-10-10v2"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Aviation</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Real Estate</span>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Education</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">On-Demand</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Entertainment</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Government</span>
+      </div>
+
+      <div class="kkrf-industry-item">
+          <div class="kkrf-industry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v8M4.93 10.93l1.41 1.41"></path>
+                  <path d="M2 18h2M20 18h2M19.07 10.93l-1.41 1.41"></path>
+                  <path d="M22 22H2M16 6l-4 4-4-4"></path>
+                  <path d="M16 18a4 4 0 0 0-8 0"></path>
+              </svg>
+          </div>
+          <span class="kkrf-industry-name">Agriculture</span>
+      </div>
+  </div>
+</section>
+
+<section class="appinv-why-choose-section">
+    <div class="appinv-why-choose-container">
+      <div class="appinv-section-header">
+        <h2 class="heading">Benefits We Offer as Your BI Services and Solution Partner</h2>
+        <p class="appinv-main-subheading">With actionable insights and strategic guidance for enhanced decision-making and accelerated business growth, our BI consulting services and solutions can help you unlock the power of this growing digital ecosystem.</p>
+      </div>
+  
+      <div class="appinv-benefits-container">
+        <div class="appinv-benefits-nav">
+          <div class="appinv-benefit-item appinv-active" data-benefit="insights">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </span>
+            Powerful Insights from Hidden Business Data
+          </div>
+          <div class="appinv-benefit-item" data-benefit="analysis">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
+                <line x1="16" y1="5" x2="22" y2="5"></line>
+                <line x1="19" y1="2" x2="19" y2="8"></line>
+                <polyline points="9 15 12 12 9 9"></polyline>
+                <line x1="12" y1="12" x2="5" y2="12"></line>
+              </svg>
+            </span>
+            Wide Range of Analysis Formats
+          </div>
+         
+          <div class="appinv-benefit-item" data-benefit="turnaround">
+            <span class="appinv-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </span>
+            Quick Turnaround Time
+          </div>
+        </div>
+  
+        <div class="appinv-benefit-display">
+          <div class="appinv-benefit-content appinv-active" id="insights">
+            <div class="appinv-benefit-image">
+              <img src="assets/Powerful-insight.webp" alt="Business intelligence team meeting" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Powerful Insights from Hidden Business Data</h3>
+              <p class="appinv-benefit-description">Our cutting-edge custom BI solutions help you discover insights from business data that you didn't even know existed, thereby allowing you to perform accurate forecasting and develop effective business strategies.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Advanced data discovery techniques</li>
+                <li class="appinv-benefit-list-item">Predictive analytics capabilities</li>
+                <li class="appinv-benefit-list-item">Pattern recognition algorithms</li>
+                <li class="appinv-benefit-list-item">Actionable business recommendations</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="appinv-benefit-content" id="analysis">
+            <div class="appinv-benefit-image">
+              <img src="assets/Analysis-format-bi.webp" alt="Data analysis formats" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Wide Range of Analysis Formats</h3>
+              <p class="appinv-benefit-description">Our BI solutions offer versatile analysis capabilities through multiple formats, including customizable reports, real-time analytics dashboards, and specialized visualizations that transform complex data into clear, actionable information.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Interactive visual reports</li>
+                <li class="appinv-benefit-list-item">Ad-hoc query capabilities</li>
+                <li class="appinv-benefit-list-item">Cross-dimensional data analysis</li>
+                <li class="appinv-benefit-list-item">Custom export formats</li>
+              </ul>
+            </div>
+          </div>
+  
+          <!-- <div class="appinv-benefit-content" id="dashboards">
+            <div class="appinv-benefit-image">
+              <img src="https://cdn.pixabay.com/photo/2017/07/17/23/51/statistics-2514525_1280.jpg" alt="Interactive dashboards" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Interactive User Dashboards</h3>
+              <p class="appinv-benefit-description">Our intuitive dashboard interfaces put the power of data in the hands of every stakeholder. These interactive displays feature drag-and-drop functionality, customizable widgets, and real-time data updates that enable instant decision-making.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Personalized user views</li>
+                <li class="appinv-benefit-list-item">Role-based access controls</li>
+                <li class="appinv-benefit-list-item">Mobile-responsive design</li>
+                <li class="appinv-benefit-list-item">Drill-down exploration capabilities</li>
+              </ul>
+            </div>
+          </div> -->
+  
+          <div class="appinv-benefit-content" id="turnaround">
+            <div class="appinv-benefit-image">
+              <img src="https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_1280.jpg" alt="Quick turnaround time" />
+            </div>
+            <div class="appinv-benefit-details">
+              <h3 class="appinv-benefit-title">Quick Turnaround Time</h3>
+              <p class="appinv-benefit-description">Our streamlined development process and expert team ensure rapid deployment of BI solutions. We prioritize efficiency without compromising quality, delivering insights when you need them to maintain your competitive edge in today's fast-paced market.</p>
+              <ul class="appinv-benefit-list">
+                <li class="appinv-benefit-list-item">Agile implementation methodology</li>
+                <li class="appinv-benefit-list-item">Accelerated data processing</li>
+                <li class="appinv-benefit-list-item">Pre-built industry templates</li>
+                <li class="appinv-benefit-list-item">Phased delivery approach</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- BI Services Image Section -->
+      <div class="appinv-contact-section">
+        <div class="appinv-contact-image">
+          <img src="https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_1280.jpg" alt="Contact KKRF Group" />
+        </div>
+        <div class="appinv-contact-text">
+          <h3>Ready to transform your cloud strategy?</h3>
+          
+          <a href="#contact" class="appinv-contact-button">Schedule a Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="arvr_hero_outer_container" >
+    <div class="container-fluid">
+      <div class="arvr_hero_inner_wrapper" style="display: flex; align-items: center;">
+        <div class="arvr_hero_content_container" style="flex: 1; padding: 30px;">
+          <h1 class="arvr_hero_heading">Leverage the capabilities that earned KKRF a spot among Deloitte's Top 50 Fastest-Growing Tech Companies</h1>
+          <p class="arvr_hero_subheading" style="margin-bottom: 25px;">Turn your complex data into strategic assets with our award-winning expertise</p>
+          <a href="#contact" class="arvr_hero_button">
+            Get Started Now!
+            <i class="bi bi-arrow-right arvr_hero_button_icon"></i>
+        </a>
+        </div>
+        <div class="arvr_hero_image_container" style="flex: 1; text-align: right; padding: 20px;">
+          <img src="assets/Deloitte_pixcy.avif" alt="Deloitte Technology Fast 50 Award" class="arvr_hero_image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="product-features-section">
+    <div class="product-features-container">
+      <h2 class="heading">Our Business Intelligence Software Development and Implementation Process</h2>
+      
+      <p class="product-features-description">
+        As a dedicated business intelligence consulting services provider, we define the following stages to ensure the best possible approach to the development of sophisticated business analytics solutions that meet your business needs.
+      </p>
+      
+     
+      
+      <div class="product-features-slider-container">
+        <div class="product-features-slider" id="productFeaturesSlider">
+          <!-- Process Stage 1 -->
+          <div class="product-feature-card">
+            <div class="stage-number">01 - 05</div>
+            <div class="stage-icon m-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0066ff">
+                <rect width="24" height="24" rx="4" fill="#0066ff" opacity="0.1"/>
+                <path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z" fill="#0066ff"/>
+              </svg>
+            </div>
+            <h3 class="product-feature-title">Collect and Integrate Data</h3>
+            <p class="product-feature-description">
+              Next, our BI and analytics services team collects your business data from various sources such as Excel, databases, CRM, and ERP systems, integrating them into a centralized database for unified access and analysis.
+            </p>
+          </div>
+          
+          <!-- Process Stage 2 -->
+          <div class="product-feature-card">
+            <div class="stage-number">02 - 05</div>
+            <div class="stage-icon m-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0066ff">
+                <rect width="24" height="24" rx="4" fill="#0066ff" opacity="0.1"/>
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1v5h5v10H6V4h7z" fill="#0066ff"/>
+              </svg>
+            </div>
+            <h3 class="product-feature-title">Analyze and Prepare Data</h3>
+            <p class="product-feature-description">
+              The collected and integrated data is prepared for exploration, analysis, and modeling. Our BI development experts implement scalable data processing pipelines to transform datasets into appropriate formats for effective analysis.
+            </p>
+          </div>
+          
+          <!-- Process Stage 3 -->
+          <div class="product-feature-card">
+            <div class="stage-number">03 - 05</div>
+            <div class="stage-icon m-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0066ff">
+                <rect width="24" height="24" rx="4" fill="#0066ff" opacity="0.1"/>
+                <path d="M3 3h18v18H3V3zm9 14h6v-2h-6v2zm0-4h6v-2h-6v2zm0-4h6V7h-6v2zM5 7h6v10H5V7z" fill="#0066ff"/>
+              </svg>
+            </div>
+            <h3 class="product-feature-title">Create BI Dashboards & Reports</h3>
+            <p class="product-feature-description">
+              Our team creates top-notch BI dashboards with built-in data visualization for faster insights. These advanced dashboards reduce user interaction time, enabling stakeholders to make informed business decisions efficiently.
+            </p>
+          </div>
+          
+          <!-- Process Stage 4 -->
+          <div class="product-feature-card">
+            <div class="stage-number">04 - 05</div>
+            <div class="stage-icon m-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0066ff">
+                <rect width="24" height="24" rx="4" fill="#0066ff" opacity="0.1"/>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="#0066ff"/>
+              </svg>
+            </div>
+            <h3 class="product-feature-title">Get Insights</h3>
+            <p class="product-feature-description">
+              Together with clients, we solve defined business problems by deriving insights from analyzed reports and visualized data. Our BI solutions help clients understand not just what and when something happened, but also why it occurred.
+            </p>
+          </div>
+          
+          <!-- Process Stage 5 -->
+          <div class="product-feature-card">
+            <div class="stage-number">05 - 05</div>
+            <div class="stage-icon m-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0066ff">
+                <rect width="24" height="24" rx="4" fill="#0066ff" opacity="0.1"/>
+                <path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z" fill="#0066ff"/>
+              </svg>
+            </div>
+            <h3 class="product-feature-title">Discuss Business Requirements</h3>
+            <p class="product-feature-description">
+              Our team of BI experts begins by analyzing your business needs and gaining a thorough understanding of your requirements before developing any solution. This crucial first step informs our approach and technology selection.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Navigation Arrows -->
+        <button class="product-features-nav-arrow product-features-prev-arrow" id="productFeaturesPrev" aria-label="Previous feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+        <button class="product-features-nav-arrow product-features-next-arrow" id="productFeaturesNext" aria-label="Next feature">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+</section>
+
+
+
+<section class="bg-black text-white">
+    <div class="container mx-auto px-6 py-12">
+      <!-- Text Section -->
+      <div class="text-center space-y-6">
+        <h2 class="heading mt-5">
+          The Business Intelligence software market is expected to reach <span class="text-blue-600">$34.16 billion by 2028</span>
+        </h2>
+        <p class="text-xl md:text-2xl t">
+          Empower your business with data-driven insights, enabling informed decision-making and strategic planning
+        </p>
+        <button
+          class="bg-transparent border-2 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition flex items-center mx-auto">
+          Partner with Us
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Image Section -->
+      <div class="mt-12 flex justify-center">
+        <img
+          class="rounded-lg shadow-lg max-w-full md:max-w-3xl h-auto object-cover"
+          src="assets/business-people-meeting-using-laptop-computer-calc-2025-01-16-13-27-22-utc (1).webp"
+          alt="Business Intelligence Team Meeting">
+      </div>
+    </div>
+  </section>
+
+
+  <div class="bi-wrapper">
+    <h1 class="heading">Streamline Your BI Processes with Cutting-Edge Infrastructure Components</h1>
+    <p class="bi-subtitle">Level up your business performance and make informed business decisions with advanced BI infrastructure components.</p>
+    
+    <div class="bi-accordion-container">
+        <!-- Item 1 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">01/</span>
+                <div class="bi-accordion-title">Data Integration</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Our data integration solutions connect and combine data from multiple sources, ensuring seamless flow of information across your organization. We implement ETL processes that transform raw data into actionable insights.</p>
+            </div>
+        </div>
+        
+        <!-- Item 2 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">02/</span>
+                <div class="bi-accordion-title">Data Warehouse</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content active">
+                <p class="bi-accordion-text">A data warehouse is a central location where data from numerous sources are combined for reporting and analysis. We build <a href="#" class="bi-link">enterprise data warehouses</a> specifically intended to meet your strategic business objectives.</p>
+            </div>
+        </div>
+        
+        <!-- Item 3 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">03/</span>
+                <div class="bi-accordion-title">Mobile BI Platform</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Access critical business insights on the go with our mobile BI platform. Make decisions from anywhere with responsive dashboards and reports optimized for mobile devices.</p>
+            </div>
+        </div>
+        
+        <!-- Item 4 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">04/</span>
+                <div class="bi-accordion-title">Data Security</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Protect your valuable business data with enterprise-grade security measures. Our solutions include role-based access control, encryption, and comprehensive audit trails.</p>
+            </div>
+        </div>
+        
+        <!-- Item 5 -->
+        <div class="bi-accordion-item">
+            <div class="bi-accordion-header">
+                <span class="bi-accordion-index">05/</span>
+                <div class="bi-accordion-title">Data Reporting</div>
+                <div class="bi-accordion-icon">+</div>
+            </div>
+            <div class="bi-accordion-content">
+                <p class="bi-accordion-text">Transform complex data into clear, actionable reports. Our customizable reporting solutions allow you to create, schedule, and distribute reports tailored to your specific business needs.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div class="bi-tech-container">
+    <h1 class="heading">Technology Stack We Leverage<br>As a Leading Business<br>Intelligence Consulting Company</h1>
+    
+    <p class="bi-tech-subtitle">Our business analytics consulting services are backed by cutting-edge tools and technologies that are capable of extracting actionable insights from complex data sets while ensuring data-driven decision making.</p>
+    
+    <div class="bi-tech-grid">
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- Scikit Learn Icon -->
+                    <circle cx="64" cy="64" r="56" fill="#F89939"/>
+                    <path d="M64 29.5c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6z" fill="#3499CD"/>
+                    <path d="M85.5 64c0-3.3-2.7-6-6-6s-6 2.7-6 6 2.7 6 6 6 6-2.7 6-6z" fill="#3499CD"/>
+                    <path d="M64 85.5c3.3 0 6-2.7 6-6s-2.7-6-6-6-6 2.7-6 6 2.7 6 6 6z" fill="#3499CD"/>
+                    <path d="M42.5 64c0 3.3 2.7 6 6 6s6-2.7 6-6-2.7-6-6-6-6 2.7-6 6z" fill="#3499CD"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Scikit Learn</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- Docker Icon -->
+                    <path d="M124.8 52.1c-4.3-2.5-10-2.8-14.8-1.4-.6-5.2-4-9.7-8-12.9l-1.6-1.3-1.4 1.6c-2.7 3.1-3.5 8.3-3.1 12.3.3 2.9 1.2 5.9 3 8.3-1.4.8-2.9 1.9-4.3 2.4-2.8 1-5.9 2-8.9 2H52V50h-9v-5H18c-.3 0-.5.2-.5.5v13.1c0 13.6 8.5 25.1 20.6 28.7 5.6 1.6 11.6 1.6 17.2 0 14.1-4.3 23.6-16.1 25.8-30.6 2.9.1 5.8-.6 8.1-2 3.7-2.2 5.2-5.9 5.2-9.5-.1-1.3-.5-2.5-1.1-3.6 1.7-.7 3.5-1.4 5.2-1.8 4.1-1 8.1-1.3 9.8 1.2 1.2 1.7 1.5 4.8.4 7.5-.5 1.2-1.3 2.3-2 3.4z" fill="#0990D2"/>
+                    <path d="M110.2 44.6c.7-1.7 1.2-3.5 1.3-5.3 0-1.5-.3-3-1-4.4-1.7-3.2-4.9-5.1-8.3-5.1-3.4 0-6.6 1.9-8.3 5.1-.7 1.4-1 2.9-1 4.4.1 1.8.6 3.6 1.3 5.3.7 1.8 1.8 3.4 3.2 4.8 1.3 1.4 2.9 2.5 4.8 3.2 1.8.7 3.6 1 5.5 1 1.9 0 3.7-.3 5.5-1 1.8-.7 3.4-1.8 4.8-3.2 1.4-1.4 2.5-3 3.2-4.8" fill="#0990D2"/>
+                    <path d="M82 48h-8v-9h8m-9-1h-8v-9h8m-9-1h-8v-9h8m-9-1h-8v-9h8m-9-1h-8v-9h8m9 1h-8v-9h8m9 1h-8v-9h8m9 1h-8v-9h8m9 1h-8v-9h8" fill="#FFFFFF"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Docker</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- Jupyter Icon -->
+                    <path d="M64 10c-29.8 0-54 24.2-54 54s24.2 54 54 54 54-24.2 54-54-24.2-54-54-54z" fill="#F37726"/>
+                    <path d="M39.4 41.9c0 5.3-4.3 9.6-9.6 9.6s-9.6-4.3-9.6-9.6 4.3-9.6 9.6-9.6 9.6 4.3 9.6 9.6zm68.4 44.2c0 5.3-4.3 9.6-9.6 9.6s-9.6-4.3-9.6-9.6 4.3-9.6 9.6-9.6 9.6 4.3 9.6 9.6z" fill="#9E9E9E"/>
+                    <path d="M64 69.7c-19.1 0-35.8-4.3-44.1-10.7-1.3 3.5-2 7.1-2 10.9 0 18.8 20.6 34.1 46.1 34.1s46.1-15.3 46.1-34.1c0-3.8-.7-7.4-2-10.9-8.3 6.4-25 10.7-44.1 10.7z" fill="#F37726"/>
+                    <path d="M64 34.1c19.1 0 35.8 4.3 44.1 10.7 1.3-3.5 2-7.1 2-10.9 0-18.8-20.6-34.1-46.1-34.1S17.9 15.1 17.9 33.9c0 3.8.7 7.4 2 10.9 8.3-6.4 25-10.7 44.1-10.7z" fill="#F37726"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Jupyter</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- Python Icon -->
+                    <path d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" fill="#347AB4"/>
+                    <path d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" fill="#FFCA1D"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Python</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- R Programming Icon -->
+                    <path d="M64 10c-29.8 0-54 24.2-54 54s24.2 54 54 54 54-24.2 54-54-24.2-54-54-54z" fill="#2A2A2A"/>
+                    <path d="M92.9 75.7c-8.7 9.3-21.1 15.2-34.9 15.2-26.4 0-47.8-21.4-47.8-47.8S31.7 27.9 58.1 27.9s47.8 21.4 47.8 47.8c0 .3 0 .6 0 .9h-1.3c-4.3.1-7.6 0-11.7-.9z" fill="#4D4D4D"/>
+                    <path d="M47.3 48.1h3.1v15.3h-3.1z" fill="#1F63B5"/>
+                    <path d="M59.4 48.1h3.1v15.3h-3.1zm12.1 0h3.1v15.3h-3.1z" fill="#1F63B5"/>
+                    <path d="M96.6 76.8c-4.3.1-7.6 0-11.7-.9-7.7-1.7-11.3-5.5-11.3-5.5s3.7 7.1 13.2 9.6c8.1 2.1 15.4.7 15.4.7s-1.8-3.6-5.6-3.9z" fill="#1F63B5"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">R Programming</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- Seaborn Icon -->
+                    <path d="M64 10c-29.8 0-54 24.2-54 54s24.2 54 54 54 54-24.2 54-54-24.2-54-54-54z" fill="#2A2A2A"/>
+                    <path d="M90.8 52.1c-1.6-7.9-13.2-13.6-26.8-13.6-13.6 0-25.2 5.7-26.8 13.6-4.3.9-7.2 3.8-7.2 9.2 0 5.4 4.3 9.8 9.8 9.8.9 0 1.8-.1 2.7-.4 3.2 3.2 11.7 5.5 21.6 5.5 9.9 0 18.4-2.3 21.6-5.5.9.3 1.8.4 2.7.4 5.4 0 9.8-4.3 9.8-9.8-.1-5.4-3-8.3-7.4-9.2z" fill="#4C72B0"/>
+                    <path d="M64 51.6c-11.7 0-21.2 4.3-21.2 9.7 0 5.4 9.5 9.7 21.2 9.7s21.2-4.3 21.2-9.7c0-5.4-9.5-9.7-21.2-9.7zm-8.4 14.8c-2.7 0-4.9-2.2-4.9-4.9 0-2.7 2.2-4.9 4.9-4.9 2.7 0 4.9 2.2 4.9 4.9 0 2.7-2.2 4.9-4.9 4.9zm16.9 0c-2.7 0-4.9-2.2-4.9-4.9 0-2.7 2.2-4.9 4.9-4.9 2.7 0 4.9 2.2 4.9 4.9 0 2.7-2.2 4.9-4.9 4.9z" fill="#D0D0D0"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Seaborn</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- TensorFlow Icon -->
+                    <path d="M64 10c-29.8 0-54 24.2-54 54s24.2 54 54 54 54-24.2 54-54-24.2-54-54-54z" fill="#2A2A2A"/>
+                    <path d="M39.1 70.7v12.5l21.7 12.5v-12.5L39.1 70.7zm49.8 0l-21.7 12.5v12.5l21.7-12.5V70.7z" fill="#F6BD3A"/>
+                    <path d="M39.1 70.7l21.7 12.5 21.7-12.5-21.7-12.5-21.7 12.5z" fill="#EB8C23"/>
+                    <path d="M60.8 45.8v12.5l21.7 12.5V58.3l-21.7-12.5zm-21.7 0l21.7 12.5V45.8L39.1 33.3v12.5z" fill="#E35A2B"/>
+                    <path d="M39.1 33.3l21.7 12.5 21.7-12.5-21.7-12.5-21.7 12.5z" fill="#DA3633"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Tensor Flow</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- PyTorch Icon -->
+                    <path d="M64 10c-29.8 0-54 24.2-54 54s24.2 54 54 54 54-24.2 54-54-24.2-54-54-54z" fill="#2A2A2A"/>
+                    <path d="M86.3 94.4c-6.9-8.2-9.7-16-11.6-26.3L62.4 55.8c0 0 0 21.9 0 29.8 0 1.1.5 1.4 1.4 1.4h6.4c.9 0 1.4-.2 1.4-1.4V63.3c0-1.1-.5-1.4-1.4-1.4h-3.5c1.2 3.7 3.6 10.8 9.5 19.2 2.2 3.1 6.8 8.2 10.1 13.3z" fill="#EE4C2C"/>
+                    <path d="M79.8 39.5c0 4.9-4 8.9-8.9 8.9-4.9 0-8.9-4-8.9-8.9 0-4.9 4-8.9 8.9-8.9 4.9 0 8.9 4 8.9 8.9z" fill="#EE4C2C"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">PyTorch</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- Anaconda Icon -->
+                    <path d="M64 10c-29.8 0-54 24.2-54 54s24.2 54 54 54 54-24.2 54-54-24.2-54-54-54z" fill="#2A2A2A"/>
+                    <path d="M73.9 73.1c-1.5-1.2-3.4-1.9-5.5-1.9-2.1 0-4 .7-5.5 1.9-1.5 1.2-2.6 2.9-3.1 4.9h17.1c-.4-2-1.5-3.7-3-4.9zm-5.5-36.9c-13.7 0-24.8 11.1-24.8 24.8 0 1.7.2 3.4.5 5h8.8c-.5-1.6-.7-3.3-.7-5 0-8.9 7.2-16.2 16.2-16.2S84.6 57.1 84.6 66c0 1.7-.3 3.4-.7 5h8.8c.3-1.6.5-3.3.5-5 0-13.7-11.1-24.8-24.8-24.8z" fill="#44A833"/>
+                    <path d="M37.1 80.3c2.6 11.4 12.8 19.9 24.9 19.9s22.3-8.5 24.9-19.9H37.1z" fill="#44A833"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Anaconda</p>
+        </div>
+        
+        <div class="bi-tech-item">
+            <div class="bi-tech-icon-box">
+                <svg class="bi-tech-icon" viewBox="0 0 128 128">
+                    <!-- Matplotlib Icon -->
+                    <path d="M64 10c-29.8 0-54 24.2-54 54s24.2 54 54 54 54-24.2 54-54-24.2-54-54-54z" fill="#2A2A2A"/>
+                    <path d="M24.7 77.2h10.9V98H24.7z" fill="#11557C"/>
+                    <path d="M46.5 54.5h10.9V98H46.5z" fill="#4889C0"/>
+                    <path d="M68.3 63.6h10.9V98H68.3z" fill="#4889C0"/>
+                    <path d="M90.1 40.9H101V98H90.1z" fill="#11557C"/>
+                    <path d="M32.3 30.5c-1.3 0-2.3 1-2.3 2.3s1 2.3 2.3 2.3 2.3-1 2.3-2.3-1-2.3-2.3-2.3zm23.6 10.9c-1.3 0-2.3 1-2.3 2.3s1 2.3 2.3 2.3 2.3-1 2.3-2.3-1-2.3-2.3-2.3zm44.4-10.9c-1.3 0-2.3 1-2.3 2.3s1 2.3 2.3 2.3 2.3-1 2.3-2.3-1-2.3-2.3-2.3zm-22.5 23.6c-1.3 0-2.3 1-2.3 2.3s1 2.3 2.3 2.3 2.3-1 2.3-2.3-1-2.3-2.3-2.3z" fill="#4889C0"/>
+                    <path d="M32.3 32.8c0 .5.2 1 .6 1.4.4.4.9.6 1.4.6M55.9 43.6c0 .5.2 1 .6 1.4.4.4.9.6 1.4.6M100.3 32.8c0 .5-.2 1-.6 1.4-.4.4-.9.6-1.4.6M77.8 56.4c0 .5.2 1 .6 1.4.4.4.9.6 1.4.6" fill="none" stroke="#4889C0" strokeWidth="2"/>
+                    <path d="M32.3 34.8c5.1 1.6 10.3 2.5 15.6 2.7 5.3.2 10.5-.4 15.6-1.8 5.1-1.4 9.9-3.5 14.5-6.2 4.6-2.7 8.9-6 12.9-9.7" fill="none" stroke="#4889C0" strokeWidth="2"/>
+                </svg>
+            </div>
+            <p class="bi-tech-name">Matplotlib</p>
+        </div>
+    </div>
+</div>
+
+
+
+  
+<section class="bi-contact-wrapper mt-5">
+  <div class="bi-contact-container">
+    <div class="bi-contact-grid">
+      <div class="bi-contact-info">
+        <h2 class="heading">Let's take the first step together.</h2>
+        <p class="bi-contact-subtitle">Complete the form and an BI expert will contact you shortly.</p>
+        <div class="bi-career-info">
+          <p class="bi-career-text">Looking to join our team?</p>
+          <p class="bi-career-link-wrapper">Visit our <a href="#" class="bi-career-link">Careers & Culture page</a></p>
+        </div>
+      </div>
+      
+      <div class="bi-form-wrapper">
+        <form class="bi-contact-form">
+          <div class="bi-form-row">
+            <div class="bi-form-group">
+              <label for="firstName" class="bi-form-label">First name*</label>
+              <input type="text" id="firstName" class="bi-form-input" required>
+            </div>
+            <div class="bi-form-group">
+              <label for="lastName" class="bi-form-label">Last name*</label>
+              <input type="text" id="lastName" class="bi-form-input" required>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+              <div class="bi-form-group">
+                  <label for="workEmail" class="bi-form-label">Work email*</label>
+                  <input type="email" id="workEmail" class="bi-form-input" required>
+                </div>
+            <div class="bi-form-group">
+              <label for="companyName" class="bi-form-label">Company name</label>
+              <input type="text" id="companyName" class="bi-form-input">
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+              <div class="bi-form-group">
+                  <label for="budget" class="bi-form-label">What is your budget range?*</label>
+                  <select id="budget" class="bi-form-select" required>
+                    <option value="" disabled selected>— Please choose an option —</option>
+                    <option value="under-5k">Under $5,000</option>
+                    <option value="5k-15k">$5,000 - $15,000</option>
+                    <option value="15k-50k">$15,000 - $50,000</option>
+                    <option value="50k-100k">$50,000 - $100,000</option>
+                    <option value="over-100k">Over $100,000</option>
+                  </select>
+                </div>
+            <div class="bi-form-group">
+              <label for="helpType" class="bi-form-label">How can we help?*</label>
+              <select id="helpType" class="bi-form-select" required>
+                <option value="" disabled selected>— Please choose an option —</option>
+                <option value="bi-consulting">BI Consulting</option>
+                <option value="data-analysis">Data Analysis</option>
+                <option value="dashboards">Dashboard Creation</option>
+                <option value="bi-implementation">BI Implementation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+            <div class="bi-form-group bi-full-width">
+              <label for="moreInfo" class="bi-form-label">Let us know more about Your Project/Idea *</label>
+              <textarea id="moreInfo" class="bi-form-textarea" rows="5" required></textarea>
+            </div>
+          </div>
+          
+          <div class="bi-form-row">
+            <button type="submit" class="bi-submit-button">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- faq section -->
+  <section class="faq-section">
+    <div class="container mx-auto px-4 py-16">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white">Frequently Asked Questions</h2>
+      
+      <div class="max-w-4xl mx-auto space-y-6">
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold">What services do you provide?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer ">
+                  We offer comprehensive technology solutions including software development, cloud computing, cybersecurity, and digital transformation consulting for enterprises worldwide.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">How do you ensure data security?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  Our robust security protocols include end-to-end encryption, multi-factor authentication, regular security audits, and compliance with international data protection standards.
+              </div>
+          </div>
+
+          <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">
+              <div class="flex justify-between items-center mb-2">
+                  <h3 class="text-xl font-semibold ">What industries do you serve?</h3>
+                  <i class="faq-icon fas fa-chevron-down text-gray-500"></i>
+              </div>
+              <div class="faq-answer">
+                  We specialize in serving diverse sectors including finance, healthcare, e-commerce, education, and manufacturing with tailored technological solutions.
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- blog section -->
+
+
+
+
+ 
+  
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+  
+<script src="scripts/hero.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/caseStudy.js"></script>
+<script src="scripts/card.js"></script>
+<script src="scripts/nav.js"></script>
+<script src="scripts/switch.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/faqs.js"></script>
+
+</body>
+</html>

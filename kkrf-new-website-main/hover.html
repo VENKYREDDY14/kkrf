@@ -596,6 +596,98 @@ background-clip: text;
 }
 
 
+.kkrf-main-new-footer-section {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 50px 20px 20px;
+}
+
+.kkrf-main-new-footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.kkrf-main-new-footer-col h3,
+.kkrf-main-new-footer-col h4 {
+  margin-bottom: 15px;
+}
+
+.kkrf-main-new-footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.kkrf-main-new-footer-col ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.kkrf-main-new-footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kkrf-main-new-footer-social a {
+  margin-right: 12px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.kkrf-main-new-footer-links a {
+  margin-left: 15px;
+  font-size: 13px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.kkrf-main-new-footer-links a:hover {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .kkrf-main-new-footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .kkrf-main-new-footer-container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .kkrf-main-new-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .kkrf-main-new-footer-links {
+    margin-top: 10px;
+  }
+}
+
+.kkrf-main-new-footer-logo {
+  max-width: 150px;   /* adjust as needed */
+  margin-bottom: 15px;
+
+}
+
+
+
+
+
   </style>
 </head>
 <body>
@@ -1056,6 +1148,10 @@ background-clip: text;
 </section>
 
 
+  
+    
+     
+      
 
 
 

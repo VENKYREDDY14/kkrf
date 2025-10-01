@@ -16292,7 +16292,7 @@ input:checked + .kkrf-slider:before {
  display: flex;
  justify-content: space-between;
  align-items: center;
- background: linear-gradient(to right, #000000, #3a3a3a); /* Dark gradient background */
+ background: linear-gradient(to right, #000000, #3a3a3a); 
  padding: 20px 30px;
  overflow: hidden;
  position: relative;
@@ -16682,7 +16682,7 @@ input:checked + .kkrf-slider:before {
 .kkrf-main-new-services-hover-wrapper {
     display: none;
     position: absolute;
-    top: 120%;
+    top: 150%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
@@ -17483,13 +17483,14 @@ width:40%;
 
 }
 
-@media (min-width: 576px) and (max-width: 991px){
+@media (min-width: 577px) and (max-width: 991px){
   .kkr-main-new-business-title{
     font-size: 1.4rem;
   } 
   .kkr-main-new-stat-box h3 {
     font-size: 1.3rem;
   }
+  
   
 }
 

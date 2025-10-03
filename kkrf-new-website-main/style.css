@@ -16702,6 +16702,7 @@ input:checked + .kkrf-slider:before {
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   font-family: Arial, sans-serif;
+  
 }
 
 /* Left Sidebar */
@@ -16799,6 +16800,7 @@ width: 50%;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   align-items: flex-start;
+  align-content: start;
 }
 
 .kkrf-main-new-services-hover-section-content.active {
@@ -16882,23 +16884,6 @@ width:40%;
 }
 .kkrf-main-new-services-hover-section-key-areas { margin-top: 10px; padding-left: 20px; font-size: 0.9rem; color: #b3b3b3; } .kkrf-main-new-services-hover-section-key-areas li { list-style: disc; color: var(--sub-heading, #787878); }
 
-/* Responsive */
-@media (max-width: 720px) {
-  .kkrf-main-new-services-hover-section-container {
-    flex-direction: column;
-    width: 100%;
-  }
-  .kkrf-main-new-services-hover-section-sidebar {
-    max-width: none;
-    width: 100%;
-  }
-  .kkrf-main-new-services-hover-section-content {
-    grid-template-columns: 1fr;
-  }
-  .kkrf-main-new-navbar-services-dropdown:hover .kkrf-main-new-services-hover-wrapper {
-        display: none; 
-    }
-}
 
 
 /* Our Firm Hover Styling*/
@@ -17271,11 +17256,11 @@ transition: width 0.3s ease;
 .kkrf-main-new-industries-hover-wrapper {
   display: none;
   position: absolute;
-  top: 100%;      /* appear below the menu item */
+  top: 100%;     
   left: -100%;
   transform: translateX(-50%);
   z-index: 999;
-  width: max-content;  /* adjusts to content */
+  width: max-content; 
 }
 
 /* Show on hover */
@@ -23422,7 +23407,7 @@ max-height: 260px;
   }
   
   .kkrf-main-new-footer-section-columns h4 {
-    color: #fff;
+    color: #9E9E9E;
     font-size: 1rem;
     margin-bottom: 12px;
   }
@@ -23507,7 +23492,7 @@ max-height: 260px;
   }
   
   .kkrf-main-new-footer-social-icons img {
-      width: 20px; /* Adjust image size */
+      width: 20px; 
       height: 20px;
       object-fit: contain;
   }
@@ -23526,7 +23511,7 @@ max-height: 260px;
     margin-bottom: 12px;
   }
   
-  /* Updated style for copyright and policy text */
+
   .kkrf-main-new-footer-copyright {
     font-size: 0.9rem;
     color: #515151;

@@ -50,7 +50,7 @@ if (kkrfMainNewHomepageMobileMenuClose && kkrfMainNewHomepageMobileMenu) {
               popup.classList.add("active");
               popupShown = true;
           }
-      }, 1000);
+      }, 25000);
 
       closeBtn.addEventListener("click", () => {
           popup.classList.remove("active");

@@ -230,3 +230,45 @@ slider.addEventListener('scroll', () => {
 });
 window.addEventListener('load', setActiveCard);
 window.addEventListener('resize', setActiveCard);
+
+
+
+
+ // Services - Block Chain Solutions - mobile//
+
+ document.querySelectorAll('.kkrf-main-new-services-mobile-card').forEach(card => {
+  card.querySelector('.kkrf-main-new-services-mobile-header').addEventListener('click', () => {
+    const toggleImg = card.querySelector('.kkrf-main-new-services-mobile-card-toggle img');
+    document.querySelectorAll('.kkrf-main-new-services-mobile-card').forEach(c => {
+      if (c !== card) {
+        c.classList.remove('active');
+        c.querySelector('.kkrf-main-new-services-mobile-card-toggle img').src = "assets/images/ic_round-plus.png";
+      }
+    });
+    card.classList.toggle('active');
+    toggleImg.src = card.classList.contains('active')
+      ? "assets/images/remove.png"
+      : "assets/images/ic_round-plus.png";
+  });
+});
+
+
+// Services - Why Choose KKRF - Mobile
+
+
+  const featureItems = document.querySelectorAll('.kkrf-main-new-services-mobile-why-feature-item');
+  const contentItems = document.querySelectorAll('.kkrf-main-new-services-mobile-why-content-item');
+
+  featureItems.forEach(item => {
+    item.addEventListener('click', () => {
+      // Remove active class from all
+      featureItems.forEach(f => f.classList.remove('active'));
+      contentItems.forEach(c => c.classList.remove('active'));
+
+      // Add active to clicked feature
+      item.classList.add('active');
+      const targetId = item.getAttribute('data-target');
+      document.getElementById(targetId).classList.add('active');
+    });
+  });
+

@@ -16312,7 +16312,7 @@ input:checked + .kkrf-slider:before {
 /* Scroll Track */
 .kkr-main-new-scroll-track {
  display: inline-block;
- padding-left: 100%; /* Start scrolling from outside the screen */
+
  animation: kkr-main-new-scroll-left 20s linear infinite;
 }
 
@@ -16354,14 +16354,14 @@ input:checked + .kkrf-slider:before {
  color: #000;
  border: none;
  border-radius: 8px;
- padding: 10px 14px;
- font-size: 0.85rem;
+ padding: 15px 20px;
+ font-size: 0.9rem;
  font-weight: 500;
  cursor: pointer;
  white-space: nowrap;
  transition: background 0.3s ease, color 0.3s ease;
  flex-shrink: 0;
- margin-left: 12px;
+
 }
 
 .kkr-main-new-top-banner-button:hover {
@@ -16396,25 +16396,14 @@ input:checked + .kkrf-slider:before {
 }
 @media (min-width: 992px) {
  .kkr-main-new-top-banner {
-   justify-content: flex-start; /* Align items to the left */
-   gap: 16px; /* Space between button and scrolling text */
+   justify-content: flex-start; 
+   gap: 40px; 
  }
 
- /* Button stays on the left */
- .kkr-main-new-top-banner-button {
-   flex: 0 0 auto; /* Prevent button from stretching */
-   margin-left: 5%;
 
- }
 
- /* Scroller takes only 80% width */
- .kkr-main-new-top-banner-scroller {
-   flex: 0 0 80%;
-   max-width: 80%;
-   overflow: hidden;
-   white-space: nowrap;
- }
 }
+
 
 
 
@@ -16444,6 +16433,7 @@ input:checked + .kkrf-slider:before {
   width: auto;             
   max-width: 180px;         
   object-fit: contain;
+  margin-left: -20px;
 }
 
 
@@ -16524,6 +16514,7 @@ input:checked + .kkrf-slider:before {
   width: auto;        
   max-width: 140px;  
   object-fit: contain;
+  margin-left: -10px;
 }
 
 
@@ -16670,6 +16661,7 @@ input:checked + .kkrf-slider:before {
   }
   .kkrf-main-new-homepage-navbar-logo img {
     max-height: 150px;
+  
   }
   
 }
@@ -16683,27 +16675,37 @@ input:checked + .kkrf-slider:before {
 
 .kkrf-main-new-services-hover-wrapper {
     display: none;
-    position: absolute;
-    top: 150%;
+    position: fixed;
+    top: 160px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
     padding-top: 20px;
+    width: 90vw;
+    padding-left: 15px; 
+    padding-right: 15px;
+    box-sizing: border-box; 
+   
 }
 
-.kkrf-main-new-navbar-services-dropdown:hover .kkrf-main-new-services-hover-wrapper {
+
+
+.kkrf-main-new-navbar-services-dropdown.is-active .kkrf-main-new-services-hover-wrapper {
     display: block;
 }
 
 .kkrf-main-new-services-hover-section-container {
   display: flex;
-  width: 1000px;
+  width: 90vw;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  font-family: Arial, sans-serif;
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
   
 }
+
 
 /* Left Sidebar */
 .kkrf-main-new-services-hover-section-sidebar {
@@ -16801,6 +16803,8 @@ width: 50%;
   gap: 25px;
   align-items: flex-start;
   align-content: start;
+  margin: 0;
+  
 }
 
 .kkrf-main-new-services-hover-section-content.active {
@@ -16896,13 +16900,14 @@ width:40%;
   padding: 40px 20px;
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Arial";
   color: #e0e0e0;
+  width: 90vw;
 }
 
 /* ===== Main Container ===== */
 .kkrf-new-main-hover3-section-container {
-  width: 1000px;
+  width: 90vw;
   border-radius: 16px;
   background: var(--gr-bl-and-wh, linear-gradient(105deg, #0F0F0F 1.02%, #757575 163.54%));
   padding: 30px 30px;
@@ -17048,16 +17053,16 @@ background-clip: text;
 /* Hide by default */
 .kkrf-main-new-ourfirm-hover-wrapper {
   display: none;
-  position: absolute;
-  top: 250%; 
-  left: -200%;
+  position: fixed;
+  top: 180px; 
+  left: 50%;
   transform: translateX(-50%);
   z-index: 999;
   width: max-content; 
 }
 
 /* Show on hover */
-.kkrf-main-new-navbar-ourfirm-dropdown:hover .kkrf-main-new-ourfirm-hover-wrapper {
+.kkrf-main-new-navbar-ourfirm-dropdown.is-active .kkrf-main-new-ourfirm-hover-wrapper {
   display: block;
 }
 
@@ -17079,7 +17084,7 @@ background-clip: text;
 
 
 .kkrf-main-new-industry-hover-section-container {
-  width: 1000px;
+  width: 90vw;
   padding: 10px 30px;
   color: #fff;
   display: flex;
@@ -17255,18 +17260,18 @@ transition: width 0.3s ease;
 /* Hide hover section by default */
 .kkrf-main-new-industries-hover-wrapper {
   display: none;
-  position: absolute;
-  top: 100%;     
-  left: -100%;
+  position: fixed;
+  top: 150px;     
+  left: 50%;
   transform: translateX(-50%);
   z-index: 999;
   width: max-content; 
 }
 
 /* Show on hover */
-.kkrf-main-new-navbar-industries-dropdown:hover .kkrf-main-new-industries-hover-wrapper {
+.kkrf-main-new-navbar-industries-dropdown.is-active .kkrf-main-new-industries-hover-wrapper {
   display: block;
-}
+} 
 
 /* =========================
   Hero Section - Desktop
@@ -18164,18 +18169,11 @@ transition: width 0.3s ease;
   position: relative;
   text-transform: capitalize;
 }
+.kkr-main-new-recent-title span{
+  border-bottom: solid;
+  padding-bottom: 4px;
 
-/* Underline for heading */
-.kkr-main-new-recent-title::after {
-  content: "";
-  display: block;
-  width: 90px;
-  height: 3px;
-  background: #171717;
-  margin: 10px auto 0;
-  border-radius: 2px;
 }
-
 /* Horizontal scroll container for mobile and tablet */
 .kkr-main-new-recent-cards-wrapper {
   overflow-x: auto;
@@ -19581,7 +19579,8 @@ overflow: hidden; /* Hides both vertical and horizontal scrollbars */
   display: none;
 }
 
-@media (max-width:576px){
+
+@media (max-width:991px){
   .kkrf-main-new-services-phone-container{
     display: block;
   }
@@ -19631,7 +19630,10 @@ overflow: hidden; /* Hides both vertical and horizontal scrollbars */
 .kkrf-main-new-services-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #fff;
+    background: var(--gr-h1, linear-gradient(90deg, #F0F0F0 0%, #9A9A9A 73.91%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
     margin-bottom: 20px;
     line-height: 1.2;
 }
@@ -19817,14 +19819,14 @@ overflow: hidden; /* Hides both vertical and horizontal scrollbars */
 
 .kkrf-main-new-services-trusted-logos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 60px;
   flex-wrap: wrap;
 }
 
 .kkrf-main-new-services-trusted-logos img {
-  max-height: 250px;
+  max-height: 300px;
   object-fit: contain;
   filter: grayscale(0%); 
   transition: transform 0.3s ease;
@@ -22408,6 +22410,7 @@ line-height: 119.981%;
   @media (min-width:577px){
     .kkrf-main-new-career-page-we-grow-item:hover{
       background-color: #000000;
+      border-radius: 10px;
     }
   
     .kkrf-main-new-career-page-we-grow-item:hover .kkrf-main-new-career-page-we-grow-item-title {
@@ -22852,7 +22855,7 @@ background: var(--black, #171717);
     background: #171717;
     padding: 60px 30px;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Arial';
   }
 
   .kkrf-main-new-blogPage-blogs-container {
@@ -22968,11 +22971,20 @@ background: var(--black, #171717);
  
   }
 
+  .kkrf-main-new-left-blogs-container{
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+    
+  }
+
 
   /* Thumbnail */
   .blog-card-thumb {
-    flex: 0 0 200px;
-    height: 150px;
+    flex: 0 0 300px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 12px;
   }
 
   .blog-card-thumb img {
@@ -22980,7 +22992,11 @@ background: var(--black, #171717);
     height: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 12px;
+    transition: transform 0.4s ease-in-out; 
+  }
+
+  .blog-card-thumb img:hover{
+    transform: scale(1.2);
   }
 
   /* Content */
@@ -22990,6 +23006,10 @@ background: var(--black, #171717);
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+
+  .blog-card-content:hover{
+    transform: translateX(0.3%);
   }
 
   .blog-meta {
@@ -23021,6 +23041,10 @@ background: var(--black, #171717);
     line-height: 1.4;
   }
 
+  .kkrf-main-new-blogPage-blogs-card h3:hover{
+    color: var(--gr, #929292);
+  }
+
   .kkrf-main-new-blogPage-blogs-card p {
     font-size: 0.9rem;
     color: var(--gr, #929292);
@@ -23028,10 +23052,12 @@ background: var(--black, #171717);
     margin: 0;
   }
 
+  
+
 /* Explore Card (Right Section) */
 .kkrf-main-new-blogPage-explore-card {
   background: #222;
-  padding: 30px 20px;
+  padding: 20px 20px;
   border-radius: 15px;
 
   display: flex;
@@ -23052,9 +23078,9 @@ max-height: 260px;
 
 .explore-arrow {
   position: absolute;
-  top: 35px;     
-  right: 10px;   
-  width: 120px;
+  top: 5%;     
+  right: -3%;   
+  width: 150px;
   height: auto;
   transform: rotate(-5deg); 
 }
@@ -23075,11 +23101,20 @@ max-height: 260px;
   border: 1px solid white;
 }
 
+.explore-btn.primary:hover{
+  background: transparent;
+  color: #fff;
+}
 
 .explore-btn.secondary {
   color: #fff;
-  border: 1px solid white;
+  border: 1px solid white !important;
   background: transparent;
+}
+
+.explore-btn.secondary:hover{
+  background: #fff;
+  color: #000;
 }
 
 .kkrf-main-new-blogPage-featured-heading{
@@ -23096,8 +23131,8 @@ max-height: 260px;
 }
 
 .kkrf-main-new-blogPage-blogs-card.small .blog-card-thumb {
-  flex: 0 0 140px;   
-  height: 120px;
+  flex: 0 0 200px;   
+  height: 150px;
 }
 
 .kkrf-main-new-blogPage-blogs-card.small .blog-card-content {
@@ -23183,7 +23218,7 @@ max-height: 260px;
   display: flex;
   justify-content: space-between; 
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Arial';
   font-size: 14px;
   color: #fff;
 }
@@ -23222,15 +23257,44 @@ max-height: 260px;
   font-size: 14px;
   text-align: center;
 
-  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  margin: 0;
+  padding-right: 20px;
 }
 
 .kkrf-main-new-blogPage-pagination-input::-webkit-inner-spin-button,
 .kkrf-main-new-blogPage-pagination-input::-webkit-outer-spin-button {
-  opacity: 1;
-  -webkit-appearance: inner-spin-button;
+  -webkit-appearance: none;
+  opacity: 0; 
   margin: 0;
 }
+
+
+/* New Wrapper Style */
+.page-input-wrapper {
+    position: relative; 
+    display: inline-block;
+}
+
+/* Custom Arrow Styling */
+.page-arrow {
+    position: absolute;
+    right: 5px; 
+    font-size: 15px; 
+    color: #fff;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.page-arrow.up {
+    top: 10%; 
+}
+
+.page-arrow.down {
+    bottom: 10%;
+}
+
 
 
 @media (min-width:577px) and (max-width:991px){
@@ -23266,18 +23330,18 @@ max-height: 260px;
   }
    .blog-card-thumb {
     flex: 0 0 200px;
-    height: 200px;
+    height: 250px;
   }
 
   .kkrf-main-new-blogPage-blogs-card.small .blog-card-thumb {
     flex: 0 0 140px;   
-    height: 160px;
+    height: 200px;
   }
 
-  .explore-arrow {
-    top: 40px;     
-    right: 0px;   
+  .explore-btn{
+    font-size: 0.9rem;
   }
+
 }
 
   /* Responsive */
@@ -23321,7 +23385,7 @@ max-height: 260px;
       height: 180px;
     }
     .kkrf-main-new-blogPage-blogs-card.small .blog-card-thumb {
-      flex: 0 0 140px;   
+      width: 100%;
       height: 180px;
     }
     .kkrf-main-new-blogPage-blogs-card.small .blog-card-content {
@@ -23351,7 +23415,11 @@ max-height: 260px;
     .kkrf-main-new-blogPage-blogs-card.small .blog-date {
       font-size: 0.9rem;
     }
-    
+    .kkrf-main-new-left-blogs-container{
+      flex-grow: 0;
+      overflow-y: visible;
+      height: auto;
+  }
      
   }
 
@@ -23579,3 +23647,64 @@ max-height: 260px;
   
   }
   
+
+  /* Cloud Computing Services */
+
+  .kkrf-main-new-cloud-section {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('assets/images/cloud-computing-bg-image.jpeg');     
+    background-blend-mode: normal; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px 30px;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    background-color: #333; 
+}
+
+
+
+.kkrf-main-new-cloud-title {
+  font-size: 3rem;
+  font-weight: 700;
+  background: var(--gr-h1, linear-gradient(90deg, #F0F0F0 0%, #9A9A9A 73.91%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.kkrf-main-new-cloud-subtitle {
+  font-size: 1.1rem;
+  color: #B9B9B9;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+
+/* Data Analytics Servies */
+
+
+.kkrf-main-new-da-section {
+  background-image: 
+  linear-gradient(270deg, rgba(58, 58, 58, 0.08) 0%, rgba(0, 0, 0, 0.35) 72.09%),
+      url('assets/images/data-analytics-bg-image.jpeg');     
+  background-blend-mode: normal; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 60px 30px;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  background-color: #333; 
+}
+

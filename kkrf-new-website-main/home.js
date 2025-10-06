@@ -82,6 +82,77 @@ if (kkrfMainNewHomepageMobileMenuClose && kkrfMainNewHomepageMobileMenu) {
      });
    });
 
+   const allDropdownItems = document.querySelectorAll('.kkrf-main-new-navbar-services-dropdown, .kkrf-main-new-navbar-industries-dropdown, .kkrf-main-new-navbar-ourfirm-dropdown');
+
+   // Array of objects for easy iteration and access to elements
+   const dropdowns = [
+       { 
+           item: document.querySelector('.kkrf-main-new-navbar-services-dropdown'), 
+           wrapper: document.querySelector('.kkrf-main-new-services-hover-wrapper'),
+           link: document.querySelector('.kkrf-main-new-navbar-services-dropdown > a')
+       },
+       { 
+           item: document.querySelector('.kkrf-main-new-navbar-industries-dropdown'), 
+           wrapper: document.querySelector('.kkrf-main-new-industries-hover-wrapper'),
+           link: document.querySelector('.kkrf-main-new-navbar-industries-dropdown > a')
+       },
+       { 
+           item: document.querySelector('.kkrf-main-new-navbar-ourfirm-dropdown'), 
+           wrapper: document.querySelector('.kkrf-main-new-ourfirm-hover-wrapper'),
+           link: document.querySelector('.kkrf-main-new-navbar-ourfirm-dropdown > a')
+       }
+   ];
+
+   // Function to close all dropdowns by removing the 'is-active' class
+   const closeAllDropdowns = () => {
+       allDropdownItems.forEach(item => {
+           item.classList.remove('is-active');
+       });
+   };
+
+   // --- Reusable Persistent Hover Logic ---
+   function applyPersistentHover(dropdown) {
+       let hasBeenVisited = false;
+
+       const openDropdown = () => {
+           // 1. Close all other dropdowns first
+           closeAllDropdowns();
+           // 2. Open the current dropdown
+           dropdown.item.classList.add('is-active');
+       };
+
+       const closeDropdown = () => {
+           dropdown.item.classList.remove('is-active');
+           hasBeenVisited = false; // Reset the flag when closed
+       };
+
+       // 1. Mouse enters the main nav item: ALWAYS close others, then open this one.
+       dropdown.item.addEventListener('mouseenter', openDropdown);
+
+       // 2. Mouse enters the dropdown content area: Mark as "visited."
+       dropdown.wrapper.addEventListener('mouseenter', () => {
+           hasBeenVisited = true;
+       });
+
+       // 3. Mouse leaves the entire wrapper area: Close and reset the flag.
+       //    This is the core of the persistent hover logic.
+       dropdown.wrapper.addEventListener('mouseleave', closeDropdown);
+       
+       // 4. Optional: Click handler on the main link to toggle or close
+       dropdown.link.addEventListener('click', (e) => {
+           // If the link is clicked while it's open, prevent navigation and close it
+           if (dropdown.item.classList.contains('is-active')) {
+               e.preventDefault();
+               closeDropdown();
+           }
+       });
+   }
+
+   // Apply the logic to all dropdowns
+   dropdowns.forEach(applyPersistentHover);
+
+
+  
    
 });
 
@@ -272,3 +343,7 @@ window.addEventListener('resize', setActiveCard);
     });
   });
 
+
+
+
+  

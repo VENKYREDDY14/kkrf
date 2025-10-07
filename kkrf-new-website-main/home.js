@@ -61,99 +61,161 @@ if (kkrfMainNewHomepageMobileMenuClose && kkrfMainNewHomepageMobileMenu) {
               popup.classList.remove("active");
           }
       });
+
+
+
   }
 
-   // Existing script for sidebar hover
-   const menuItems = document.querySelectorAll('.kkrf-main-new-services-hover-section-sidebar ul li');
-   const sections = document.querySelectorAll('.kkrf-main-new-services-hover-section-content');
- 
-   menuItems.forEach(item => {
-     item.addEventListener('mouseover', () => {
-       menuItems.forEach(i => i.classList.remove('active'));
-       item.classList.add('active');
- 
-       const target = item.getAttribute('data-target');
-       sections.forEach(sec => {
-         sec.classList.remove('active');
-         if (sec.id === target) {
-           sec.classList.add('active');
-         }
-       });
-     });
-   });
+  // ===============================
+// Sidebar Hover for Services Section
+// ===============================
+const menuItems = document.querySelectorAll('.kkrf-main-new-services-hover-section-sidebar ul li');
+const sections = document.querySelectorAll('.kkrf-main-new-services-hover-section-content');
 
-   const allDropdownItems = document.querySelectorAll('.kkrf-main-new-navbar-services-dropdown, .kkrf-main-new-navbar-industries-dropdown, .kkrf-main-new-navbar-ourfirm-dropdown');
+menuItems.forEach(item => {
+  item.addEventListener('mouseover', () => {
+    menuItems.forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
 
-   // Array of objects for easy iteration and access to elements
-   const dropdowns = [
-       { 
-           item: document.querySelector('.kkrf-main-new-navbar-services-dropdown'), 
-           wrapper: document.querySelector('.kkrf-main-new-services-hover-wrapper'),
-           link: document.querySelector('.kkrf-main-new-navbar-services-dropdown > a')
-       },
-       { 
-           item: document.querySelector('.kkrf-main-new-navbar-industries-dropdown'), 
-           wrapper: document.querySelector('.kkrf-main-new-industries-hover-wrapper'),
-           link: document.querySelector('.kkrf-main-new-navbar-industries-dropdown > a')
-       },
-       { 
-           item: document.querySelector('.kkrf-main-new-navbar-ourfirm-dropdown'), 
-           wrapper: document.querySelector('.kkrf-main-new-ourfirm-hover-wrapper'),
-           link: document.querySelector('.kkrf-main-new-navbar-ourfirm-dropdown > a')
-       }
-   ];
+    const target = item.getAttribute('data-target');
+    sections.forEach(sec => {
+      sec.classList.remove('active');
+      if (sec.id === target) {
+        sec.classList.add('active');
+      }
+    });
+  });
+});
 
-   // Function to close all dropdowns by removing the 'is-active' class
-   const closeAllDropdowns = () => {
-       allDropdownItems.forEach(item => {
-           item.classList.remove('is-active');
-       });
-   };
+// ===============================
+// Navbar Dropdown Hover Logic
+// ===============================
+const allDropdownItems = document.querySelectorAll(
+  '.kkrf-main-new-navbar-services-dropdown, .kkrf-main-new-navbar-industries-dropdown, .kkrf-main-new-navbar-ourfirm-dropdown'
+);
 
-   // --- Reusable Persistent Hover Logic ---
-   function applyPersistentHover(dropdown) {
-       let hasBeenVisited = false;
+const dropdowns = [
+  { 
+    item: document.querySelector('.kkrf-main-new-navbar-services-dropdown'), 
+    wrapper: document.querySelector('.kkrf-main-new-services-hover-wrapper'),
+    link: document.querySelector('.kkrf-main-new-navbar-services-dropdown > a')
+  },
+  { 
+    item: document.querySelector('.kkrf-main-new-navbar-industries-dropdown'), 
+    wrapper: document.querySelector('.kkrf-main-new-industries-hover-wrapper'),
+    link: document.querySelector('.kkrf-main-new-navbar-industries-dropdown > a')
+  },
+  { 
+    item: document.querySelector('.kkrf-main-new-navbar-ourfirm-dropdown'), 
+    wrapper: document.querySelector('.kkrf-main-new-ourfirm-hover-wrapper'),
+    link: document.querySelector('.kkrf-main-new-navbar-ourfirm-dropdown > a')
+  }
+];
 
-       const openDropdown = () => {
-           // 1. Close all other dropdowns first
-           closeAllDropdowns();
-           // 2. Open the current dropdown
-           dropdown.item.classList.add('is-active');
-       };
-
-       const closeDropdown = () => {
-           dropdown.item.classList.remove('is-active');
-           hasBeenVisited = false; // Reset the flag when closed
-       };
-
-       // 1. Mouse enters the main nav item: ALWAYS close others, then open this one.
-       dropdown.item.addEventListener('mouseenter', openDropdown);
-
-       // 2. Mouse enters the dropdown content area: Mark as "visited."
-       dropdown.wrapper.addEventListener('mouseenter', () => {
-           hasBeenVisited = true;
-       });
-
-       // 3. Mouse leaves the entire wrapper area: Close and reset the flag.
-       //    This is the core of the persistent hover logic.
-       dropdown.wrapper.addEventListener('mouseleave', closeDropdown);
-       
-       // 4. Optional: Click handler on the main link to toggle or close
-       dropdown.link.addEventListener('click', (e) => {
-           // If the link is clicked while it's open, prevent navigation and close it
-           if (dropdown.item.classList.contains('is-active')) {
-               e.preventDefault();
-               closeDropdown();
-           }
-       });
-   }
-
-   // Apply the logic to all dropdowns
-   dropdowns.forEach(applyPersistentHover);
-
-
+// ===============================
+// Dropdown Open/Close Functions
+// ===============================
+const closeAllDropdowns = () => {
+  allDropdownItems.forEach(item => item.classList.remove('is-active'));
   
-   
+  // Restore scroll when all dropdowns are closed
+  document.body.style.overflow = '';
+};
+
+const openDropdown = (dropdown) => {
+  closeAllDropdowns();
+  dropdown.item.classList.add('is-active');
+
+  // Disable background scroll while dropdown is active
+  document.body.style.overflow = 'hidden';
+};
+
+// ===============================
+// Persistent Hover Logic
+// ===============================
+function applyPersistentHover(dropdown) {
+  let hasBeenVisited = false;
+
+  const handleOpen = () => openDropdown(dropdown);
+  const handleClose = () => {
+    dropdown.item.classList.remove('is-active');
+    hasBeenVisited = false;
+
+    // If no dropdown remains active, re-enable scrolling
+    const anyActive = Array.from(allDropdownItems).some(item => item.classList.contains('is-active'));
+    if (!anyActive) {
+      document.body.style.overflow = '';
+    }
+  };
+
+  dropdown.item.addEventListener('mouseenter', handleOpen);
+  dropdown.wrapper.addEventListener('mouseenter', () => (hasBeenVisited = true));
+  dropdown.wrapper.addEventListener('mouseleave', handleClose);
+
+  dropdown.link.addEventListener('click', (e) => {
+    if (dropdown.item.classList.contains('is-active')) {
+      e.preventDefault();
+      handleClose();
+    }
+  });
+}
+
+dropdowns.forEach(applyPersistentHover);
+
+
+
+   // blogs-page increase and decrease page numbers
+   const pageInput = document.querySelector(".kkrf-main-new-blogPage-pagination-input");
+   const arrowUp = document.querySelector(".page-arrow.up");
+   const arrowDown = document.querySelector(".page-arrow.down");
+
+   if (pageInput && arrowUp && arrowDown) {
+     const max = parseInt(pageInput.max);
+     const min = parseInt(pageInput.min);
+
+     // Increase page number
+     arrowUp.addEventListener("click", () => {
+       let current = parseInt(pageInput.value) || min;
+       if (current < max) {
+         pageInput.value = current + 1;
+       }
+     });
+
+     // Decrease page number
+     arrowDown.addEventListener("click", () => {
+       let current = parseInt(pageInput.value) || min;
+       if (current > min) {
+         pageInput.value = current - 1;
+       }
+     });
+
+     // Prevent invalid values (like negatives or above max)
+     pageInput.addEventListener("input", () => {
+       let value = parseInt(pageInput.value);
+       if (value > max) pageInput.value = max;
+       if (value < min) pageInput.value = min;
+     });
+   }
+  
+
+   //home page form popup - mobile
+
+   const popupOverlay = document.querySelector('.kkr-main-new-hero-form-popup-overlay');
+    const closeButn = document.querySelector('.kkr-main-new-hero-popup-close');
+  
+    // Only show on mobile (<= 576px)
+    if (window.innerWidth <= 576) {
+      setTimeout(() => {
+        popupOverlay.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // prevent background scroll
+      }, 10000); // 10 seconds
+    }
+  
+    // Close popup
+    closeButn.addEventListener('click', () => {
+      popupOverlay.style.display = 'none';
+      document.body.style.overflow = ''; // re-enable scrolling
+    });
 });
 
 
@@ -164,6 +226,7 @@ const items = document.querySelectorAll(
   );
   const content = document.getElementById("service-content");
   const serviceImage = document.getElementById("service-image");
+  const imageWrapper = serviceImage.parentElement;
 
   const serviceData = [
     {
@@ -208,20 +271,29 @@ const items = document.querySelectorAll(
     }
   ];
 
-  function showContent(index) {
+function showContent(index) {
+
     items.forEach((item) => item.classList.remove("active"));
     items[index].classList.add("active");
 
-    content.innerHTML = `
-        <h3>${serviceData[index].title}</h3>
-        <p>${serviceData[index].text}</p>
-    `;
 
-    serviceImage.src = serviceData[index].image;
-  }
+    content.style.opacity = '0';
+    imageWrapper.style.opacity = '0';
 
-  // Set initial content and image on page load
-  showContent(0);
+    setTimeout(() => {
+        content.innerHTML = `
+            <h3>${serviceData[index].title}</h3>
+            <p>${serviceData[index].text}</p>
+        `;
+        serviceImage.src = serviceData[index].image;
+
+        content.style.opacity = '1';
+        imageWrapper.style.opacity = '1';
+    }, 300); 
+}
+content.style.opacity = '1'; 
+imageWrapper.style.opacity = '1';
+showContent(0);
    
 
 // services - why choose us

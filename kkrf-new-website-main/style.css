@@ -16364,10 +16364,7 @@ input:checked + .kkrf-slider:before {
 
 }
 
-.kkr-main-new-top-banner-button:hover {
- background: black;
- color: #fff;
-}
+
 
 /* =========================
   Responsive Adjustments
@@ -17597,6 +17594,62 @@ transition: width 0.3s ease;
   }
  }
 
+
+ /* =========================
+   Hero Form Popup (Mobile)
+========================= */
+.kkr-main-new-hero-form-popup-overlay {
+  display: none; 
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.kkr-main-new-hero-form-popup {
+  background: #F4F4F4;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+  animation: popupFadeIn 0.4s ease;
+}
+
+/* Close Button */
+.kkr-main-new-hero-popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Animation */
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Only activate popup on mobile */
+@media (max-width: 576px) {
+  .kkr-main-new-hero-right {
+    display: none !important; 
+  }
+}
 
 
 /* =========================
@@ -20043,6 +20096,10 @@ background-clip: text;
   flex: 1;
 }
 
+.kkrf-main-new-services-section-startup-content{
+  transition: opacity 0.3s ease-in-out; 
+}
+
 /* Right card content */
 .kkrf-main-new-services-section-startup-content h3 {
   font-size: 1.5rem;
@@ -20061,6 +20118,7 @@ background-clip: text;
 .kkrf-main-new-services-section-startup-image-wrapper {
   text-align: left;
   margin-bottom: 20px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .kkrf-main-new-services-section-startup-image-wrapper img {
@@ -20159,12 +20217,25 @@ background-clip: text;
   border-style: solid;
   border-color: #7B7B7B;
   border-width: 0px;
-  
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
 }
 
 .kkrf-main-new-services-btn i {
   margin-left: 8px; 
-  font-size: 0.9em; 
+  font-size: 1.2rem; 
+  transition: transform 0.3s ease
+}
+
+.kkrf-main-new-services-btn:hover{
+  transition: all 0.3s ease;
+  background: #444444;
+  color: #fff;
+}
+
+.kkrf-main-new-services-btn:hover i{
+  transform: translateX(10px);
 }
 
 /* Responsive */
@@ -20240,11 +20311,23 @@ background-clip: text;
   border-style: solid;
   border-width: 0px;
   border-color: #7B7B7B;
+  transition: transform 0.3s ease;
 }
 
 .kkrf-main-new-services-second-btn i {
   margin-left: 8px;
+  transition: transform 0.3s ease;
 }
+
+.kkrf-main-new-services-second-btn:hover{
+  background: #444444;
+  color: #fff;
+}
+
+.kkrf-main-new-services-second-btn:hover i{
+  transform: translateX(10px);
+}
+
 
 /* Right Image */
 .kkrf-main-new-services-second-blockchain-image {
@@ -20320,13 +20403,15 @@ background-clip: text;
 /* Blockchain Services Section*/
 
  /* Hide by default */
- .kkrf-main-new-services-first-blockchain {
+.kkrf-main-new-services-first-blockchain {
   display: none;
   text-align: center;
   background: black;
-  
-  padding: 20px;
-  font-family: 'Inter, sans-serif';
+  font-family: 'Arial';
+}
+
+.kkrf-main-new-services-first-content-wrapper {
+    padding: 20px; 
 }
 
 .kkrf-main-new-services-first-blockchain h2 {
@@ -20358,11 +20443,16 @@ background-clip: text;
   
 }
 
+.kkrf-main-new-services-first-img-container{
+  width: 94%;
+}
 
 .kkrf-main-new-services-first-img {
-  margin-top: 20px;
+  margin-top: 20px; 
   width: 100%;
   border-radius: 8px;
+  margin: 10px;
+
 }
 
 /* Show only on mobile */
@@ -20371,7 +20461,6 @@ background-clip: text;
     display: block;
   }
 }
-
  /* Trusted Companies Section - Mobile */
 
 /* Hide by default */
@@ -20593,11 +20682,22 @@ background-clip: text;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  transition: all 0.3s ease;
 }
 
 .kkrf-main-new-services-mobile-cta-btn i {
-  font-size: 14px;
+  font-size: 1rem;
   margin-left: 6px; 
+  transition: all 0.3s ease;
+}
+
+.kkrf-main-new-services-mobile-cta-btn:hover{
+  background: #444444;
+  color: #fff;
+}
+
+.kkrf-main-new-services-mobile-cta-btn:hover i{
+  transform: translateX(10px);
 }
 
 /* Image Container */
@@ -21068,7 +21168,7 @@ font-weight: 600;
   color: #696969;
 }
 .kkrf-main-new-services-mobile-methodology-text h2:nth-of-type(2){
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-top: 10px;
   color: #696969;
@@ -21258,7 +21358,7 @@ font-weight: 600;
   text-align: left;
 }
 .kkrf-main-new-services-section-why-choose__header h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 600;
   margin: 0 0 16px 0;
   line-height: 1.2;
@@ -21385,13 +21485,13 @@ font-family: 'Arial';
   color:#ddd;
 }
 .kkrf-main-new-services-section-why-choose__pane-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 8px;
   color:white;
 }
 .kkrf-main-new-services-section-why-choose__pane-desc {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color:#8E8E8E;
   margin-bottom: 12px;
   line-height: 1.5;
@@ -21412,7 +21512,7 @@ font-family: 'Arial';
   align-items:flex-start;
   gap:10px;
   color:white;
-  font-size:13px;
+  font-size:0.9rem;
 }
 
 /* hide inactive panes */
@@ -21439,7 +21539,7 @@ font-family: 'Arial';
       background-color: #DDDDDD;
       padding: 60px 30px;
       text-align: center;
-      font-family: Arial, sans-serif;
+      font-family: Arial;
     }
 
     .kkrf-main-new-services-section-intelligence-services-title {
@@ -21496,13 +21596,11 @@ font-family: 'Arial';
  /* =============================
        Blockchain Development Methodology
     ============================== */
-   /* =============================
-   Blockchain Development Methodology
-============================== */
+ 
 .kkrf-main-new-services-section-d-methodology {
   background-color: #DDDDDD;
   padding: 60px 30px;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 .kkrf-main-new-services-section-d-methodology-container {
@@ -21539,6 +21637,15 @@ font-family: 'Arial';
   flex-direction: column;
   gap: 20px;
   min-width: 300px;
+  max-height: 500px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+
+.kkrf-main-new-services-section-d-methodology-right::-webkit-scrollbar {
+  display: none;
+  width: 0; 
 }
 
 .kkrf-main-new-services-section-d-methodology-card {
@@ -21657,7 +21764,7 @@ font-family: 'Arial';
   }
 
   .kkrf-main-new-services-section-d-platform-row.staggered {
-    padding-left: 4%;
+    padding-left: 5%;
   }
   
  
@@ -21944,7 +22051,9 @@ font-family: 'Arial';
 
 /* CareerPage */
 
-/* Career Page Hero Section */
+/* ===============================
+   Desktop (unchanged)
+=============================== */
 .kkrf-mian-new-carrer-page-hero {
   position: relative;
   width: 100%;
@@ -21952,15 +22061,14 @@ font-family: 'Arial';
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  animation: kkrf-hero-slideshow 6s infinite; 
+  animation: kkrf-hero-slideshow 6s infinite;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Arial';
   overflow: hidden;
 }
 
-/* Keyframe animation for the background slideshow */
 @keyframes kkrf-hero-slideshow {
   0% {
     background-image: url("assets/images/career-page-hero-section-img.png");
@@ -21987,12 +22095,12 @@ font-family: 'Arial';
   align-items: center;
   justify-content: flex-start;
   padding: 60px 30px;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .kkrf-mian-new-carrer-page-hero-content {
   max-width: 600px;
-  z-index: 3; 
+  z-index: 3;
 }
 
 .kkrf-mian-new-carrer-page-hero-title {
@@ -22025,38 +22133,44 @@ font-family: 'Arial';
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Hide mobile image by default */
-.kkrf-mian-new-carrer-page-hero-mobile-img-wrapper {
+/* ===============================
+   Mobile-specific Styles
+=============================== */
+.kkrf-mian-new-carrer-page-hero-mobile-slideshow {
   display: none;
 }
 
-.kkrf-mian-new-carrer-page-hero-mobile-img {
-  width: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Mobile-specific styles */
 @media (max-width: 576px) {
+  /* Turn off desktop background */
   .kkrf-mian-new-carrer-page-hero {
     height: auto;
-    background: none; 
+    background: none;
+    animation: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
-    display: block;
-    animation: none; /* Disable background animation on mobile */
   }
 
   .kkrf-mian-new-carrer-page-hero-overlay {
     position: relative;
     background: none;
-    padding: 30px;
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers vertically */
+    align-items: center;     /* centers horizontally */
+    padding: 40px 20px;
     text-align: center;
+    box-sizing: border-box;
+    overflow: hidden; /* ensures no text overflow */
   }
 
-  .kkrf-mian-new-carrer-page-hero-mobile-img-wrapper {
-    display: block;
-    margin-bottom: 20px;
+  .kkrf-mian-new-carrer-page-hero-content {
+    width: 100%;
+    max-width: 90%;
+    word-wrap: break-word;
   }
 
   .kkrf-mian-new-carrer-page-hero-title {
@@ -22064,16 +22178,53 @@ font-family: 'Arial';
   }
 
   .kkrf-mian-new-carrer-page-hero-subtext {
-    font-size: 0.95rem;
+    font-size: 1rem;
+    line-height: 1.5;
   }
 
   .kkrf-mian-new-carrer-page-hero-btn {
-    display: block;
-    width: 100%;
-    padding: 14px;
+    display: inline-block;
+    width: auto;
+    padding: 12px 24px;
     font-size: 1rem;
   }
+
+  /* Mobile slideshow at bottom */
+  .kkrf-mian-new-carrer-page-hero-mobile-slideshow {
+    display: block;
+    width: 100%;
+    height: 40vh;
+    margin-top: 25px;
+    overflow: hidden;
+  }
+
+  .kkrf-mian-new-carrer-page-hero-mobile-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: kkrf-mobile-hero-slideshow 10s infinite;
+  }
+
+  @keyframes kkrf-mobile-hero-slideshow {
+    0% {
+      background-image: url("assets/images/career-page-hero-section-img.png");
+    }
+    25% {
+      background-image: url("assets/images/career-page-hero-section-img2.png");
+    }
+    50% {
+      background-image: url("assets/images/career-page-hero-section-img3.png");
+    }
+    75% {
+      background-image: url("assets/images/career-page-hero-section-img4.png");
+    }
+    100% {
+      background-image: url("assets/images/career-page-hero-section-img.png");
+    }
+  }
 }
+
 
 /* =========================
    Why Work With Section
@@ -22985,16 +23136,18 @@ background: var(--black, #171717);
     align-items: flex-start;
     gap: 18px;
     margin-bottom: 30px;
- 
-  }
-
-  .kkrf-main-new-left-blogs-container{
-    overflow-y: scroll;
-    -ms-overflow-style: none; 
-    scrollbar-width: none;  
     
   }
 
+  @media (min-width:992px){
+    .kkrf-main-new-left-blogs-container{
+      overflow-y: scroll;
+      -ms-overflow-style: none; 
+      scrollbar-width: none;  
+      max-height: 1100px;
+    }
+  
+  }
 
   /* Thumbnail */
   .blog-card-thumb {

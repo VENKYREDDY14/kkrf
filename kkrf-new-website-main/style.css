@@ -16293,7 +16293,7 @@ input:checked + .kkrf-slider:before {
  justify-content: space-between;
  align-items: center;
  background: linear-gradient(to right, #000000, #3a3a3a); 
- padding: 20px 30px;
+ padding: 15px 30px;
  overflow: hidden;
  position: relative;
  z-index: 1000;
@@ -16674,20 +16674,26 @@ input:checked + .kkrf-slider:before {
 }
 
 .kkrf-main-new-services-hover-wrapper {
-    display: none;
-    position: fixed;
-    top: 160px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 999;
-    padding-top: 20px;
-    width: 90vw;
-    padding-left: 15px; 
-    padding-right: 15px;
-    box-sizing: border-box; 
-   
-}
+  display: none;
+  position: fixed;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  padding-top: 20px;
+  width: 90vw;
+  padding-left: 15px; 
+  padding-right: 15px;
+  box-sizing: border-box; 
+  max-height: calc(100vh - 180px);
+  overflow-y: auto;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 
+ 
+}
 
 
 .kkrf-main-new-navbar-services-dropdown.is-active .kkrf-main-new-services-hover-wrapper {
@@ -16696,16 +16702,14 @@ input:checked + .kkrf-slider:before {
 
 .kkrf-main-new-services-hover-section-container {
   display: flex;
-  width: 90vw;
-  border-radius: 8px;
-  overflow: hidden;
+  width: 100%;
+  border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   font-family: Arial;
   padding: 0;
   margin: 0;
-  
+  overflow: hidden; 
 }
-
 
 /* Left Sidebar */
 .kkrf-main-new-services-hover-section-sidebar {
@@ -16804,7 +16808,7 @@ width: 50%;
   align-items: flex-start;
   align-content: start;
   margin: 0;
-  
+
 }
 
 .kkrf-main-new-services-hover-section-content.active {
@@ -16903,6 +16907,7 @@ width:40%;
   font-family: "Arial";
   color: #e0e0e0;
   width: 90vw;
+
 }
 
 /* ===== Main Container ===== */
@@ -16914,6 +16919,11 @@ width:40%;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  max-height: calc(100vh - 180px);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+  scroll-behavior: smooth;
 }
 
 /* ===== Top Links Section ===== */
@@ -17054,7 +17064,7 @@ background-clip: text;
 .kkrf-main-new-ourfirm-hover-wrapper {
   display: none;
   position: fixed;
-  top: 180px; 
+  top: 200px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
@@ -17080,6 +17090,7 @@ background-clip: text;
   display: flex;
   justify-content: center;
   padding: 30px 20px;
+  
 }
 
 
@@ -17092,6 +17103,11 @@ background-clip: text;
   gap: 28px;
   border-radius: 16px;
   background: var(--gr-bl-and-wh, linear-gradient(105deg, #0F0F0F 1.02%, #757575 163.54%));
+    max-height: calc(100vh - 180px);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+  scroll-behavior: smooth;
 }
 
 /* Industries grid */
@@ -17261,11 +17277,12 @@ transition: width 0.3s ease;
 .kkrf-main-new-industries-hover-wrapper {
   display: none;
   position: fixed;
-  top: 150px;     
+  top: 170px;     
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
   width: max-content; 
+
 }
 
 /* Show on hover */

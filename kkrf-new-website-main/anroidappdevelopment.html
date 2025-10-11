@@ -12,7 +12,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
     integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous" />
-
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -728,245 +729,353 @@
   
    </section>
 <!-- hero section -->
-    <section class="hero-section" style="height: 10vh; background-image: url('assets/app-development.webp'); background-size: cover; background-position: center;">
-        <div class="hero-overlay"></div>
-        <div class="erp-container text-center d-flex flex-column justify-content-center align-items-center vh-100 hero-content">
-         
-            <h1 class="heading" style="font-size: 3.5rem;">Android App Development Company </h1>
-            <p class="subheading fs-5 mt-2">Transforming ideas into stunning custom Android apps that capture and engage.</p>
+  <!-- =========================
+         Custom Blockchain Development Services Section
+    ========================= -->
+    <section class="kkrf-main-new-services-section container-fluid mt">
+      <div class="kkrf-main-new-services-container">
+          <div class="kkrf-main-new-services-content-wrapper">
+              
+              <!-- Left Content -->
+              <div class="kkrf-main-new-services-text-content">
+                  <h2 class="kkrf-main-new-services-title">
+                    Android App Development Company
+                  </h2>
+                  <p class="kkrf-main-new-services-subtitle">
+                    Transforming ideas into stunning custom Android apps that capture and engage.
+                  </p>
+              </div>
+
+              <!-- Right Content - Contact Form -->
+              <div class="kkrf-main-new-services-form-wrapper">
+                
+                  <form class="kkrf-main-new-services-form">
+                      <div class="kkrf-main-new-services-form-row">
+                          <div class="kkrf-main-new-services-form-group">
+                              <label class="kkrf-main-new-services-form-label">First Name*</label>
+                              <input type="text" class="kkrf-main-new-services-form-input" required>
+                          </div>
+                          <div class="kkrf-main-new-services-form-group">
+                              <label class="kkrf-main-new-services-form-label">Last Name*</label>
+                              <input type="text" class="kkrf-main-new-services-form-input" required>
+                          </div>
+                      </div>
+
+                      <div class="kkrf-main-new-services-form-row">
+                          <div class="kkrf-main-new-services-form-group">
+                              <label class="kkrf-main-new-services-form-label">Company Name</label>
+                              <input type="text" class="kkrf-main-new-services-form-input">
+                          </div>
+                          <div class="kkrf-main-new-services-form-group">
+                              <label class="kkrf-main-new-services-form-label">Work Email*</label>
+                              <input type="email" class="kkrf-main-new-services-form-input" required>
+                          </div>
+                      </div>
+
+                      <div class="kkrf-main-new-services-form-group">
+                          <label class="kkrf-main-new-services-form-label">What is your budget range?*</label>
+                          <select class="kkrf-main-new-services-form-select" required>
+                              <option value="">— Please choose an option —</option>
+                              <option value="under-10k">Under $10,000</option>
+                              <option value="10k-50k">$10,000 - $50,000</option>
+                              <option value="50k-100k">$50,000 - $100,000</option>
+                              <option value="100k-plus">$100,000+</option>
+                          </select>
+                      </div>
+
+                      <div class="kkrf-main-new-services-form-group">
+                          <label class="kkrf-main-new-services-form-label">Tell us more about your project/idea*</label>
+                          <textarea class="kkrf-main-new-services-form-textarea" required></textarea>
+                      </div>
+
+                           <!-- Captcha -->
+        <div class="kkr-main-new-contact-recaptcha">
+          <div class="kkr-main-new-captcha-box">
+            <div class="kkr-main-new-captcha-left">
+              <input type="checkbox" id="captcha-check">
+              <label for="captcha-check">I'm not a robot</label>
+            </div>
+            <div class="kkr-main-new-captcha-right">
+              <img src="assets/images/captch-hero-section.png" alt="reCAPTCHA Logo">
+              <span>reCAPTCHA</span>
+            </div>
+          </div>
         </div>
-    </section>
+                      <button type="submit" class="kkrf-main-new-services-form-submit">
+                          Send Me The Message
+                      </button>
+                  </form>
+              </div>
 
-
-<!-- trusted by section -->
-
-<section class="trusted-section">
-    <p class="trusted-text">Trusted by conglomerates, enterprises, and startups alike</p>
-
-    <!-- Desktop View -->
-    <div class="desktop-logos">
-        <img src="assets/kfc.jpg" alt="KFC">
-        <img src="assets/kmpc.jpg" alt="KPMG">
-        <img src="assets/dominos.png" alt="Domino's">
-    <img src="assets/google.png" alt="Google">
-    <img src="assets/bcg.png" alt="BCG">
-        <img src="assets/kfc.jpg" alt="Americana">
-    </div>
-
-    <!-- Mobile View (Carousel) -->
-    <div class="swiper-container mobile-carousel">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="assets/kfc.jpg" alt="KFC"></div>
-        <div class="swiper-slide"><img src="assets/kmpc.jpg" alt="KPMG"></div>
-        <div class="swiper-slide"><img src="assets/dominos.png" alt="Domino's"></div>
-        <div class="swiper-slide"><img src="assets/google.png" alt="Google"></div>
-        <div class="swiper-slide"><img src="assets/bcg.png" alt="BCG"></div>
-        <div class="swiper-slide"><img src="assets/kfc.jpg" alt="Americana"></div>
+          </div>
       </div>
-    </div>
   </section>
-    
 
+  <!--BlockChain Servies Section - mobile -->
 
-
- <!-- iOS development section -->
- <section class="software-section d-none d-md-block">
-    <div class="crm-software-con">
-        <div class="sofware-spacing">
-            <h5 class="heading">Android App Development Consultation</h5>
-            <p class="crm-Software-text">Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.</p>
-        </div>
-
-        <div class="services-container">
-          <div class="services-nav">
-              <div class="service-item active" data-service="consulting">
-                  <span class="number">01.</span>
-                  Android App Development Consultation
-              </div>
-              <div class="service-item" data-service="migration">
-                  <span class="number">02.</span>
-                  Android UI/UX Design
-              </div>
-              <div class="service-item" data-service="design">
-                  <span class="number">03.</span>
-                  Custom Android Application Development
-              </div>
-              <div class="service-item" data-service="integration">
-                  <span class="number">04.</span>
-                  Android Software Testing
-              </div>
-              <div class="service-item" data-service="development">
-                  <span class="number">05.</span>
-                  Multi-platform Deployment
-              </div>
-          </div>
-        
-          <div class="service-content" id="consulting">
-              <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h-2v-2h2v2zm0-4h-2V7h2v5zm4 4h-2v-2h2v2zm0-4h-2V7h2v5z"></path></svg>
-              </div>
-              <h2 class="service-title">Android App Development Consultation</h2>
-              <p class="service-description">
-                Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.
-              </p>
-          </div>
-        
-          <div class="service-content hidden" id="migration">
-              <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M20 10v4h-6v6h-4v-6H4v-4h6V4h4v6h6z"></path></svg>
-              </div>
-              <h2 class="service-title">Android UI/UX Design</h2>
-              <p class="service-description">
-                  Our expert designers create intuitive, engaging, and visually appealing interfaces that align with Google's Material Design principles. We focus on creating seamless user experiences that enhance usability and drive user engagement while maintaining brand consistency across your Android application.
-              </p>
-          </div>
-        
-          <div class="service-content hidden" id="design">
-              <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M3 3h18v18H3z"></path></svg>
-              </div>
-              <h2 class="service-title">Custom Android Application Development</h2>
-              <p class="service-description">
-                  We develop tailored Android applications that perfectly match your business requirements and objectives. Our development team uses the latest Kotlin and Java programming techniques and Android frameworks to build high-performance, feature-rich applications that deliver exceptional user experiences on smartphones, tablets, and other Android devices.
-              </p>
-          </div>
-        
-          <div class="service-content hidden" id="integration">
-              <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M19 6h-2V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-4-2h-4V4h4v2zm-6 0H7V4h4v2zm10 14H5V10h14v8z"></path></svg>
-              </div>
-              <h2 class="service-title">Android Software Testing</h2>
-              <p class="service-description">
-                  Our comprehensive testing services ensure your Android applications meet the highest quality standards. We perform thorough functional, performance, compatibility, and security testing across different Android devices and versions to identify and resolve issues before deployment, ensuring a flawless user experience.
-              </p>
-          </div>
-        
-          <div class="service-content hidden" id="development">
-              <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="white" d="M10 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2h12c1.1 0 1.99-.9 1.99-2V4c0-1.1-.89-2-1.99-2h-4l-2-2H8L6 2zm0 2h8v16H6V4h4V2z"></path></svg>
-              </div>
-              <h2 class="service-title">Multi-platform Deployment</h2>
-              <p class="service-description">
-                  We ensure seamless deployment of your Android applications across the Google ecosystem. Our deployment services include Google Play Store submission, compliance with Google's guidelines, version management, and continuous integration to keep your application updated with the latest Android features and security standards.
-              </p>
-          </div>
-        </div>
-    </div>
+<section class="kkrf-main-new-services-first-blockchain mt">
+  <div class="kkrf-main-new-services-first-content-wrapper">
+    <h2>Custom Blockchain Development Services</h2>
+    <p>
+      Discover world-class Distributed solutions by using the Blockchain universe 
+      with Top Custom Blockchain Development Company KKRF GROUP.
+    </p>
+    <button class="kkrf-main-new-services-first-btn">Connect us</button>
+  </div>
+  <div class="kkrf-main-new-services-first-img-container">
+  <img src="assets/images/services-section-mobile-block-chain-img.png" alt="Blockchain Background" class="kkrf-main-new-services-first-img">
+</div>
 </section>
 
-<div class="iot-smart-faq">
-  <div class="faq-headline">
-      <h3 class="heading">Android App Development Consultation</h3>
-      <span>Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.</span>
-  </div>
-  
-  <div class="faq-category">
-      <div class="faq-hexagon">
-        <div class="hexagon-wrapper">
-            <div class="hexagon-header">
-                <div class="hexagon-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                </div>
-                <div class="hexagon-question">
-                  Android App Development Consultation
-                    <span class="hexagon-toggle">+</span>
-                </div>
-            </div>
-            <div class="hexagon-content">
-                <div class="hexagon-answer">
-                  Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="faq-hexagon">
-        <div class="hexagon-wrapper">
-            <div class="hexagon-header">
-                <div class="hexagon-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                    </svg>
-                </div>
-                <div class="hexagon-question">
-                  Android UI/UX Design
-                    <span class="hexagon-toggle">+</span>
-                </div>
-            </div>
-            <div class="hexagon-content">
-                <div class="hexagon-answer">
-                  Our expert designers create intuitive, engaging, and visually appealing interfaces that align with Google's Material Design principles. We focus on creating seamless user experiences that enhance usability and drive user engagement while maintaining brand consistency across your Android application.
-                </div>
-            </div>
-        </div>
+<!-- =========================
+     Trusted Companies Section
+========================= -->
+<section class="kkrf-main-new-services-trusted-section container-fluid">
+  <div class="kkrf-main-new-services-trusted-container">
+
+    <!-- Heading -->
+    <h3 class="kkrf-main-new-services-trusted-title">
+      Trusted by conglomerates, enterprises,and </br>  startups like
+    </h3>
+
+    <!-- Logos Row -->
+    <div class="kkrf-main-new-services-trusted-logos">
+      <img src="assets/images/services-kfc.png" alt="KFC Logo">
+      <img src="assets/images/services-kpmg.png" alt="KPMG Logo">
+      <img src="assets/images/services-dominos.png" alt="Domino's Logo">
+      <img src="assets/images/services-google.png" alt="Google Logo">
+      <img src="assets/images/services-bcg.png" alt="BCG Logo">
     </div>
 
-    <div class="faq-hexagon">
-      <div class="hexagon-wrapper">
-          <div class="hexagon-header">
-              <div class="hexagon-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-              </div>
-              <div class="hexagon-question">
-                Custom Android Application Development
-                  <span class="hexagon-toggle">+</span>
-              </div>
-          </div>
-          <div class="hexagon-content">
-              <div class="hexagon-answer">
-                We develop tailored Android applications that perfectly match your business requirements and objectives. Our development team uses the latest Kotlin and Java programming techniques and Android frameworks to build high-performance, feature-rich applications that deliver exceptional user experiences on smartphones, tablets, and other Android devices.
-              </div>
-          </div>
-      </div>
   </div>
-  
-  <div class="faq-hexagon">
-      <div class="hexagon-wrapper">
-          <div class="hexagon-header">
-              <div class="hexagon-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                  </svg>
-              </div>
-              <div class="hexagon-question">
-                Android Software Testing
-                  <span class="hexagon-toggle">+</span>
-              </div>
-          </div>
-          <div class="hexagon-content">
-              <div class="hexagon-answer">
-                Our comprehensive testing services ensure your Android applications meet the highest quality standards. We perform thorough functional, performance, compatibility, and security testing across different Android devices and versions to identify and resolve issues before deployment, ensuring a flawless user experience.
-              </div>
-          </div>
-      </div>
+</section>
+
+<!--Trusted Companies - mobile-->
+
+<section class="kkrf-main-new-mobile-trusted mt-2">
+  <h3 class="kkrf-main-new-mobile-heading">
+    Trusted by conglomerates, enterprises, and startups like
+  </h3>
+  <div class="kkrf-main-new-mobile-logos-wrapper">
+    <div class="kkrf-main-new-mobile-logos">
+      <!-- First Set -->
+      <img src="assets/images/kfc-image-mobile.png" alt="KFC">
+      <img src="assets/images/kpmg-image-mobile.png" alt="KPMG">
+      <img src="assets/images/dominos-image-mobile.png" alt="Domino's">
+      <img src="assets/images/google-image-mobile.png" alt="Google">
+      <img src="assets/images/bcg-image-mobile.png" alt="BCG">
+
+      <!-- Duplicate Set -->
+      <img src="assets/images/kfc-image-mobile.png" alt="KFC">
+      <img src="assets/images/kpmg-image-mobile.png" alt="KPMG">
+      <img src="assets/images/dominos-image-mobile.png" alt="Domino's">
+      <img src="assets/images/google-image-mobile.png" alt="Google">
+      <img src="assets/images/bcg-image-mobile.png" alt="BCG">
+    </div>
+  </div>
+</section>
+
+<!--Startups Container-->
+<section class="kkrf-main-new-services-section-startup-container container-fluid">
+  <!-- Heading -->
+  <div class="kkrf-main-new-services-section-startup-heading">
+    <h1>Android App Development Consultation</h1>
+    <p>
+      Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.
+    </p>
   </div>
 
-  <div class="faq-hexagon">
-    <div class="hexagon-wrapper">
-        <div class="hexagon-header">
-            <div class="hexagon-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
-            </div>
-            <div class="hexagon-question">
-              Multi-platform Deployment
-                <span class="hexagon-toggle">+</span>
-            </div>
+  <!-- Main Wrapper with Gradient Border -->
+  <div class="kkrf-main-new-services-section-startup-main-wrapper">
+    <div class="kkrf-main-new-services-section-startup-main-content-area">
+      
+      <!-- Left Side List -->
+      <div class="left-card">
+        <div class="kkrf-main-new-services-section-startup-list">
+          <div class="kkrf-main-new-services-section-startup-item ad active" onclick="showContentAD(0)">
+            01. Android App Development Consultation
+          </div>
+          <div class="kkrf-main-new-services-section-startup-item ad" onclick="showContentAD(1)">
+            02. Android UI/UX Design
+          </div>
+          <div class="kkrf-main-new-services-section-startup-item ad" onclick="showContentAD(2)">
+            03. Custom Android Application Development
+          </div>
+          <div class="kkrf-main-new-services-section-startup-item ad" onclick="showContentAD(3)">
+            04. Android Software Testing
+          </div>
+          <div class="kkrf-main-new-services-section-startup-item ad" onclick="showContentAD(4)">
+            05. Multi-platform Deployment
+          </div>
+          
         </div>
-        <div class="hexagon-content">
-            <div class="hexagon-answer">
-              We ensure seamless deployment of your Android applications across the Google ecosystem. Our deployment services include Google Play Store submission, compliance with Google's guidelines, version management, and continuous integration to keep your application updated with the latest Android features and security standards.
-            </div>
+      </div>
+
+      <!-- Right Side Content Card -->
+      <div class="right-card">
+        <div class="kkrf-main-new-services-section-startup-content-card">
+          <div class="kkrf-main-new-services-section-startup-image-wrapper">
+            <img id="service-image-ad" src="" alt="Service Icon" />
+          </div>
+          <div class="kkrf-main-new-services-section-startup-content" id="service-content-ad">
+            <h3>Android App Development Consultation</h3>
+            <p>
+              Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.
+            </p>
+          </div>
         </div>
+      </div>
+
     </div>
-</div>
   </div>
-</div>
+</section>
+
+
+<!-- BlockChain Solutions - mobile -->
+<section class="kkrf-main-new-services-block-section-mobile ad-mobile">
+  <h2>
+    Android App Development Consultation
+  </h2>
+  <p>
+    Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.
+  </p>
+
+  <!-- Card 1 -->
+  <div class="kkrf-main-new-services-block-section-mobile-card ad-card">
+    <div class="kkrf-main-new-services-block-section-mobile-header">
+      <div class="kkrf-main-new-services-block-section-mobile-card-left">
+        <div class="kkrf-main-new-services-block-section-mobile-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        </div>
+        <div class="kkrf-main-new-services-block-section-mobile-card-title">Android App Development Consultation</div>
+      </div>
+      <div class="kkrf-main-new-services-block-section-mobile-card-toggle">
+        <img src="assets/images/ic_round-plus.png" alt="toggle"/>
+      </div>
+    </div>
+    <div class="kkrf-main-new-services-block-section-mobile-card-content">
+      Android applications, depending on the characteristics, are more suited for particular types of businesses. As a leading Android app development agency, we help businesses decide whether Android is a good fit for them and which tech stack best suits their needs.
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="kkrf-main-new-services-block-section-mobile-card ad-card">
+    <div class="kkrf-main-new-services-block-section-mobile-header">
+      <div class="kkrf-main-new-services-block-section-mobile-card-left">
+        <div class="kkrf-main-new-services-block-section-mobile-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+        </svg>
+        </div>
+        <div class="kkrf-main-new-services-block-section-mobile-card-title"> Android UI/UX Design</div>
+      </div>
+      <div class="kkrf-main-new-services-block-section-mobile-card-toggle">
+        <img src="assets/images/ic_round-plus.png" alt="toggle"/>
+      </div>
+    </div>
+    <div class="kkrf-main-new-services-block-section-mobile-card-content">
+      Our expert designers create intuitive, engaging, and visually appealing interfaces that align with Google's Material Design principles. We focus on creating seamless user experiences that enhance usability and drive user engagement while maintaining brand consistency across your Android application.
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="kkrf-main-new-services-block-section-mobile-card ad-card">
+    <div class="kkrf-main-new-services-block-section-mobile-header">
+      <div class="kkrf-main-new-services-block-section-mobile-card-left">
+        <div class="kkrf-main-new-services-block-section-mobile-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        </div>
+        <div class="kkrf-main-new-services-block-section-mobile-card-title">Custom Android Application Development</div>
+      </div>
+      <div class="kkrf-main-new-services-block-section-mobile-card-toggle">
+        <img src="assets/images/ic_round-plus.png" alt="toggle"/>
+      </div>
+    </div>
+    <div class="kkrf-main-new-services-block-section-mobile-card-content">
+      We develop tailored Android applications that perfectly match your business requirements and objectives. Our development team uses the latest Kotlin and Java programming techniques and Android frameworks to build high-performance, feature-rich applications that deliver exceptional user experiences on smartphones, tablets, and other Android devices.
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="kkrf-main-new-services-block-section-mobile-card ad-card">
+    <div class="kkrf-main-new-services-block-section-mobile-header">
+      <div class="kkrf-main-new-services-block-section-mobile-card-left">
+        <div class="kkrf-main-new-services-block-section-mobile-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+        </svg>
+        </div>
+        <div class="kkrf-main-new-services-block-section-mobile-card-title">Android Software Testing</div>
+      </div>
+      <div class="kkrf-main-new-services-block-section-mobile-card-toggle">
+        <img src="assets/images/ic_round-plus.png" alt="toggle"/>
+      </div>
+    </div>
+    <div class="kkrf-main-new-services-block-section-mobile-card-content">
+      Our comprehensive testing services ensure your Android applications meet the highest quality standards. We perform thorough functional, performance, compatibility, and security testing across different Android devices and versions to identify and resolve issues before deployment, ensuring a flawless user experience.
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="kkrf-main-new-services-block-section-mobile-card ad-card">
+    <div class="kkrf-main-new-services-block-section-mobile-header">
+      <div class="kkrf-main-new-services-block-section-mobile-card-left">
+        <div class="kkrf-main-new-services-block-section-mobile-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+        </svg>
+        </div>
+        <div class="kkrf-main-new-services-block-section-mobile-card-title">Multi-platform Deployment</div>
+      </div>
+      <div class="kkrf-main-new-services-block-section-mobile-card-toggle">
+        <img src="assets/images/ic_round-plus.png" alt="toggle"/>
+      </div>
+    </div>
+    <div class="kkrf-main-new-services-block-section-mobile-card-content">
+      We ensure seamless deployment of your Android applications across the Google ecosystem. Our deployment services include Google Play Store submission, compliance with Google's guidelines, version management, and continuous integration to keep your application updated with the latest Android features and security standards.
+    </div>
+  </div>
+
+ 
+  <!-- Stats Section -->
+  <div class="kkrf-main-new-services-block-section-mobile-stats-container">
+    <div class="kkrf-main-new-services-block-section-mobile-stat-box">
+      <h2>3000+</h2>
+      <p>Software Projects<br>Delivered Successfully</p>
+    </div>
+    <div class="kkrf-main-new-services-block-section-mobile-stat-box">
+      <h2>87%</h2>
+      <p>Recurring Client Base</p>
+    </div>
+  </div>
+
+  <!-- Single Stat -->
+  <div class="kkrf-main-new-services-block-section-mobile-stat-single">
+    <h2>8+</h2>
+    <p>Years in Business</p>
+  </div>
+
+  <!-- CTA Button -->
+  <div class="kkrf-main-new-services-block-section-mobile-cta-container">
+    <button class="kkrf-main-new-services-block-section-mobile-cta-btn">
+      Let's Discuss Your Project <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="kkrf-main-new-services-block-section-mobile-enterprise-image-container">
+    <img src="assets/images/kkrf-main-new-services-section-mobile-enterprise-img.png" alt="Blockchain Team">
+  </div>
+</section>
+<script>
+
+
+</script>
+
+ 
 
 <!-- status -->
  
@@ -1008,28 +1117,37 @@
       </div>
     </div>
   </section>
-<!-- status -->
-<section class="stats-section">
-    <div class="stats-card">
-      <div class="stats-container">
-    
-        <div class="stat-card1 col-6">
-          <div class="stat-number">3000+</div>
-          <div class="stat-description">Software Projects<br>Delivered Successfully</div>
-        </div>
-        <div class="stat-card1 col-6">
-          <div class="stat-number">87%</div>
-          <div class="stat-description">Recurring Client Base</div>
-        </div>
-        <div class="stat-card1 col-6">
-            <div class="stat-number">8+</div>
-            <div class="stat-description">Years in Business</div>
-          </div>
-       
-      </div>
-      <a href="#" class="cta-button">Let's Discuss Your Project Idea</a>
+<!-- =========================
+     Statistics Section
+========================= -->
+<section class="kkrf-main-new-services-stats-section container-fluid">
+  <div class="kkrf-main-new-services-stats-container">
+
+    <!-- Single Stat -->
+    <div class="kkrf-main-new-services-stat">
+      <h2>3000+</h2>
+      <p>Software Projects<br>Delivered Successfully</p>
     </div>
-  </section>
+
+    <!-- Single Stat -->
+    <div class="kkrf-main-new-services-stat">
+      <h2>87%</h2>
+      <p>Recurring Client Base</p>
+    </div>
+
+    <!-- Single Stat -->
+    <div class="kkrf-main-new-services-stat">
+      <h2>8+</h2>
+      <p>Years in Business</p>
+    </div>
+  </div>
+
+  <!-- Call to Action Button -->
+  <div class="kkrf-main-new-services-stats-cta">
+    <a href="#" class="kkrf-main-new-services-btn">Let’s Discuss Your Project 
+      <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+  </div>
+</section>
 
   <div class="app-benefits-container">
     <div class="app-benefits-header">
@@ -1085,6 +1203,118 @@
     </div>
   </div>
 
+  <!-- =========================
+  Carousel Section
+========================= -->
+<section class="kkr-main-new-carousel-section-services container-fluid">
+  <div id="kkrMainNewCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators kkr-main-new-carousel-indicators">
+      <button type="button" data-bs-target="#kkrMainNewCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#kkrMainNewCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#kkrMainNewCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#kkrMainNewCarousel" data-bs-slide-to="3"></button>
+    </div>
+
+    <!-- Carousel Inner -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="kkr-main-new-slide">
+          <!-- Left: Image -->
+          <div class="kkr-main-new-slide-image">
+            <img src="assets/images/slide-desktop-1.png" alt="Digital Transformation">
+          </div>
+          <!-- Right: Content -->
+          <div class="kkr-main-new-slide-content">
+            <h6 class="kkr-main-new-slide-subtitle">Case Study</h6>
+            <h2 class="kkr-main-new-slide-title">Digital Transformation</h2>
+            <p class="kkr-main-new-slide-text">
+              Embrace digital transformation to unlock boundless opportunities and foster growth
+              in today's rapidly evolving market landscape. Propel your business forward with
+              limitless possibilities and sustainable development.
+            </p>
+            <a href="#" class="kkr-main-new-slide-btn">
+              Read More 
+              <span class="kkr-main-new-arrow">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="kkr-main-new-slide">
+          <div class="kkr-main-new-slide-image">
+            <img src="assets/images/slide-desktop-2.png" alt="Cloud Services">
+          </div>
+          <div class="kkr-main-new-slide-content">
+            <h6 class="kkr-main-new-slide-subtitle">Case Study</h6>
+            <h2 class="kkr-main-new-slide-title">Cloud Services</h2>
+            <p class="kkr-main-new-slide-text">
+              Maximize your potential with our Cloud Services. Elevate your business to new heights and leverage the full power of the cloud to drive sustainable growth and innovation.
+            </p>
+            <a href="#" class="kkr-main-new-slide-btn">
+              Read More 
+              <span class="kkr-main-new-arrow">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="kkr-main-new-slide">
+          <div class="kkr-main-new-slide-image">
+            <img src="assets/images/slide-desktop-3.png" alt="Product & Applications Engineering">
+          </div>
+          <div class="kkr-main-new-slide-content">
+            <h6 class="kkr-main-new-slide-subtitle">Case Study</h6>
+            <h2 class="kkr-main-new-slide-title">Product & Applications Engineering</h2>
+            <p class="kkr-main-new-slide-text">
+              Customized solutions for the digital realm. Expertly crafting tailored strategies to navigate the complexities of the digital landscape with precision and innovation.
+            </p>
+            <a href="#" class="kkr-main-new-slide-btn">
+              Read More 
+              <span class="kkr-main-new-arrow">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="kkr-main-new-slide">
+          <div class="kkr-main-new-slide-image">
+            <img src="assets/images/slide-desktop-4.png" alt="Advanced Infra Solutions">
+          </div>
+          <div class="kkr-main-new-slide-content">
+            <h6 class="kkr-main-new-slide-subtitle">Case Study</h6>
+            <h2 class="kkr-main-new-slide-title">Advanced Infra Solutions</h2>
+            <p class="kkr-main-new-slide-text">
+              Leading the way with innovative infrastructure solutions tailored to fuel your digital evolution and propel your organization towards unprecedented growth and success in the digital age.
+            </p>
+            <a href="#" class="kkr-main-new-slide-btn">
+              Read More 
+              <span class="kkr-main-new-arrow">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
   
    
   <!-- cards -->
@@ -1634,48 +1864,67 @@
     
 
    
-    
-      
-      <!-- faq section -->
-      <section class="faq-section">   
-        <div class="container mx-auto px-4 py-16">     
-          <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Frequently Asked Questions</h2>          
-          <div class="max-w-4xl mx-auto space-y-6">         
-            <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">             
-              <div class="flex justify-between items-center mb-2">                 
-                <h3 class="text-xl font-semibold">What is app development?</h3>                 
-                <i class="faq-icon fas fa-chevron-down"></i>             
-              </div>             
-              <div class="faq-answer">                 
-                App development is the process of designing, creating, and maintaining applications for various platforms, such as mobile (iOS and Android) and web. It involves coding, UI/UX design, testing, and deployment to ensure a seamless user experience.             
-              </div>         
-            </div>          
-      
-            <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">             
-              <div class="flex justify-between items-center mb-2">                 
-                <h3 class="text-xl font-semibold">What are the key stages of app development?</h3>                 
-                <i class="faq-icon fas fa-chevron-down"></i>             
-              </div>             
-              <div class="faq-answer">                 
-                The app development process includes several stages: idea validation, planning, design, development, testing, deployment, and maintenance. Each stage ensures the app meets user needs, functions smoothly, and stays updated with the latest technology trends.             
-              </div>         
-            </div>          
-      
-            <div class="faq-item bg-white rounded-xl shadow-lg p-6 cursor-pointer border-2 border-gray-200" onclick="toggleFAQ(this)">             
-              <div class="flex justify-between items-center mb-2">                 
-                <h3 class="text-xl font-semibold">How much does it cost to develop an app?</h3>                 
-                <i class="faq-icon fas fa-chevron-down"></i>             
-              </div>             
-              <div class="faq-answer">                 
-                The cost of app development varies depending on factors such as complexity, features, platform, and development team. A simple app may cost a few thousand dollars, while complex applications with advanced features can require a higher investment.             
-              </div>         
-            </div>          
-      
-                 
-          </div> 
-        </div> 
-      </section>
-      
+  <section class="kkrf-main-new-services-faq-section-wrapper">
+    <div class="kkrf-main-new-services-faq-section-container">
+     <div class="text-center">
+      <h2 class="kkrf-main-new-services-faq-section-title">Frequently Asked Questions</h2>
+     </div>
+  
+      <!-- FAQ Item 1 (Open) -->
+      <div class="kkrf-main-new-services-faq-section-item ">
+        <button class="kkrf-main-new-services-faq-section-question">
+          <span>Can you integrate blockchain into existing systems?</span>
+          <img
+            src="assets/images/faq-plus-img.png"
+            alt="close icon"
+            class="kkrf-main-new-services-faq-section-icon"
+          />
+        </button>
+        <div class="kkrf-main-new-services-faq-section-answer">
+          <p>
+            Absolutely. We can integrate blockchain technology with your current software using APIs, middleware, and hybrid architecture strategies, enabling traceability, transparency, and security enhancements.
+          </p>
+        </div>
+      </div>
+  
+      <!-- FAQ Item 2 -->
+      <div class="kkrf-main-new-services-faq-section-item">
+        <button class="kkrf-main-new-services-faq-section-question">
+          <span>Do you offer smart contract audits?</span>
+          <img
+            src="assets/images/faq-plus-img.png"
+            alt="plus icon"
+            class="kkrf-main-new-services-faq-section-icon"
+          />
+        </button>
+        <div class="kkrf-main-new-services-faq-section-answer">
+          <p>
+            Yes, we provide comprehensive smart contract audits to identify vulnerabilities, bugs, or 
+            logical errors. We follow secure development practices and industry-standard auditing tools.
+          </p>
+        </div>
+      </div>
+  
+      <!-- FAQ Item 3 -->
+      <div class="kkrf-main-new-services-faq-section-item">
+        <button class="kkrf-main-new-services-faq-section-question">
+          <span>How long does a typical blockchain project take?</span>
+          <img
+            src="assets/images/faq-plus-img.png"
+            alt="plus icon"
+            class="kkrf-main-new-services-faq-section-icon"
+          />
+        </button>
+        <div class="kkrf-main-new-services-faq-section-answer">
+          <p>
+            Timeline depend on complexity. A basic MVP might take 4-6 weeks, while
+            a full scale platform with smart contracts, tokenomics, and integrations 
+            can take 3-6 months.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
     
       <!-- blog section -->
      
@@ -1772,5 +2021,7 @@
     <script src="scripts/switch.js"></script>
     <script src="scripts/scroll.js"></script>
     <script src="scripts/faqs.js"></script>
+
+    <script src="home.js" defer></script>
     </body>
     </html>

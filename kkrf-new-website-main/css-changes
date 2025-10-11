@@ -1,4 +1,5 @@
 6287-  background-color: #DDDDDD; /*changed the background*/
+       remove max-width:1200px;
 6311-color: var(--sub-heading, #787878); /*changed color*/
 6331,6375,6397 -  border-right: 1px solid #ACACAC;
 6336,6379,6401 -   border-bottom: 1px solid #ACACAC;
@@ -13,9 +14,17 @@
   
   4135 -   border-radius: 10px;
   
+
+  
   4148 - .arvr_hero_button:hover {
   background-color: #444444;
   color: #fff;
+}
+
+4153 - 
+  margin-left: 8px;
+  transition: all 0.3s ease;
+  margin-left: 10px;
 }
 
 4156 -  margin-left: 10px;
@@ -24,10 +33,17 @@
   transform: translateX(10px);
 }
 
+4805 - remove    background: linear-gradient(to bottom right, #040500,#040500, #295A57, #313C12);
+
+
+
 753 -  background: #DDD;
 
-783 -   color: var(--black, #171717);
+775 -  padding-left: 3rem;
 
+
+
+789 -  color: var(--black, #171717);
 
 796 - color: var(--sub-heading, #787878);
 
@@ -42,3 +58,14 @@ font-family: "Inter",sans-serif;
 
 font-weight:600;
 }
+
+133 - .heading-intelligence-services{
+    font-size: 2rem;
+  }
+  
+  20449 - add 
+.mt{
+  margin-top: 5rem;
+}
+
+

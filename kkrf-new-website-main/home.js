@@ -802,7 +802,31 @@ document.addEventListener("DOMContentLoaded", function () {
      });
    });
  
- 
+   document.addEventListener("DOMContentLoaded", () => {
+    const featureItems = document.querySelectorAll(".kkrf-main-new-services-mobile-why-feature-item");
+    
+    featureItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const targetId = item.getAttribute("data-target");
+        const targetContent = document.getElementById(targetId);
+
+        // Remove 'active' class from all feature items
+        featureItems.forEach(f => f.classList.remove("active"));
+
+        // Add 'active' to clicked item
+        item.classList.add("active");
+
+        // Hide all content items
+        document.querySelectorAll(".kkrf-main-new-services-mobile-why-content-item")
+          .forEach(content => content.classList.remove("active"));
+
+        // Show the matching content by ID
+        if (targetContent) {
+          targetContent.classList.add("active");
+        }
+      });
+    });
+  });
  
  //faq
  

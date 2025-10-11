@@ -1,0 +1,44 @@
+6287-  background-color: #DDDDDD; /*changed the background*/
+6311-color: var(--sub-heading, #787878); /*changed color*/
+6331,6375,6397 -  border-right: 1px solid #ACACAC;
+6336,6379,6401 -   border-bottom: 1px solid #ACACAC;
+6341 -   background-color: #313131;
+6361 - color: black;
+4077 -   background: #0F0F0F;
+4121 - background: linear-gradient(to right, #F0F0F0, #9A9A9A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  4128 -  color: #9E9E9E;
+  
+  4135 -   border-radius: 10px;
+  
+  4148 - .arvr_hero_button:hover {
+  background-color: #444444;
+  color: #fff;
+}
+
+4156 -  margin-left: 10px;
+
+4159 - .arvr_hero_button:hover i{
+  transform: translateX(10px);
+}
+
+753 -  background: #DDD;
+
+783 -   color: var(--black, #171717);
+
+
+796 - color: var(--sub-heading, #787878);
+
+815 -  margin-bottom: 20px;
+
+97 - /*new style for heading*/
+.heading-intelligence-services{
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: black;
+font-family: "Inter",sans-serif;
+
+font-weight:600;
+}

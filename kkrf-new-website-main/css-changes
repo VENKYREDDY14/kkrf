@@ -69,3 +69,9 @@ font-weight:600;
 }
 
 
+809 -  background: var(--black, #171717);
+
+855 -   .list-item-features{
+      color: #696969;
+  }
+

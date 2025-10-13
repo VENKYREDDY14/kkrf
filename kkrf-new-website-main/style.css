@@ -751,7 +751,7 @@ body {
   /* changed background*/
   .partner-section {
     background: #DDD;
-    color: #fff;
+
     min-height: 100vh;  /* Ensure the section takes full viewport height */
     display: flex;
     padding: 2rem;
@@ -806,7 +806,7 @@ body {
 
   /* Individual feature box styling */
   .feature-box {
-    background: #000;
+    background: var(--black, #171717);
     padding: 1.5rem;
     border-radius: 12px;
     display: flex;
@@ -839,7 +839,7 @@ body {
   /* Feature content text styling */
   .feature-text {
     font-size: 1rem;
-    color: #ffffffaf;
+    color: #696969;
   }
 
   /* Interactive link styling */
@@ -850,6 +850,10 @@ body {
 
   .text-link:hover {
     text-decoration: underline;
+  }
+
+  .list-item-features{
+      color: #696969;
   }
 
   /* Responsive design adjustments */

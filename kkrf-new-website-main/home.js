@@ -903,3 +903,47 @@ document.addEventListener("DOMContentLoaded", function () {
     setActiveButton(prevBtn);
   });
 });
+
+
+
+// Carousel - MAD
+
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselWrapper = document.querySelector('.carousel-wrapper');
+  const slides = document.querySelectorAll('.carousel-slide');
+  const prevBtn = document.getElementById('kkrfNewMainMobileApplicationSuitePrevBtn');
+  const nextBtn = document.getElementById('kkrfNewMainMobileApplicationSuiteNextBtn');
+  
+  let currentIndex = 0;
+  const totalSlides = slides.length;
+
+  
+  function updateCarousel() {
+
+    const offset = -currentIndex * 100; 
+    carouselWrapper.style.transform = `translateX(${offset}%)`;
+    updateNavigationButtons();
+  }
+
+  
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides; 
+    updateCarousel();
+  }
+
+ 
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides; 
+    updateCarousel();
+  }
+
+  function updateNavigationButtons() {
+  }
+
+
+
+  nextBtn.addEventListener('click', nextSlide);
+  prevBtn.addEventListener('click', prevSlide);
+
+  updateCarousel();
+});

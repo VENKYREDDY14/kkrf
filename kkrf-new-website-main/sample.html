@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Video Scrolls Behind Content</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.kkrf-main-new-mobile-ad-top-section{
+  background: #171717;
+}
+
+/* --- Video Section (scrolls behind) --- */
+.kkrf-main-new-mobile-ad-scroll-wrapper {
+  position: relative;
+  height: 200vh; /* controls scroll distance */
+  z-index: 1;
+}
+
+.kkrf-main-new-mobile-ad-scroll-video {
+  position: absolute;
+  top: 100vh; /* starts right below top section */
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.kkrf-main-new-mobile-ad-scroll-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+/* Fixed content that appears above video while scrolling */
+.kkrf-main-new-mobile-ad-scroll-fixed-content {
+  
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+  background: transparent;
+  pointer-events: none; /* allows scroll interaction */
+}
+
+.kkrf-main-new-mobile-ad-scroll-fixed-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  background: var(--gr-h1, linear-gradient(90deg, #F0F0F0 0%, #9A9A9A 73.91%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.kkrf-main-new-mobile-ad-scroll-fixed-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  color: var(--gr, #929292);
+  max-width: 800px;
+}
+
+.kkrf-main-new-mobile-ad-scroll-fixed-content button{
+  background: #F0F0F0;
+  color: var(--black, #171717);
+  border: none;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.10),
+              0 4px 8px 0 rgba(0, 0, 0, 0.10);
+}
+</style>
+</head>
+<body>
+
+
+  <!-- Video Scroll Section -->
+  <section class="kkrf-main-new-mobile-ad-top-section">
+    <div class="kkrf-main-new-mobile-ad-scroll-wrapper">
+      <div class="kkrf-main-new-mobile-ad-scroll-video">
+        <video autoplay muted loop playsinline>
+          <source src="assets/images/mad-top-page-video.mp4" type="video/mp4" />
+        </video>
+      </div>
+  
+      <div class="kkrf-main-new-mobile-ad-scroll-fixed-content">
+        <h1>Mobile App Development Service</h1>
+        <p>
+          We build award-winning mobile applications that deliver measurable business impact,
+          helping global brands like KFC achieve a 22% increase in conversion rate. Backed by
+          1600+ experts and recognitions from Deloitte & Statista, we deliver and compliant
+          AI-powered mobile secure, scalable, apps.
+        </p>
+        <button class="kkrf-main-new-mobile-ad-section-btn">
+          Consult Our Expertise
+        </button>
+      </div>
+    </div>
+  
+  </section>
+
+</body>
+</html>

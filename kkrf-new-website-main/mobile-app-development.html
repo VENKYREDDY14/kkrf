@@ -537,27 +537,30 @@ rel="stylesheet"
   Mobile App Development Section
 ========================= -->
 
-<section class="kkrf-main-new-mobile-ad-section">
-  <div class="kkrf-main-new-mobile-ad-section-content">
-    <h1>Mobile App Development Service</h1>
-    <p>
-      We build award-winning mobile applications that deliver measurable business impact,
-      helping global brands like KFC achieve a 22% increase in conversion rate. Backed by
-      1600+ experts and recognitions from Deloitte & Statista, we deliver and compliant
-      AI-powered mobile secure, scalable, apps.
-    </p>
-    <button class="kkrf-main-new-mobile-ad-section-btn">
-      Consult Our Expertise
-    </button>
-  </div>
-
-  <div class="kkrf-main-new-mobile-ad-section-image">
-    <video autoplay muted loop playsinline>
-      <source src="assets/images/mad-top-page-video.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section>
+  <!-- Video Scroll Section -->
+  <section class="kkrf-main-new-mobile-ad-top-section">
+    <div class="kkrf-main-new-mobile-ad-scroll-wrapper">
+      <div class="kkrf-main-new-mobile-ad-scroll-video">
+        <video autoplay muted loop playsinline>
+          <source src="assets/images/mad-top-page-video.mp4" type="video/mp4" />
+        </video>
+      </div>
+  
+      <div class="kkrf-main-new-mobile-ad-scroll-fixed-content">
+        <h1>Mobile App Development Service</h1>
+        <p>
+          We build award-winning mobile applications that deliver measurable business impact,
+          helping global brands like KFC achieve a 22% increase in conversion rate. Backed by
+          1600+ experts and recognitions from Deloitte & Statista, we deliver and compliant
+          AI-powered mobile secure, scalable, apps.
+        </p>
+        <button class="kkrf-main-new-mobile-ad-section-btn">
+          Consult Our Expertise
+        </button>
+      </div>
+    </div>
+  
+  </section>
 
 
 <!-- =========================
@@ -566,6 +569,7 @@ rel="stylesheet"
 <section class="kkrf-main-new-mobile-ad-trusted-section">
   <h1>Trusted by conglomerates, enterprises, and startups alike</h1>
 
+  <!-- Logos Section -->
   <div class="kkrf-main-new-mobile-ad-logos">
     <img src="assets/images/kfc-image-mad.png" alt="KFC">
     <img src="assets/images/kpmg-img-mad.png" alt="KPMG">
@@ -573,46 +577,165 @@ rel="stylesheet"
     <img src="assets/images/google-img-mad.png" alt="Google">
     <img src="assets/images/bcg-img-mad.png" alt="Boston Consulting Group">
   </div>
+</section>
 
+
+
+
+<!-- Integrate Services Section -->
+<section class="kkrf-main-new-mobile-ad-integrate-section">
+  <div class="kkrf-main-new-mobile-ad-integrate-container">
+    
+    <!-- Description -->
+    <h3 class="kkrf-main-new-mobile-ad-integrate-text">
+      Our services integrate with your enterprise ecosystem through 
+      Microsoft Azure, Google Cloud, and 
+      AWS partnerships. Backed by 
+      ISO-27001, ISO-9001, and 
+      CMMI Level 3 certifications, we help you:
+    </h3>
+
+    <!-- Scrollable Cards -->
+    <div class="kkrf-main-new-mobile-ad-integrate-slider">
+      <div class="kkrf-main-new-mobile-ad-integrate-cards">
+        
+        <div class="kkrf-main-new-mobile-ad-integrate-card">
+          <img src="assets/images/integrate-img-1-mad.png" alt="user-experience"/>
+          <h3>Craft intuitive user experiences</h3>
+          <p>that captivate your audience</p>
+        </div>
+
+        <div class="kkrf-main-new-mobile-ad-integrate-card">
+          <img src="assets/images/integrate-img-2-mad.png" alt="secure"/>
+          <h3>Build secure and scalable apps</h3>
+          <p>for any platform</p>
+        </div>
+
+        <div class="kkrf-main-new-mobile-ad-integrate-card">
+          <img src="assets/images/integrate-img-3-mad.png" alt="integrate"/>
+          <h3>Integrate technologies like</h3>
+          <p>AI, ML, AR/VR, and IoT</p>
+        </div>
+
+        <div class="kkrf-main-new-mobile-ad-integrate-card">
+          <img src="assets/images/integrate-img-4-mad.png" alt="performance"/>
+          <h3>Ensure seamless performance</h3>
+          <p>and security</p>
+        </div>
+
+        <div class="kkrf-main-new-mobile-ad-integrate-card">
+          <img src="assets/images/custom-features-icon.svg" alt="features"/>
+          <h3>Deliver custom features</h3>
+          <p>that drive engagement and growth</p>
+        </div>
+
+        <div class="kkrf-main-new-mobile-ad-integrate-card">
+          <img src="assets/images/optimize-app-icon.svg" alt="success"/>
+          <h3>Optimize your app for success</h3>
+          <p>and business agility</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="kkrf-main-new-mobile-ad-integrate-nav">
+      <button class="kkrf-main-new-mobile-ad-integrate-prev"> <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      </button></button>
+      <button class="kkrf-main-new-mobile-ad-integrate-next"> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </button></button>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const cardsContainer = document.querySelector(".kkrf-main-new-mobile-ad-integrate-cards");
+    const prevBtn = document.querySelector(".kkrf-main-new-mobile-ad-integrate-prev");
+    const nextBtn = document.querySelector(".kkrf-main-new-mobile-ad-integrate-next");
+  
+    let scrollAmount = 330; // Adjust scroll distance per click
+
+    if (window.innerWidth <= 576) {
+      scrollAmount = 370; // 
+    }
+  
+    nextBtn.addEventListener("click", () => {
+      cardsContainer.scrollBy({ left: scrollAmount, behavior: "smooth" });
+    });
+  
+    prevBtn.addEventListener("click", () => {
+      cardsContainer.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+    });
+  });
+  </script>
+
+
+<!-- =========================
+  Company Stats Section
+========================= -->
+<section class="kkrf-main-new-mobile-ad-stats-section">
   <div class="kkrf-main-new-mobile-ad-stats">
     <div class="kkrf-main-new-mobile-ad-stat-card">
       <h3>10+ Years</h3>
-      <p>of industry Experience</p>
+      <p>of Industry Experience</p>
     </div>
+
     <div class="kkrf-main-new-mobile-ad-stat-card">
-      <h3>500+ Years</h3>
+      <h3>500+</h3>
       <p>Legacy Processes Transformed</p>
     </div>
+
     <div class="kkrf-main-new-mobile-ad-stat-card">
       <h3>3000+</h3>
       <p>Custom Projects Delivered</p>
     </div>
+
     <div class="kkrf-main-new-mobile-ad-stat-card">
       <h3>$950M+</h3>
       <p>Funding Raised For Clients</p>
     </div>
+
     <div class="kkrf-main-new-mobile-ad-stat-card">
       <h3>50+</h3>
       <p>Awards and Certifications</p>
     </div>
+
     <div class="kkrf-main-new-mobile-ad-stat-card">
       <h3>4.7+</h3>
       <img src="assets/images/stars.png" alt="rating"/>
       <p>Rating on Clutch</p>
-
+      <div class="kkrf-main-new-mobile-ad-clutch-img-container">
+        <img src="assets/images/clutch-img-mad.png" alt="clutch-img-mad"/>
+      </div>
     </div>
   </div>
 </section>
 
 
+  
+
+
+
+
 <section class="kkrf-new-main-mobile-application-suite-wrapper">
   <div class="kkrf-new-main-mobile-application-suite-heading">
     <h2>Suite of Custom Mobile App Development Services We Deliver</h2>
+    
     <p>
       Our team of tech evangelists excels at delivering secure and scalable mobile development services. We help enterprises and startups like yours redefine industry standards within the mobile-first landscape, empowering you to capitalize on latent opportunities that deliver maximum ROI.
     </p>
+
+    <div class="kkrf-new-main-mobile-application-suite-navigation">
+      <button class="kkrf-new-main-mobile-application-suite-nav-btn" id="kkrfNewMainMobileApplicationSuitePrevBtn">&#8592;</button>
+      <button class="kkrf-new-main-mobile-application-suite-nav-btn" id="kkrfNewMainMobileApplicationSuiteNextBtn">&#8594;</button>
+    </div>
+  </div>
   </div>
 
+  
+  
   <div class="carousel-container" id="customCarousel">
     <div class="carousel-wrapper">
 
@@ -624,8 +747,8 @@ rel="stylesheet"
               We provide end-to-end custom android application development services for Android using Kotlin, Java, and the latest Android SDKs. Our expert developers stand by you throughout the intricate app development journey, ensuring a feature-rich yet a fully compliant android application
             </p>
             <div class="kkrf-new-main-mobile-application-suite-points">
-              <div><span class="arrow">➜</span><strong>Enterprise Ready: </br> </strong> Build secure, scalable apps with advanced API integrations for your business.</div>
-              <div><span class="arrow">➜</span><strong>Expert Guidance:</br> </strong> Build secure, scalable apps with advanced API integrations for your business.</div>
+              <div><span class="arrow">➜</span>Enterprise Ready: </br>  Build secure, scalable apps with advanced API integrations for your business.</div>
+              <div><span class="arrow">➜</span>Expert Guidance:</br>  Build secure, scalable apps with advanced API integrations for your business.</div>
             </div>
           </div>
           <div class="kkrf-new-main-mobile-application-suite-left-image">
@@ -639,8 +762,8 @@ rel="stylesheet"
             We deliver highly functional and feature-rich 108 app development services. Our 105 app developers use Swift, Objective-C, React Native, Flutter, lonic and other programming languages, which ensures the delivery of industry-leading solutions.
           </p>
           <div class="kkrf-new-main-mobile-application-suite-points">
-            <div><span class="arrow">➜</span><strong>Scalable & Secure:</strong> Bulld scalable IOS applications designed for enterprise-lovef security</div>
-            <div><span class="arrow">➜</span><strong>Rich Functionality:</strong> Empower your business with feature-packed, high-performance IOS applications</div>
+            <div><span class="arrow">➜</span>Scalable & Secure: Bulld scalable IOS applications designed for enterprise-lovef security</div>
+            <div><span class="arrow">➜</span>Rich Functionality: Empower your business with feature-packed, high-performance IOS applications</div>
           </div>
         </div>
       </div>
@@ -653,8 +776,8 @@ rel="stylesheet"
               We deliver highly functional and feature-rich 108 app development services. Our 105 app developers use Swift, Objective-C, React Native, Flutter, lonic and other programming languages, which ensures the delivery of industry-leading solutions.
             </p>
             <div class="kkrf-new-main-mobile-application-suite-points">
-              <div><span class="arrow">➜</span><strong>Scalable & Secure: </br> </strong> Bulld scalable IOS applications designed for enterprise-lovef security</div>
-              <div><span class="arrow">➜</span><strong>Rich Functionality:</br> </strong> Empower your business with feature-packed, high-performance IOS applications</div>
+              <div><span class="arrow">➜</span>Scalable & Secure: </br>  Bulld scalable IOS applications designed for enterprise-lovef security</div>
+              <div><span class="arrow">➜</span>Rich Functionality:</br>  Empower your business with feature-packed, high-performance IOS applications</div>
             </div>
           </div>
           <div class="kkrf-new-main-mobile-application-suite-left-image">
@@ -668,8 +791,8 @@ rel="stylesheet"
             Using Flutter's Dart language and a single codebase, we built cross-platform applications that deliver native lis performance and a high user reach. The Flutter apps we build are not only visually appealing but completely secure
           </p>
           <div class="kkrf-new-main-mobile-application-suite-points">
-            <div><span class="arrow">➜</span><strong>Visual Appealing:</strong> Engage users with stunning Uits and intriguing animations.</div>
-            <div><span class="arrow">➜</span><strong>Maximized ROI:</strong>Achieve high performance and cost-efficiency with a single codebase</div>
+            <div><span class="arrow">➜</span>Visual Appealing: Engage users with stunning Uits and intriguing animations.</div>
+            <div><span class="arrow">➜</span>Maximized ROI:Achieve high performance and cost-efficiency with a single codebase</div>
           </div>
         </div>
       </div>
@@ -682,8 +805,8 @@ rel="stylesheet"
               Using Flutter's Dart language and a single codebase, we built cross-platform applications that deliver native lis performance and a high user reach. The Flutter apps we build are not only visually appealing but completely secure
             </p>
             <div class="kkrf-new-main-mobile-application-suite-points">
-              <div><span class="arrow">➜</span><strong>Visual Appealing:</strong> Engage users with stunning Uits and intriguing animations.</div>
-              <div><span class="arrow">➜</span><strong>Maximized ROI:</strong> Achieve high performance and cost-efficiency with a single codebase</div>
+              <div><span class="arrow">➜</span>Visual Appealing: Engage users with stunning Uits and intriguing animations.</div>
+              <div><span class="arrow">➜</span>Maximized ROI: Achieve high performance and cost-efficiency with a single codebase</div>
             </div>
           </div>
           <div class="kkrf-new-main-mobile-application-suite-left-image">
@@ -701,8 +824,8 @@ rel="stylesheet"
             component-based architecture.
           </p>
           <div class="kkrf-new-main-mobile-application-suite-points">
-            <div><span class="arrow">➜</span><strong>Fast & Seamless:</strong>  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
-            <div><span class="arrow">➜</span><strong>Scalable Solutions:</strong> We develop apps that grow effortlessly with future business demands.</div>
+            <div><span class="arrow">➜</span>Fast & Seamless:  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
+            <div><span class="arrow">➜</span>Scalable Solutions: We develop apps that grow effortlessly with future business demands.</div>
           </div>
         </div>
        
@@ -724,8 +847,8 @@ rel="stylesheet"
             component-based architecture.
           </p>
           <div class="kkrf-new-main-mobile-application-suite-points">
-            <div><span class="arrow">➜</span><strong>Fast & Seamless:</strong>  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
-            <div><span class="arrow">➜</span><strong>Scalable Solutions:</strong> We develop apps that grow effortlessly with future business demands.</div>
+            <div><span class="arrow">➜</span>Fast & Seamless:  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
+            <div><span class="arrow">➜</span>Scalable Solutions: We develop apps that grow effortlessly with future business demands.</div>
           </div>
         </div>
         <div class="kkrf-new-main-mobile-application-suite-left-image">
@@ -744,8 +867,8 @@ seamless performance, validated by Lighthouse scores. This ensures increased use
 engagement and heightened ROI.
         </p>
         <div class="kkrf-new-main-mobile-application-suite-points">
-          <div><span class="arrow">➜</span><strong>Native-Like Experience:</strong>  Provide users with smooth, app-like performance directly from the web.</div>
-          <div><span class="arrow">➜</span><strong>Optimized Performance:</strong>  Deliver incredibly fast and highly responsive PWAs, boosting engagement.</div>
+          <div><span class="arrow">➜</span>Native-Like Experience:  Provide users with smooth, app-like performance directly from the web.</div>
+          <div><span class="arrow">➜</span>Optimized Performance:  Deliver incredibly fast and highly responsive PWAs, boosting engagement.</div>
         </div>
       </div>
      
@@ -767,8 +890,8 @@ seamless performance, validated by Lighthouse scores. This ensures increased use
 engagement and heightened ROI.
       </p>
       <div class="kkrf-new-main-mobile-application-suite-points">
-        <div><span class="arrow">➜</span><strong>Native-Like Experience:</strong>  Provide users with smooth, app-like performance directly from the web.</div>
-        <div><span class="arrow">➜</span><strong>Optimized Performance:</strong>  Deliver incredibly fast and highly responsive PWAs, boosting engagement.</div>
+        <div><span class="arrow">➜</span>Native-Like Experience:  Provide users with smooth, app-like performance directly from the web.</div>
+        <div><span class="arrow">➜</span>Optimized Performance:  Deliver incredibly fast and highly responsive PWAs, boosting engagement.</div>
       </div>
       </div>
       <div class="kkrf-new-main-mobile-application-suite-left-image">
@@ -786,8 +909,8 @@ engagement and heightened ROI.
         transforms your vision into impeccable reality.
       </p>
       <div class="kkrf-new-main-mobile-application-suite-points">
-        <div><span class="arrow">➜</span><strong>Companion Apps:</strong>  Create easy-to-use, intuitive apps for diverse wearable devices.</div>
-        <div><span class="arrow">➜</span><strong>Vision to Reality:</strong>   See your innovative ideas perfectly transformed into functional wearable
+        <div><span class="arrow">➜</span>Companion Apps:  Create easy-to-use, intuitive apps for diverse wearable devices.</div>
+        <div><span class="arrow">➜</span>Vision to Reality:   See your innovative ideas perfectly transformed into functional wearable
           solutions.</div>
       </div>
     </div>
@@ -809,8 +932,8 @@ engagement and heightened ROI.
         transforms your vision into impeccable reality.
       </p>
     <div class="kkrf-new-main-mobile-application-suite-points">
-      <div><span class="arrow">➜</span><strong>Companion Apps:</strong>  Create easy-to-use, intuitive apps for diverse wearable devices.</div>
-      <div><span class="arrow">➜</span><strong>Vision to Reality:</strong> See your innovative ideas perfectly transformed into functional wearable
+      <div><span class="arrow">➜</span>Companion Apps:  Create easy-to-use, intuitive apps for diverse wearable devices.</div>
+      <div><span class="arrow">➜</span>Vision to Reality: See your innovative ideas perfectly transformed into functional wearable
         solutions.</div>
     </div>
     </div>
@@ -828,8 +951,8 @@ engagement and heightened ROI.
       experience.
     </p>
     <div class="kkrf-new-main-mobile-application-suite-points">
-      <div><span class="arrow">➜</span><strong>Fast & Seamless:</strong>  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
-      <div><span class="arrow">➜</span><strong>Scalable Solutions:</strong>   We develop apps that grow effortlessly with future business demands.</div>
+      <div><span class="arrow">➜</span>Fast & Seamless:  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
+      <div><span class="arrow">➜</span>Scalable Solutions:   We develop apps that grow effortlessly with future business demands.</div>
     </div>
   </div>
  
@@ -852,8 +975,8 @@ engagement and heightened ROI.
         experience.
       </p>
       <div class="kkrf-new-main-mobile-application-suite-points">
-        <div><span class="arrow">➜</span><strong>Fast & Seamless:</strong>  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
-        <div><span class="arrow">➜</span><strong>Scalable Solutions:</strong>   We develop apps that grow effortlessly with future business demands.</div>
+        <div><span class="arrow">➜</span>Fast & Seamless:  Build high-performing, secure, and scalable cross-platform apps quickly.</div>
+        <div><span class="arrow">➜</span>Scalable Solutions:   We develop apps that grow effortlessly with future business demands.</div>
       </div>
     </div>
     <div class="kkrf-new-main-mobile-application-suite-left-image">
@@ -870,8 +993,8 @@ engagement and heightened ROI.
       performance.
     </p>
     <div class="kkrf-new-main-mobile-application-suite-points">
-      <div><span class="arrow">➜</span><strong>Secure & Scalable:</strong>   Build decentralized applications using layer 2 scaling solutions and IPFS.</div>
-      <div><span class="arrow">➜</span><strong>Industry-Specific:</strong>   Develop robust dApps with advanced storage, perfectly tailored for your unique
+      <div><span class="arrow">➜</span>Secure & Scalable:   Build decentralized applications using layer 2 scaling solutions and IPFS.</div>
+      <div><span class="arrow">➜</span>Industry-Specific:   Develop robust dApps with advanced storage, perfectly tailored for your unique
         sector.</div>
     </div>
   </div>
@@ -893,13 +1016,13 @@ engagement and heightened ROI.
         performance.
       </p>
       <div class="kkrf-new-main-mobile-application-suite-points">
-        <div><span class="arrow">➜</span><strong>Secure & Scalable:</strong>   Build decentralized applications using layer 2 scaling solutions and IPFS.</div>
-        <div><span class="arrow">➜</span><strong>Industry-Specific:</strong>   Develop robust dApps with advanced storage, perfectly tailored for your unique
+        <div><span class="arrow">➜</span>Secure & Scalable:   Build decentralized applications using layer 2 scaling solutions and IPFS.</div>
+        <div><span class="arrow">➜</span>Industry-Specific:   Develop robust dApps with advanced storage, perfectly tailored for your unique
           sector.</div>
       </div>
     </div>
     <div class="kkrf-new-main-mobile-application-suite-left-image">
-      <img src="assets/images/web-app-development-banner.webp" alt="web-app" />
+      <img src="assets/images/dapp-development-banner.webp" alt="web-app" />
     </div>
   </div>
 
@@ -911,12 +1034,11 @@ engagement and heightened ROI.
 </div>
   </div>
   
-  <div class="kkrf-new-main-mobile-application-suite-navigation">
-    <button class="kkrf-new-main-mobile-application-suite-nav-btn" id="kkrfNewMainMobileApplicationSuitePrevBtn">&#8592;</button>
-    <button class="kkrf-new-main-mobile-application-suite-nav-btn" id="kkrfNewMainMobileApplicationSuiteNextBtn">&#8594;</button>
-  </div>
+ 
 
 </section>
+
+
 
 
 <!-- =========================
@@ -932,6 +1054,13 @@ engagement and heightened ROI.
       We help enterprises and startups like yours redefine industry standards within the mobile-first landscape,
       empowering you to capitalize on latent opportunities that deliver maximum ROI.
     </p>
+    <!-- Mobile-only buttons -->
+<div class="kkrf-new-main-mobile-application-ss-heading-btns">
+  <button class="kkrf-new-main-mobile-application-ss-carousel-btn prev">&#10094;</button>
+  <button class="kkrf-new-main-mobile-application-ss-carousel-btn next">&#10095;</button>
+</div>
+
+
   </div>
 
   <!-- Carousel Wrapper -->
@@ -1248,10 +1377,14 @@ engagement and heightened ROI.
 <script>
   const ssSlides = document.querySelectorAll('.kkrf-new-main-mobile-application-ss-section-container');
   const ssNavItems = document.querySelectorAll('.kkrf-new-main-mobile-application-ss-bottomnav ul li');
-  const ssNext = document.querySelector('.kkrf-new-main-mobile-application-ss-carousel-btn.next');
-  const ssPrev = document.querySelector('.kkrf-new-main-mobile-application-ss-carousel-btn.prev');
+  
+  // Select all next/prev buttons (mobile + desktop)
+  const ssNextBtns = document.querySelectorAll('.kkrf-new-main-mobile-application-ss-carousel-btn.next');
+  const ssPrevBtns = document.querySelectorAll('.kkrf-new-main-mobile-application-ss-carousel-btn.prev');
+  
   let ssCurrent = 0;
 
+  // Function to show the current slide
   function showSSSlide(index) {
     ssSlides.forEach((slide, i) => {
       slide.classList.toggle('active', i === index);
@@ -1261,16 +1394,23 @@ engagement and heightened ROI.
     });
   }
 
-  ssNext?.addEventListener('click', () => {
-    ssCurrent = (ssCurrent + 1) % ssSlides.length;
-    showSSSlide(ssCurrent);
+  // Add click listeners to all "Next" buttons
+  ssNextBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      ssCurrent = (ssCurrent + 1) % ssSlides.length;
+      showSSSlide(ssCurrent);
+    });
   });
 
-  ssPrev?.addEventListener('click', () => {
-    ssCurrent = (ssCurrent - 1 + ssSlides.length) % ssSlides.length;
-    showSSSlide(ssCurrent);
+  // Add click listeners to all "Prev" buttons
+  ssPrevBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      ssCurrent = (ssCurrent - 1 + ssSlides.length) % ssSlides.length;
+      showSSSlide(ssCurrent);
+    });
   });
 
+  // Add click listeners to bottom navigation items
   ssNavItems.forEach((item, i) => {
     item.addEventListener('click', () => {
       ssCurrent = i;
@@ -1290,8 +1430,8 @@ engagement and heightened ROI.
     <!-- Left Text -->
     <div class="kkrf-new-main-mobile-ad-crafting-text">
       <h1>
-        Crafting Unique and Tailored<br />
-        Mobile Apps for a Spectrum of<br />
+        Crafting Unique and Tailored<br class="desktop-only" />
+        Mobile Apps for a Spectrum of<br class="desktop-only"/>
         Industries
       </h1>
       <p>
@@ -1524,10 +1664,10 @@ engagement and heightened ROI.
         <h3>Key AI Capabilities</h3>
 
         <ul class="kkrf-new-main-mobile-ad-automation-capabilities">
-          <li><i class="fa fa-check" aria-hidden="true"></i> AI consulting</li>
-          <li><i class="fa fa-check" aria-hidden="true"></i> AI app development</li>
-          <li><i class="fa fa-check" aria-hidden="true"></i> AI in legacy app modernization</li>
-          <li><i class="fa fa-check" aria-hidden="true"></i> Advanced AI analytics</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> <span>AI consulting</span></li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> <span>AI app development</span></li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> <span>AI in legacy app modernization</span></li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> <span>Advanced AI analytics</span></li>
         </ul>
 
         <div class="kkrf-new-main-mobile-ad-automation-buttons">
@@ -1737,13 +1877,15 @@ engagement and heightened ROI.
  
  </script>
 
+ 
+
 <!--Tech Partner Section-->
 <section class="kkrf-main-new-mobile-ad-tech-partner-section">
   <div class="kkrf-main-new-mobile-ad-tech-partner-container">
     
     <!-- HEADING -->
     <div class="kkrf-main-new-mobile-ad-tech-partner-heading">
-      <h1>What Makes Appinventiv Your Trusted Tech Partner in Custom App </br> Development</h1>
+      <h1>What Makes KKRF Your Trusted Tech Partner in Custom App </br> Development</h1>
       <p>
         We are your trusted tech partner for enterprise mobile app development services.
         Our team uses advanced technologies to deliver scalable, secure, and high-performing apps
@@ -1905,244 +2047,265 @@ engagement and heightened ROI.
   </div>
 </section>
 
-<section class="kkrf-main-new-mobile-ad-latest-section">
-  <div class="kkrf-main-new-mobile-ad-latest-container">
+<section class="kkrf-main-new-mobile-ad-latest-section container-fluid">
+  <!-- Heading -->
+  <div class="kkrf-main-new-mobile-ad-latest-heading">
+    <h1>Latest Technologies We Harness for Mobile App Development</h1>
+    <p>
+      Our mobile development team stays ahead by adopting the latest technologies
+      to create robust, secure, and high-performing apps.
+    </p>
+  </div>
 
-    <!-- Heading + Paragraph -->
-    <div class="kkrf-main-new-mobile-ad-latest-heading">
-      <h1>Latest Technologies: The Powerhouse Behind Your Custom Mobile  </br> Applications</h1>
-      <p>
-        We use all the emerging and established technologies to engineer high-performance,
-        scalable, and future-proof custom mobile apps. Our mastery across diverse tech trends
-        ensures optimal performance for your specific enterprise project.
-      </p>
+  <!-- Accordion + Image -->
+  <div class="kkrf-main-new-mobile-ad-latest-row">
+    <!-- Accordion -->
+    <div class="kkrf-main-new-mobile-ad-latest-accordion">
+      
+      <!-- Item 1 -->
+      <div class="kkrf-main-new-mobile-ad-latest-item">
+        <button
+          class="kkrf-main-new-mobile-ad-latest-title"
+          data-image="assets/images/latest-tech-img-mad.png"
+        >
+          <div>01 <span>AI & Related Technologies</span></div>
+          <svg
+            class="kkrf-main-new-mobile-ad-latest-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M6 9L12 15L18 9"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="kkrf-main-new-mobile-ad-latest-panel">
+          Our Artificial Intelligence services help you unlock valuable insights to make informed decisions. We implement advanced Al capabilities like Computer Vision, NLP, and deep Learning to build next-gen apps that learn and adapt.
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="kkrf-main-new-mobile-ad-latest-item">
+        <button
+          class="kkrf-main-new-mobile-ad-latest-title"
+          data-image="assets/images/latest-section-img-2-mad.png"
+        >
+          <div>02 <span>Machine Learning</span></div>
+          <svg
+            class="kkrf-main-new-mobile-ad-latest-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M6 9L12 15L18 9"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="kkrf-main-new-mobile-ad-latest-panel">
+          Enjoy the power of data-driven insights with our Machine Learning expertise. We develop ML-driven self-learning platforms that enable intelligent automation and insightful analytics for your business.
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="kkrf-main-new-mobile-ad-latest-item">
+        <button
+          class="kkrf-main-new-mobile-ad-latest-title"
+          data-image="assets/images/latest-section-img-3-mad.png"
+        >
+          <div>03 <span>Blockchain Integration</span></div>
+          <svg
+            class="kkrf-main-new-mobile-ad-latest-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M6 9L12 15L18 9"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="kkrf-main-new-mobile-ad-latest-panel">
+          Implement decentralized and secure ledger systems with our Blockchain app development services. We build dApps that ensure transparency, immutability, and trust across various transactions
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="kkrf-main-new-mobile-ad-latest-item">
+        <button
+          class="kkrf-main-new-mobile-ad-latest-title"
+          data-image="assets/images/latest-section-img-4-mad"
+        >
+          <div>04 <span>Cloud Technologies</span></div>
+          <svg
+            class="kkrf-main-new-mobile-ad-latest-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M6 9L12 15L18 9"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="kkrf-main-new-mobile-ad-latest-panel">
+          Leverage the true power of the cloud with our expert cloud consulting services. We help you build and deploy secure, high-performance applications that scale effortlessly to handle millions of users.
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="kkrf-main-new-mobile-ad-latest-item">
+        <button
+          class="kkrf-main-new-mobile-ad-latest-title"
+          data-image="assets/images/latest-section-img-5-mad.png"
+        >
+          <div>05 <span>Internet of Things (IoT)</span></div>
+          <svg
+            class="kkrf-main-new-mobile-ad-latest-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M6 9L12 15L18 9"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="kkrf-main-new-mobile-ad-latest-panel">
+          Connect physical devices to the digital realm with our innovative IoT app development services. We engineer systems that gather real-time data, enable remote control, and create intelligent environments.
+        </div>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="kkrf-main-new-mobile-ad-latest-item">
+        <button
+          class="kkrf-main-new-mobile-ad-latest-title"
+          data-image="assets/images/latest-section-img-6-mad.png"
+        >
+          <div>06 <span>Extended Reality (AR/VR)</span></div>
+          <svg
+            class="kkrf-main-new-mobile-ad-latest-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M6 9L12 15L18 9"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="kkrf-main-new-mobile-ad-latest-panel">
+          Create immersive and interactive experiences with our Augmented Reality (AR) and Virtual Reality (VR) services. Our AR/VR services redefine user engagement and enhance visualization by blending digital content with the real world.
+        </div>
+      </div>
+
+      <!-- Item 7 -->
+      <div class="kkrf-main-new-mobile-ad-latest-item">
+        <button
+          class="kkrf-main-new-mobile-ad-latest-title"
+          data-image="assets/images/latest-section-img-7-mad.png"
+        >
+          <div>07 <span>Metaverse & 3D Experiences</span></div>
+          <svg
+            class="kkrf-main-new-mobile-ad-latest-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M6 9L12 15L18 9"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div class="kkrf-main-new-mobile-ad-latest-panel">
+          You can enter the future of digital interaction with our Metaverse development services. We build immersive, interconnected virtual worlds to turn your unique vision into a stunning reality.
+        </div>
+      </div>
     </div>
 
-    <!-- Accordion + Image Row -->
-    <div class="kkrf-main-new-mobile-ad-latest-row">
-      <!-- LEFT ACCORDION -->
-      <div class="kkrf-main-new-mobile-ad-latest-accordion">
-
-        <div class="kkrf-main-new-mobile-ad-latest-item">
-          <button class="kkrf-main-new-mobile-ad-latest-title">
-           <div> 01 <span> AI & Related Technologies </span></div>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
-            <g clip-path="url(#clip0_2502_839)">
-              <path d="M17.4198 3.37142L18.4798 4.43242L12.7028 10.2114C12.6102 10.3046 12.5001 10.3785 12.3789 10.429C12.2576 10.4794 12.1276 10.5054 11.9963 10.5054C11.8649 10.5054 11.7349 10.4794 11.6137 10.429C11.4924 10.3785 11.3823 10.3046 11.2898 10.2114L5.50977 4.43242L6.56977 3.37242L11.9948 8.79642L17.4198 3.37142Z" fill="url(#paint0_linear_2502_839)"/>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_2502_839" x1="11.9948" y1="10.5054" x2="11.9948" y2="5.23273" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F0F0F0"/>
-                <stop offset="1" stop-color="#9A9A9A"/>
-              </linearGradient>
-              <clipPath id="clip0_2502_839">
-                <rect width="12" height="24" fill="white" transform="translate(24 0.919434) rotate(90)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          </button>
-          <div class="kkrf-main-new-mobile-ad-latest-panel">
-            <p>
-              Our Artificial Intelligence services help you unlock valuable insights to make
-              informed decisions. We implement advanced AI capabilities like Computer Vision,
-              NLP, and Deep Learning to build next-gen apps that learn and adapt.
-            </p>
-          </div>
-        </div>
-
-        <div class="kkrf-main-new-mobile-ad-latest-item">
-          <button class="kkrf-main-new-mobile-ad-latest-title">
-           <div> 02 <span> Machine Learning </span></div>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
-            <g clip-path="url(#clip0_2502_839)">
-              <path d="M17.4198 3.37142L18.4798 4.43242L12.7028 10.2114C12.6102 10.3046 12.5001 10.3785 12.3789 10.429C12.2576 10.4794 12.1276 10.5054 11.9963 10.5054C11.8649 10.5054 11.7349 10.4794 11.6137 10.429C11.4924 10.3785 11.3823 10.3046 11.2898 10.2114L5.50977 4.43242L6.56977 3.37242L11.9948 8.79642L17.4198 3.37142Z" fill="url(#paint0_linear_2502_839)"/>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_2502_839" x1="11.9948" y1="10.5054" x2="11.9948" y2="5.23273" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F0F0F0"/>
-                <stop offset="1" stop-color="#9A9A9A"/>
-              </linearGradient>
-              <clipPath id="clip0_2502_839">
-                <rect width="12" height="24" fill="white" transform="translate(24 0.919434) rotate(90)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          </button>
-          <div class="kkrf-main-new-mobile-ad-latest-panel">
-            <p>
-              Enjoy the power of data-driven insights with our Machine Learning 
-              expertise.We developed ML-driven self-learning platforms that enable 
-              intelligent automation and insightful analytics for your business.
-            </p>
-          </div>
-        </div>
-
-        <div class="kkrf-main-new-mobile-ad-latest-item">
-          <button class="kkrf-main-new-mobile-ad-latest-title">
-           <div> 03 <span> Blockchain Technology </span></div>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
-            <g clip-path="url(#clip0_2502_839)">
-              <path d="M17.4198 3.37142L18.4798 4.43242L12.7028 10.2114C12.6102 10.3046 12.5001 10.3785 12.3789 10.429C12.2576 10.4794 12.1276 10.5054 11.9963 10.5054C11.8649 10.5054 11.7349 10.4794 11.6137 10.429C11.4924 10.3785 11.3823 10.3046 11.2898 10.2114L5.50977 4.43242L6.56977 3.37242L11.9948 8.79642L17.4198 3.37142Z" fill="url(#paint0_linear_2502_839)"/>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_2502_839" x1="11.9948" y1="10.5054" x2="11.9948" y2="5.23273" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F0F0F0"/>
-                <stop offset="1" stop-color="#9A9A9A"/>
-              </linearGradient>
-              <clipPath id="clip0_2502_839">
-                <rect width="12" height="24" fill="white" transform="translate(24 0.919434) rotate(90)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          </button>
-          <div class="kkrf-main-new-mobile-ad-latest-panel">
-            <p>
-             implement decentralized and secure ledger systems with our
-             Blockchain app development services. We build dApps that ensure 
-             transparency, imuutability, and trust across various transactions.
-            </p>
-          </div>
-        </div>
-
-        <div class="kkrf-main-new-mobile-ad-latest-item">
-          <button class="kkrf-main-new-mobile-ad-latest-title">
-           <div> 01 <span> Cloud </span></div>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
-            <g clip-path="url(#clip0_2502_839)">
-              <path d="M17.4198 3.37142L18.4798 4.43242L12.7028 10.2114C12.6102 10.3046 12.5001 10.3785 12.3789 10.429C12.2576 10.4794 12.1276 10.5054 11.9963 10.5054C11.8649 10.5054 11.7349 10.4794 11.6137 10.429C11.4924 10.3785 11.3823 10.3046 11.2898 10.2114L5.50977 4.43242L6.56977 3.37242L11.9948 8.79642L17.4198 3.37142Z" fill="url(#paint0_linear_2502_839)"/>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_2502_839" x1="11.9948" y1="10.5054" x2="11.9948" y2="5.23273" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F0F0F0"/>
-                <stop offset="1" stop-color="#9A9A9A"/>
-              </linearGradient>
-              <clipPath id="clip0_2502_839">
-                <rect width="12" height="24" fill="white" transform="translate(24 0.919434) rotate(90)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          </button>
-          <div class="kkrf-main-new-mobile-ad-latest-panel">
-            <p>
-              Leverage the true power of the cloud with our expert cloud consulting services.
-               We help you build and deploy secure, high-performance
-               applications that scale effortlessly to handle millions of users.
-            </p>
-          </div>
-        </div>
-
-        <div class="kkrf-main-new-mobile-ad-latest-item">
-          <button class="kkrf-main-new-mobile-ad-latest-title">
-           <div> 05 <span> Internet of Things</span></div>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
-            <g clip-path="url(#clip0_2502_839)">
-              <path d="M17.4198 3.37142L18.4798 4.43242L12.7028 10.2114C12.6102 10.3046 12.5001 10.3785 12.3789 10.429C12.2576 10.4794 12.1276 10.5054 11.9963 10.5054C11.8649 10.5054 11.7349 10.4794 11.6137 10.429C11.4924 10.3785 11.3823 10.3046 11.2898 10.2114L5.50977 4.43242L6.56977 3.37242L11.9948 8.79642L17.4198 3.37142Z" fill="url(#paint0_linear_2502_839)"/>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_2502_839" x1="11.9948" y1="10.5054" x2="11.9948" y2="5.23273" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F0F0F0"/>
-                <stop offset="1" stop-color="#9A9A9A"/>
-              </linearGradient>
-              <clipPath id="clip0_2502_839">
-                <rect width="12" height="24" fill="white" transform="translate(24 0.919434) rotate(90)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          </button>
-          <div class="kkrf-main-new-mobile-ad-latest-panel">
-            <p>
-              Connect physical devices to the digital realm with our innovative IoT
-              app development services. We engineer systems that gather real-time
-              data, enable remote control, and create intelligent environments.            </p>
-          </div>
-        </div>
-
-        <div class="kkrf-main-new-mobile-ad-latest-item">
-          <button class="kkrf-main-new-mobile-ad-latest-title">
-           <div> 06 <span> Extended Realtiy </span></div>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
-            <g clip-path="url(#clip0_2502_839)">
-              <path d="M17.4198 3.37142L18.4798 4.43242L12.7028 10.2114C12.6102 10.3046 12.5001 10.3785 12.3789 10.429C12.2576 10.4794 12.1276 10.5054 11.9963 10.5054C11.8649 10.5054 11.7349 10.4794 11.6137 10.429C11.4924 10.3785 11.3823 10.3046 11.2898 10.2114L5.50977 4.43242L6.56977 3.37242L11.9948 8.79642L17.4198 3.37142Z" fill="url(#paint0_linear_2502_839)"/>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_2502_839" x1="11.9948" y1="10.5054" x2="11.9948" y2="5.23273" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F0F0F0"/>
-                <stop offset="1" stop-color="#9A9A9A"/>
-              </linearGradient>
-              <clipPath id="clip0_2502_839">
-                <rect width="12" height="24" fill="white" transform="translate(24 0.919434) rotate(90)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          </button>
-          <div class="kkrf-main-new-mobile-ad-latest-panel">
-            <p>
-              Create immersive and interactive experiences with our Augmented Reality (AR) 
-              and Virtual Reality (VR) services. Our AR/VR services redefine user
-              engagement and enhance visualization by blending digital content with 
-              the real world.
-            </p>
-          </div>
-        </div>
-
-        <div class="kkrf-main-new-mobile-ad-latest-item">
-          <button class="kkrf-main-new-mobile-ad-latest-title">
-           <div> 07 <span> Metaverse </span></div>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
-            <g clip-path="url(#clip0_2502_839)">
-              <path d="M17.4198 3.37142L18.4798 4.43242L12.7028 10.2114C12.6102 10.3046 12.5001 10.3785 12.3789 10.429C12.2576 10.4794 12.1276 10.5054 11.9963 10.5054C11.8649 10.5054 11.7349 10.4794 11.6137 10.429C11.4924 10.3785 11.3823 10.3046 11.2898 10.2114L5.50977 4.43242L6.56977 3.37242L11.9948 8.79642L17.4198 3.37142Z" fill="url(#paint0_linear_2502_839)"/>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_2502_839" x1="11.9948" y1="10.5054" x2="11.9948" y2="5.23273" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F0F0F0"/>
-                <stop offset="1" stop-color="#9A9A9A"/>
-              </linearGradient>
-              <clipPath id="clip0_2502_839">
-                <rect width="12" height="24" fill="white" transform="translate(24 0.919434) rotate(90)"/>
-              </clipPath>
-            </defs>
-          </svg>
-          </button>
-          <div class="kkrf-main-new-mobile-ad-latest-panel">
-            <p>
-              You can enter the future of digital interaction with our Metaverse 
-              development services. We build immersive, interconnected virtual
-              worlds to turn your unique vision into a stunning reality.
-            </p>
-          </div>
-        </div>
-
-
-      </div>
-
-      <!-- RIGHT IMAGE -->
-      <div class="kkrf-main-new-mobile-ad-latest-image">
-        <img src="assets/images/latest-tech-img-mad.png" alt="Tech Innovation" />
-      </div>
+    <!-- Image Section -->
+    <div class="kkrf-main-new-mobile-ad-latest-image">
+      <img src="assets/images/latest-tech-img-mad.png" alt="Technology Image" />
     </div>
   </div>
 </section>
 
 <script>
-  document.querySelectorAll(".kkrf-main-new-mobile-ad-latest-title").forEach((btn) => {
+  const items = document.querySelectorAll(".kkrf-main-new-mobile-ad-latest-item");
+  const imageElement = document.querySelector(".kkrf-main-new-mobile-ad-latest-image img");
+
+  items.forEach((item) => {
+    const btn = item.querySelector(".kkrf-main-new-mobile-ad-latest-title");
     btn.addEventListener("click", () => {
-      const item = btn.parentElement;
       const isActive = item.classList.contains("active");
 
-      // Close all items
-      document.querySelectorAll(".kkrf-main-new-mobile-ad-latest-item").forEach((el) => {
+      // Close all
+      items.forEach((el) => {
         el.classList.remove("active");
-        el.querySelector("svg").style.transform = "rotate(0deg)";
+        el.querySelector(".kkrf-main-new-mobile-ad-latest-icon").style.transform = "rotate(0deg)";
       });
 
-      // If clicked one was not active, open it
+      // Open the clicked one (if not active)
       if (!isActive) {
         item.classList.add("active");
-        btn.querySelector("svg").style.transform = "rotate(180deg)";
+        btn.querySelector(".kkrf-main-new-mobile-ad-latest-icon").style.transform = "rotate(180deg)";
+
+        const newImage = btn.getAttribute("data-image");
+        if (newImage) {
+          imageElement.style.opacity = "0";
+          setTimeout(() => {
+            imageElement.src = newImage;
+            imageElement.style.opacity = "1";
+          }, 200);
+        }
       }
     });
   });
 </script>
+
 
 
 <section class="kkrf-new-main-mobile-ad-stack-section">
@@ -2840,6 +3003,8 @@ engagement and heightened ROI.
     </div>
   </div>
 </section>
+
+
 
 
 

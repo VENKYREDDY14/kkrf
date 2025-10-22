@@ -866,8 +866,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const nextBtn = document.getElementById("kkrfNextBtn");
 
   let currentIndex = 0;
-  const cardWidth = 370; // card width + gap (approx)
-  const totalCards = document.querySelectorAll(".kkrf-main-new-services-reviews-section-card").length;
+  let cardWidth = 370; 
+  if (window.innerWidth <= 576) {
+    cardWidth = 320; // 
+  }
+    const totalCards = document.querySelectorAll(".kkrf-main-new-services-reviews-section-card").length;
   const visibleCards = 3;
 
   // Function to update slider position

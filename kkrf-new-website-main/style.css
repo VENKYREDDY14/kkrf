@@ -24893,10 +24893,18 @@ background-clip: text;
 }
 
 .dekstop-only{
-  display: inline;
+  display: block;
 }
 
 /* ===== Responsive ===== */
+
+
+@media (max-width:991px){
+    .dekstop-only{
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   
   .kkrf-new-main-mobile-ad-crafting-section{
@@ -24914,9 +24922,7 @@ background-clip: text;
     margin-bottom: 0px; 
   }
 
-  .dekstop-only{
-    display: none;
-  }
+
 
   
   .kkrf-main-new-mobile-ad-crafting-industry-card {
